@@ -22,7 +22,7 @@
             {{$t('outreach_desc2')}}
           </p>
           <a
-              href="/outreachgenie"
+              href="https://outreachgenie-production.up.railway.app/"
               class="inline-block mt-6 px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full hover:bg-yellow-300 transition-colors"
           >
             {{$t('outreach_cta')}}

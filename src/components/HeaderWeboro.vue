@@ -125,7 +125,7 @@ const toggleServices = () => {
 }
 
 const services = [
-  { title: 'service_outreach_title', desc: 'service_outreach_desc', link: '/outreachgenie' },
+  { title: 'service_outreach_title', desc: 'service_outreach_desc', link: 'https://outreachgenie-production.up.railway.app/' },
   { title: 'service_ecommerce_title', desc: 'service_ecommerce_desc', link: '/usluge/ecommerce' },
   { title: 'service_social_title', desc: 'service_social_desc', link: '/usluge/social-media' },
   { title: 'service_google_title', desc: 'service_google_desc', link: '/usluge/google-ads' },
