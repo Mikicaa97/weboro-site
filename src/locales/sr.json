@@ -1,0 +1,339 @@
+{
+  "nav_home": "Početna",
+  "nav_about": "O nama",
+  "nav_services": "Naše usluge",
+  "nav_portfolio": "Portfolio",
+  "nav_blog": "Blog",
+  "nav_career": "Karijera",
+  "nav_contact": "Kontakt",
+
+  "cta_start": "Započni projekat",
+  "cta_portfolio": "Pogledaj portfolio",
+  "cta_send_inquiry": "Pošalji upit",
+
+  "service_outreach_title": "OutreachGenie.AI (SaaS)",
+  "service_outreach_desc": "AI alat za cold email poruke.",
+
+  "service_ecommerce_title": "eCommerce rešenja",
+  "service_ecommerce_desc": "Shopify i WordPress prodavnice.",
+
+  "service_social_title": "Social Media Marketing",
+  "service_social_desc": "Strategije i vođenje profila.",
+
+  "service_google_title": "Google Ads & Analytics",
+  "service_google_desc": "PPC kampanje i praćenje.",
+
+  "service_seo_title": "SEO & Content",
+  "service_seo_desc": "Optimizacija za Google.",
+
+  "service_branding_title": "Branding & UI/UX",
+  "service_branding_desc": "Vizuelni identitet i dizajn.",
+
+  "service_video_title": "Video produkcija",
+  "service_video_desc": "Snimanje i montaža.",
+
+  "service_growth_title": "Growth & Outreach",
+  "service_growth_desc": "Email funneli i automatizacija.",
+
+  "hero_brand": "Weboro",
+  "hero_subbrand": "Smart Digital Solutions",
+  "hero_title": "Transformišemo ideje u <span class='text-yellow-400'>digitalne proizvode</span>",
+  "hero_desc": "SaaS platforme, eCommerce sistemi, branding, video produkcija i growth strategije — sve što ti treba da tvoj biznis postane globalan.",
+  "hero_cta_start": "Započni projekat",
+  "hero_cta_portfolio": "Pogledaj portfolio",
+
+  "outreach_title": "Naš interni SaaS alat",
+  "outreach_desc1": "Naš interni SaaS alat koji je pomogao hiljadama frilensera, agencija i konsultanata da napišu personalizovane i efektivne cold email poruke.",
+  "outreach_desc2": "Integrisan sa OpenAI, Vue.js i Supabase – OutreachGenie štedi vreme i povećava šanse za odgovor.",
+  "outreach_cta": "Pogledaj više",
+  "outreach_video_placeholder": "Ovde dolazi video demo aplikacije",
+
+  "shopify_title": "Shopify eCommerce",
+  "shopify_desc": "Gradimo <span class='text-white font-semibold'>brze i skalabilne eCommerce sisteme</span> koristeći <strong>Shopify</strong>.",
+  "shopify_bullet1": "Brz izlazak na tržište bez gubitka kvaliteta",
+  "shopify_bullet2": "Idealno za startape, eCommerce brendove i agencije",
+  "shopify_bullet3": "Povezivanje sa CRM-ovima, Google Sheetovima, AI-jem i više",
+  "shopify_cta": "Počni svoj projekat",
+  "shopify_badge": "Shopify",
+  "shopify_mockup_placeholder": "UI prikaz dolazi ovde (mockup ili video)",
+
+  "marketing_title": "📣 Marketing & Outreach Sistemi",
+  "marketing_desc": "Pomažemo brendovima da rastu kroz <strong>digitalne strategije</strong>, alate i automatizaciju.",
+  "marketing_cta": "Zakaži besplatan konsulting",
+  "marketing_video_placeholder": "Ovde dolazi ilustracija / animacija / video",
+
+  "marketing_cards": [
+    {
+      "title": "🎯 Google Ads & Retargeting",
+      "desc": "Izrada i optimizacija PPC kampanja – Search, Display, YouTube."
+    },
+    {
+      "title": "📊 Google Analytics & Praćenje",
+      "desc": "Merenje svega što se dešava na sajtu i funnel analize."
+    },
+    {
+      "title": "📱 Social Media Kampanje",
+      "desc": "Instagram, TikTok, Facebook – growth strategije i sadržaj."
+    },
+    {
+      "title": "✉️ Email Marketing & Outreach",
+      "desc": "Sekvence, segmentacija, personalizacija i AI integracije."
+    },
+    {
+      "title": "🔍 SEO & Content Strategije",
+      "desc": "Optimizacija sajtova, blogova i landing stranica."
+    },
+    {
+      "title": "⚡️ Konverzija & UX Analiza",
+      "desc": "Unapređenje korisničkog puta i performansi sajta."
+    }
+  ],
+
+  "services_title": "Usluge koje nudimo",
+  "services_cards": [
+    {
+      "title": "💡 SaaS Razvoj",
+      "desc": "Vue.js, Supabase, Stripe i AI integracije."
+    },
+    {
+      "title": "🛒 Shopify & WordPress",
+      "desc": "eCommerce rešenja za brendove svih veličina."
+    },
+    {
+      "title": "🎨 UI/UX & Branding",
+      "desc": "Od logotipa do kompletnog vizuelnog identiteta."
+    },
+    {
+      "title": "📈 Growth strategije",
+      "desc": "Outreach sistemi, cold email, content marketing."
+    },
+    {
+      "title": "📸 Video produkcija",
+      "desc": "Snimanje, montaža, titlovi, Instagram/TikTok edit."
+    },
+    {
+      "title": "🎤 Event voditeljstvo",
+      "desc": "Iskustvo vođenja i predstavljanja na događajima."
+    }
+  ],
+
+  "tech_title": "Tehnologije koje koristimo",
+  "tech_list": [
+    "Vue.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Magento 2",
+    "Shopify",
+    "WordPress",
+    "Figma",
+    "Google Ads & Analytics",
+    "Stripe",
+    "Premiere Pro",
+    "Branding & UI/UX"
+  ],
+
+  "team_title": "Ko stoji iza Weboro?",
+  "team_desc1": "Weboro je tim predvođen Mihailom, graditeljem sistema koji funkcionišu.",
+  "team_desc2": "Poseban deo tima čini i Katarina – sa dugogodišnjim iskustvom u Marketingu.",
+
+  "contact_title": "Spremni da napravimo nešto sjajno?",
+  "contact_desc": "Imate ideju? Mi znamo kako da je pretvorimo u proizvod.",
+  "contact_cta": "Kontaktiraj nas",
+
+  "about_title": "O nama",
+  "about_subtitle": "Mi smo Weboro — tim koji ideje pretvara u digitalne proizvode.",
+
+  "about_mission_title": "Naša misija",
+  "about_mission_desc": "Gradimo digitalna rešenja koja pojednostavljuju poslovanje i donose stvarne rezultate.",
+
+  "about_vision_title": "Naša vizija",
+  "about_vision_desc": "Postati prepoznatljiv tech studio u regionu i svetu po inovacijama i dizajnu.",
+
+  "about_timeline_title": "Naš put",
+  "about_timeline": [
+    { "year": "2022", "text": "Početak — freelancing i prvi projekti." },
+    { "year": "2023", "text": "Razvijen OutreachGenie kao SaaS alat." },
+    { "year": "2024", "text": "Širenje usluga na Shopify i eCommerce projekte." },
+    { "year": "2025", "text": "Formiranje Weboro tima i lansiranje portfolija." }
+  ],
+
+  "about_values_title": "Naše vrednosti",
+  "about_values": [
+    { "title": "💡 Inovacija", "desc": "Uvek tražimo nova i bolja rešenja." },
+    { "title": "⚡ Efikasnost", "desc": "Brzo isporučujemo, bez kompromisa na kvalitetu." },
+    { "title": "🤝 Transparentnost", "desc": "Otvorena komunikacija sa klijentima." },
+    { "title": "🎨 Dizajn", "desc": "Verujemo u snagu dobrog dizajna." },
+    { "title": "📈 Rezultati", "desc": "Cilj nam je meren rast, ne samo lep izgled." },
+    { "title": "💛 Posvećenost", "desc": "Tvoj uspeh je i naš uspeh." }
+  ],
+
+  "about_team_title": "Naš tim",
+  "about_team": [
+    { "name": "Mihailo Vlajković", "role": "Osnivač & sistem arhitekta", "bio": "Graditelj digitalnih sistema i SaaS proizvoda." },
+    { "name": "Jelena", "role": "Event & media", "bio": "Predstavljanje brendova i sadržaja pred publikom." }
+  ],
+
+  "about_cta_title": "Pridruži se našem putu",
+  "about_cta_desc": "Imaš ideju ili želiš da radiš sa nama?",
+  "about_cta_btn": "Pošalji upit",
+
+  "portfolio_title": "Portfolio",
+  "portfolio_subtitle": "Pregled naših projekata i uspešnih saradnji.",
+  "portfolio_categories": ["Sve", "SaaS", "eCommerce", "Web dizajn", "Video", "Marketing"],
+  "portfolio_projects": [
+    { "title": "OutreachGenie", "desc": "AI SaaS alat za generisanje cold email poruka", "category": "SaaS" },
+    { "title": "LumaWear", "desc": "Shopify eCommerce prodavnica za modni brend", "category": "eCommerce" },
+    { "title": "Print Studio", "desc": "WordPress sajt za štampariju", "category": "Web dizajn" },
+    { "title": "Copla Weekend House", "desc": "Landing sajt + booking funkcionalnost", "category": "Web dizajn" },
+    { "title": "Weboro Reels", "desc": "Video produkcija za društvene mreže", "category": "Video" },
+    { "title": "Google Ads kampanja", "desc": "Marketing kampanja i praćenje performansi", "category": "Marketing" }
+  ],
+  "portfolio_cta_title": "I tvoj projekat može biti ovde",
+  "portfolio_cta_desc": "Pošalji nam upit i zajedno gradimo sledeći uspeh.",
+  "portfolio_cta_btn": "Pošalji upit",
+  "portfolio_view_project": "Pogledaj projekat →",
+
+  "contact_title_page": "Kontakt",
+  "contact_subtitle_page": "Stupi u kontakt sa našim timom — odgovaramo u najkraćem roku.",
+
+  "contact_email_cards": "\uD83D\uDCE7 Email",
+  "contact_phone_cards": "\uD83D\uDCF1 Telefon",
+  "contact_follow": "Prati nas",
+
+  "contact_form_title": "Pošaljite nam poruku",
+  "contact_form_name": "Ime i prezime",
+  "contact_form_email": "Email adresa",
+  "contact_form_message": "Vaša poruka",
+  "contact_form_btn": "Pošalji poruku",
+
+  "career_title": "Karijera",
+  "career_subtitle": "Postani deo Weboro tima i gradi budućnost sa nama.",
+  "career_why_title": "Zašto Weboro?",
+  "career_why_desc": "Verujemo u kreativnost, slobodu i timski rad. Kod nas imaš priliku da radiš na realnim projektima — SaaS platforme, eCommerce sistemi i digitalne kampanje.",
+  "career_why_remote_title": "Remote rad",
+  "career_why_remote_desc": "Radiš odakle želiš i kada si najproduktivniji.",
+  "career_why_growth_title": "Rastući tim",
+  "career_why_growth_desc": "Mala ekipa, velike ambicije — tvoj uticaj se odmah vidi.",
+  "career_why_learning_title": "Razvoj",
+  "career_why_learning_desc": "Mentorstvo i učenje novih tehnologija svakog dana.",
+  "career_open_title": "Otvorene pozicije",
+  "career_frontend_title": "Frontend Developer (Vue.js)",
+  "career_frontend_type": "Remote / Freelance",
+  "career_frontend_desc": "Tražimo kreativnog frontend developera sa iskustvom u Vue.js i Tailwind CSS.",
+
+  "career_marketing_title": "Digital Marketing Specialist",
+  "career_marketing_type": "Remote / Part-time",
+  "career_marketing_desc": "Ako znaš Google Ads, outreach sisteme i growth strategije — ovo je za tebe.",
+
+  "career_video_title": "Video Content Creator",
+  "career_video_type": "Remote / Freelance",
+  "career_video_desc": "Osoba zadužena za kreiranje i montažu sadržaja za društvene mreže i kampanje.",
+  "career_apply_button": "Prijavi se",
+  "career_no_exp_title": "Nemaš iskustvo?",
+  "career_no_exp_desc": "Pošalji nam otvorenu prijavu — možda baš tebe obučimo!",
+  "career_no_exp_button": "Pošalji prijavu",
+
+
+  "contact_info_title": "Naši podaci",
+  "contact_info_desc": "Tu smo za sve upite, saradnje i projekte.",
+
+  "blog_title": "Blog",
+  "blog_subtitle": "Novosti, studije slučaja i saveti iz Weboro sveta.",
+  "blog_read_more": "Pročitaj više →",
+  "blog_cta_title": "Želiš da sarađujemo?",
+  "blog_cta_desc": "Kontaktiraj nas i možda baš tvoj projekat bude sledeći blog post.",
+  "blog_cta_button": "Pošalji upit",
+
+  "blog_post1_title": "Kako smo razvili OutreachGenie SaaS",
+  "blog_post1_excerpt": "Od ideje do produkta — naš proces gradnje AI SaaS alata.",
+  "blog_post2_title": "Zašto koristimo Shopify za eCommerce",
+  "blog_post2_excerpt": "Prednosti, skalabilnost i brzina razvoja sa Shopify platformom.",
+  "blog_post3_title": "Video sadržaj koji prodaje",
+  "blog_post3_excerpt": "Kako kreirati sadržaj koji povećava konverzije na mrežama.",
+
+  "service_ecommerce_title": "eCommerce Rešenja",
+  "service_ecommerce_subtitle": "Gradimo brze i skalabilne online prodavnice koristeći Shopify i WordPress.",
+  "service_ecommerce_intro": "Naša eCommerce rešenja pomažu brendovima da brzo izađu na tržište bez kompromisa na kvalitetu.",
+  "service_ecommerce_benefits_title": "Šta dobijaš",
+  "service_ecommerce_benefit1": "Brz izlazak na tržište",
+  "service_ecommerce_benefit2": "Skalabilna i sigurna infrastruktura",
+  "service_ecommerce_benefit3": "Integracije sa CRM-ovima, AI-jem i alatima za marketing",
+  "service_ecommerce_process_title": "Kako radimo",
+  "service_ecommerce_step1": "Analiza brenda i tržišta",
+  "service_ecommerce_step2": "Dizajn i UX prilagođen publici",
+  "service_ecommerce_step3": "Razvoj i povezivanje sistema",
+  "service_ecommerce_step4": "Lansiranje i kontinuirana podrška",
+  "service_ecommerce_cta_title": "Spreman da pokreneš prodavnicu?",
+  "service_ecommerce_cta_subtitle": "Pošalji nam upit i napravi svoj online brend.",
+  "service_ecommerce_cta_button": "Počni projekat",
+
+  "service_social_title": "Social Media Marketing",
+  "service_social_subtitle": "Gradimo prisustvo brendova na Instagramu, TikToku i Facebooku kroz sadržaj, strategije i oglašavanje.",
+  "service_social_intro": "Kreiramo i upravljamo kampanjama na društvenim mrežama uz fokus na strategiju, sadržaj i rast zajednice.",
+  "service_social_benefit1_title": "⚡ Brz izlazak na tržište",
+  "service_social_benefit1_desc": "Od ideje do prodaje za samo nekoliko nedelja.",
+  "service_social_benefit2_title": "🔁 Automatizacija",
+  "service_social_benefit2_desc": "Povezivanje sa CRM-om, mail servisima i AI alatima.",
+  "service_social_benefit3_title": "📈 Skalabilnost",
+  "service_social_benefit3_desc": "Sistemi koji rastu zajedno sa tvojim brendom.",
+  "service_social_cta_title": "Spremni za tvoj eCommerce projekat?",
+  "service_social_cta_subtitle": "Pošalji nam upit i napravi svoj online brend.",
+  "service_social_cta_button": "Pošalji upit",
+
+  "service_google_title": "Google Ads & Analytics",
+  "service_google_subtitle": "Postavljamo i optimizujemo Google Ads kampanje i pratimo rezultate kroz Analytics i tagove.",
+  "service_google_intro": "Kreiramo i upravljamo Google kampanjama uz detaljno praćenje performansi kroz Analytics i konverzijske tagove.",
+  "service_google_benefit1_title": "⚡ Brz izlazak na tržište",
+  "service_google_benefit1_desc": "Od ideje do rezultata za samo nekoliko nedelja.",
+  "service_google_benefit2_title": "📊 Praćenje performansi",
+  "service_google_benefit2_desc": "Detaljna analiza podataka i optimizacija budžeta.",
+  "service_google_benefit3_title": "📈 Skalabilnost",
+  "service_google_benefit3_desc": "Kampanje koje rastu zajedno sa tvojim biznisom.",
+  "service_google_cta_title": "Spreman da pokreneš kampanju?",
+  "service_google_cta_subtitle": "Pošalji nam upit i zajedno podignimo tvoj marketing na viši nivo.",
+  "service_google_cta_button": "Pošalji upit",
+
+  "service_seo_title": "SEO & Content Strategije",
+  "service_seo_subtitle": "Optimizacija sajta i sadržaja za bolje pozicije na Google-u i organski rast.",
+  "service_seo_intro": "Planiramo i implementiramo SEO i content strategije koje donose dugoročne rezultate i organski rast.",
+  "service_seo_benefit1_title": "🔍 SEO Optimizacija",
+  "service_seo_benefit1_desc": "Tehnički SEO, on-page i off-page strategije.",
+  "service_seo_benefit2_title": "✍️ Content marketing",
+  "service_seo_benefit2_desc": "Pisanje blogova, članaka i landing stranica koje rangiraju.",
+  "service_seo_benefit3_title": "📈 Praćenje performansi",
+  "service_seo_benefit3_desc": "Analiza i stalna optimizacija za bolje rezultate.",
+  "service_seo_cta_title": "Spreman da osvojiš Google?",
+  "service_seo_cta_subtitle": "Pošalji nam upit i podigni svoj sajt na viši nivo.",
+  "service_seo_cta_button": "Pošalji upit",
+
+  "service_branding_title": "Branding & UI/UX Dizajn",
+  "service_branding_subtitle": "Od logotipa do kompletnog vizuelnog identiteta i korisničkog iskustva.",
+  "service_branding_intro": "Kreiramo vizuelne identitete i digitalna iskustva koja ostavljaju snažan utisak i grade poverenje kod publike.",
+  "service_branding_benefit1_title": "🎨 Vizuelni identitet",
+  "service_branding_benefit1_desc": "Logo, boje, tipografija i brend vodič.",
+  "service_branding_benefit2_title": "🖥️ UI/UX Dizajn",
+  "service_branding_benefit2_desc": "Dizajn i prototipovanje interfejsa koji konvertuju.",
+  "service_branding_benefit3_title": "📈 Strategija brenda",
+  "service_branding_benefit3_desc": "Pozicioniranje i storytelling koji grade prepoznatljivost.",
+  "service_branding_cta_title": "Spreman za novi vizuelni identitet?",
+  "service_branding_cta_subtitle": "Pošalji nam upit i zajedno izgradimo brend koji se pamti.",
+  "service_branding_cta_button": "Pošalji upit",
+
+  "service_video_title": "Video produkcija",
+  "service_video_subtitle": "Kreiramo i montiramo video sadržaj koji prodaje i gradi prepoznatljivost.",
+  "service_video_intro": "Planiranje, snimanje i montaža video sadržaja za društvene mreže, reklame i kampanje.",
+  "service_video_benefit1_title": "🎬 Profesionalna produkcija",
+  "service_video_benefit1_desc": "Snimanje sa opremom i timom spremnim za svaku scenu.",
+  "service_video_benefit2_title": "✂️ Kreativna montaža",
+  "service_video_benefit2_desc": "Dinamični rezovi, efekti, titlovi i muzika koja privlači pažnju.",
+  "service_video_benefit3_title": "📱 Optimizacija za mreže",
+  "service_video_benefit3_desc": "Formati i stilovi prilagođeni Instagramu, TikToku i YouTube-u.",
+  "service_video_cta_title": "Želiš video koji prodaje?",
+  "service_video_cta_subtitle": "Pošalji nam upit i pretvori svoju priču u snažan vizuelni sadržaj.",
+  "service_video_cta_button": "Pošalji upit",
+
+  "footer_rights": "© 2025 Weboro. Sva prava zadržana.",
+  "footer_outreach": "OutreachGenie",
+  "footer_lumawear": "LumaWear",
+  "footer_contact": "Kontakt"
+}

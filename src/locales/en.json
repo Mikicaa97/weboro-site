@@ -1,0 +1,338 @@
+{
+  "nav_home": "Home",
+  "nav_about": "About",
+  "nav_services": "Services",
+  "nav_portfolio": "Portfolio",
+  "nav_blog": "Blog",
+  "nav_career": "Careers",
+  "nav_contact": "Contact",
+
+  "cta_start": "Start a Project",
+  "cta_portfolio": "View Portfolio",
+  "cta_send_inquiry": "Send Inquiry",
+
+  "service_outreach_title": "OutreachGenie.AI (SaaS)",
+  "service_outreach_desc": "AI tool for cold email personalization.",
+
+  "service_ecommerce_title": "eCommerce Solutions",
+  "service_ecommerce_desc": "Shopify and WordPress stores.",
+
+  "service_social_title": "Social Media Marketing",
+  "service_social_desc": "Strategies and profile management.",
+
+  "service_google_title": "Google Ads & Analytics",
+  "service_google_desc": "PPC campaigns and analytics.",
+
+  "service_seo_title": "SEO & Content",
+  "service_seo_desc": "Search engine optimization.",
+
+  "service_branding_title": "Branding & UI/UX",
+  "service_branding_desc": "Visual identity and design.",
+
+  "service_video_title": "Video Production",
+  "service_video_desc": "Filming and editing.",
+
+  "service_growth_title": "Growth & Outreach",
+  "service_growth_desc": "Email funnels and automation.",
+
+  "hero_brand": "Weboro",
+  "hero_subbrand": "Smart Digital Solutions",
+  "hero_title": "We turn ideas into <span class='text-yellow-400'>digital products</span>",
+  "hero_desc": "SaaS platforms, eCommerce systems, branding, video production and growth strategies — everything you need to take your business global.",
+  "hero_cta_start": "Start a project",
+  "hero_cta_portfolio": "View portfolio",
+
+  "outreach_title": "Our internal SaaS tool",
+  "outreach_desc1": "Our internal SaaS tool that has helped thousands of freelancers, agencies, and consultants write personalized and effective cold emails.",
+  "outreach_desc2": "Integrated with OpenAI, Vue.js and Supabase – OutreachGenie saves time and increases response rates.",
+  "outreach_cta": "View more",
+  "outreach_video_placeholder": "Video demo of the app goes here",
+
+  "shopify_title": "Shopify eCommerce",
+  "shopify_desc": "We build <span class='text-white font-semibold'>fast and scalable eCommerce systems</span> using <strong>Shopify</strong>.",
+  "shopify_bullet1": "Fast go-to-market without losing quality",
+  "shopify_bullet2": "Ideal for startups, eCommerce brands and agencies",
+  "shopify_bullet3": "Connect with CRMs, Google Sheets, AI and more",
+  "shopify_cta": "Start your project",
+  "shopify_badge": "Shopify",
+  "shopify_mockup_placeholder": "UI preview goes here (mockup or video)",
+
+  "marketing_title": "📣 Marketing & Outreach Systems",
+  "marketing_desc": "We help brands grow through <strong>digital strategies</strong>, tools and automation.",
+  "marketing_cta": "Book a free consultation",
+  "marketing_video_placeholder": "Illustration / animation / video goes here",
+
+  "marketing_cards": [
+    {
+      "title": "🎯 Google Ads & Retargeting",
+      "desc": "Creation and optimization of PPC campaigns – Search, Display, YouTube."
+    },
+    {
+      "title": "📊 Google Analytics & Tracking",
+      "desc": "Measure everything happening on your site and analyze funnels."
+    },
+    {
+      "title": "📱 Social Media Campaigns",
+      "desc": "Instagram, TikTok, Facebook – growth strategies and content."
+    },
+    {
+      "title": "✉️ Email Marketing & Outreach",
+      "desc": "Sequences, segmentation, personalization and AI integrations."
+    },
+    {
+      "title": "🔍 SEO & Content Strategies",
+      "desc": "Optimization of websites, blogs and landing pages."
+    },
+    {
+      "title": "⚡️ Conversion & UX Analysis",
+      "desc": "Improving user journey and site performance."
+    }
+  ],
+
+  "services_title": "Services we offer",
+  "services_cards": [
+    {
+      "title": "💡 SaaS Development",
+      "desc": "Vue.js, Supabase, Stripe and AI integrations."
+    },
+    {
+      "title": "🛒 Shopify & WordPress",
+      "desc": "eCommerce solutions for brands of all sizes."
+    },
+    {
+      "title": "🎨 UI/UX & Branding",
+      "desc": "From logo design to full visual identity."
+    },
+    {
+      "title": "📈 Growth Strategies",
+      "desc": "Outreach systems, cold email, content marketing."
+    },
+    {
+      "title": "📸 Video Production",
+      "desc": "Filming, editing, subtitles, Instagram/TikTok edits."
+    },
+    {
+      "title": "🎤 Event Hosting",
+      "desc": "Experience in hosting and presenting at events."
+    }
+  ],
+
+  "tech_title": "Technologies we use",
+  "tech_list": [
+    "Vue.js",
+    "Supabase",
+    "Tailwind CSS",
+    "Magento 2",
+    "Shopify",
+    "WordPress",
+    "Figma",
+    "Google Ads & Analytics",
+    "Stripe",
+    "Premiere Pro",
+    "Branding & UI/UX"
+  ],
+
+  "team_title": "Who is behind Weboro?",
+  "team_desc1": "Weboro is a team led by Mihailo Vlajković, a builder of systems that work.",
+  "team_desc2": "A special part of the team is Katarina – with experience in Marketing and Google Ads.",
+
+  "contact_title": "Ready to create something amazing?",
+  "contact_desc": "Have an idea? We know how to turn it into a product.",
+  "contact_cta": "Contact us",
+
+  "about_title": "About us",
+  "about_subtitle": "We are Weboro — a team that turns ideas into digital products.",
+
+  "about_mission_title": "Our mission",
+  "about_mission_desc": "We build digital solutions that simplify business and deliver real results.",
+
+  "about_vision_title": "Our vision",
+  "about_vision_desc": "To become a recognized tech studio in the region and worldwide for innovation and design.",
+
+  "about_timeline_title": "Our journey",
+  "about_timeline": [
+    { "year": "2022", "text": "The beginning — freelancing and first projects." },
+    { "year": "2023", "text": "Developed OutreachGenie as a SaaS tool." },
+    { "year": "2024", "text": "Expanded services to Shopify and eCommerce projects." },
+    { "year": "2025", "text": "Formed the Weboro team and launched our portfolio." }
+  ],
+
+  "about_values_title": "Our values",
+  "about_values": [
+    { "title": "💡 Innovation", "desc": "We are always looking for new and better solutions." },
+    { "title": "⚡ Efficiency", "desc": "We deliver fast without compromising quality." },
+    { "title": "🤝 Transparency", "desc": "Open communication with our clients." },
+    { "title": "🎨 Design", "desc": "We believe in the power of good design." },
+    { "title": "📈 Results", "desc": "We focus on measurable growth, not just looks." },
+    { "title": "💛 Commitment", "desc": "Your success is our success." }
+  ],
+
+  "about_team_title": "Our team",
+  "about_team": [
+    { "name": "Mihailo Vlajković", "role": "Founder & System Architect", "bio": "Builder of digital systems and SaaS products." },
+    { "name": "Jelena", "role": "Event & media", "bio": "Presenting brands and content in front of audiences." }
+  ],
+
+  "about_cta_title": "Join our journey",
+  "about_cta_desc": "Have an idea or want to work with us?",
+  "about_cta_btn": "Send inquiry",
+
+  "portfolio_title": "Portfolio",
+  "portfolio_subtitle": "Overview of our projects and successful collaborations.",
+  "portfolio_categories": ["All", "SaaS", "eCommerce", "Web Design", "Video", "Marketing"],
+  "portfolio_projects": [
+    { "title": "OutreachGenie", "desc": "AI SaaS tool for generating cold email messages", "category": "SaaS" },
+    { "title": "LumaWear", "desc": "Shopify eCommerce store for a fashion brand", "category": "eCommerce" },
+    { "title": "Print Studio", "desc": "WordPress website for a print shop", "category": "Web Design" },
+    { "title": "Copla Weekend House", "desc": "Landing website + booking functionality", "category": "Web Design" },
+    { "title": "Weboro Reels", "desc": "Video production for social media", "category": "Video" },
+    { "title": "Google Ads Campaign", "desc": "Marketing campaign and performance tracking", "category": "Marketing" }
+  ],
+  "portfolio_cta_title": "Your project can be here too",
+  "portfolio_cta_desc": "Send us an inquiry and let’s build the next success together.",
+  "portfolio_cta_btn": "Send inquiry",
+  "portfolio_view_project": "View project →",
+
+  "contact_title_page": "Contact",
+  "contact_subtitle_page": "Get in touch with our team — we reply as soon as possible.",
+
+  "contact_email_cards": "\uD83D\uDCE7 Email",
+  "contact_phone_cards": "\uD83D\uDCF1 Phone",
+  "contact_follow": "Follow Us",
+
+  "contact_form_title": "Send us a message",
+  "contact_form_name": "Full name",
+  "contact_form_email": "Email address",
+  "contact_form_message": "Your message",
+  "contact_form_btn": "Send message",
+
+  "contact_info_title": "Our information",
+  "contact_info_desc": "We are here for all inquiries, collaborations and projects.",
+
+  "career_title": "Careers",
+  "career_subtitle": "Join the Weboro team and build the future with us.",
+  "career_why_title": "Why Weboro?",
+  "career_why_desc": "We believe in creativity, freedom, and teamwork. With us, you’ll work on real projects — SaaS platforms, eCommerce systems, and digital campaigns.",
+  "career_why_remote_title": "Remote work",
+  "career_why_remote_desc": "Work from wherever you want, whenever you're most productive.",
+  "career_why_growth_title": "Growing team",
+  "career_why_growth_desc": "A small team with big ambitions — your impact is seen immediately.",
+  "career_why_learning_title": "Learning",
+  "career_why_learning_desc": "Mentorship and learning new technologies every day.",
+  "career_open_title": "Open Positions",
+  "career_frontend_title": "Frontend Developer (Vue.js)",
+  "career_frontend_type": "Remote / Freelance",
+  "career_frontend_desc": "We are looking for a creative frontend developer experienced in Vue.js and Tailwind CSS.",
+
+  "career_marketing_title": "Digital Marketing Specialist",
+  "career_marketing_type": "Remote / Part-time",
+  "career_marketing_desc": "If you know Google Ads, outreach systems, and growth strategies — this is for you.",
+
+  "career_video_title": "Video Content Creator",
+  "career_video_type": "Remote / Freelance",
+  "career_video_desc": "Responsible for creating and editing content for social media and campaigns.",
+  "career_apply_button": "Apply",
+  "career_no_exp_title": "No experience?",
+  "career_no_exp_desc": "Send us an open application — maybe you’re the one we’ll train!",
+  "career_no_exp_button": "Send application",
+
+  "blog_title": "Blog",
+  "blog_subtitle": "News, case studies, and tips from the Weboro world.",
+  "blog_read_more": "Read more →",
+  "blog_cta_title": "Want to work with us?",
+  "blog_cta_desc": "Get in touch — your project might be our next blog post.",
+  "blog_cta_button": "Send inquiry",
+
+  "blog_post1_title": "How We Built OutreachGenie SaaS",
+  "blog_post1_excerpt": "From idea to product — our process of building an AI SaaS tool.",
+  "blog_post2_title": "Why We Use Shopify for eCommerce",
+  "blog_post2_excerpt": "Benefits, scalability, and development speed with Shopify.",
+  "blog_post3_title": "Video Content That Sells",
+  "blog_post3_excerpt": "How to create content that boosts conversions on social media.",
+
+  "service_ecommerce_title": "eCommerce Solutions",
+  "service_ecommerce_subtitle": "We build fast and scalable online stores using Shopify and WordPress.",
+  "service_ecommerce_intro": "Our eCommerce solutions help brands launch quickly without compromising quality.",
+  "service_ecommerce_benefits_title": "What You Get",
+  "service_ecommerce_benefit1": "Fast time to market",
+  "service_ecommerce_benefit2": "Scalable and secure infrastructure",
+  "service_ecommerce_benefit3": "Integrations with CRMs, AI, and marketing tools",
+  "service_ecommerce_process_title": "How We Work",
+  "service_ecommerce_step1": "Brand and market analysis",
+  "service_ecommerce_step2": "Design and UX tailored to your audience",
+  "service_ecommerce_step3": "Development and system integration",
+  "service_ecommerce_step4": "Launch and ongoing support",
+  "service_ecommerce_cta_title": "Ready to launch your store?",
+  "service_ecommerce_cta_subtitle": "Send us an inquiry and start your online brand.",
+  "service_ecommerce_cta_button": "Start project",
+
+  "service_social_title": "Social Media Marketing",
+  "service_social_subtitle": "We build brand presence on Instagram, TikTok and Facebook through content, strategies and advertising.",
+  "service_social_intro": "We create and manage social media campaigns with focus on strategy, content and community growth.",
+  "service_social_benefit1_title": "⚡ Fast go-to-market",
+  "service_social_benefit1_desc": "From idea to launch in just a few weeks.",
+  "service_social_benefit2_title": "🔁 Automation",
+  "service_social_benefit2_desc": "Integration with CRMs, email tools and AI platforms.",
+  "service_social_benefit3_title": "📈 Scalability",
+  "service_social_benefit3_desc": "Systems that grow together with your brand.",
+  "service_social_cta_title": "Ready for your eCommerce project?",
+  "service_social_cta_subtitle": "Send us an inquiry and build your online brand.",
+  "service_social_cta_button": "Send inquiry",
+
+  "service_google_title": "Google Ads & Analytics",
+  "service_google_subtitle": "We set up and optimize Google Ads campaigns and track results via Analytics and tags.",
+  "service_google_intro": "We create and manage Google campaigns with in-depth performance tracking through Analytics and conversion tags.",
+  "service_google_benefit1_title": "⚡ Fast go-to-market",
+  "service_google_benefit1_desc": "From idea to results in just a few weeks.",
+  "service_google_benefit2_title": "📊 Performance tracking",
+  "service_google_benefit2_desc": "Detailed data analysis and budget optimization.",
+  "service_google_benefit3_title": "📈 Scalability",
+  "service_google_benefit3_desc": "Campaigns that grow together with your business.",
+  "service_google_cta_title": "Ready to launch your campaign?",
+  "service_google_cta_subtitle": "Send us an inquiry and let’s take your marketing to the next level.",
+  "service_google_cta_button": "Send inquiry",
+
+  "service_seo_title": "SEO & Content Strategies",
+  "service_seo_subtitle": "Website and content optimization for higher Google rankings and organic growth.",
+  "service_seo_intro": "We plan and implement SEO and content strategies that deliver long-term results and organic growth.",
+  "service_seo_benefit1_title": "🔍 SEO Optimization",
+  "service_seo_benefit1_desc": "Technical SEO, on-page and off-page strategies.",
+  "service_seo_benefit2_title": "✍️ Content Marketing",
+  "service_seo_benefit2_desc": "Writing blogs, articles, and landing pages that rank.",
+  "service_seo_benefit3_title": "📈 Performance Tracking",
+  "service_seo_benefit3_desc": "Continuous analysis and optimization for better results.",
+  "service_seo_cta_title": "Ready to conquer Google?",
+  "service_seo_cta_subtitle": "Send us an inquiry and take your site to the next level.",
+  "service_seo_cta_button": "Send inquiry",
+
+  "service_branding_title": "Branding & UI/UX Design",
+  "service_branding_subtitle": "From logo design to complete visual identity and user experience.",
+  "service_branding_intro": "We create visual identities and digital experiences that build trust and leave a lasting impression.",
+  "service_branding_benefit1_title": "🎨 Visual Identity",
+  "service_branding_benefit1_desc": "Logo, colors, typography, and brand guidelines.",
+  "service_branding_benefit2_title": "🖥️ UI/UX Design",
+  "service_branding_benefit2_desc": "Design and prototyping of interfaces that convert.",
+  "service_branding_benefit3_title": "📈 Brand Strategy",
+  "service_branding_benefit3_desc": "Positioning and storytelling that build recognition.",
+  "service_branding_cta_title": "Ready for a new visual identity?",
+  "service_branding_cta_subtitle": "Send us an inquiry and let's build a memorable brand together.",
+  "service_branding_cta_button": "Send inquiry",
+
+  "service_video_title": "Video Production",
+  "service_video_subtitle": "We create and edit video content that sells and builds brand recognition.",
+  "service_video_intro": "Planning, filming, and editing video content for social media, ads, and campaigns.",
+  "service_video_benefit1_title": "🎬 Professional Production",
+  "service_video_benefit1_desc": "Filming with a crew and equipment ready for every scene.",
+  "service_video_benefit2_title": "✂️ Creative Editing",
+  "service_video_benefit2_desc": "Dynamic cuts, effects, captions, and music that capture attention.",
+  "service_video_benefit3_title": "📱 Social Media Optimization",
+  "service_video_benefit3_desc": "Formats and styles optimized for Instagram, TikTok, and YouTube.",
+  "service_video_cta_title": "Want a video that sells?",
+  "service_video_cta_subtitle": "Send us an inquiry and turn your story into powerful visual content.",
+  "service_video_cta_button": "Send inquiry",
+
+  "footer_rights": "© 2025 Weboro. All rights reserved.",
+  "footer_outreach": "OutreachGenie",
+  "footer_lumawear": "LumaWear",
+  "footer_contact": "Contact"
+}

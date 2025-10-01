@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Node modules & builds
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor dirs
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+
+# Env fajlovi (OBAVEZNO)
+.env
+.env.local
+.env.development
+.env.production
+
+# System files
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
