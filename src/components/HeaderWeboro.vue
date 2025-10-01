@@ -2,15 +2,10 @@
   <header class="bg-black text-white fixed top-0 left-0 w-full z-50 shadow-md">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-16">
       <!-- Logo -->
-<!--      <router-link to="/" class="flex items-center space-x-2">-->
-
-<!--      </router-link>-->
-
-      <!-- Logo -->
       <router-link to="/" class="flex items-center justify-center">
         <img
             src="/src/assets/weborologo.png"
-            alt="OutreachGenie Logo"
+            alt="Weboro Logo"
             class="max-w-[140px] sm:max-w-[180px] md:max-w-[140px] lg:max-w-[150px] xl:max-w-[180px] h-auto mt-1 object-contain"
         />
       </router-link>
@@ -59,10 +54,20 @@
                class="bg-zinc-900 p-6 rounded-xl hover:bg-zinc-800 hover:scale-105 transition transform cursor-pointer">
             <h3 class="text-lg font-semibold mb-2 text-yellow-400">{{$t(service.title)}}</h3>
             <p class="text-sm text-gray-300">{{ $t(service.desc) }}</p>
-            <router-link :to="service.link"
-                         class="inline-block mt-4 text-yellow-400 text-sm hover:underline">
-              {{$t('learn_more')}} →
-            </router-link>
+
+            <!-- Uslov: eksterni ili interni -->
+            <template v-if="service.link.startsWith('http')">
+              <a :href="service.link" target="_blank" rel="noopener noreferrer"
+                 class="inline-block mt-4 text-yellow-400 text-sm hover:underline">
+                {{$t('learn_more')}} →
+              </a>
+            </template>
+            <template v-else>
+              <router-link :to="service.link"
+                           class="inline-block mt-4 text-yellow-400 text-sm hover:underline">
+                {{$t('learn_more')}} →
+              </router-link>
+            </template>
           </div>
         </div>
       </div>
@@ -79,10 +84,20 @@
                  class="bg-zinc-900 p-4 rounded-lg">
               <h3 class="text-yellow-400 text-sm font-semibold mb-1">{{ $t(service.title) }}</h3>
               <p class="text-xs text-gray-400">{{ $t(service.desc) }}</p>
-              <router-link :to="service.link"
-                           class="text-yellow-400 text-xs hover:underline block mt-1">
-                {{$t('learn_more')}} →
-              </router-link>
+
+              <!-- Isto i za mobile -->
+              <template v-if="service.link.startsWith('http')">
+                <a :href="service.link" target="_blank" rel="noopener noreferrer"
+                   class="text-yellow-400 text-xs hover:underline block mt-1">
+                  {{$t('learn_more')}} →
+                </a>
+              </template>
+              <template v-else>
+                <router-link :to="service.link"
+                             class="text-yellow-400 text-xs hover:underline block mt-1">
+                  {{$t('learn_more')}} →
+                </router-link>
+              </template>
             </div>
           </div>
         </details>
@@ -125,7 +140,7 @@ const toggleServices = () => {
 }
 
 const services = [
-  { title: 'service_outreach_title', desc: 'service_outreach_desc', link: '/outreachgenie-production.up.railway.app/' },
+  { title: 'service_outreach_title', desc: 'service_outreach_desc', link: 'https://outreachgenie-production.up.railway.app/' },
   { title: 'service_ecommerce_title', desc: 'service_ecommerce_desc', link: '/usluge/ecommerce' },
   { title: 'service_social_title', desc: 'service_social_desc', link: '/usluge/social-media' },
   { title: 'service_google_title', desc: 'service_google_desc', link: '/usluge/google-ads' },
@@ -134,7 +149,6 @@ const services = [
   { title: 'service_video_title', desc: 'service_video_desc', link: '/usluge/video' },
   { title: 'service_growth_title', desc: 'service_growth_desc', link: '/usluge/outreach' },
 ]
-
 </script>
 
 <style scoped>
