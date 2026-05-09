@@ -10,12 +10,93 @@
   "cta_start": "Započni projekat",
   "cta_portfolio": "Pogledaj portfolio",
   "cta_send_inquiry": "Pošalji upit",
+  "learn_more": "Saznaj više",
 
-  "service_outreach_title": "OutreachGenie.AI (SaaS)",
-  "service_outreach_desc": "AI alat za cold email poruke.",
+  "service_outreach_title": "OutreachGenie (SaaS)",
+  "service_outreach_desc": "AI email marketing, cold outreach i kampanje.",
 
-  "service_ecommerce_title": "eCommerce rešenja",
-  "service_ecommerce_desc": "Shopify i WordPress prodavnice.",
+  "service_web_hub_title": "Web & prodaja",
+  "service_web_hub_subtitle": "Magento, WordPress i custom rešenja — sve na jednom mestu.",
+  "service_web_hub_intro": "Biramo tehnologiju prema tvom biznisu: enterprise Magento 2 prodavnice, fleksibilni WordPress sajtovi i potpuno prilagođeni custom stackovi.",
+  "service_web_hub_cta_title": "Ne znaš šta ti odgovara?",
+  "service_web_hub_cta_subtitle": "Zajedno definišemo arhitekturu i roadmap — od MVP-a do skaliranja.",
+  "service_web_hub_cta_button": "Zakaži razgovor",
+
+  "service_magento_title": "Magento 2",
+  "service_magento_desc": "Enterprise eCommerce, integracije i performanse.",
+  "service_magento_subtitle": "Robusne B2B i B2C prodavnice koje izdrže rast saobraćaja i kataloga.",
+  "service_magento_intro": "Gradimo i održavamo Magento 2 prodavnice sa fokusom na brzinu checkout-a, SEO, integracije (ERP, CRM, plaćanja) i čist kod koji može da preživi godine.",
+  "service_magento_benefits_title": "Šta dobijaš",
+  "service_magento_benefit1_title": "Skalabilnost",
+  "service_magento_benefit1_desc": "Veliki katalozi, više prodavnica i složeni pricing modeli.",
+  "service_magento_benefit2_title": "Integracije",
+  "service_magento_benefit2_desc": "ERP, skladišta, kurire, plaćanja i custom API slojevi.",
+  "service_magento_benefit3_title": "Performanse",
+  "service_magento_benefit3_desc": "Caching, optimizacija upita i stabilan deploy pipeline.",
+  "service_magento_process_title": "Kako radimo",
+  "service_magento_step1": "Audit zahteva, kataloga i integracija",
+  "service_magento_step2": "Arhitektura teme/modula i okruženja",
+  "service_magento_step3": "Razvoj, QA i staging",
+  "service_magento_step4": "Lansiranje, monitoring i održavanje",
+  "service_magento_cta_title": "Magento projekat?",
+  "service_magento_cta_subtitle": "Pošalji nam kratak brief — vraćamo se sa predlogom pristupa i rokovima.",
+  "service_magento_cta_button": "Pošalji upit",
+
+  "service_wordpress_title": "WordPress",
+  "service_wordpress_desc": "Sajtovi, blogovi, landing stranice i WooCommerce.",
+  "service_wordpress_subtitle": "Brz izlazak na mrežu uz fleksibilan CMS koji tim može sam da vodi.",
+  "service_wordpress_intro": "WordPress koristimo za korporativne sajtove, portfolije, blogove i manje prodavnice — uz čiste teme, performanse i sigurnosne best practice.",
+  "service_wordpress_benefits_title": "Šta dobijaš",
+  "service_wordpress_benefit1_title": "Brzina isporuke",
+  "service_wordpress_benefit1_desc": "Od wireframe-a do produkcije u kratkim iteracijama.",
+  "service_wordpress_benefit2_title": "SEO & sadržaj",
+  "service_wordpress_benefit2_desc": "Struktura koja podržava organski rast i lako ažuriranje.",
+  "service_wordpress_benefit3_title": "Rast",
+  "service_wordpress_benefit3_desc": "WooCommerce i integracije kada treba prodaja bez prelaska na Magento.",
+  "service_wordpress_process_title": "Kako radimo",
+  "service_wordpress_step1": "Brief, informaciona arhitektura i wireframe",
+  "service_wordpress_step2": "Dizajn sistema i razvoj teme",
+  "service_wordpress_step3": "Sadržaj, forme, analitika i SEO setup",
+  "service_wordpress_step4": "Lansiranje, obuka tima i podrška",
+  "service_wordpress_cta_title": "WordPress sajt?",
+  "service_wordpress_cta_subtitle": "Javi nam se sa linkom ka referencama i rokovima.",
+  "service_wordpress_cta_button": "Pošalji upit",
+
+  "service_custom_web_title": "Custom web",
+  "service_custom_web_desc": "Vue, API-ji, dashboardi i headless pristup.",
+  "service_custom_web_subtitle": "Kada CMS ili šablon nije dovoljan — gradimo proizvod po meri.",
+  "service_custom_web_intro": "Vue 3, moderan front, REST/GraphQL, Supabase ili custom backend — za SaaS, interne alate, portale i marketing sajtove koji traže jedinstven UX.",
+  "service_custom_web_benefits_title": "Šta dobijaš",
+  "service_custom_web_benefit1_title": "Proizvod, ne šablon",
+  "service_custom_web_benefit1_desc": "Komponente, dizajn sistem i kod koji pripada tebi.",
+  "service_custom_web_benefit2_title": "Performanse",
+  "service_custom_web_benefit2_desc": "Lazy load, edge-ready build i merljivi Core Web Vitals.",
+  "service_custom_web_benefit3_title": "Integracije",
+  "service_custom_web_benefit3_desc": "Stripe, auth, AI servisi, CRM — sve što treba da se poveže.",
+  "service_custom_web_process_title": "Kako radimo",
+  "service_custom_web_step1": "Product discovery i tehnički plan",
+  "service_custom_web_step2": "Dizajn UX/UI i prototip",
+  "service_custom_web_step3": "Iterativni razvoj sa preview okruženjem",
+  "service_custom_web_step4": "Launch, observability i iteracije",
+  "service_custom_web_cta_title": "Custom build?",
+  "service_custom_web_cta_subtitle": "Pošalji opis problema — predložićemo stack i MVP obim.",
+  "service_custom_web_cta_button": "Pošalji upit",
+
+  "service_growth_page_title": "Growth & outreach",
+  "service_growth_page_subtitle": "Kampanje, automatizacija i alati koji povezuju marketing i prodaju.",
+  "service_growth_page_intro": "Pomažemo oko cold email sekvenci, newslettera, lead nurturinga i povezivanja sa CRM-om — uključujući platforme poput OutreachGenie kada treba enterprise nivo.",
+  "service_growth_page_benefits_title": "Gde pomažemo",
+  "service_growth_page_b1_title": "Outreach",
+  "service_growth_page_b1_desc": "Poruke koje zvuče ljudski i prolaze tehničke provere.",
+  "service_growth_page_b2_title": "Automatizacija",
+  "service_growth_page_b2_desc": "Triggeri, segmenti i integracije između alata.",
+  "service_growth_page_b3_title": "Merenje",
+  "service_growth_page_b3_desc": "Jasni KPI-jevi i reporting da znaš šta skalirati.",
+  "service_growth_page_note": "Za našu AI SaaS platformu pogledaj OutreachGenie — link sa početne strane.",
+  "service_growth_page_cta": "Pošalji upit",
+
+  "service_ecommerce_title": "Web & prodaja",
+  "service_ecommerce_desc": "Magento, WordPress i custom rešenja.",
 
   "service_social_title": "Social Media Marketing",
   "service_social_desc": "Strategije i vođenje profila.",
@@ -37,25 +118,569 @@
 
   "hero_brand": "Weboro",
   "hero_subbrand": "Smart Digital Solutions",
-  "hero_title": "Transformišemo ideje u <span class='text-yellow-400'>digitalne proizvode</span>",
-  "hero_desc": "SaaS platforme, eCommerce sistemi, branding, video produkcija i growth strategije — sve što ti treba da tvoj biznis postane globalan.",
+  "hero_eyebrow": "Digitalni studio · Beograd",
+  "hero_title": "Gradimo <span class=\"text-yellow-400\">digitalne proizvode</span> koji rade za tvoj biznis",
+  "hero_desc": "SaaS platforme, Magento i WordPress sajtovi, custom web, branding i growth — sve što ti treba da digital proradi.",
   "hero_cta_start": "Započni projekat",
   "hero_cta_portfolio": "Pogledaj portfolio",
+  "hero_metric1_value": "10+",
+  "hero_metric1_label": "AI alata u našem SaaS-u",
+  "hero_metric2_value": "20+",
+  "hero_metric2_label": "isporučenih projekata",
+  "hero_metric3_value": "4+",
+  "hero_metric3_label": "godine u digitalu",
+  "hero_visual_caption": "Live: outreachgenie.com",
+  "hero_clients_label": "Naši projekti i klijenti",
+  "hero_scroll": "Scroll",
 
   "outreach_title": "Naš interni SaaS alat",
   "outreach_desc1": "Naš interni SaaS alat koji je pomogao hiljadama frilensera, agencija i konsultanata da napišu personalizovane i efektivne cold email poruke.",
   "outreach_desc2": "Integrisan sa OpenAI, Vue.js i Supabase – OutreachGenie štedi vreme i povećava šanse za odgovor.",
   "outreach_cta": "Pogledaj više",
   "outreach_video_placeholder": "Ovde dolazi video demo aplikacije",
+  "og_video_coming_soon_eyebrow": "Video demo · uskoro",
+  "og_video_coming_soon_desc": "Snimamo walkthrough kroz platformu — uskoro stiže ovde.",
 
-  "shopify_title": "Shopify eCommerce",
-  "shopify_desc": "Gradimo <span class='text-white font-semibold'>brze i skalabilne eCommerce sisteme</span> koristeći <strong>Shopify</strong>.",
-  "shopify_bullet1": "Brz izlazak na tržište bez gubitka kvaliteta",
-  "shopify_bullet2": "Idealno za startape, eCommerce brendove i agencije",
-  "shopify_bullet3": "Povezivanje sa CRM-ovima, Google Sheetovima, AI-jem i više",
-  "shopify_cta": "Počni svoj projekat",
-  "shopify_badge": "Shopify",
-  "shopify_mockup_placeholder": "UI prikaz dolazi ovde (mockup ili video)",
+  "og_flagship_badge": "Flagship projekat",
+  "og_section_eyebrow": "Naš SaaS proizvod · outreachgenie.com",
+  "og_section_title": "OutreachGenie — AI email marketing platforma koju gradimo i puštamo u svet",
+  "og_section_lead": "Enterprise-grade SaaS sa AI-em u svakom koraku. Konkurent MailerLite-u, Mailchimp-u i Lemlist-u — sa boljim AI personalizacijama, sopstvenim sending engine-om i multi-tenant arhitekturom od prvog dana.",
+  "og_section_cta_demo": "Probaj live demo",
+  "og_section_cta_hub": "Kompletan pregled platforme",
+  "og_section_cta_inquiry_title": "Hoćeš ovakvu platformu za svoj biznis?",
+  "og_section_cta_inquiry_desc": "Gradimo SaaS proizvode od ideje do produkcije — sa AI-em, billing-om, multi-tenancijom i deliverability-jem.",
+  "og_section_cta_inquiry_btn": "Pošalji upit",
+
+  "og_stats_title": "Brojke koje pokazuju nivo platforme",
+  "og_stats": [
+    { "value": "10+", "label": "AI alata u editoru" },
+    { "value": "5,000+", "label": "kontakata, pretraga <1s" },
+    { "value": "39", "label": "RLS policies / 9 tabela" },
+    { "value": "4", "label": "kanala u roadmap-u" }
+  ],
+
+  "og_modules_title": "Najvažniji moduli platforme",
+  "og_modules_subtitle": "Ulazna tačka u sve što OutreachGenie nudi — klikni modul da otvoriš detalje, arhitekturu i screenshot-e.",
+  "og_modules": [
+    {
+      "icon": "🤖",
+      "tag": "AI · srce platforme",
+      "title": "AI alati",
+      "desc": "10+ alata: Generate with AI, AI Block Generator, Multi Block Wizard, Email Repair, Content Analyzer, Subject Suggestions, Image Generator i AI Credits billing.",
+      "link": "/outreachgenie/ai-alati"
+    },
+    {
+      "icon": "🎨",
+      "tag": "Editor",
+      "title": "Campaign Builder",
+      "desc": "Drag-and-drop GrapesJS editor sa MJML preset-om, custom blokovima, auto-signature i template galerijom.",
+      "link": "/outreachgenie/campaign-builder"
+    },
+    {
+      "icon": "📤",
+      "tag": "Backend infrastruktura",
+      "title": "Sending Engine",
+      "desc": "Sopstveni Node worker, rate limiting, smart scheduling po timezoneu, open/click/reply tracking i deliverability AI pre slanja.",
+      "link": "/outreachgenie/sending"
+    },
+    {
+      "icon": "📇",
+      "tag": "Data & GDPR",
+      "title": "Subscribers & Engagement",
+      "desc": "CSV ImportWizard (250× brže), grupe i segmenti, engagement scoring (hot/warm/cold), contact timeline i GDPR consent.",
+      "link": "/outreachgenie/subscribers"
+    },
+    {
+      "icon": "📊",
+      "tag": "Insights",
+      "title": "Analytics & A/B",
+      "desc": "Open/click/reply/bounce rate, per-recipient timeline, A/B varijante sa auto-winner-om i Reports export.",
+      "link": "/outreachgenie/analytics"
+    },
+    {
+      "icon": "🛡️",
+      "tag": "Enterprise",
+      "title": "Teams & sigurnost",
+      "desc": "Multi-tenant organizacije, role (owner/admin/member), RLS na 9 tabela, JWT, GDPR i Stripe + AI Credits billing.",
+      "link": "/outreachgenie/teams"
+    }
+  ],
+
+  "og_back_to_home": "Nazad na početnu",
+  "og_back_to_hub": "Nazad na OutreachGenie",
+  "og_breadcrumb_home": "Weboro",
+  "og_breadcrumb_outreachgenie": "OutreachGenie",
+  "og_section_features": "Šta rešava",
+  "og_section_how": "Kako radi",
+  "og_section_tech": "Tehnologije i implementacija",
+  "og_section_related": "Povezani moduli",
+  "og_cta_open_app": "Otvori aplikaciju",
+  "og_cta_start_project": "Pošalji upit",
+
+  "og_hub_eyebrow": "Case study · OutreachGenie",
+  "og_hub_title": "AI-first email marketing platforma — od ideje do produkcije",
+  "og_hub_lead": "OutreachGenie je SaaS koji smo dizajnirali, izgradili i pustili u produkciju. Vue 3, Supabase, sopstveni Node sending engine, OpenAI i Stripe — sve povezano u jednu enterprise platformu.",
+  "og_hub_about_title": "Šta je OutreachGenie",
+  "og_hub_about_text": "Email marketing i cold outreach platforma sa AI personalizacijom u svakom koraku. Korisnik uveze listu kontakata, AI generiše ceo email (subject, telo, sliku, CTA), platforma šalje kampanje sa pametnim raspoređivanjem po vremenskim zonama, prati otvaranje/klikove/odgovore i optimizuje sledeće slanje.",
+  "og_hub_audience_title": "Za koga je",
+  "og_hub_audience": [
+    "B2B kompanije za lead generation i cold outreach",
+    "B2C marketing timovi (newsletteri, promocije, eCommerce)",
+    "Agencije sa više klijenata (multi-tenant)",
+    "Solo osnivači i freelanceri"
+  ],
+  "og_hub_special_title": "Šta čini OutreachGenie posebnim",
+  "og_hub_special": [
+    { "title": "AI-first od jezgra", "desc": "Ne samo \"generate copy\" dugme — 10+ alata duboko ugrađeno u editor i workflow." },
+    { "title": "Sopstveni sending engine", "desc": "Bez oslanjanja na SendGrid/Mailgun. Node worker sa rate limiting-om i smart scheduling-om." },
+    { "title": "Enterprise multi-tenant od starta", "desc": "RLS, organizacije, team role, workspace switcher u headeru." },
+    { "title": "Deliverability AI pre slanja", "desc": "Subject, content, CTA, spam triggers — analiza pre nego što kampanja krene." },
+    { "title": "Engagement scoring", "desc": "Materialized views za real-time hot/warm/cold scoring na desetinama hiljada kontakata." },
+    { "title": "Dual billing", "desc": "Stripe subscriptions + AI Credits pay-as-you-go u istom sistemu." }
+  ],
+  "og_hub_status_title": "Status razvoja",
+  "og_hub_status": [
+    { "label": "Onboarding", "value": 100 },
+    { "label": "Subscribers", "value": 98 },
+    { "label": "Security", "value": 95 },
+    { "label": "Teams / Multi-tenant", "value": 95 },
+    { "label": "Campaign Design", "value": 95 },
+    { "label": "A/B Testing", "value": 90 },
+    { "label": "Tracking", "value": 85 },
+    { "label": "Analytics", "value": 73 },
+    { "label": "AI Optimization (roadmap)", "value": 10 }
+  ],
+  "og_hub_roadmap_title": "Roadmap",
+  "og_hub_roadmap": [
+    "Channel Hub: Viber, SMS i WhatsApp pored email-a",
+    "Napredna AI optimizacija — engagement score + optimal send time + smart segments",
+    "GDPR compliance dokumenti i audit logs",
+    "Marketplace integracija (Mailchimp import već radi, sledeće: HubSpot, Pipedrive)"
+  ],
+  "og_hub_tech_title": "Tech stack",
+  "og_hub_tech": [
+    { "group": "Frontend", "items": ["Vue 3 (Composition API)", "Vue Router 4", "Pinia", "Vue I18n", "Tailwind CSS 3", "GrapesJS + MJML/CKEditor/Newsletter pluginovi", "Chart.js + vue-chartjs", "Vite"] },
+    { "group": "Backend", "items": ["Node.js + Express", "Custom sending-engine/sendWorker.js", "JSDOM + Juice (CSS inlining)", "html2canvas, dom-to-image-more", "PapaParse (CSV)"] },
+    { "group": "Baza & infra", "items": ["Supabase (Postgres + Auth + Storage + RLS + Edge Functions)", "Materialized views (engagement)", "Custom SQL migracije + RPC", "Vercel hosting"] },
+    { "group": "3rd party", "items": ["OpenAI (GPT-4 + DALL-E)", "Stripe (subs + AI Credits)", "AWS SES", "Gmail OAuth", "Google APIs", "Mailchimp OAuth"] }
+  ],
+
+  "og_ai_eyebrow": "Modul · srce platforme",
+  "og_ai_title": "AI alati — 10+ alata duboko u editoru",
+  "og_ai_lead": "Ne samo \"generate copy\" dugme. AI je integrisan u svaki korak kreiranja kampanje — od subject linije do generisanih slika, od popravke koda do dijagnostike pred slanje.",
+  "og_ai_features_title": "Alati u editoru",
+  "og_ai_features": [
+    { "icon": "🪄", "title": "AI Assistant (AIPopup)", "desc": "Univerzalni asistent unutar editora. Generiše tekst, slike, varijante — dostupno iz svakog bloka." },
+    { "icon": "✨", "title": "Generate with AI", "desc": "Generiše ceo email iz kratkog brief-a — subject, telo, CTA, slike." },
+    { "icon": "🧱", "title": "AI Block Generator", "desc": "Generiše pojedinačan blok (hero, content, CTA, footer) sa stilom kampanje." },
+    { "icon": "🪜", "title": "AI Multi Block Wizard", "desc": "Generiše više blokova odjednom u jednom prolazu — najbrži način do prvog drafta." },
+    { "icon": "🛠️", "title": "AI Email Repair", "desc": "Automatski detektuje i popravlja probleme — broken HTML, missing alt, loši linkovi." },
+    { "icon": "🔍", "title": "Content Analyzer", "desc": "Analizira čitljivost, ton i kvalitet teksta. Predlaže poboljšanja u realnom vremenu." },
+    { "icon": "📨", "title": "AI Subject Suggestions", "desc": "Više predloga subject linija sa procenom open-rate potencijala." },
+    { "icon": "🩺", "title": "Campaign Diagnostics", "desc": "Pred slanje — pretraga problema u kampanji, od broken linkova do spam triggera." },
+    { "icon": "🖼️", "title": "AI Image Generator + Gallery", "desc": "DALL-E generisane slike sačuvane po korisniku, sa galerijom za reuse." },
+    { "icon": "💳", "title": "AI Credits sistem", "desc": "Pay-as-you-go billing za AI pozive (BillingAICredits, BuyAICreditsModal, AILimitReachedModal)." }
+  ],
+  "og_ai_how_title": "Kako radi (arhitektura)",
+  "og_ai_how_text": "Svi AI pozivi prolaze kroz backend proxy. API ključ za OpenAI nikad ne ide na frontend. Backend modul `router/ai/aiGenerate.js` validira korisnika, proverava AI Credits balans, šalje request ka OpenAI-u i loguje potrošnju u real-time. Generisane slike se snimaju u Supabase Storage pod `organization_id/user_id` putanjom — RLS kontroliše ko vidi šta.",
+  "og_ai_tech": ["OpenAI GPT-4", "OpenAI DALL-E", "Backend proxy (Express + JWT)", "Supabase Storage", "AI Credits ledger (Postgres + materialized view)", "Stripe za naplatu kredita"],
+  "og_ai_related": [
+    { "icon": "🎨", "title": "Campaign Builder", "desc": "Editor u kome AI alati žive.", "link": "/outreachgenie/campaign-builder" },
+    { "icon": "📤", "title": "Sending & Deliverability AI", "desc": "AI analiza pre slanja — produžetak alata iz editora.", "link": "/outreachgenie/sending" },
+    { "icon": "🛡️", "title": "Teams & sigurnost", "desc": "AI Credits billing, RLS i workspace izolacija.", "link": "/outreachgenie/teams" }
+  ],
+
+  "og_builder_eyebrow": "Modul · vizuelni editor",
+  "og_builder_title": "Campaign Builder — drag-and-drop sa enterprise logikom",
+  "og_builder_lead": "Editor zasnovan na GrapesJS-u sa MJML preset-om, custom blokovima i auto-signature funkcijom. Optimizovan za 13–14\" laptopove i ultrawide monitore.",
+  "og_builder_features_title": "Šta dobijaš u editoru",
+  "og_builder_features": [
+    { "icon": "🧩", "title": "Blocks panel", "desc": "Kategorisani panel: Hero, Content, CTA, Footer, AI blokovi — sa collapsible grupama." },
+    { "icon": "🎚️", "title": "Style panel", "desc": "Profesionalne ikone (paint/gear/grid), responsive editovanje, granular kontrola." },
+    { "icon": "✍️", "title": "Auto Footer Signature", "desc": "Automatski popunjava sender info iz onboardinga — adresa, kompanija, unsubscribe link." },
+    { "icon": "🏷️", "title": "Template variables", "desc": "{first_name}, {last_name}, {email}, {company}, {country} + custom fields iz CSV-a." },
+    { "icon": "📚", "title": "Template Gallery", "desc": "Sačuvane kampanje kao šabloni, dostupne celom workspace-u." },
+    { "icon": "📐", "title": "Responsive editor", "desc": "Desktop / tablet / mobile preview, sa MJML output-om koji proverava razne klijente." }
+  ],
+  "og_builder_how_title": "Šta je ispod haube",
+  "og_builder_how_text": "GrapesJS jezgro + 6 zvaničnih plugin-a (newsletter preset, MJML, CKEditor, Tailwind, Forms, Filestack, Export). Custom layer iznad za AI blokove, auto-signature i Weboro brand sistem. Generisani HTML prolazi kroz Juice za CSS inlining pre slanja, da bi izgledao isto u Outlook-u, Gmail-u i Apple Mail-u.",
+  "og_builder_tech": ["GrapesJS", "MJML", "CKEditor", "Tailwind CSS", "Juice (CSS inlining)", "Filestack (upload)", "JSDOM"],
+  "og_builder_related": [
+    { "icon": "🤖", "title": "AI alati", "desc": "AI generiše blokove i tekst direktno u editoru.", "link": "/outreachgenie/ai-alati" },
+    { "icon": "📤", "title": "Sending Engine", "desc": "Editor → Juice → sending engine → SES/Gmail.", "link": "/outreachgenie/sending" },
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "Različite varijante kampanje testiraju se kroz isti editor.", "link": "/outreachgenie/analytics" }
+  ],
+
+  "og_sending_eyebrow": "Modul · backend infrastruktura",
+  "og_sending_title": "Sending Engine — sopstveni Node worker sa pametnom isporukom",
+  "og_sending_lead": "Bez oslanjanja na SendGrid ili Mailgun. Sopstveni `sending-engine/sendWorker.js` sa rate limiting-om, smart scheduling-om po vremenskim zonama i kompletnim tracking sistemom.",
+  "og_sending_features_title": "Šta engine radi",
+  "og_sending_features": [
+    { "icon": "⏱️", "title": "Rate limiting", "desc": "30s delay između slanja po default-u, prilagodljiv po kampanji i provider-u." },
+    { "icon": "🌍", "title": "Smart Sending", "desc": "Vremenska zona po kontaktu — optimal send time za maksimalan open-rate." },
+    { "icon": "👁️", "title": "Open tracking", "desc": "1×1 piksel preko `/track/open/:id.png`. Logovanje sa IP, user-agent i timestamp-om." },
+    { "icon": "🖱️", "title": "Click tracking", "desc": "Redirect kroz `/track/click/:trackingId/:encodedUrl` sa sigurnim URL kodiranjem." },
+    { "icon": "↩️", "title": "Reply tracking", "desc": "Gmail OAuth integracija — automatska detekcija odgovora i mapiranje na kampanju." },
+    { "icon": "🚫", "title": "Bounce & spam handling", "desc": "Auto-cleanup bounced/spam adresa, complaint feedback loop preko AWS SES." },
+    { "icon": "🛡️", "title": "Deliverability AI", "desc": "Pre slanja: AI analiza subject/content/CTA + spam triggers, color-coded scoring (zeleno/žuto/crveno)." },
+    { "icon": "📧", "title": "Multi-provider", "desc": "Gmail OAuth, AWS SES ili Nodemailer SMTP — workspace bira svoj provider." }
+  ],
+  "og_sending_how_title": "Arhitektura slanja",
+  "og_sending_how_text": "API prima kampanju → upisuje u `campaign_queue` → background worker (`worker.js` + `sending-engine/sendWorker.js`) skida batch-eve, prolazi ih kroz Juice za CSS inlining, dodaje tracking pixele i linkove, šalje preko izabranog provider-a sa rate limiting-om. Tracking eventi (open/click/reply/bounce) idu kroz dedicirane rute i ažuriraju engagement scoring materialized view.",
+  "og_sending_tech": ["Node.js + Express", "Custom worker (sendWorker.js)", "AWS SES", "Gmail OAuth + Google APIs", "Nodemailer", "Juice", "Supabase RPC", "List-Unsubscribe header", "SPF/DKIM/DMARC"],
+  "og_sending_related": [
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "Tracking eventi hrane analytics dashboard.", "link": "/outreachgenie/analytics" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Bounce/unsubscribe automatski čiste listu.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🛡️", "title": "Teams & sigurnost", "desc": "Workspace bira provider, RLS izoluje slanja.", "link": "/outreachgenie/teams" }
+  ],
+
+  "og_subs_eyebrow": "Modul · podaci & GDPR",
+  "og_subs_title": "Subscribers & Engagement — od CSV-a do hot leads-a",
+  "og_subs_lead": "Centralno mesto za upravljanje kontaktima sa engagement scoring-om, custom field-ovima i GDPR consent praćenjem. Dizajnirano da radi sa desetinama hiljada kontakata bez gubitka brzine.",
+  "og_subs_features_title": "Šta sve radi",
+  "og_subs_features": [
+    { "icon": "📥", "title": "ImportWizard (CSV)", "desc": "UPSERT logika, batch operacije, 250× brže od standardnog import-a. Validacija u realnom vremenu." },
+    { "icon": "🏷️", "title": "Grupe, tagovi, custom fields", "desc": "Statički i dinamički segmenti — query builder po bilo kom polju, sa real-time count-om." },
+    { "icon": "🌡️", "title": "Engagement scoring", "desc": "Hot/warm/cold automatsko bodovanje na osnovu otvaranja, klikova i odgovora. Materialized view za real-time pristup." },
+    { "icon": "🧭", "title": "Contact Timeline", "desc": "Istorija svih event-a po kontaktu: sent, open, click, reply, bounce, unsubscribe — vizuelno sortirano." },
+    { "icon": "⚡", "title": "Backend pagination", "desc": "Range queries sa Supabase-om — 5,000+ kontakata u <1s, bez učitavanja celog seta." },
+    { "icon": "🧹", "title": "Cleanup tools", "desc": "Bulk uklanjanje bounced i unsubscribed kontakata, dedup, validacija email formata." },
+    { "icon": "📜", "title": "GDPR consent", "desc": "Beleženje consent timestamp-a, source-a i scope-a. List-Unsubscribe header u svakoj poruci." }
+  ],
+  "og_subs_how_title": "Kako engagement scoring radi",
+  "og_subs_how_text": "Materialized view `contact_engagement_scores` agregira event-e iz `email_events` tabele i preračunava score svakih nekoliko minuta (cron). Score se mapira na 3 buckets-a: hot (>70), warm (30–70), cold (<30). Kada korisnik napravi segment \"samo hot\", query ide direktno preko view-a, bez full table scan-a.",
+  "og_subs_tech": ["Supabase Postgres", "Materialized views", "Range pagination", "PapaParse (CSV)", "RLS policies (organization_id)", "Custom RPC funkcije"],
+  "og_subs_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Smart scheduling koristi engagement score.", "link": "/outreachgenie/sending" },
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "Engagement timeline vizualizovan po kontaktu.", "link": "/outreachgenie/analytics" },
+    { "icon": "🤖", "title": "AI alati", "desc": "AI personalizacija koristi custom field-ove i scoring.", "link": "/outreachgenie/ai-alati" }
+  ],
+
+  "og_analytics_eyebrow": "Modul · insights",
+  "og_analytics_title": "Analytics & A/B — odluke na osnovu podataka",
+  "og_analytics_lead": "Open, click, reply, bounce i conversion rate u realnom vremenu. A/B varijante sa auto-winner-om i izvoz izveštaja za marketing tim.",
+  "og_analytics_features_title": "Šta meriš",
+  "og_analytics_features": [
+    { "icon": "📈", "title": "Campaign Stats", "desc": "Open rate, click rate, reply rate, bounce rate i conversion rate po kampanji i workspace-u." },
+    { "icon": "🌐", "title": "Deliverability Analytics", "desc": "Globalni pregled: koji provider šalje najbolje, koje teme idu u spam, koji domeni imaju problem." },
+    { "icon": "📊", "title": "Vue Chart.js grafikoni", "desc": "Line, bar i donut grafikoni — interaktivni, exportabilni, responsive na sve uređaje." },
+    { "icon": "👤", "title": "Per-recipient view", "desc": "Klikom na kontakt — kompletna timeline aktivnosti i engagement score history." },
+    { "icon": "🅰️", "title": "A/B testing", "desc": "Različite varijante subject-a ili sadržaja, automatsko proglašavanje pobednika po izabranoj metrici." },
+    { "icon": "📑", "title": "Reports & Export", "desc": "Generisanje izveštaja, CSV/PDF export, scheduling po nedelji ili mesecu." }
+  ],
+  "og_analytics_how_title": "Kako podaci putuju",
+  "og_analytics_how_text": "Tracking eventi (open/click/reply/bounce) iz sending engine-a upisuju se u `email_events` tabelu sa timestamp-om i metadata-om. Stats se preračunavaju iz materialized view-a `campaign_stats`, refresh-uje se na 60s. Dashboard koristi Vue Chart.js sa lazy-loaded chunk-ovima — graf se mount-uje tek kada se vidi u viewport-u.",
+  "og_analytics_tech": ["Vue Chart.js", "vue-chartjs", "Supabase materialized views", "Range queries", "CSV/PDF export (jsPDF)", "Realtime channel za live update"],
+  "og_analytics_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Tracking eventi koje vidiš u analytics-u.", "link": "/outreachgenie/sending" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Per-recipient timeline i engagement score.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🎨", "title": "Campaign Builder", "desc": "A/B varijante prave se u istom editoru.", "link": "/outreachgenie/campaign-builder" }
+  ],
+
+  "og_teams_eyebrow": "Modul · enterprise",
+  "og_teams_title": "Teams & sigurnost — multi-tenant od prvog dana",
+  "og_teams_lead": "Organizacije, workspace-ovi, role i Row-Level Security na 9 tabela / 39 policy-ja. Stripe subscriptions plus AI Credits pay-as-you-go u istom sistemu.",
+  "og_teams_features_title": "Enterprise paket",
+  "og_teams_features": [
+    { "icon": "🏢", "title": "Organizacije & workspace-ovi", "desc": "Više workspace-a po organizaciji. Workspace switcher u headeru — promena konteksta u jednom kliku." },
+    { "icon": "👥", "title": "Roles", "desc": "Owner, admin, member — svaka uloga ima svoja ovlašćenja, definisana RLS policy-jem." },
+    { "icon": "✉️", "title": "Email invitations", "desc": "Token-based accept flow. Pozvani korisnik dobija link, klikne, potvrđuje organizaciju i kreće." },
+    { "icon": "🔐", "title": "Row-Level Security", "desc": "39 policies na 9 tabela. Svaki red zna kojoj organizaciji pripada — niko ne vidi tuđe podatke, ni greškom." },
+    { "icon": "🛡️", "title": "JWT auth + backend proxy", "desc": "Sve `/api/*` rute zahtevaju JWT. AI pozivi idu kroz proxy — OpenAI ključ nikad nije na frontu." },
+    { "icon": "📜", "title": "GDPR-ready", "desc": "Consent tracking, List-Unsubscribe header, sanitizacija HTML-a (DOMPurify + sanitize-html), CORS pravila." },
+    { "icon": "💳", "title": "Dual billing", "desc": "Stripe subscriptions za planove + AI Credits za pay-as-you-go AI pozive." },
+    { "icon": "🌐", "title": "DNS Setup Wizard", "desc": "Vodi korisnika kroz SPF, DKIM i DMARC podešavanja za prilagođene domene." }
+  ],
+  "og_teams_how_title": "Sigurnost kao primarni sloj",
+  "og_teams_how_text": "RLS u Supabase-u nije \"plus\" — to je primarni mehanizam izolacije. Svaki resurs ima `organization_id` i policy koja proverava `auth.uid()` protiv članstva. Čak i da neko zaobiđe API, baza ne dozvoljava pristup tuđim podacima. `complete_onboarding()` SECURITY DEFINER RPC obrađuje kritične operacije sa kontrolisanim ovlašćenjima.",
+  "og_teams_tech": ["Supabase Auth + RLS", "JWT", "SECURITY DEFINER RPC", "Stripe Billing", "Stripe Customer Portal", "DOMPurify", "sanitize-html", "Token-based invitations"],
+  "og_teams_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Workspace izoluje provider-e i isporuku.", "link": "/outreachgenie/sending" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Svaka organizacija ima svoju listu — RLS to štiti.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🤖", "title": "AI alati", "desc": "AI Credits se vode po organizaciji.", "link": "/outreachgenie/ai-alati" }
+  ],
+
+  "mg_home_badge": "Magento 2 / Adobe Commerce",
+  "mg_home_eyebrow": "Enterprise eCommerce · preuzimanje & razvoj shopova",
+  "mg_home_title": "Prodavnice koje izdrže katalog, saobraćaj i godine održavanja",
+  "mg_home_lead": "Fokus na razvoju Magento 2 shopova, stabilan checkout, integracije (ERP, plaćanja, kuriri) i arhitekturu koju drugi tim može da nastavi. Hyvä, performanse i jasan SLA — bez magle.",
+  "mg_home_kpis": [
+    "Magento 2.4.x",
+    "Hyvä / headless spremno",
+    "ERP & CRM integracije",
+    "Staging → produkcija pipeline"
+  ],
+  "mg_home_cta_hub": "Magento usluge — pregled",
+  "mg_home_cta_audit": "Zatraži audit prodavnice",
+  "mg_home_flow_aria": "Tok od kataloga do ERP-a: katalog, korpa, checkout, porudžbina, ERP",
+  "mg_home_flow_catalog": "Katalog",
+  "mg_home_flow_cart": "Korpa",
+  "mg_home_flow_checkout": "Checkout",
+  "mg_home_flow_order": "Porudžbina",
+  "mg_home_flow_erp": "ERP",
+  "mg_home_modules_title": "Šest linija rada oko Magento shopa",
+  "mg_home_modules_subtitle": "Svaka linija je posebna usluga — uskoro detaljne stranice za migracije, integracije, performanse, frontend, održavanje i B2B. Za sada sve vodi na pregled Magento usluga.",
+  "mg_home_modules": [
+    {
+      "icon": "🔄",
+      "tag": "Migracije",
+      "title": "Migracije & upgrade",
+      "desc": "M1 → M2, platformski skokovi, migracija podataka i bezbedan go-live.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🔌",
+      "tag": "Integracije",
+      "title": "Moduli & API",
+      "desc": "ERP, plaćanja, kuriri, PIM — čist kod i dokumentovani ugovori.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "⚡",
+      "tag": "Performanse",
+      "title": "Brzina & hosting",
+      "desc": "Varnish, Redis, Elasticsearch, indeksi — prodavnica koja ne „guši“.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🎨",
+      "tag": "Frontend",
+      "title": "Hyvä & UX",
+      "desc": "Hyvä tema, Core Web Vitals i storefront koji prodaje.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🛡️",
+      "tag": "Održavanje",
+      "title": "SLA & patch-evi",
+      "desc": "Security patch-evi, monitoring, backup — znaš šta dobijaš.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🏢",
+      "tag": "B2B",
+      "title": "B2B rešenja",
+      "desc": "Company accounts, ponude, deljeni katalozi i složeni cenovnici.",
+      "link": "/usluge/magento"
+    }
+  ],
+  "mg_home_trust_title": "Tehnologije koje često spajamo sa Magento-om",
+  "mg_home_trust": [
+    "Adobe Commerce",
+    "Hyvä",
+    "Elasticsearch",
+    "Redis",
+    "Varnish",
+    "RabbitMQ",
+    "MySQL / MariaDB",
+    "GraphQL",
+    "Stripe / Adyen",
+    "Docker"
+  ],
+
+  "mg_hub_breadcrumb_home": "Weboro",
+  "mg_hub_breadcrumb_self": "Magento 2",
+  "mg_hub_badge": "Magento 2 / Adobe Commerce",
+  "mg_hub_eyebrow": "Enterprise eCommerce · razvoj, preuzimanje i održavanje",
+  "mg_hub_title": "Magento 2 prodavnica koja izdrži katalog, saobraćaj i godine održavanja",
+  "mg_hub_lead": "Gradimo, preuzimamo i održavamo Magento 2 shopove sa fokusom na stabilan checkout, jasne integracije (ERP, plaćanja, kuriri) i kod koji drugi tim može da nastavi. Bez magle — Hyvä, performanse i transparentan SLA.",
+  "mg_hub_kpis": [
+    "Magento 2.4.7-p1",
+    "Hyvä / headless spremno",
+    "ERP & CRM integracije",
+    "Security patch SLA",
+    "Staging → produkcija pipeline"
+  ],
+  "mg_hub_cta_brief": "Pošalji brief",
+  "mg_hub_cta_explore": "Istraži usluge",
+  "mg_hub_coming_soon": "Detaljna stranica uskoro",
+  "mg_hub_flow_aria": "Tok od kataloga do ERP-a sa povezanim sistemima",
+  "mg_hub_flow_catalog": "Katalog",
+  "mg_hub_flow_cart": "Korpa",
+  "mg_hub_flow_checkout": "Checkout",
+  "mg_hub_flow_order": "Porudžbina",
+  "mg_hub_flow_erp": "ERP",
+  "mg_hub_flow_wms": "WMS",
+  "mg_hub_flow_carrier": "Kurir",
+  "mg_hub_flow_crm": "CRM",
+  "mg_hub_stats_title": "Šta praktično dobijaš",
+  "mg_hub_stats": [
+    { "value": "2.4.7-p1", "label": "Verzija koju aktivno održavamo" },
+    { "value": "<2s", "label": "Cilj LCP na PDP-u (Hyvä build)" },
+    { "value": "24-72h", "label": "SLA za bezbednosne patch-eve" },
+    { "value": "10+ god", "label": "Iskustvo sa Magento ekosistemom" }
+  ],
+  "mg_hub_services_title": "Šest linija rada oko Magento shopa",
+  "mg_hub_services_subtitle": "Možeš nas angažovati za jednu liniju ili kompletan paket. Svaka linija ima jasan ulaz, deliverable i nastavak — detaljne stranice za svaku stižu uskoro.",
+  "mg_hub_services": [
+    { "icon": "🔄", "tag": "Migracije", "title": "Migracije & upgrade", "desc": "M1 → M2, platformski skokovi i bezbedan go-live.", "anchor": "#migracije" },
+    { "icon": "🔌", "tag": "Integracije", "title": "Moduli & API", "desc": "ERP, plaćanja, kuriri, PIM — čist kod i ugovori.", "anchor": "#integracije" },
+    { "icon": "⚡", "tag": "Performanse", "title": "Brzina & hosting", "desc": "Varnish, Redis, Elasticsearch, indeksi.", "anchor": "#performanse" },
+    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, storefront koji prodaje.", "anchor": "#frontend" },
+    { "icon": "🛡️", "tag": "Održavanje", "title": "SLA & patch-evi", "desc": "Security patch-evi, monitoring, backup.", "anchor": "#odrzavanje" },
+    { "icon": "🏢", "tag": "B2B", "title": "B2B rešenja", "desc": "Company accounts, ponude, deljeni katalozi.", "anchor": "#b2b" }
+  ],
+  "mg_hub_lines": [
+    {
+      "anchorId": "migracije",
+      "number": "01",
+      "tag": "Migracije",
+      "title": "Migracije & upgrade — bez panike na go-live noći",
+      "desc": "M1 → M2, major skokovi između 2.4.x verzija, prelazak sa drugih platformi. Pre-launch radimo regression i load test, posle launch-a smo u kanalu sa tobom 48–72h.",
+      "bullets": [
+        { "title": "Magento 1 → Magento 2", "desc": "Strategija, čišćenje extension-a, Data Migration Tool i custom skripte za sve što tool ne pokriva." },
+        { "title": "Major upgrade (npr. 2.4.5 → 2.4.7-p1)", "desc": "Composer audit, paket-by-paket analiza, regression testovi, jasan rollback plan." },
+        { "title": "Iz drugih platformi", "desc": "Shopify, WooCommerce ili custom u Magento — sa preserve SEO struktura i 301 mapama." },
+        { "title": "Pre-launch QA & load test", "desc": "Realni saobraćaj kroz k6 / JMeter, Lighthouse i Magento health check." },
+        { "title": "Go-live & post-launch hyper-care", "desc": "Praćenje 48–72h posle launch-a, brzo gašenje pravih požara." }
+      ]
+    },
+    {
+      "anchorId": "integracije",
+      "number": "02",
+      "tag": "Integracije",
+      "title": "Custom moduli & integracije sa svetom — bez „spaghetti“ koda",
+      "desc": "ERP, CRM, plaćanja, kuriri, PIM — sve što tvoj shop treba da razgovara sa stvarnim biznisom. Pišemo modulima koje drugi tim može da nastavi i dokumentujemo ugovore (REST/GraphQL/SOAP).",
+      "bullets": [
+        { "title": "ERP (SAP, MS Dynamics, Pantheon, Calculus)", "desc": "Sinhronizacija proizvoda, zaliha, cenovnika, porudžbina i kupaca u oba smera." },
+        { "title": "CRM & marketing (HubSpot, Klaviyo, Mailchimp, Pipedrive)", "desc": "Customer events, abandoned cart, segmentacija — bez prepisivanja po pet mesta." },
+        { "title": "Plaćanja (Stripe, Adyen, AllSecure, IPS)", "desc": "PSP integracije, 3D Secure 2, recurring i refunds — ispravno mapirano na Magento order state." },
+        { "title": "Kuriri (Pošta, BEX, DHL, In Time, AKS, GLS)", "desc": "Auto-generisanje labela, tracking statusi u Magento i email notifikacije kupcu." },
+        { "title": "PIM / WMS / vlastiti API", "desc": "Akeneo, Pimcore ili custom — sa monitoringom integracije (queue depth, error alerting)." },
+        { "title": "Custom REST / GraphQL slojevi", "desc": "Kada postojeći Magento API nije dovoljan — pišemo svoje endpoints sa OpenAPI dokumentacijom." }
+      ]
+    },
+    {
+      "anchorId": "performanse",
+      "number": "03",
+      "tag": "Performanse",
+      "title": "Brzina i hosting — prodavnica koja se ne „guši“ u špicu",
+      "desc": "Varnish, Redis, Elasticsearch, profilisanje i image CDN — sve što treba da TTFB i LCP ostanu dobri pod realnim saobraćajem (ne samo na lokalnom dev-u).",
+      "bullets": [
+        { "title": "Varnish & Full Page Cache", "desc": "VCL pravila prilagođena tvom shop-u, ESI za korpu i mini-cart." },
+        { "title": "Redis za cache + sessions", "desc": "Razdvojene baze, persist tuning, monitoring memory pressure." },
+        { "title": "Elasticsearch tuning & indexer audit", "desc": "Catalog rule indexer, fulltext i price — kontrolisano i bez „index storm-a“." },
+        { "title": "Image CDN i LCP optimizacija", "desc": "WebP/AVIF pipeline, lazy loading, responsive srcset i HTTP/2 push gde treba." },
+        { "title": "Profiling sa Blackfire / New Relic", "desc": "Ne „po osećaju“ — sa konkretnim profilima sporih requestova." },
+        { "title": "Hosting — Adobe Commerce Cloud ili dedicated", "desc": "Saveti i podešavanje za AWS / Hetzner / DO sa pravilnom skalabilnošću." }
+      ]
+    },
+    {
+      "anchorId": "frontend",
+      "number": "04",
+      "tag": "Frontend",
+      "title": "Hyvä, Core Web Vitals i UX koji prodaje",
+      "desc": "Frontend koji se brzo učita i ne ljuti Google. Default biramo Hyvä, ali umemo i Luma optimizaciju kao i headless / PWA pristupe.",
+      "bullets": [
+        { "title": "Hyvä Theme (preporuka)", "desc": "Tailwind + Alpine.js, 60–80% manji JS bundle, lakši za održavanje." },
+        { "title": "Luma optimizacija", "desc": "Kada postojeći shop ima 50+ extension-a bez Hyvä compat — optimizujemo Luma do max." },
+        { "title": "Headless / PWA Studio", "desc": "Magento kao backend, Vue / React storefront — kada UX zahteva više od klasičnog teme." },
+        { "title": "Core Web Vitals fokus", "desc": "LCP, INP, CLS — uvek u fokusu, sa Lighthouse + RUM merenjem." },
+        { "title": "Custom theme & UX", "desc": "Konverzija po stranicama (PDP, PLP, checkout) — A/B testovi posle launch-a." }
+      ]
+    },
+    {
+      "anchorId": "odrzavanje",
+      "number": "05",
+      "tag": "Održavanje",
+      "title": "SLA i patch-evi — bez „iznenađenja u petak uveče“",
+      "desc": "Magento ekosistem se brzo menja — security patch-evi, deprecation-i, ASRTOOLS-evi. Mi to pratimo umesto tebe i odgovaramo u dogovorenom SLA.",
+      "bullets": [
+        { "title": "Magento security patch SLA", "desc": "Critical: 24h. High: 72h. Medium/Low: u sledećem release prozoru." },
+        { "title": "Monitoring (uptime, error rate, queue depth)", "desc": "Sentry + UptimeRobot + custom Magento dashboards." },
+        { "title": "Backup (DB + media, off-site)", "desc": "Automatski daily, off-site retention i restore drill svaka 3 meseca." },
+        { "title": "Mesečni health check + report", "desc": "Performanse, security, queue health, error trend — pisani report svakog meseca." },
+        { "title": "Hitne intervencije (on-call paket)", "desc": "Telefon van radnog vremena za stvari koje stvarno gore." }
+      ]
+    },
+    {
+      "anchorId": "b2b",
+      "number": "06",
+      "tag": "B2B",
+      "title": "B2B prodaja — kompanije, ponude, složeni cenovnici",
+      "desc": "Magento Open Source nema sve B2B feature-e koje Adobe Commerce ima — pa pišemo ono što ti treba ili koristimo Adobe Commerce kada je opravdano.",
+      "bullets": [
+        { "title": "Company accounts & roles", "desc": "Više korisnika po kompaniji, custom uloge, approval flow za velike porudžbine." },
+        { "title": "Negotiable quotes / RFQ", "desc": "Kupac traži ponudu, sales tim odgovara — sve u Magento panelu." },
+        { "title": "Shared catalogs & pricing tiers", "desc": "Različiti cenovnici po kompaniji ili segmentu, tier discount-i, ERP-driven cene." },
+        { "title": "Multi-store / multi-website", "desc": "Više brendova ili tržišta na istom Magento install-u — sa odvojenim domenom, jezikom, cenom." },
+        { "title": "PunchOut & EDI integracije", "desc": "Kada B2B kupac dolazi iz svog ERP-a — radimo PunchOut Catalog ili EDI." }
+      ]
+    }
+  ],
+  "mg_hub_process_title": "Kako radimo",
+  "mg_hub_process_subtitle": "Pet koraka koja se ponavljaju — bilo da gradimo novu prodavnicu ili preuzimamo postojeću.",
+  "mg_hub_process": [
+    { "title": "Audit", "desc": "Pregled koda, kataloga, integracija, hostinga i SEO-a. Vraćamo se sa konkretnom listom rizika." },
+    { "title": "Arhitektura", "desc": "Theme/module strategija, environments (dev/staging/prod), CI/CD, branch model." },
+    { "title": "Razvoj", "desc": "Feature po feature, code review, automated testovi, jasna release strategija." },
+    { "title": "QA & staging", "desc": "Funkcionalni, regression, load i UAT testovi pre svakog go-live-a." },
+    { "title": "Launch & care", "desc": "Praćenje posle launch-a, security patch-evi, mesečni health check, on-call paket." }
+  ],
+  "mg_hub_tech_title": "Tech stack koji koristimo na Magento projektima",
+  "mg_hub_tech_subtitle": "Birano da prati Magento ekosistem i da bude lako za nastavak — bez egzotičnih izbora „samo da bude drugačije“.",
+  "mg_hub_tech_groups": [
+    { "label": "Magento core", "items": ["Magento 2.4.x", "Adobe Commerce", "Composer", "n98-magerun2"] },
+    { "label": "Frontend", "items": ["Hyvä", "PWA Studio", "Vue Storefront", "Tailwind", "Alpine.js"] },
+    { "label": "Search & cache", "items": ["Elasticsearch 8", "Redis", "Varnish", "Full Page Cache"] },
+    { "label": "Queue & data", "items": ["RabbitMQ", "MySQL / MariaDB", "GraphQL", "REST"] },
+    { "label": "DevOps", "items": ["Docker", "Adobe Commerce Cloud", "GitHub Actions", "Sentry"] },
+    { "label": "Profiling", "items": ["Blackfire", "New Relic", "Lighthouse", "k6"] }
+  ],
+  "mg_hub_faq_title": "Najčešća pitanja",
+  "mg_hub_faq_subtitle": "Odgovori koje dajemo i klijentima u prvom Zoom pozivu.",
+  "mg_hub_faq": [
+    { "q": "Zašto Magento 2 a ne Shopify ili WooCommerce?", "a": "Magento ti daje vlasništvo nad podacima i potpunu kontrolu nad katalogom, cenovnicima i custom logikom — bez mesečnih platformskih taksi tipa Shopify Plus. Kada shop preraste 5–10k SKU, multistore i složene B2B/B2C scenarije, Magento se isplati. Za manje shopove koje vodi marketing tim — Shopify ili WooCommerce su često bolji izbor." },
+    { "q": "Hyvä ili Luma — šta preporučujete?", "a": "Default Hyvä za nove shopove i veliki deo redizajna. Hyvä je 3–5× brži od Luma, build je kraći, a development manje bolan. Luma optimizujemo samo kada ima razlog (npr. veliki broj postojećih custom modula bez Hyvä compat sloja)." },
+    { "q": "Koliko traje migracija sa M1 na M2?", "a": "Realan opseg: 8–20 nedelja, u zavisnosti od broja extension-a, custom logike i potrebne data migracije. Pre nego što kažemo broj radimo audit (1–2 nedelje) i tek onda dajemo timeline koji se drži." },
+    { "q": "Koliko košta razvoj ili migracija?", "a": "Posle audit-a dajemo fixed price ili T&M sa ceiling-om. Za migracije obično idemo fixed price, jer je obim jasan; za nove razvoje T&M sa sprint pricing-om radi bolje." },
+    { "q": "Kakvu podršku posle launch-a nudite?", "a": "Tri SLA paketa: Bronze (best-effort, kvartalni health check), Silver (mesečni health check + security patch-evi u 72h), Gold (24/7 on-call + mesečni release prozor). Detalje šaljemo posle prvog poziva." },
+    { "q": "Da li radite GDPR i PCI compliance?", "a": "Da. GDPR: data retention politike, anonymization skripte, cookie consent integracije. PCI: nikad ne čuvamo broj kartice — koristimo Stripe/Adyen/AllSecure tokenizaciju, plus konfigurišemo TLS, headers i logging po PCI DSS 4.0 zahtevima." }
+  ],
+  "mg_hub_final_cta_title": "Tvoja Magento prodavnica zaslužuje audit",
+  "mg_hub_final_cta_desc": "Pošalji nam URL i kratak opis — vraćamo se za 2–3 radna dana sa pisanim audit izveštajem (rizici, performanse, code health, integracioni dug).",
+  "mg_hub_final_cta_btn": "Pošalji brief",
+
+  "platforms_title": "Magento, WordPress i custom web",
+  "platforms_intro": "Biramo tehnologiju prema obimu, budžetu i timu koji će održavati sistem — od enterprise prodavnica do brzih marketing sajtova i potpuno prilagođenih proizvoda.",
+  "platforms_mockup_note": "Ovde možemo kasnije dodati screenshot-e projekata ili video walkthrough.",
+  "platforms_cta": "Započni projekat",
+
+  "platforms_cards": [
+    {
+      "badge": "Magento 2",
+      "title": "Enterprise eCommerce",
+      "desc": "Za velike kataloge, B2B/B2C i složene integracije.",
+      "bullets": [
+        "Performanse i skalabilnost",
+        "ERP, plaćanja, kuriri",
+        "Teme, moduli i održavanje"
+      ],
+      "link": "/usluge/magento"
+    },
+    {
+      "badge": "WordPress",
+      "title": "Sajtovi i manje prodavnice",
+      "desc": "CMS koji marketing tim može sam da vodi.",
+      "bullets": [
+        "Brz lansman i SEO struktura",
+        "WooCommerce kada treba prodaja",
+        "Bezbednost i backup rutine"
+      ],
+      "link": "/usluge/wordpress"
+    },
+    {
+      "badge": "Custom",
+      "title": "Vue & API po meri",
+      "desc": "Kada treba jedinstven UX, dashboard ili SaaS.",
+      "bullets": [
+        "Vue 3 + moderan stack",
+        "Integracije (Stripe, AI, CRM)",
+        "Produkcija i monitoring"
+      ],
+      "link": "/usluge/custom-web"
+    }
+  ],
 
   "marketing_title": "📣 Marketing & Outreach Sistemi",
   "marketing_desc": "Pomažemo brendovima da rastu kroz <strong>digitalne strategije</strong>, alate i automatizaciju.",
@@ -96,8 +721,8 @@
       "desc": "Vue.js, Supabase, Stripe i AI integracije."
     },
     {
-      "title": "🛒 Shopify & WordPress",
-      "desc": "eCommerce rešenja za brendove svih veličina."
+      "title": "🛒 Magento, WordPress & custom",
+      "desc": "Od enterprise prodavnica do fleksibilnih sajtova i Vue aplikacija po meri."
     },
     {
       "title": "🎨 UI/UX & Branding",
@@ -123,8 +748,8 @@
     "Supabase",
     "Tailwind CSS",
     "Magento 2",
-    "Shopify",
     "WordPress",
+    "Custom web (Vue)",
     "Figma",
     "Google Ads & Analytics",
     "Stripe",
@@ -153,7 +778,7 @@
   "about_timeline": [
     { "year": "2022", "text": "Početak — freelancing i prvi projekti." },
     { "year": "2023", "text": "Razvijen OutreachGenie kao SaaS alat." },
-    { "year": "2024", "text": "Širenje usluga na Shopify i eCommerce projekte." },
+    { "year": "2024", "text": "Širenje na Magento, WordPress i custom web projekte." },
     { "year": "2025", "text": "Formiranje Weboro tima i lansiranje portfolija." }
   ],
 
@@ -182,7 +807,7 @@
   "portfolio_categories": ["Sve", "SaaS", "eCommerce", "Web dizajn", "Video", "Marketing"],
   "portfolio_projects": [
     { "title": "OutreachGenie", "desc": "AI SaaS alat za generisanje cold email poruka", "category": "SaaS" },
-    { "title": "LumaWear", "desc": "Shopify eCommerce prodavnica za modni brend", "category": "eCommerce" },
+    { "title": "LumaWear", "desc": "eCommerce prodavnica za modni brend", "category": "eCommerce" },
     { "title": "Print Studio", "desc": "WordPress sajt za štampariju", "category": "Web dizajn" },
     { "title": "Copla Weekend House", "desc": "Landing sajt + booking funkcionalnost", "category": "Web dizajn" },
     { "title": "Weboro Reels", "desc": "Video produkcija za društvene mreže", "category": "Video" },
@@ -246,28 +871,11 @@
 
   "blog_post1_title": "Kako smo razvili OutreachGenie SaaS",
   "blog_post1_excerpt": "Od ideje do produkta — naš proces gradnje AI SaaS alata.",
-  "blog_post2_title": "Zašto koristimo Shopify za eCommerce",
-  "blog_post2_excerpt": "Prednosti, skalabilnost i brzina razvoja sa Shopify platformom.",
+  "blog_post2_title": "Magento vs WordPress za prodaju",
+  "blog_post2_excerpt": "Kada izabrati enterprise Magento, a kada brzi WordPress / WooCommerce.",
   "blog_post3_title": "Video sadržaj koji prodaje",
   "blog_post3_excerpt": "Kako kreirati sadržaj koji povećava konverzije na mrežama.",
 
-  "service_ecommerce_title": "eCommerce Rešenja",
-  "service_ecommerce_subtitle": "Gradimo brze i skalabilne online prodavnice koristeći Shopify i WordPress.",
-  "service_ecommerce_intro": "Naša eCommerce rešenja pomažu brendovima da brzo izađu na tržište bez kompromisa na kvalitetu.",
-  "service_ecommerce_benefits_title": "Šta dobijaš",
-  "service_ecommerce_benefit1": "Brz izlazak na tržište",
-  "service_ecommerce_benefit2": "Skalabilna i sigurna infrastruktura",
-  "service_ecommerce_benefit3": "Integracije sa CRM-ovima, AI-jem i alatima za marketing",
-  "service_ecommerce_process_title": "Kako radimo",
-  "service_ecommerce_step1": "Analiza brenda i tržišta",
-  "service_ecommerce_step2": "Dizajn i UX prilagođen publici",
-  "service_ecommerce_step3": "Razvoj i povezivanje sistema",
-  "service_ecommerce_step4": "Lansiranje i kontinuirana podrška",
-  "service_ecommerce_cta_title": "Spreman da pokreneš prodavnicu?",
-  "service_ecommerce_cta_subtitle": "Pošalji nam upit i napravi svoj online brend.",
-  "service_ecommerce_cta_button": "Počni projekat",
-
-  "service_social_title": "Social Media Marketing",
   "service_social_subtitle": "Gradimo prisustvo brendova na Instagramu, TikToku i Facebooku kroz sadržaj, strategije i oglašavanje.",
   "service_social_intro": "Kreiramo i upravljamo kampanjama na društvenim mrežama uz fokus na strategiju, sadržaj i rast zajednice.",
   "service_social_benefit1_title": "⚡ Brz izlazak na tržište",
@@ -332,8 +940,13 @@
   "service_video_cta_subtitle": "Pošalji nam upit i pretvori svoju priču u snažan vizuelni sadržaj.",
   "service_video_cta_button": "Pošalji upit",
 
-  "footer_rights": "© 2025 Weboro. Sva prava zadržana.",
+  "footer_rights": "© 2026 Weboro. Sva prava zadržana.",
   "footer_outreach": "OutreachGenie",
-  "footer_lumawear": "LumaWear",
-  "footer_contact": "Kontakt"
+  "footer_lumawear": "Portfolio",
+  "footer_contact": "Kontakt",
+  "footer_tagline": "Smart digital solutions — od SaaS-a i web platformi do marketinga i videa.",
+  "footer_col_services": "Usluge",
+  "footer_col_company": "Kompanija",
+  "footer_col_projects": "Projekti",
+  "footer_home": "Početna"
 }

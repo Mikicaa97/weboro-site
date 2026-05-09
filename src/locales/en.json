@@ -10,12 +10,93 @@
   "cta_start": "Start a Project",
   "cta_portfolio": "View Portfolio",
   "cta_send_inquiry": "Send Inquiry",
+  "learn_more": "Learn more",
 
-  "service_outreach_title": "OutreachGenie.AI (SaaS)",
-  "service_outreach_desc": "AI tool for cold email personalization.",
+  "service_outreach_title": "OutreachGenie (SaaS)",
+  "service_outreach_desc": "AI email marketing, cold outreach, and campaigns.",
 
-  "service_ecommerce_title": "eCommerce Solutions",
-  "service_ecommerce_desc": "Shopify and WordPress stores.",
+  "service_web_hub_title": "Web & commerce",
+  "service_web_hub_subtitle": "Magento, WordPress, and custom builds — one team.",
+  "service_web_hub_intro": "We pick the stack for your business: enterprise Magento 2 stores, flexible WordPress sites, and bespoke Vue/API products.",
+  "service_web_hub_cta_title": "Not sure what fits?",
+  "service_web_hub_cta_subtitle": "Together we define architecture and roadmap — from MVP to scale.",
+  "service_web_hub_cta_button": "Book a call",
+
+  "service_magento_title": "Magento 2",
+  "service_magento_desc": "Enterprise eCommerce, integrations, and performance.",
+  "service_magento_subtitle": "Robust B2B and B2C stores that handle traffic, catalogs, and complexity.",
+  "service_magento_intro": "We build and maintain Magento 2 stores focused on checkout speed, SEO, integrations (ERP, CRM, payments), and maintainable code.",
+  "service_magento_benefits_title": "What you get",
+  "service_magento_benefit1_title": "Scale",
+  "service_magento_benefit1_desc": "Large catalogs, multi-store, and advanced pricing models.",
+  "service_magento_benefit2_title": "Integrations",
+  "service_magento_benefit2_desc": "ERP, warehouses, carriers, payments, and custom API layers.",
+  "service_magento_benefit3_title": "Performance",
+  "service_magento_benefit3_desc": "Caching, query tuning, and reliable deployment pipelines.",
+  "service_magento_process_title": "How we work",
+  "service_magento_step1": "Requirements, catalog, and integration audit",
+  "service_magento_step2": "Theme/module architecture and environments",
+  "service_magento_step3": "Development, QA, and staging",
+  "service_magento_step4": "Launch, monitoring, and maintenance",
+  "service_magento_cta_title": "Magento project?",
+  "service_magento_cta_subtitle": "Send a short brief — we reply with approach and timeline.",
+  "service_magento_cta_button": "Send inquiry",
+
+  "service_wordpress_title": "WordPress",
+  "service_wordpress_desc": "Sites, blogs, landing pages, and WooCommerce.",
+  "service_wordpress_subtitle": "Fast web presence with a CMS your marketing team can own.",
+  "service_wordpress_intro": "We use WordPress for corporate sites, portfolios, blogs, and smaller shops — clean themes, performance, and security best practices.",
+  "service_wordpress_benefits_title": "What you get",
+  "service_wordpress_benefit1_title": "Speed to launch",
+  "service_wordpress_benefit1_desc": "From wireframes to production in short iterations.",
+  "service_wordpress_benefit2_title": "SEO & content",
+  "service_wordpress_benefit2_desc": "Structure that supports organic growth and easy updates.",
+  "service_wordpress_benefit3_title": "Growth path",
+  "service_wordpress_benefit3_desc": "WooCommerce and integrations when you need sales without jumping to Magento yet.",
+  "service_wordpress_process_title": "How we work",
+  "service_wordpress_step1": "Brief, IA, and wireframes",
+  "service_wordpress_step2": "Design system and theme development",
+  "service_wordpress_step3": "Content, forms, analytics, and SEO setup",
+  "service_wordpress_step4": "Launch, team training, and support",
+  "service_wordpress_cta_title": "WordPress site?",
+  "service_wordpress_cta_subtitle": "Reach out with references and deadlines.",
+  "service_wordpress_cta_button": "Send inquiry",
+
+  "service_custom_web_title": "Custom web",
+  "service_custom_web_desc": "Vue, APIs, dashboards, and headless setups.",
+  "service_custom_web_subtitle": "When a CMS or template is not enough — we build a product tailored to you.",
+  "service_custom_web_intro": "Vue 3, modern frontends, REST/GraphQL, Supabase or custom backends — for SaaS, internal tools, portals, and marketing experiences that need a unique UX.",
+  "service_custom_web_benefits_title": "What you get",
+  "service_custom_web_benefit1_title": "A product, not a template",
+  "service_custom_web_benefit1_desc": "Components, design system, and code you own.",
+  "service_custom_web_benefit2_title": "Performance",
+  "service_custom_web_benefit2_desc": "Lazy loading, production-grade builds, measurable Core Web Vitals.",
+  "service_custom_web_benefit3_title": "Integrations",
+  "service_custom_web_benefit3_desc": "Stripe, auth, AI services, CRM — whatever must connect.",
+  "service_custom_web_process_title": "How we work",
+  "service_custom_web_step1": "Product discovery and technical plan",
+  "service_custom_web_step2": "UX/UI design and prototype",
+  "service_custom_web_step3": "Iterative development with preview environments",
+  "service_custom_web_step4": "Launch, observability, and iterations",
+  "service_custom_web_cta_title": "Custom build?",
+  "service_custom_web_cta_subtitle": "Describe the problem — we propose stack and MVP scope.",
+  "service_custom_web_cta_button": "Send inquiry",
+
+  "service_growth_page_title": "Growth & outreach",
+  "service_growth_page_subtitle": "Campaigns, automation, and tooling that connect marketing and sales.",
+  "service_growth_page_intro": "We help with cold email sequences, newsletters, lead nurturing, and CRM wiring — including platforms like OutreachGenie when you need enterprise-grade workflows.",
+  "service_growth_page_benefits_title": "Where we help",
+  "service_growth_page_b1_title": "Outreach",
+  "service_growth_page_b1_desc": "Messages that sound human and pass technical checks.",
+  "service_growth_page_b2_title": "Automation",
+  "service_growth_page_b2_desc": "Triggers, segments, and integrations between tools.",
+  "service_growth_page_b3_title": "Measurement",
+  "service_growth_page_b3_desc": "Clear KPIs and reporting so you know what to scale.",
+  "service_growth_page_note": "For our AI SaaS platform, see OutreachGenie on the home page.",
+  "service_growth_page_cta": "Send inquiry",
+
+  "service_ecommerce_title": "Web & commerce",
+  "service_ecommerce_desc": "Magento, WordPress, and custom solutions.",
 
   "service_social_title": "Social Media Marketing",
   "service_social_desc": "Strategies and profile management.",
@@ -37,25 +118,569 @@
 
   "hero_brand": "Weboro",
   "hero_subbrand": "Smart Digital Solutions",
-  "hero_title": "We turn ideas into <span class='text-yellow-400'>digital products</span>",
-  "hero_desc": "SaaS platforms, eCommerce systems, branding, video production and growth strategies — everything you need to take your business global.",
+  "hero_eyebrow": "Digital studio · Belgrade",
+  "hero_title": "We build <span class=\"text-yellow-400\">digital products</span> that work for your business",
+  "hero_desc": "SaaS platforms, Magento and WordPress sites, custom web, branding and growth — everything you need to make digital work.",
   "hero_cta_start": "Start a project",
   "hero_cta_portfolio": "View portfolio",
+  "hero_metric1_value": "10+",
+  "hero_metric1_label": "AI tools in our SaaS",
+  "hero_metric2_value": "20+",
+  "hero_metric2_label": "shipped projects",
+  "hero_metric3_value": "4+",
+  "hero_metric3_label": "years in digital",
+  "hero_visual_caption": "Live: outreachgenie.com",
+  "hero_clients_label": "Selected projects & clients",
+  "hero_scroll": "Scroll",
 
   "outreach_title": "Our internal SaaS tool",
   "outreach_desc1": "Our internal SaaS tool that has helped thousands of freelancers, agencies, and consultants write personalized and effective cold emails.",
   "outreach_desc2": "Integrated with OpenAI, Vue.js and Supabase – OutreachGenie saves time and increases response rates.",
   "outreach_cta": "View more",
   "outreach_video_placeholder": "Video demo of the app goes here",
+  "og_video_coming_soon_eyebrow": "Video demo · coming soon",
+  "og_video_coming_soon_desc": "We're recording a full walkthrough — it lands here soon.",
 
-  "shopify_title": "Shopify eCommerce",
-  "shopify_desc": "We build <span class='text-white font-semibold'>fast and scalable eCommerce systems</span> using <strong>Shopify</strong>.",
-  "shopify_bullet1": "Fast go-to-market without losing quality",
-  "shopify_bullet2": "Ideal for startups, eCommerce brands and agencies",
-  "shopify_bullet3": "Connect with CRMs, Google Sheets, AI and more",
-  "shopify_cta": "Start your project",
-  "shopify_badge": "Shopify",
-  "shopify_mockup_placeholder": "UI preview goes here (mockup or video)",
+  "og_flagship_badge": "Flagship project",
+  "og_section_eyebrow": "Our SaaS product · outreachgenie.com",
+  "og_section_title": "OutreachGenie — the AI email marketing platform we build and ship",
+  "og_section_lead": "An enterprise-grade SaaS with AI in every step. A direct competitor to MailerLite, Mailchimp and Lemlist — with sharper AI personalization, our own sending engine and multi-tenant architecture from day one.",
+  "og_section_cta_demo": "Try the live demo",
+  "og_section_cta_hub": "Full platform overview",
+  "og_section_cta_inquiry_title": "Want a platform like this for your business?",
+  "og_section_cta_inquiry_desc": "We build SaaS products from idea to production — with AI, billing, multi-tenancy and deliverability covered.",
+  "og_section_cta_inquiry_btn": "Send inquiry",
+
+  "og_stats_title": "Numbers behind the platform",
+  "og_stats": [
+    { "value": "10+", "label": "AI tools in the editor" },
+    { "value": "5,000+", "label": "contacts, search <1s" },
+    { "value": "39", "label": "RLS policies / 9 tables" },
+    { "value": "4", "label": "channels on the roadmap" }
+  ],
+
+  "og_modules_title": "Most important platform modules",
+  "og_modules_subtitle": "An entry point into everything OutreachGenie offers — click a module for details, architecture and screenshots.",
+  "og_modules": [
+    {
+      "icon": "🤖",
+      "tag": "AI · core",
+      "title": "AI tools",
+      "desc": "10+ tools: Generate with AI, Block Generator, Multi Block Wizard, Email Repair, Content Analyzer, Subject Suggestions, Image Generator and AI Credits billing.",
+      "link": "/outreachgenie/ai-alati"
+    },
+    {
+      "icon": "🎨",
+      "tag": "Editor",
+      "title": "Campaign Builder",
+      "desc": "Drag-and-drop GrapesJS editor with MJML preset, custom blocks, auto-signature and a template gallery.",
+      "link": "/outreachgenie/campaign-builder"
+    },
+    {
+      "icon": "📤",
+      "tag": "Backend infra",
+      "title": "Sending Engine",
+      "desc": "Custom Node worker, rate limiting, smart timezone scheduling, open/click/reply tracking and pre-send deliverability AI.",
+      "link": "/outreachgenie/sending"
+    },
+    {
+      "icon": "📇",
+      "tag": "Data & GDPR",
+      "title": "Subscribers & Engagement",
+      "desc": "CSV ImportWizard (250× faster), groups & segments, engagement scoring (hot/warm/cold), contact timeline and GDPR consent.",
+      "link": "/outreachgenie/subscribers"
+    },
+    {
+      "icon": "📊",
+      "tag": "Insights",
+      "title": "Analytics & A/B",
+      "desc": "Open/click/reply/bounce rate, per-recipient timeline, A/B variants with auto-winner and report exports.",
+      "link": "/outreachgenie/analytics"
+    },
+    {
+      "icon": "🛡️",
+      "tag": "Enterprise",
+      "title": "Teams & security",
+      "desc": "Multi-tenant organizations, roles (owner/admin/member), RLS on 9 tables, JWT, GDPR and Stripe + AI Credits billing.",
+      "link": "/outreachgenie/teams"
+    }
+  ],
+
+  "og_back_to_home": "Back to home",
+  "og_back_to_hub": "Back to OutreachGenie",
+  "og_breadcrumb_home": "Weboro",
+  "og_breadcrumb_outreachgenie": "OutreachGenie",
+  "og_section_features": "What it solves",
+  "og_section_how": "How it works",
+  "og_section_tech": "Tech & implementation",
+  "og_section_related": "Related modules",
+  "og_cta_open_app": "Open the app",
+  "og_cta_start_project": "Send inquiry",
+
+  "og_hub_eyebrow": "Case study · OutreachGenie",
+  "og_hub_title": "AI-first email marketing platform — from idea to production",
+  "og_hub_lead": "OutreachGenie is the SaaS we designed, built and shipped. Vue 3, Supabase, a custom Node sending engine, OpenAI and Stripe — all wired into one enterprise platform.",
+  "og_hub_about_title": "What OutreachGenie is",
+  "og_hub_about_text": "An email marketing and cold outreach platform with AI personalization in every step. A user imports contacts, AI generates the entire email (subject, body, image, CTA), the platform sends campaigns with smart timezone scheduling, tracks opens/clicks/replies and optimizes the next send.",
+  "og_hub_audience_title": "Who it's for",
+  "og_hub_audience": [
+    "B2B companies running lead generation and cold outreach",
+    "B2C marketing teams (newsletters, promos, eCommerce)",
+    "Agencies managing multiple clients (multi-tenant)",
+    "Solo founders and freelancers"
+  ],
+  "og_hub_special_title": "What makes OutreachGenie special",
+  "og_hub_special": [
+    { "title": "AI-first at the core", "desc": "Not just a \"generate copy\" button — 10+ tools deeply integrated into the editor and workflow." },
+    { "title": "Custom sending engine", "desc": "No reliance on SendGrid or Mailgun. A Node worker with rate limiting and smart scheduling." },
+    { "title": "Enterprise multi-tenant from day one", "desc": "RLS, organizations, team roles, workspace switcher in the header." },
+    { "title": "Pre-send deliverability AI", "desc": "Subject, content, CTA, spam triggers — analyzed before the campaign goes out." },
+    { "title": "Engagement scoring", "desc": "Materialized views for real-time hot/warm/cold scoring on tens of thousands of contacts." },
+    { "title": "Dual billing", "desc": "Stripe subscriptions + AI Credits pay-as-you-go in the same system." }
+  ],
+  "og_hub_status_title": "Development status",
+  "og_hub_status": [
+    { "label": "Onboarding", "value": 100 },
+    { "label": "Subscribers", "value": 98 },
+    { "label": "Security", "value": 95 },
+    { "label": "Teams / Multi-tenant", "value": 95 },
+    { "label": "Campaign Design", "value": 95 },
+    { "label": "A/B Testing", "value": 90 },
+    { "label": "Tracking", "value": 85 },
+    { "label": "Analytics", "value": 73 },
+    { "label": "AI Optimization (roadmap)", "value": 10 }
+  ],
+  "og_hub_roadmap_title": "Roadmap",
+  "og_hub_roadmap": [
+    "Channel Hub: Viber, SMS and WhatsApp alongside email",
+    "Advanced AI optimization — engagement score + optimal send time + smart segments",
+    "GDPR compliance docs and audit logs",
+    "Marketplace integrations (Mailchimp import already shipped, next: HubSpot, Pipedrive)"
+  ],
+  "og_hub_tech_title": "Tech stack",
+  "og_hub_tech": [
+    { "group": "Frontend", "items": ["Vue 3 (Composition API)", "Vue Router 4", "Pinia", "Vue I18n", "Tailwind CSS 3", "GrapesJS + MJML/CKEditor/Newsletter plugins", "Chart.js + vue-chartjs", "Vite"] },
+    { "group": "Backend", "items": ["Node.js + Express", "Custom sending-engine/sendWorker.js", "JSDOM + Juice (CSS inlining)", "html2canvas, dom-to-image-more", "PapaParse (CSV)"] },
+    { "group": "DB & infra", "items": ["Supabase (Postgres + Auth + Storage + RLS + Edge Functions)", "Materialized views (engagement)", "Custom SQL migrations + RPC", "Vercel hosting"] },
+    { "group": "3rd party", "items": ["OpenAI (GPT-4 + DALL-E)", "Stripe (subs + AI Credits)", "AWS SES", "Gmail OAuth", "Google APIs", "Mailchimp OAuth"] }
+  ],
+
+  "og_ai_eyebrow": "Module · core",
+  "og_ai_title": "AI tools — 10+ deeply embedded in the editor",
+  "og_ai_lead": "Not just a \"generate copy\" button. AI is integrated into every step of building a campaign — from subject lines to generated images, from code repair to pre-send diagnostics.",
+  "og_ai_features_title": "Tools inside the editor",
+  "og_ai_features": [
+    { "icon": "🪄", "title": "AI Assistant (AIPopup)", "desc": "Universal assistant inside the editor. Generates text, images and variations — available from any block." },
+    { "icon": "✨", "title": "Generate with AI", "desc": "Generates the whole email from a short brief — subject, body, CTA, images." },
+    { "icon": "🧱", "title": "AI Block Generator", "desc": "Generates a single block (hero, content, CTA, footer) matching the campaign style." },
+    { "icon": "🪜", "title": "AI Multi Block Wizard", "desc": "Generates multiple blocks in a single pass — the fastest path to a first draft." },
+    { "icon": "🛠️", "title": "AI Email Repair", "desc": "Detects and fixes issues automatically — broken HTML, missing alt, bad links." },
+    { "icon": "🔍", "title": "Content Analyzer", "desc": "Analyzes readability, tone and content quality. Suggests improvements in real time." },
+    { "icon": "📨", "title": "AI Subject Suggestions", "desc": "Multiple subject line options with open-rate potential estimates." },
+    { "icon": "🩺", "title": "Campaign Diagnostics", "desc": "Pre-send sweep — issue detection from broken links to spam triggers." },
+    { "icon": "🖼️", "title": "AI Image Generator + Gallery", "desc": "DALL-E images saved per user, with a gallery for reuse." },
+    { "icon": "💳", "title": "AI Credits system", "desc": "Pay-as-you-go billing for AI calls (BillingAICredits, BuyAICreditsModal, AILimitReachedModal)." }
+  ],
+  "og_ai_how_title": "How it works (architecture)",
+  "og_ai_how_text": "Every AI call goes through a backend proxy. The OpenAI key never touches the frontend. The `router/ai/aiGenerate.js` module validates the user, checks AI Credits balance, calls OpenAI and logs usage in real time. Generated images are stored in Supabase Storage under `organization_id/user_id` paths — RLS controls who sees what.",
+  "og_ai_tech": ["OpenAI GPT-4", "OpenAI DALL-E", "Backend proxy (Express + JWT)", "Supabase Storage", "AI Credits ledger (Postgres + materialized view)", "Stripe for credit purchases"],
+  "og_ai_related": [
+    { "icon": "🎨", "title": "Campaign Builder", "desc": "The editor where AI tools live.", "link": "/outreachgenie/campaign-builder" },
+    { "icon": "📤", "title": "Sending & Deliverability AI", "desc": "Pre-send AI checks — an extension of editor tools.", "link": "/outreachgenie/sending" },
+    { "icon": "🛡️", "title": "Teams & security", "desc": "AI Credits billing, RLS and workspace isolation.", "link": "/outreachgenie/teams" }
+  ],
+
+  "og_builder_eyebrow": "Module · visual editor",
+  "og_builder_title": "Campaign Builder — drag-and-drop with enterprise logic",
+  "og_builder_lead": "An editor built on GrapesJS with an MJML preset, custom blocks and auto-signature. Optimized for 13–14\" laptops and ultrawide monitors.",
+  "og_builder_features_title": "What you get inside the editor",
+  "og_builder_features": [
+    { "icon": "🧩", "title": "Blocks panel", "desc": "Categorized panel: Hero, Content, CTA, Footer, AI blocks — with collapsible groups." },
+    { "icon": "🎚️", "title": "Style panel", "desc": "Professional icons (paint/gear/grid), responsive editing, granular control." },
+    { "icon": "✍️", "title": "Auto Footer Signature", "desc": "Auto-fills sender info from onboarding — address, company, unsubscribe link." },
+    { "icon": "🏷️", "title": "Template variables", "desc": "{first_name}, {last_name}, {email}, {company}, {country} + custom fields from CSV." },
+    { "icon": "📚", "title": "Template Gallery", "desc": "Saved campaigns as templates, available across the workspace." },
+    { "icon": "📐", "title": "Responsive editor", "desc": "Desktop / tablet / mobile preview, with MJML output that holds up across email clients." }
+  ],
+  "og_builder_how_title": "What's under the hood",
+  "og_builder_how_text": "GrapesJS core + 6 official plugins (newsletter preset, MJML, CKEditor, Tailwind, Forms, Filestack, Export). A custom layer on top for AI blocks, auto-signature and the Weboro brand system. Generated HTML passes through Juice for CSS inlining before sending, so it looks the same in Outlook, Gmail and Apple Mail.",
+  "og_builder_tech": ["GrapesJS", "MJML", "CKEditor", "Tailwind CSS", "Juice (CSS inlining)", "Filestack (uploads)", "JSDOM"],
+  "og_builder_related": [
+    { "icon": "🤖", "title": "AI tools", "desc": "AI generates blocks and copy directly in the editor.", "link": "/outreachgenie/ai-alati" },
+    { "icon": "📤", "title": "Sending Engine", "desc": "Editor → Juice → sending engine → SES/Gmail.", "link": "/outreachgenie/sending" },
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "A/B variants are built in the same editor.", "link": "/outreachgenie/analytics" }
+  ],
+
+  "og_sending_eyebrow": "Module · backend infra",
+  "og_sending_title": "Sending Engine — our own Node worker with smart delivery",
+  "og_sending_lead": "No reliance on SendGrid or Mailgun. A custom `sending-engine/sendWorker.js` with rate limiting, timezone-aware scheduling and a complete tracking system.",
+  "og_sending_features_title": "What the engine does",
+  "og_sending_features": [
+    { "icon": "⏱️", "title": "Rate limiting", "desc": "30s default delay between sends, configurable per campaign and provider." },
+    { "icon": "🌍", "title": "Smart Sending", "desc": "Per-contact timezone — optimal send time for max open-rate." },
+    { "icon": "👁️", "title": "Open tracking", "desc": "1×1 pixel via `/track/open/:id.png`. Logs IP, user-agent and timestamp." },
+    { "icon": "🖱️", "title": "Click tracking", "desc": "Redirect through `/track/click/:trackingId/:encodedUrl` with safe URL encoding." },
+    { "icon": "↩️", "title": "Reply tracking", "desc": "Gmail OAuth integration — auto-detects replies and maps them to campaigns." },
+    { "icon": "🚫", "title": "Bounce & spam handling", "desc": "Auto-cleanup of bounced/spam addresses, AWS SES feedback loop." },
+    { "icon": "🛡️", "title": "Deliverability AI", "desc": "Pre-send: AI analysis of subject/content/CTA + spam triggers, color-coded scoring (green/yellow/red)." },
+    { "icon": "📧", "title": "Multi-provider", "desc": "Gmail OAuth, AWS SES or Nodemailer SMTP — each workspace picks its provider." }
+  ],
+  "og_sending_how_title": "Send architecture",
+  "og_sending_how_text": "API receives a campaign → writes it to `campaign_queue` → background worker (`worker.js` + `sending-engine/sendWorker.js`) picks up batches, runs them through Juice for CSS inlining, injects tracking pixels and links, and sends via the chosen provider with rate limiting. Tracking events (open/click/reply/bounce) flow through dedicated routes and refresh the engagement scoring materialized view.",
+  "og_sending_tech": ["Node.js + Express", "Custom worker (sendWorker.js)", "AWS SES", "Gmail OAuth + Google APIs", "Nodemailer", "Juice", "Supabase RPC", "List-Unsubscribe header", "SPF/DKIM/DMARC"],
+  "og_sending_related": [
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "Tracking events feed the analytics dashboard.", "link": "/outreachgenie/analytics" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Bounces/unsubscribes auto-clean the list.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🛡️", "title": "Teams & security", "desc": "Workspace picks provider, RLS isolates sends.", "link": "/outreachgenie/teams" }
+  ],
+
+  "og_subs_eyebrow": "Module · data & GDPR",
+  "og_subs_title": "Subscribers & Engagement — from CSV to hot leads",
+  "og_subs_lead": "A central place to manage contacts with engagement scoring, custom fields and GDPR consent tracking. Designed to handle tens of thousands of contacts without losing speed.",
+  "og_subs_features_title": "What it does",
+  "og_subs_features": [
+    { "icon": "📥", "title": "ImportWizard (CSV)", "desc": "UPSERT logic, batch operations, 250× faster than standard import. Real-time validation." },
+    { "icon": "🏷️", "title": "Groups, tags, custom fields", "desc": "Static and dynamic segments — query builder over any field, with real-time counts." },
+    { "icon": "🌡️", "title": "Engagement scoring", "desc": "Hot/warm/cold automatic scoring based on opens, clicks and replies. Materialized view for real-time access." },
+    { "icon": "🧭", "title": "Contact Timeline", "desc": "Per-contact event history: sent, open, click, reply, bounce, unsubscribe — sorted visually." },
+    { "icon": "⚡", "title": "Backend pagination", "desc": "Range queries via Supabase — 5,000+ contacts in <1s, no full set loads." },
+    { "icon": "🧹", "title": "Cleanup tools", "desc": "Bulk removal of bounced/unsubscribed contacts, dedup, email format validation." },
+    { "icon": "📜", "title": "GDPR consent", "desc": "Records consent timestamp, source and scope. List-Unsubscribe header on every message." }
+  ],
+  "og_subs_how_title": "How engagement scoring works",
+  "og_subs_how_text": "The `contact_engagement_scores` materialized view aggregates events from `email_events` and recomputes the score every few minutes (cron). Scores map to 3 buckets: hot (>70), warm (30–70), cold (<30). When a user filters \"hot only\", the query runs against the view directly, with no full table scans.",
+  "og_subs_tech": ["Supabase Postgres", "Materialized views", "Range pagination", "PapaParse (CSV)", "RLS policies (organization_id)", "Custom RPC functions"],
+  "og_subs_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Smart scheduling uses engagement scores.", "link": "/outreachgenie/sending" },
+    { "icon": "📊", "title": "Analytics & A/B", "desc": "Engagement timeline visualized per contact.", "link": "/outreachgenie/analytics" },
+    { "icon": "🤖", "title": "AI tools", "desc": "AI personalization uses custom fields and scoring.", "link": "/outreachgenie/ai-alati" }
+  ],
+
+  "og_analytics_eyebrow": "Module · insights",
+  "og_analytics_title": "Analytics & A/B — decisions backed by data",
+  "og_analytics_lead": "Open, click, reply, bounce and conversion rates in real time. A/B variants with auto-winner and report exports for the marketing team.",
+  "og_analytics_features_title": "What you measure",
+  "og_analytics_features": [
+    { "icon": "📈", "title": "Campaign Stats", "desc": "Open / click / reply / bounce / conversion rate per campaign and workspace." },
+    { "icon": "🌐", "title": "Deliverability Analytics", "desc": "Global view: which provider delivers best, which subjects land in spam, which domains have issues." },
+    { "icon": "📊", "title": "Vue Chart.js charts", "desc": "Line, bar and donut charts — interactive, exportable, responsive across devices." },
+    { "icon": "👤", "title": "Per-recipient view", "desc": "Click a contact → full activity timeline and engagement score history." },
+    { "icon": "🅰️", "title": "A/B testing", "desc": "Subject or content variants, automatic winner declaration on the chosen metric." },
+    { "icon": "📑", "title": "Reports & Export", "desc": "Generate reports, CSV/PDF export, weekly or monthly schedules." }
+  ],
+  "og_analytics_how_title": "How data flows",
+  "og_analytics_how_text": "Tracking events (open/click/reply/bounce) from the sending engine are written to `email_events` with timestamps and metadata. Stats are derived from a `campaign_stats` materialized view, refreshed every 60s. The dashboard uses Vue Chart.js with lazy-loaded chunks — charts mount only when they enter the viewport.",
+  "og_analytics_tech": ["Vue Chart.js", "vue-chartjs", "Supabase materialized views", "Range queries", "CSV/PDF export (jsPDF)", "Realtime channel for live updates"],
+  "og_analytics_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Tracking events you see in analytics.", "link": "/outreachgenie/sending" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Per-recipient timeline and engagement score.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🎨", "title": "Campaign Builder", "desc": "A/B variants are built in the same editor.", "link": "/outreachgenie/campaign-builder" }
+  ],
+
+  "og_teams_eyebrow": "Module · enterprise",
+  "og_teams_title": "Teams & security — multi-tenant from day one",
+  "og_teams_lead": "Organizations, workspaces, roles and Row-Level Security on 9 tables / 39 policies. Stripe subscriptions plus AI Credits pay-as-you-go in one system.",
+  "og_teams_features_title": "Enterprise package",
+  "og_teams_features": [
+    { "icon": "🏢", "title": "Organizations & workspaces", "desc": "Multiple workspaces per organization. Workspace switcher in the header — context change in one click." },
+    { "icon": "👥", "title": "Roles", "desc": "Owner, admin, member — each role with its own permissions defined as RLS policies." },
+    { "icon": "✉️", "title": "Email invitations", "desc": "Token-based accept flow. The invited user gets a link, clicks, confirms the org, and they're in." },
+    { "icon": "🔐", "title": "Row-Level Security", "desc": "39 policies on 9 tables. Every row knows its organization — nobody sees other people's data, even by accident." },
+    { "icon": "🛡️", "title": "JWT auth + backend proxy", "desc": "All `/api/*` routes require JWT. AI calls go through a proxy — the OpenAI key never touches the frontend." },
+    { "icon": "📜", "title": "GDPR-ready", "desc": "Consent tracking, List-Unsubscribe header, HTML sanitization (DOMPurify + sanitize-html), CORS rules." },
+    { "icon": "💳", "title": "Dual billing", "desc": "Stripe subscriptions for plans + AI Credits for pay-as-you-go AI calls." },
+    { "icon": "🌐", "title": "DNS Setup Wizard", "desc": "Walks the user through SPF, DKIM and DMARC setup for custom domains." }
+  ],
+  "og_teams_how_title": "Security as the primary layer",
+  "og_teams_how_text": "RLS in Supabase isn't a \"plus\" — it's the primary isolation mechanism. Every resource has `organization_id` and a policy that checks `auth.uid()` against membership. Even if someone bypasses the API, the database refuses access to other tenants' data. The `complete_onboarding()` SECURITY DEFINER RPC handles critical operations with controlled privileges.",
+  "og_teams_tech": ["Supabase Auth + RLS", "JWT", "SECURITY DEFINER RPC", "Stripe Billing", "Stripe Customer Portal", "DOMPurify", "sanitize-html", "Token-based invitations"],
+  "og_teams_related": [
+    { "icon": "📤", "title": "Sending Engine", "desc": "Workspace isolates providers and delivery.", "link": "/outreachgenie/sending" },
+    { "icon": "📇", "title": "Subscribers & Engagement", "desc": "Each org has its own list — RLS enforces it.", "link": "/outreachgenie/subscribers" },
+    { "icon": "🤖", "title": "AI tools", "desc": "AI Credits are tracked per organization.", "link": "/outreachgenie/ai-alati" }
+  ],
+
+  "mg_home_badge": "Magento 2 / Adobe Commerce",
+  "mg_home_eyebrow": "Enterprise eCommerce · store takeovers & builds",
+  "mg_home_title": "Stores that survive huge catalogs, traffic, and years of care",
+  "mg_home_lead": "We focus on developing Magento 2 shops, stable checkout, integrations (ERP, payments, carriers), and architecture the next team can own. Hyvä, performance, and a clear SLA — without the buzzword fog.",
+  "mg_home_kpis": [
+    "Magento 2.4.x",
+    "Hyvä / headless ready",
+    "ERP & CRM integrations",
+    "Staging → production pipeline"
+  ],
+  "mg_home_cta_hub": "Magento services — overview",
+  "mg_home_cta_audit": "Request a store audit",
+  "mg_home_flow_aria": "Flow from catalog to ERP: catalog, cart, checkout, order, ERP",
+  "mg_home_flow_catalog": "Catalog",
+  "mg_home_flow_cart": "Cart",
+  "mg_home_flow_checkout": "Checkout",
+  "mg_home_flow_order": "Order",
+  "mg_home_flow_erp": "ERP",
+  "mg_home_modules_title": "Six workstreams around your Magento store",
+  "mg_home_modules_subtitle": "Each stream is a dedicated service line — detailed pages for migrations, integrations, performance, frontend, care, and B2B are coming next. For now every card links to the Magento overview.",
+  "mg_home_modules": [
+    {
+      "icon": "🔄",
+      "tag": "Migrations",
+      "title": "Migrations & upgrades",
+      "desc": "M1 → M2, major jumps, data migration, and a safe go-live.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🔌",
+      "tag": "Integrations",
+      "title": "Modules & APIs",
+      "desc": "ERP, payments, carriers, PIM — clean code and documented contracts.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "⚡",
+      "tag": "Performance",
+      "title": "Speed & hosting",
+      "desc": "Varnish, Redis, Elasticsearch, indexers — a store that does not choke.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🎨",
+      "tag": "Frontend",
+      "title": "Hyvä & UX",
+      "desc": "Hyvä theme, Core Web Vitals, and a storefront that converts.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🛡️",
+      "tag": "Care",
+      "title": "SLA & patches",
+      "desc": "Security patches, monitoring, backups — you know what you get.",
+      "link": "/usluge/magento"
+    },
+    {
+      "icon": "🏢",
+      "tag": "B2B",
+      "title": "B2B commerce",
+      "desc": "Company accounts, quotes, shared catalogs, and complex pricing.",
+      "link": "/usluge/magento"
+    }
+  ],
+  "mg_home_trust_title": "Technologies we commonly wire into Magento",
+  "mg_home_trust": [
+    "Adobe Commerce",
+    "Hyvä",
+    "Elasticsearch",
+    "Redis",
+    "Varnish",
+    "RabbitMQ",
+    "MySQL / MariaDB",
+    "GraphQL",
+    "Stripe / Adyen",
+    "Docker"
+  ],
+
+  "mg_hub_breadcrumb_home": "Weboro",
+  "mg_hub_breadcrumb_self": "Magento 2",
+  "mg_hub_badge": "Magento 2 / Adobe Commerce",
+  "mg_hub_eyebrow": "Enterprise eCommerce · builds, takeovers, and care",
+  "mg_hub_title": "A Magento 2 store that survives a huge catalog, traffic, and years of care",
+  "mg_hub_lead": "We build, take over, and maintain Magento 2 shops with a focus on a stable checkout, clear integrations (ERP, payments, carriers), and code the next team can own. No buzzword fog — Hyvä, performance, and a transparent SLA.",
+  "mg_hub_kpis": [
+    "Magento 2.4.7-p1",
+    "Hyvä / headless ready",
+    "ERP & CRM integrations",
+    "Security patch SLA",
+    "Staging → production pipeline"
+  ],
+  "mg_hub_cta_brief": "Send a brief",
+  "mg_hub_cta_explore": "Explore services",
+  "mg_hub_coming_soon": "Detailed page coming soon",
+  "mg_hub_flow_aria": "Flow from catalog to ERP with connected systems",
+  "mg_hub_flow_catalog": "Catalog",
+  "mg_hub_flow_cart": "Cart",
+  "mg_hub_flow_checkout": "Checkout",
+  "mg_hub_flow_order": "Order",
+  "mg_hub_flow_erp": "ERP",
+  "mg_hub_flow_wms": "WMS",
+  "mg_hub_flow_carrier": "Carrier",
+  "mg_hub_flow_crm": "CRM",
+  "mg_hub_stats_title": "What you actually get",
+  "mg_hub_stats": [
+    { "value": "2.4.7-p1", "label": "Version we actively maintain" },
+    { "value": "<2s", "label": "PDP LCP target (Hyvä build)" },
+    { "value": "24-72h", "label": "SLA for security patches" },
+    { "value": "10+ yrs", "label": "Experience with the Magento ecosystem" }
+  ],
+  "mg_hub_services_title": "Six workstreams around your Magento store",
+  "mg_hub_services_subtitle": "Hire us for a single line or the full package. Each line has a clear entry point, deliverable, and follow-up — detailed pages are coming soon.",
+  "mg_hub_services": [
+    { "icon": "🔄", "tag": "Migrations", "title": "Migrations & upgrades", "desc": "M1 → M2, major jumps, and a safe go-live.", "anchor": "#migracije" },
+    { "icon": "🔌", "tag": "Integrations", "title": "Modules & APIs", "desc": "ERP, payments, carriers, PIM — clean code and contracts.", "anchor": "#integracije" },
+    { "icon": "⚡", "tag": "Performance", "title": "Speed & hosting", "desc": "Varnish, Redis, Elasticsearch, indexers.", "anchor": "#performanse" },
+    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, a storefront that converts.", "anchor": "#frontend" },
+    { "icon": "🛡️", "tag": "Care", "title": "SLA & patches", "desc": "Security patches, monitoring, backups.", "anchor": "#odrzavanje" },
+    { "icon": "🏢", "tag": "B2B", "title": "B2B commerce", "desc": "Company accounts, quotes, shared catalogs.", "anchor": "#b2b" }
+  ],
+  "mg_hub_lines": [
+    {
+      "anchorId": "migracije",
+      "number": "01",
+      "tag": "Migrations",
+      "title": "Migrations & upgrades — no panic on go-live night",
+      "desc": "M1 → M2, major jumps between 2.4.x versions, moves from other platforms. Pre-launch we run regression and load tests; post-launch we stay in your channel for 48–72h.",
+      "bullets": [
+        { "title": "Magento 1 → Magento 2", "desc": "Strategy, extension cleanup, the Data Migration Tool, and custom scripts for everything the tool doesn't cover." },
+        { "title": "Major upgrade (e.g. 2.4.5 → 2.4.7-p1)", "desc": "Composer audit, package-by-package analysis, regression tests, and a clear rollback plan." },
+        { "title": "From other platforms", "desc": "Shopify, WooCommerce, or custom into Magento — preserving SEO structure and 301 maps." },
+        { "title": "Pre-launch QA & load test", "desc": "Real traffic via k6 / JMeter, Lighthouse, and Magento health check." },
+        { "title": "Go-live & post-launch hyper-care", "desc": "Monitoring 48–72h after launch and fast triage of real fires." }
+      ]
+    },
+    {
+      "anchorId": "integracije",
+      "number": "02",
+      "tag": "Integrations",
+      "title": "Custom modules & integrations — without spaghetti code",
+      "desc": "ERP, CRM, payments, carriers, PIM — everything your shop needs to actually talk to the business. We ship modules the next team can pick up and document the contracts (REST/GraphQL/SOAP).",
+      "bullets": [
+        { "title": "ERP (SAP, MS Dynamics, Pantheon, Calculus)", "desc": "Two-way sync of products, stock, prices, orders, and customers." },
+        { "title": "CRM & marketing (HubSpot, Klaviyo, Mailchimp, Pipedrive)", "desc": "Customer events, abandoned cart, segmentation — without rewriting them in five places." },
+        { "title": "Payments (Stripe, Adyen, AllSecure, IPS)", "desc": "PSP integrations, 3D Secure 2, recurring, and refunds — properly mapped to Magento order state." },
+        { "title": "Carriers (Pošta, BEX, DHL, In Time, AKS, GLS)", "desc": "Auto-generated labels, tracking statuses inside Magento, and customer notifications." },
+        { "title": "PIM / WMS / your own API", "desc": "Akeneo, Pimcore, or custom — with integration monitoring (queue depth, error alerting)." },
+        { "title": "Custom REST / GraphQL layers", "desc": "When the stock Magento API isn't enough — we ship our own endpoints with OpenAPI docs." }
+      ]
+    },
+    {
+      "anchorId": "performanse",
+      "number": "03",
+      "tag": "Performance",
+      "title": "Speed & hosting — a store that doesn't choke at peak",
+      "desc": "Varnish, Redis, Elasticsearch, profiling, and image CDN — everything needed to keep TTFB and LCP healthy under real traffic, not just on local dev.",
+      "bullets": [
+        { "title": "Varnish & Full Page Cache", "desc": "VCL rules tuned for your shop, ESI for cart and mini-cart." },
+        { "title": "Redis for cache + sessions", "desc": "Separate DBs, persist tuning, monitoring memory pressure." },
+        { "title": "Elasticsearch tuning & indexer audit", "desc": "Catalog rule indexer, fulltext, and price — controlled, no \"index storms.\"" },
+        { "title": "Image CDN & LCP optimization", "desc": "WebP/AVIF pipeline, lazy loading, responsive srcset, and HTTP/2 push where it matters." },
+        { "title": "Profiling with Blackfire / New Relic", "desc": "Not by feel — with concrete profiles of slow requests." },
+        { "title": "Hosting — Adobe Commerce Cloud or dedicated", "desc": "Advice and setup for AWS / Hetzner / DO with proper scaling." }
+      ]
+    },
+    {
+      "anchorId": "frontend",
+      "number": "04",
+      "tag": "Frontend",
+      "title": "Hyvä, Core Web Vitals, and UX that sells",
+      "desc": "A frontend that loads fast and doesn't upset Google. We default to Hyvä, but we also do Luma optimization and headless / PWA approaches.",
+      "bullets": [
+        { "title": "Hyvä Theme (recommended)", "desc": "Tailwind + Alpine.js, 60–80% smaller JS bundle, easier to maintain." },
+        { "title": "Luma optimization", "desc": "When the existing shop has 50+ extensions without Hyvä compat — we squeeze Luma to its limit." },
+        { "title": "Headless / PWA Studio", "desc": "Magento as backend, Vue / React storefront — when UX needs more than a classic theme." },
+        { "title": "Core Web Vitals focus", "desc": "LCP, INP, CLS — always in focus, with Lighthouse + RUM." },
+        { "title": "Custom theme & UX", "desc": "Page-level conversion (PDP, PLP, checkout) and post-launch A/B tests." }
+      ]
+    },
+    {
+      "anchorId": "odrzavanje",
+      "number": "05",
+      "tag": "Care",
+      "title": "SLA & patches — no \"surprises on Friday night\"",
+      "desc": "The Magento ecosystem moves fast — security patches, deprecations, ASRTOOLS releases. We track them for you and respond inside the agreed SLA.",
+      "bullets": [
+        { "title": "Magento security patch SLA", "desc": "Critical: 24h. High: 72h. Medium/Low: in the next release window." },
+        { "title": "Monitoring (uptime, error rate, queue depth)", "desc": "Sentry + UptimeRobot + custom Magento dashboards." },
+        { "title": "Backups (DB + media, off-site)", "desc": "Automatic daily, off-site retention, and a restore drill every 3 months." },
+        { "title": "Monthly health check + report", "desc": "Performance, security, queue health, error trend — written report every month." },
+        { "title": "Emergency on-call package", "desc": "After-hours phone for things that are actually on fire." }
+      ]
+    },
+    {
+      "anchorId": "b2b",
+      "number": "06",
+      "tag": "B2B",
+      "title": "B2B selling — companies, quotes, complex pricing",
+      "desc": "Magento Open Source doesn't ship every B2B feature Adobe Commerce does — so we either build what you need or move you to Adobe Commerce when justified.",
+      "bullets": [
+        { "title": "Company accounts & roles", "desc": "Multiple users per company, custom roles, and approval flow for large orders." },
+        { "title": "Negotiable quotes / RFQ", "desc": "Buyer requests a quote, sales replies — all inside the Magento panel." },
+        { "title": "Shared catalogs & pricing tiers", "desc": "Different pricing per company or segment, tier discounts, ERP-driven prices." },
+        { "title": "Multi-store / multi-website", "desc": "Multiple brands or markets on one install — with separate domain, language, and currency." },
+        { "title": "PunchOut & EDI integrations", "desc": "When the B2B buyer comes from their ERP — we ship PunchOut Catalog or EDI." }
+      ]
+    }
+  ],
+  "mg_hub_process_title": "How we work",
+  "mg_hub_process_subtitle": "Five steps that repeat — whether we're building a new store or taking over an existing one.",
+  "mg_hub_process": [
+    { "title": "Audit", "desc": "Review of code, catalog, integrations, hosting, and SEO. We come back with a concrete list of risks." },
+    { "title": "Architecture", "desc": "Theme/module strategy, environments (dev/staging/prod), CI/CD, branch model." },
+    { "title": "Development", "desc": "Feature by feature, code review, automated tests, a clear release strategy." },
+    { "title": "QA & staging", "desc": "Functional, regression, load, and UAT tests before every go-live." },
+    { "title": "Launch & care", "desc": "Post-launch monitoring, security patches, monthly health check, on-call package." }
+  ],
+  "mg_hub_tech_title": "The stack we use on Magento projects",
+  "mg_hub_tech_subtitle": "Picked to follow the Magento ecosystem and to be easy to hand off — no exotic choices \"just to be different.\"",
+  "mg_hub_tech_groups": [
+    { "label": "Magento core", "items": ["Magento 2.4.x", "Adobe Commerce", "Composer", "n98-magerun2"] },
+    { "label": "Frontend", "items": ["Hyvä", "PWA Studio", "Vue Storefront", "Tailwind", "Alpine.js"] },
+    { "label": "Search & cache", "items": ["Elasticsearch 8", "Redis", "Varnish", "Full Page Cache"] },
+    { "label": "Queue & data", "items": ["RabbitMQ", "MySQL / MariaDB", "GraphQL", "REST"] },
+    { "label": "DevOps", "items": ["Docker", "Adobe Commerce Cloud", "GitHub Actions", "Sentry"] },
+    { "label": "Profiling", "items": ["Blackfire", "New Relic", "Lighthouse", "k6"] }
+  ],
+  "mg_hub_faq_title": "Common questions",
+  "mg_hub_faq_subtitle": "The same answers we give clients on the first Zoom call.",
+  "mg_hub_faq": [
+    { "q": "Why Magento 2 and not Shopify or WooCommerce?", "a": "Magento gives you data ownership and full control over the catalog, pricing, and custom logic — without monthly platform fees like Shopify Plus. Once a shop crosses 5–10k SKUs, multistore, and complex B2B/B2C scenarios, Magento pays off. For smaller shops run by a marketing team, Shopify or WooCommerce is often the better choice." },
+    { "q": "Hyvä or Luma — what do you recommend?", "a": "Hyvä by default for new shops and most redesigns. Hyvä is 3–5× faster than Luma, builds quicker, and development hurts less. We optimize Luma only when there's a real reason (e.g. lots of existing custom modules without a Hyvä compat layer)." },
+    { "q": "How long does an M1 → M2 migration take?", "a": "Realistic range: 8–20 weeks, depending on the number of extensions, custom logic, and data migration scope. Before we quote we do an audit (1–2 weeks) and only then commit to a timeline." },
+    { "q": "How much does development or migration cost?", "a": "After the audit we offer fixed price or T&M with a ceiling. For migrations we usually go fixed price, since scope is known; for new development T&M with sprint pricing tends to work better." },
+    { "q": "What kind of post-launch support do you offer?", "a": "Three SLA tiers: Bronze (best-effort, quarterly health check), Silver (monthly health check + security patches in 72h), Gold (24/7 on-call + monthly release window). Details after the first call." },
+    { "q": "Do you handle GDPR and PCI compliance?", "a": "Yes. GDPR: data retention policies, anonymization scripts, cookie consent integrations. PCI: we never store card numbers — we use Stripe/Adyen/AllSecure tokenization, plus we configure TLS, headers, and logging per PCI DSS 4.0." }
+  ],
+  "mg_hub_final_cta_title": "Your Magento store deserves an audit",
+  "mg_hub_final_cta_desc": "Send us the URL and a short brief — we come back in 2–3 working days with a written audit report (risks, performance, code health, integration debt).",
+  "mg_hub_final_cta_btn": "Send a brief",
+
+  "platforms_title": "Magento, WordPress & custom web",
+  "platforms_intro": "We choose technology based on scope, budget, and the team that will maintain the system — from enterprise stores to fast marketing sites and fully bespoke products.",
+  "platforms_mockup_note": "Room here for project screenshots or a video walkthrough later.",
+  "platforms_cta": "Start a project",
+
+  "platforms_cards": [
+    {
+      "badge": "Magento 2",
+      "title": "Enterprise eCommerce",
+      "desc": "For large catalogs, B2B/B2C, and complex integrations.",
+      "bullets": [
+        "Performance and scalability",
+        "ERP, payments, carriers",
+        "Themes, modules, and care"
+      ],
+      "link": "/usluge/magento"
+    },
+    {
+      "badge": "WordPress",
+      "title": "Sites & smaller shops",
+      "desc": "A CMS your marketing team can run day to day.",
+      "bullets": [
+        "Fast launch and SEO structure",
+        "WooCommerce when you need sales",
+        "Security and backup routines"
+      ],
+      "link": "/usluge/wordpress"
+    },
+    {
+      "badge": "Custom",
+      "title": "Vue & APIs on demand",
+      "desc": "When you need a unique UX, dashboard, or SaaS.",
+      "bullets": [
+        "Vue 3 + modern stack",
+        "Integrations (Stripe, AI, CRM)",
+        "Production and monitoring"
+      ],
+      "link": "/usluge/custom-web"
+    }
+  ],
 
   "marketing_title": "📣 Marketing & Outreach Systems",
   "marketing_desc": "We help brands grow through <strong>digital strategies</strong>, tools and automation.",
@@ -96,8 +721,8 @@
       "desc": "Vue.js, Supabase, Stripe and AI integrations."
     },
     {
-      "title": "🛒 Shopify & WordPress",
-      "desc": "eCommerce solutions for brands of all sizes."
+      "title": "🛒 Magento, WordPress & custom",
+      "desc": "From enterprise stores to flexible sites and bespoke Vue apps."
     },
     {
       "title": "🎨 UI/UX & Branding",
@@ -123,8 +748,8 @@
     "Supabase",
     "Tailwind CSS",
     "Magento 2",
-    "Shopify",
     "WordPress",
+    "Custom web (Vue)",
     "Figma",
     "Google Ads & Analytics",
     "Stripe",
@@ -153,7 +778,7 @@
   "about_timeline": [
     { "year": "2022", "text": "The beginning — freelancing and first projects." },
     { "year": "2023", "text": "Developed OutreachGenie as a SaaS tool." },
-    { "year": "2024", "text": "Expanded services to Shopify and eCommerce projects." },
+    { "year": "2024", "text": "Expanded into Magento, WordPress, and custom web projects." },
     { "year": "2025", "text": "Formed the Weboro team and launched our portfolio." }
   ],
 
@@ -182,7 +807,7 @@
   "portfolio_categories": ["All", "SaaS", "eCommerce", "Web Design", "Video", "Marketing"],
   "portfolio_projects": [
     { "title": "OutreachGenie", "desc": "AI SaaS tool for generating cold email messages", "category": "SaaS" },
-    { "title": "LumaWear", "desc": "Shopify eCommerce store for a fashion brand", "category": "eCommerce" },
+    { "title": "LumaWear", "desc": "eCommerce store for a fashion brand", "category": "eCommerce" },
     { "title": "Print Studio", "desc": "WordPress website for a print shop", "category": "Web Design" },
     { "title": "Copla Weekend House", "desc": "Landing website + booking functionality", "category": "Web Design" },
     { "title": "Weboro Reels", "desc": "Video production for social media", "category": "Video" },
@@ -245,28 +870,11 @@
 
   "blog_post1_title": "How We Built OutreachGenie SaaS",
   "blog_post1_excerpt": "From idea to product — our process of building an AI SaaS tool.",
-  "blog_post2_title": "Why We Use Shopify for eCommerce",
-  "blog_post2_excerpt": "Benefits, scalability, and development speed with Shopify.",
+  "blog_post2_title": "Magento vs WordPress for selling online",
+  "blog_post2_excerpt": "When to choose enterprise Magento vs fast WordPress / WooCommerce.",
   "blog_post3_title": "Video Content That Sells",
   "blog_post3_excerpt": "How to create content that boosts conversions on social media.",
 
-  "service_ecommerce_title": "eCommerce Solutions",
-  "service_ecommerce_subtitle": "We build fast and scalable online stores using Shopify and WordPress.",
-  "service_ecommerce_intro": "Our eCommerce solutions help brands launch quickly without compromising quality.",
-  "service_ecommerce_benefits_title": "What You Get",
-  "service_ecommerce_benefit1": "Fast time to market",
-  "service_ecommerce_benefit2": "Scalable and secure infrastructure",
-  "service_ecommerce_benefit3": "Integrations with CRMs, AI, and marketing tools",
-  "service_ecommerce_process_title": "How We Work",
-  "service_ecommerce_step1": "Brand and market analysis",
-  "service_ecommerce_step2": "Design and UX tailored to your audience",
-  "service_ecommerce_step3": "Development and system integration",
-  "service_ecommerce_step4": "Launch and ongoing support",
-  "service_ecommerce_cta_title": "Ready to launch your store?",
-  "service_ecommerce_cta_subtitle": "Send us an inquiry and start your online brand.",
-  "service_ecommerce_cta_button": "Start project",
-
-  "service_social_title": "Social Media Marketing",
   "service_social_subtitle": "We build brand presence on Instagram, TikTok and Facebook through content, strategies and advertising.",
   "service_social_intro": "We create and manage social media campaigns with focus on strategy, content and community growth.",
   "service_social_benefit1_title": "⚡ Fast go-to-market",
@@ -331,8 +939,13 @@
   "service_video_cta_subtitle": "Send us an inquiry and turn your story into powerful visual content.",
   "service_video_cta_button": "Send inquiry",
 
-  "footer_rights": "© 2025 Weboro. All rights reserved.",
+  "footer_rights": "© 2026 Weboro. All rights reserved.",
   "footer_outreach": "OutreachGenie",
-  "footer_lumawear": "LumaWear",
-  "footer_contact": "Contact"
+  "footer_lumawear": "Portfolio",
+  "footer_contact": "Contact",
+  "footer_tagline": "Smart digital solutions — from SaaS and web platforms to marketing and video.",
+  "footer_col_services": "Services",
+  "footer_col_company": "Company",
+  "footer_col_projects": "Projects",
+  "footer_home": "Home"
 }
