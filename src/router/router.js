@@ -16,6 +16,12 @@ import Seo from '@/pages/usluge/Seo.vue'
 import Branding from '@/pages/usluge/Branding.vue'
 import Video from '@/pages/usluge/Video.vue'
 import Magento from '@/pages/usluge/Magento.vue'
+import MgMigracije from '@/pages/usluge/magento/Migracije.vue'
+import MgIntegracije from '@/pages/usluge/magento/Integracije.vue'
+import MgPerformance from '@/pages/usluge/magento/Performance.vue'
+import MgFrontend from '@/pages/usluge/magento/Frontend.vue'
+import MgOdrzavanje from '@/pages/usluge/magento/Odrzavanje.vue'
+import MgB2B from '@/pages/usluge/magento/B2B.vue'
 import Wordpress from '@/pages/usluge/Wordpress.vue'
 import CustomWeb from '@/pages/usluge/CustomWeb.vue'
 import Growth from '@/pages/usluge/Growth.vue'
@@ -39,6 +45,12 @@ const routes = [
     //
     { path: '/usluge/ecommerce', component: Ecommerce, meta: {title: 'Web & prodaja — Weboro'} },
     { path: '/usluge/magento', component: Magento, meta: {title: 'Magento — Weboro'} },
+    { path: '/usluge/magento/migracije-i-upgrade', component: MgMigracije, meta: {title: 'Magento migracije — Weboro'} },
+    { path: '/usluge/magento/integracije', component: MgIntegracije, meta: {title: 'Magento integracije — Weboro'} },
+    { path: '/usluge/magento/performance-hosting', component: MgPerformance, meta: {title: 'Magento performanse & hosting — Weboro'} },
+    { path: '/usluge/magento/frontend-hyva', component: MgFrontend, meta: {title: 'Magento frontend & Hyvä — Weboro'} },
+    { path: '/usluge/magento/odrzavanje-sla', component: MgOdrzavanje, meta: {title: 'Magento održavanje & SLA — Weboro'} },
+    { path: '/usluge/magento/b2b-resenja', component: MgB2B, meta: {title: 'Magento B2B rešenja — Weboro'} },
     { path: '/usluge/wordpress', component: Wordpress, meta: {title: 'WordPress — Weboro'} },
     { path: '/usluge/custom-web', component: CustomWeb, meta: {title: 'Custom web — Weboro'} },
     { path: '/usluge/growth', component: Growth, meta: {title: 'Growth & outreach — Weboro'} },

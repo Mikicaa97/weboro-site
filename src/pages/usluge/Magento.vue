@@ -175,13 +175,14 @@
         </div>
 
         <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-          <a
+          <component
               v-for="(svc, i) in tm('mg_hub_services')"
               :key="i"
-              :href="svc.anchor"
+              :is="svc.to ? 'router-link' : 'a'"
+              v-bind="svc.to ? { to: svc.to } : { href: svc.anchor }"
               v-scroll-animate
               :style="{ transitionDelay: (i * 60) + 'ms' }"
-              class="group relative bg-zinc-900/80 border border-zinc-800 hover:border-[#ff8a3d]/40 rounded-2xl p-6 lg:p-7 transition-all hover:bg-zinc-900 hover:shadow-[0_0_28px_-10px_rgba(255,138,61,0.28)]"
+              class="group relative bg-zinc-900/80 border border-zinc-800 hover:border-[#ff8a3d]/40 rounded-2xl p-6 lg:p-7 transition-all hover:bg-zinc-900 hover:shadow-[0_0_28px_-10px_rgba(255,138,61,0.28)] block"
           >
             <div class="flex items-start justify-between gap-4 mb-4">
               <div class="text-3xl">{{ svc.icon }}</div>
@@ -197,7 +198,7 @@
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
               </svg>
             </div>
-          </a>
+          </component>
         </div>
       </div>
     </section>
@@ -217,7 +218,18 @@
             <p class="text-xs uppercase tracking-[0.22em] text-[#ff8a3d]/90 font-semibold">{{ line.tag }}</p>
             <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white">{{ line.title }}</h3>
             <p class="text-zinc-400 text-base leading-relaxed max-w-xl">{{ line.desc }}</p>
-            <span class="inline-flex items-center gap-1.5 mt-2 px-3 py-1.5 rounded-full bg-zinc-900/70 border border-zinc-700/80 text-[11px] uppercase tracking-wider text-zinc-400">
+            <router-link
+                v-if="line.detailTo"
+                :to="line.detailTo"
+                class="inline-flex items-center gap-2 mt-2 px-3 py-1.5 rounded-full bg-[#ff8a3d]/10 border border-[#ff8a3d]/35 text-[11px] uppercase tracking-wider text-[#ffb088] font-semibold hover:bg-[#ff8a3d]/15 transition-colors w-fit"
+            >
+              {{ $t('mg_hub_detail_page') }}
+              <span aria-hidden="true">→</span>
+            </router-link>
+            <span
+                v-else
+                class="inline-flex items-center gap-1.5 mt-2 px-3 py-1.5 rounded-full bg-zinc-900/70 border border-zinc-700/80 text-[11px] uppercase tracking-wider text-zinc-400"
+            >
               <span class="w-1.5 h-1.5 rounded-full bg-[#ff8a3d]"></span>
               {{ $t('mg_hub_coming_soon') }}
             </span>

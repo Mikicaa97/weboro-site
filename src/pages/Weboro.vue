@@ -356,89 +356,227 @@
       </div>
     </section>
 
-    <!-- Magento, WordPress, custom web -->
+    <!-- Google Marketing — SERP + campaign flow (homepage flagship #3) -->
     <section
-        id="web-platforms"
-        v-scroll-animate
-        class="py-24 px-6 md:px-20 bg-zinc-950 scroll-mt-20"
+        id="google-marketing"
+        ref="googleHomeSectionRef"
+        class="relative py-24 lg:py-32 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden border-t border-zinc-800/80"
     >
-      <div class="max-w-6xl mx-auto space-y-12">
-        <div class="max-w-3xl space-y-4">
-          <h2 class="text-3xl md:text-4xl font-bold text-white">{{ $t('platforms_title') }}</h2>
-          <p class="text-gray-300 text-lg leading-relaxed" v-html="$t('platforms_intro')"></p>
-        </div>
+      <div class="pointer-events-none absolute inset-0 mg-home-grid-bg" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute inset-0 mg-home-grid-shimmer gm-home-shimmer-cool" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_75%_55%_at_72%_18%,rgba(96,165,250,0.10),transparent_58%)]" aria-hidden="true"></div>
+      <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(50%_45%_at_12%_78%,rgba(52,211,153,0.05),transparent_62%)]" aria-hidden="true"></div>
 
-        <div class="grid md:grid-cols-3 gap-6 lg:gap-8">
-          <article
-              v-for="(card, i) in tm('platforms_cards')"
-              :key="i"
-              v-scroll-animate
-              :style="{ transitionDelay: (i * 70) + 'ms' }"
-              class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 flex flex-col hover:border-yellow-400/30 hover:bg-zinc-900 transition-colors"
-          >
-            <p class="text-xs font-semibold uppercase tracking-wider text-yellow-400/90 mb-2">{{ card.badge }}</p>
-            <h3 class="text-xl font-bold text-white mb-3">{{ card.title }}</h3>
-            <p class="text-gray-400 text-sm leading-relaxed flex-1">{{ card.desc }}</p>
-            <ul class="mt-4 space-y-2 text-sm text-zinc-400">
-              <li v-for="(b, j) in card.bullets" :key="j" class="flex gap-2">
-                <span class="text-yellow-500 shrink-0">▸</span>
-                <span>{{ b }}</span>
-              </li>
-            </ul>
-            <router-link
-                :to="card.link"
-                class="inline-flex mt-6 text-sm font-semibold text-yellow-400 hover:text-yellow-300"
-            >
-              {{ $t('learn_more') }} →
-            </router-link>
-          </article>
-        </div>
+      <div v-scroll-animate class="relative z-10 max-w-7xl mx-auto">
+        <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
+          <div class="lg:col-span-7 space-y-6">
+            <div class="flex flex-wrap items-center gap-3">
+              <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-sky-400/10 border border-sky-400/35 text-sky-300 text-xs font-semibold uppercase tracking-wider">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400"></span>
+                {{ $t('gm_home_badge') }}
+              </span>
+              <span class="text-xs uppercase tracking-[0.2em] text-zinc-500">{{ $t('gm_home_eyebrow') }}</span>
+            </div>
 
-        <div class="rounded-2xl border border-dashed border-zinc-700 bg-zinc-900/40 p-8 text-center">
-          <p class="text-gray-500 text-sm mb-4">{{ $t('platforms_mockup_note') }}</p>
-          <router-link
-              to="/kontakt"
-              class="inline-block px-8 py-3 bg-white text-black font-semibold rounded-full hover:bg-zinc-200 transition-colors"
-          >
-            {{ $t('platforms_cta') }}
-          </router-link>
-        </div>
-      </div>
-    </section>
+            <h2 class="text-3xl sm:text-4xl lg:text-5xl xl:text-6xl font-extrabold leading-tight tracking-tight text-white">
+              {{ $t('gm_home_title') }}
+            </h2>
 
+            <p class="text-base sm:text-lg lg:text-xl text-zinc-300 leading-relaxed max-w-2xl">
+              {{ $t('gm_home_lead') }}
+            </p>
 
-    <!-- Marketing & Outreach -->
-    <section v-scroll-animate class="py-24 px-6 md:px-20 bg-zinc-900 scroll-mt-20">
-      <div class="max-w-6xl mx-auto">
-        <div class="text-center mb-16 space-y-4">
-          <h2 class="text-4xl font-bold">{{$t('marketing_title')}}</h2>
-          <p class="text-lg text-gray-300 max-w-3xl mx-auto leading-relaxed" v-html="$t('marketing_desc')"></p>
-        </div>
+            <div class="flex flex-wrap gap-2 pt-1">
+              <span
+                  v-for="(kpi, i) in tm('gm_home_kpis')"
+                  :key="i"
+                  class="inline-flex items-center px-3 py-1.5 rounded-full border border-zinc-700/90 bg-zinc-900/60 text-xs text-zinc-300"
+              >
+                {{ kpi }}
+              </span>
+            </div>
 
-        <div class="grid md:grid-cols-3 gap-8 text-gray-300">
-          <div
-              v-for="(item, i) in tm('marketing_cards')"
-              :key="i"
-              v-scroll-animate
-              :style="{ transitionDelay: (i * 80) + 'ms' }"
-              class="bg-zinc-800 p-6 rounded-xl shadow hover:shadow-lg hover:scale-[1.02] transition-transform transition-colors"
-          >
-            <h3 class="text-xl font-semibold text-white mb-2">{{ item.title }}</h3>
-            <p class="text-sm leading-relaxed">{{ item.desc }}</p>
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-2">
+              <router-link
+                  to="/kontakt"
+                  class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-sky-400 text-zinc-950 font-semibold rounded-xl hover:bg-sky-300 hover:shadow-[0_0_28px_-6px_rgba(96,165,250,0.5)] transition-all"
+              >
+                {{ $t('gm_home_cta_audit') }}
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2.5" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </router-link>
+              <a
+                  href="#google-modules"
+                  class="inline-flex items-center justify-center gap-2 px-6 py-3.5 border border-zinc-700 bg-zinc-900/50 text-zinc-200 rounded-xl hover:border-sky-400/45 hover:text-sky-300 transition-all"
+              >
+                {{ $t('gm_home_cta_modules') }}
+              </a>
+            </div>
+          </div>
+
+          <div class="lg:col-span-5 flex justify-center lg:justify-end">
+            <div class="relative w-full max-w-[400px]">
+              <div class="absolute -inset-4 bg-gradient-to-br from-sky-400/15 via-emerald-400/6 to-transparent blur-2xl rounded-3xl pointer-events-none"></div>
+              <svg
+                  ref="googleHomeFlowSvgRef"
+                  viewBox="0 0 320 320"
+                  class="relative w-full h-auto"
+                  role="img"
+                  :aria-label="$t('gm_home_flow_aria')"
+              >
+                <defs>
+                  <linearGradient id="gm-home-flow-grad" x1="0%" y1="0%" x2="100%" y2="0%">
+                    <stop offset="0%" stop-color="#60a5fa" stop-opacity="0.25"/>
+                    <stop offset="50%" stop-color="#60a5fa" stop-opacity="0.6"/>
+                    <stop offset="100%" stop-color="#34d399" stop-opacity="0.4"/>
+                  </linearGradient>
+                  <filter id="gm-home-node-glow" x="-40%" y="-40%" width="180%" height="180%">
+                    <feGaussianBlur stdDeviation="2.2" result="b"/>
+                    <feMerge>
+                      <feMergeNode in="b"/>
+                      <feMergeNode in="SourceGraphic"/>
+                    </feMerge>
+                  </filter>
+                </defs>
+
+                <!-- SERP frame -->
+                <rect x="8" y="6" width="304" height="148" rx="10" fill="#0f0f10" stroke="rgba(96,165,250,0.22)" stroke-width="1"/>
+
+                <!-- Search bar -->
+                <rect x="20" y="18" width="280" height="24" rx="12" fill="#18181b" stroke="rgba(63,63,70,0.6)" stroke-width="1"/>
+                <circle cx="34" cy="30" r="4" fill="none" stroke="rgba(96,165,250,0.7)" stroke-width="1.4"/>
+                <line x1="37" y1="33" x2="41" y2="37" stroke="rgba(96,165,250,0.7)" stroke-width="1.4" stroke-linecap="round"/>
+                <text x="50" y="34" fill="#a1a1aa" font-size="10" font-family="ui-sans-serif, system-ui, sans-serif" font-weight="500">{{ $t('gm_home_serp_query') }}</text>
+
+                <!-- Result 1: Ad -->
+                <rect x="20" y="56" width="20" height="11" rx="2" fill="rgba(52,211,153,0.16)" stroke="rgba(52,211,153,0.55)" stroke-width="0.7"/>
+                <text x="30" y="65" text-anchor="middle" fill="#34d399" font-size="7.5" font-weight="800" font-family="ui-sans-serif, system-ui, sans-serif" letter-spacing="0.4">Ad</text>
+                <rect x="44" y="58" width="232" height="6" rx="2" fill="rgba(82,82,91,0.5)"/>
+                <rect x="20" y="72" width="210" height="11" rx="2" fill="rgba(96,165,250,0.62)"/>
+                <rect x="20" y="89" width="270" height="5" rx="2" fill="rgba(82,82,91,0.55)"/>
+                <rect x="20" y="99" width="200" height="5" rx="2" fill="rgba(82,82,91,0.45)"/>
+
+                <!-- Result 2: organic -->
+                <rect x="20" y="115" width="180" height="6" rx="2" fill="rgba(82,82,91,0.5)"/>
+                <rect x="20" y="127" width="190" height="11" rx="2" fill="rgba(96,165,250,0.5)"/>
+                <rect x="20" y="144" width="240" height="5" rx="2" fill="rgba(82,82,91,0.4)"/>
+
+                <!-- Section label -->
+                <text x="20" y="180" fill="rgba(161,161,170,0.7)" font-size="9" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif" letter-spacing="2.2">CAMPAIGN FLOW</text>
+
+                <!-- Flow path -->
+                <path
+                    :d="googleHomeFlowPath"
+                    fill="none"
+                    stroke="url(#gm-home-flow-grad)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                />
+
+                <!-- Flow boxes -->
+                <g v-for="(box, i) in googleHomeFlowBoxes" :key="'gm-n'+i">
+                  <rect
+                      :x="box.x"
+                      :y="box.y"
+                      :width="box.w"
+                      :height="box.h"
+                      rx="8"
+                      fill="#18181b"
+                      stroke="rgba(96,165,250,0.30)"
+                      stroke-width="1.2"
+                      filter="url(#gm-home-node-glow)"
+                  />
+                  <text
+                      :x="box.x + box.w / 2"
+                      :y="box.y + box.h / 2 + 4"
+                      text-anchor="middle"
+                      fill="#d4d4d8"
+                      font-size="10"
+                      font-weight="600"
+                      font-family="ui-sans-serif, system-ui, sans-serif"
+                  >{{ $t(box.labelKey) }}</text>
+                </g>
+
+                <!-- Animated dots traveling the flow -->
+                <circle r="3.2" fill="#60a5fa">
+                  <animateMotion dur="12s" repeatCount="indefinite" rotate="auto" :path="googleHomeFlowPath"/>
+                </circle>
+                <circle r="2.4" fill="#34d399">
+                  <animateMotion dur="12s" repeatCount="indefinite" rotate="auto" begin="-6s" :path="googleHomeFlowPath"/>
+                </circle>
+
+                <!-- Mini KPI strip -->
+                <g transform="translate(0, 256)" font-family="ui-sans-serif, system-ui, sans-serif">
+                  <rect x="16" y="0" width="88" height="48" rx="9" fill="#0f0f10" stroke="rgba(96,165,250,0.22)" stroke-width="1"/>
+                  <text x="60" y="18" text-anchor="middle" fill="#71717a" font-size="8.5" font-weight="700" letter-spacing="1.5">CTR</text>
+                  <text x="60" y="38" text-anchor="middle" fill="#fafafa" font-size="16" font-weight="800">4.8%</text>
+
+                  <rect x="116" y="0" width="88" height="48" rx="9" fill="#0f0f10" stroke="rgba(52,211,153,0.28)" stroke-width="1"/>
+                  <text x="160" y="18" text-anchor="middle" fill="#71717a" font-size="8.5" font-weight="700" letter-spacing="1.5">CPA</text>
+                  <text x="160" y="38" text-anchor="middle" fill="#fafafa" font-size="16" font-weight="800">€12</text>
+
+                  <rect x="216" y="0" width="88" height="48" rx="9" fill="#0f0f10" stroke="rgba(96,165,250,0.22)" stroke-width="1"/>
+                  <text x="260" y="18" text-anchor="middle" fill="#71717a" font-size="8.5" font-weight="700" letter-spacing="1.5">ROAS</text>
+                  <text x="260" y="38" text-anchor="middle" fill="#fafafa" font-size="16" font-weight="800">3.6×</text>
+                </g>
+              </svg>
+            </div>
           </div>
         </div>
 
-        <div class="w-full aspect-video bg-zinc-800 mt-20 rounded-xl flex items-center justify-center text-gray-500 text-sm">
-          {{$t('marketing_video_placeholder')}}
+        <div id="google-modules" v-scroll-animate class="mt-20 lg:mt-28 scroll-mt-20">
+          <div class="max-w-2xl mb-10">
+            <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white mb-3">{{ $t('gm_home_modules_title') }}</h3>
+            <p class="text-zinc-400 text-base sm:text-lg leading-relaxed">{{ $t('gm_home_modules_subtitle') }}</p>
+          </div>
+
+          <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
+            <component
+                v-for="(mod, i) in tm('gm_home_modules')"
+                :key="i"
+                :is="mod.link ? 'router-link' : 'div'"
+                v-bind="mod.link ? { to: mod.link } : {}"
+                v-scroll-animate
+                :style="{ transitionDelay: (i * 60) + 'ms' }"
+                :class="[
+                  'group relative bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6 lg:p-7 transition-all block',
+                  mod.link ? 'hover:border-sky-400/40 hover:bg-zinc-900 hover:shadow-[0_0_28px_-10px_rgba(96,165,250,0.25)]' : 'hover:border-zinc-700'
+                ]"
+            >
+              <div class="flex items-start justify-between gap-4 mb-4">
+                <div class="text-3xl">{{ mod.icon }}</div>
+                <span class="text-[10px] uppercase tracking-wider px-2 py-1 rounded-full border border-zinc-700 text-zinc-500 group-hover:text-sky-300 group-hover:border-sky-400/35 transition-colors whitespace-nowrap">
+                  {{ mod.tag }}
+                </span>
+              </div>
+              <h4 class="text-xl font-bold text-white mb-2 group-hover:text-sky-300 transition-colors">{{ mod.title }}</h4>
+              <p class="text-sm text-zinc-400 leading-relaxed mb-5">{{ mod.desc }}</p>
+
+              <div v-if="mod.link" class="flex items-center gap-2 text-sm font-medium text-sky-400/80 group-hover:text-sky-300 transition-colors">
+                <span>{{ $t('learn_more') }}</span>
+                <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
+                </svg>
+              </div>
+              <div v-else class="inline-flex items-center gap-2 text-xs text-zinc-500">
+                <span class="w-1.5 h-1.5 rounded-full bg-sky-400/70"></span>
+                {{ $t('mg_hub_coming_soon') }}
+              </div>
+            </component>
+          </div>
         </div>
 
-        <div class="text-center mt-12">
-          <a
-              href="#kontakt"
-              class="inline-block px-6 py-3 bg-yellow-400 text-black font-semibold rounded-full hover:bg-yellow-300 transition-colors"
-          >
-            {{$t('marketing_cta')}}
-          </a>
+        <div v-scroll-animate class="mt-16 lg:mt-20 text-center">
+          <p class="text-[11px] uppercase tracking-[0.22em] text-zinc-500 mb-4">{{ $t('gm_home_trust_title') }}</p>
+          <div class="flex flex-wrap justify-center gap-2 max-w-4xl mx-auto">
+            <span
+                v-for="(chip, i) in tm('gm_home_trust')"
+                :key="i"
+                class="px-3 py-1.5 rounded-full border border-zinc-800 bg-zinc-900/40 text-[11px] text-zinc-500"
+            >{{ chip }}</span>
+          </div>
         </div>
       </div>
     </section>
@@ -535,6 +673,30 @@ let magentoHomeReduceMotion = false
 function setMagentoHomeMotionPaused(paused) {
   const svg = magentoHomeFlowSvgRef.value
   if (!svg || magentoHomeReduceMotion) return
+  try {
+    if (paused && typeof svg.pauseAnimations === 'function') svg.pauseAnimations()
+    else if (!paused && typeof svg.unpauseAnimations === 'function') svg.unpauseAnimations()
+  } catch (_) {
+    /* ignore */
+  }
+}
+
+/** Google Marketing homepage — SERP mock + campaign flow (SVG SMIL) */
+const googleHomeSectionRef = ref(null)
+const googleHomeFlowSvgRef = ref(null)
+const googleHomeFlowPath = 'M 42 209 L 116 209 L 192 209 L 272 209'
+const googleHomeFlowBoxes = [
+  { x: 12, y: 192, w: 60, h: 34, labelKey: 'gm_home_flow_ad' },
+  { x: 84, y: 192, w: 64, h: 34, labelKey: 'gm_home_flow_landing' },
+  { x: 160, y: 192, w: 64, h: 34, labelKey: 'gm_home_flow_convert' },
+  { x: 236, y: 192, w: 72, h: 34, labelKey: 'gm_home_flow_insight' },
+]
+let googleHomeIo = null
+let googleHomeReduceMotion = false
+
+function setGoogleHomeMotionPaused(paused) {
+  const svg = googleHomeFlowSvgRef.value
+  if (!svg || googleHomeReduceMotion) return
   try {
     if (paused && typeof svg.pauseAnimations === 'function') svg.pauseAnimations()
     else if (!paused && typeof svg.unpauseAnimations === 'function') svg.unpauseAnimations()
@@ -1197,10 +1359,40 @@ onMounted(() => {
   })
 })
 
+onMounted(() => {
+  googleHomeReduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches
+  nextTick(() => {
+    const sec = googleHomeSectionRef.value
+    if (!sec) return
+
+    sec.classList.toggle('mg-home-motion-off', googleHomeReduceMotion)
+
+    if (googleHomeReduceMotion) {
+      nextTick(() => setGoogleHomeMotionPaused(true))
+      return
+    }
+
+    if (googleHomeIo) googleHomeIo.disconnect()
+    googleHomeIo = new IntersectionObserver(
+        (entries) => {
+          const vis = entries.some((e) => e.isIntersecting)
+          sec.classList.toggle('mg-home-motion-off', !vis)
+          setGoogleHomeMotionPaused(!vis)
+        },
+        { rootMargin: '100px 0px', threshold: 0 },
+    )
+    googleHomeIo.observe(sec)
+  })
+})
+
 onBeforeUnmount(() => {
   if (magentoHomeIo) {
     magentoHomeIo.disconnect()
     magentoHomeIo = null
+  }
+  if (googleHomeIo) {
+    googleHomeIo.disconnect()
+    googleHomeIo = null
   }
   if (starsScrollCleanup) starsScrollCleanup()
   if (starsIo) {
@@ -1271,6 +1463,19 @@ onBeforeUnmount(() => {
   50% {
     background-position: 100% 55%;
   }
+}
+
+/* Google Marketing — cool variant of the shimmer (sky/emerald) */
+.gm-home-shimmer-cool {
+  background: linear-gradient(
+      118deg,
+      transparent 38%,
+      rgba(96, 165, 250, 0.05) 48%,
+      rgba(52, 211, 153, 0.045) 52%,
+      transparent 62%
+  );
+  background-size: 220% 220%;
+  opacity: 0.85;
 }
 
 @media (prefers-reduced-motion: reduce) {

@@ -419,49 +419,49 @@
   "mg_home_flow_order": "Order",
   "mg_home_flow_erp": "ERP",
   "mg_home_modules_title": "Six workstreams around your Magento store",
-  "mg_home_modules_subtitle": "Each stream is a dedicated service line — detailed pages for migrations, integrations, performance, frontend, care, and B2B are coming next. For now every card links to the Magento overview.",
+  "mg_home_modules_subtitle": "Each stream is a dedicated service line — migrations now have their own page; the other detail pages are coming next.",
   "mg_home_modules": [
     {
       "icon": "🔄",
       "tag": "Migrations",
       "title": "Migrations & upgrades",
       "desc": "M1 → M2, major jumps, data migration, and a safe go-live.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/migracije-i-upgrade"
     },
     {
       "icon": "🔌",
       "tag": "Integrations",
       "title": "Modules & APIs",
       "desc": "ERP, payments, carriers, PIM — clean code and documented contracts.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/integracije"
     },
     {
       "icon": "⚡",
       "tag": "Performance",
       "title": "Speed & hosting",
       "desc": "Varnish, Redis, Elasticsearch, indexers — a store that does not choke.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/performance-hosting"
     },
     {
       "icon": "🎨",
       "tag": "Frontend",
       "title": "Hyvä & UX",
       "desc": "Hyvä theme, Core Web Vitals, and a storefront that converts.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/frontend-hyva"
     },
     {
       "icon": "🛡️",
       "tag": "Care",
       "title": "SLA & patches",
       "desc": "Security patches, monitoring, backups — you know what you get.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/odrzavanje-sla"
     },
     {
       "icon": "🏢",
       "tag": "B2B",
       "title": "B2B commerce",
       "desc": "Company accounts, quotes, shared catalogs, and complex pricing.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/b2b-resenja"
     }
   ],
   "mg_home_trust_title": "Technologies we commonly wire into Magento",
@@ -476,6 +476,76 @@
     "GraphQL",
     "Stripe / Adyen",
     "Docker"
+  ],
+
+  "gm_home_badge": "Performance marketing · Google",
+  "gm_home_eyebrow": "Growth & Google · Ads, SEO, GA4, Merchant Center",
+  "gm_home_title": "Growth you can measure — Google Ads, SEO, and GA4 working together",
+  "gm_home_lead": "Performance marketing across the Google ecosystem — Search, Performance Max, Shopping, and YouTube, with GA4 and GTM measurement that actually shows what drives revenue. No \"magic\" — just campaigns, data, and a report you can read.",
+  "gm_home_kpis": [
+    "Search · PMax · Shopping",
+    "GA4 + GTM",
+    "Merchant Center feed",
+    "Looker Studio dashboards"
+  ],
+  "gm_home_cta_audit": "Request a marketing audit",
+  "gm_home_cta_modules": "See what we cover",
+  "gm_home_serp_query": "magento ecommerce serbia",
+  "gm_home_flow_aria": "Mini SERP result with an Ad and organic listing, below it a campaign flow Ad → Landing → Convert → Insight, and a KPI strip CTR / CPA / ROAS.",
+  "gm_home_flow_ad": "Ad",
+  "gm_home_flow_landing": "Landing",
+  "gm_home_flow_convert": "Convert",
+  "gm_home_flow_insight": "Insight",
+  "gm_home_modules_title": "Six lines of work around the Google ecosystem",
+  "gm_home_modules_subtitle": "Engage us for one line or for the full growth package. Detailed pages coming soon — tell us where to start.",
+  "gm_home_modules": [
+    {
+      "icon": "🎯",
+      "tag": "Ads",
+      "title": "Google Ads",
+      "desc": "Search, Performance Max, Shopping, and remarketing — an account structure that doesn't leak budget, with a clear goal per campaign."
+    },
+    {
+      "icon": "🔍",
+      "tag": "SEO",
+      "title": "SEO & Search Console",
+      "desc": "Technical SEO, indexing, Core Web Vitals, and a content structure that actually ranks — no \"SEO magic.\""
+    },
+    {
+      "icon": "📊",
+      "tag": "Analytics",
+      "title": "GA4 & GTM",
+      "desc": "Conversion measurement, server-side tagging, and a clean event taxonomy. Numbers you can trust."
+    },
+    {
+      "icon": "🛒",
+      "tag": "Shopping",
+      "title": "Merchant Center",
+      "desc": "Product feeds, Shopping campaigns, PMax product assets, and feed health — because a broken feed burns budget silently."
+    },
+    {
+      "icon": "📺",
+      "tag": "Video",
+      "title": "YouTube & Display",
+      "desc": "Awareness, frequency capping, video and display creative — with attribution that holds up, not just \"brand lift\" stories."
+    },
+    {
+      "icon": "📈",
+      "tag": "Reporting",
+      "title": "Looker Studio",
+      "desc": "Dashboards, an attribution model, and KPI tracking your finance team can read. One link, not four PDFs a month."
+    }
+  ],
+  "gm_home_trust_title": "Tools and platforms we use every day",
+  "gm_home_trust": [
+    "Google Ads",
+    "GA4",
+    "GTM",
+    "Search Console",
+    "Merchant Center",
+    "Looker Studio",
+    "YouTube Studio",
+    "Tag Assistant"
   ],
 
   "mg_hub_breadcrumb_home": "Weboro",
@@ -494,6 +564,7 @@
   "mg_hub_cta_brief": "Send a brief",
   "mg_hub_cta_explore": "Explore services",
   "mg_hub_coming_soon": "Detailed page coming soon",
+  "mg_hub_detail_page": "Detail page",
   "mg_hub_flow_aria": "Flow from catalog to ERP with connected systems",
   "mg_hub_flow_catalog": "Catalog",
   "mg_hub_flow_cart": "Cart",
@@ -511,18 +582,19 @@
     { "value": "10+ yrs", "label": "Experience with the Magento ecosystem" }
   ],
   "mg_hub_services_title": "Six workstreams around your Magento store",
-  "mg_hub_services_subtitle": "Hire us for a single line or the full package. Each line has a clear entry point, deliverable, and follow-up — detailed pages are coming soon.",
+  "mg_hub_services_subtitle": "Hire us for a single line or the full package. Migrations now have a dedicated page — the other lines get detail pages soon.",
   "mg_hub_services": [
-    { "icon": "🔄", "tag": "Migrations", "title": "Migrations & upgrades", "desc": "M1 → M2, major jumps, and a safe go-live.", "anchor": "#migracije" },
-    { "icon": "🔌", "tag": "Integrations", "title": "Modules & APIs", "desc": "ERP, payments, carriers, PIM — clean code and contracts.", "anchor": "#integracije" },
-    { "icon": "⚡", "tag": "Performance", "title": "Speed & hosting", "desc": "Varnish, Redis, Elasticsearch, indexers.", "anchor": "#performanse" },
-    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, a storefront that converts.", "anchor": "#frontend" },
-    { "icon": "🛡️", "tag": "Care", "title": "SLA & patches", "desc": "Security patches, monitoring, backups.", "anchor": "#odrzavanje" },
-    { "icon": "🏢", "tag": "B2B", "title": "B2B commerce", "desc": "Company accounts, quotes, shared catalogs.", "anchor": "#b2b" }
+    { "icon": "🔄", "tag": "Migrations", "title": "Migrations & upgrades", "desc": "M1 → M2, major jumps, and a safe go-live.", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "icon": "🔌", "tag": "Integrations", "title": "Modules & APIs", "desc": "ERP, payments, carriers, PIM — clean code and contracts.", "to": "/usluge/magento/integracije" },
+    { "icon": "⚡", "tag": "Performance", "title": "Speed & hosting", "desc": "Varnish, Redis, Elasticsearch, indexers.", "to": "/usluge/magento/performance-hosting" },
+    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, a storefront that converts.", "to": "/usluge/magento/frontend-hyva" },
+    { "icon": "🛡️", "tag": "Care", "title": "SLA & patches", "desc": "Security patches, monitoring, backups.", "to": "/usluge/magento/odrzavanje-sla" },
+    { "icon": "🏢", "tag": "B2B", "title": "B2B commerce", "desc": "Company accounts, quotes, shared catalogs.", "to": "/usluge/magento/b2b-resenja" }
   ],
   "mg_hub_lines": [
     {
       "anchorId": "migracije",
+      "detailTo": "/usluge/magento/migracije-i-upgrade",
       "number": "01",
       "tag": "Migrations",
       "title": "Migrations & upgrades — no panic on go-live night",
@@ -537,6 +609,7 @@
     },
     {
       "anchorId": "integracije",
+      "detailTo": "/usluge/magento/integracije",
       "number": "02",
       "tag": "Integrations",
       "title": "Custom modules & integrations — without spaghetti code",
@@ -552,6 +625,7 @@
     },
     {
       "anchorId": "performanse",
+      "detailTo": "/usluge/magento/performance-hosting",
       "number": "03",
       "tag": "Performance",
       "title": "Speed & hosting — a store that doesn't choke at peak",
@@ -569,6 +643,7 @@
       "anchorId": "frontend",
       "number": "04",
       "tag": "Frontend",
+      "detailTo": "/usluge/magento/frontend-hyva",
       "title": "Hyvä, Core Web Vitals, and UX that sells",
       "desc": "A frontend that loads fast and doesn't upset Google. We default to Hyvä, but we also do Luma optimization and headless / PWA approaches.",
       "bullets": [
@@ -583,6 +658,7 @@
       "anchorId": "odrzavanje",
       "number": "05",
       "tag": "Care",
+      "detailTo": "/usluge/magento/odrzavanje-sla",
       "title": "SLA & patches — no \"surprises on Friday night\"",
       "desc": "The Magento ecosystem moves fast — security patches, deprecations, ASRTOOLS releases. We track them for you and respond inside the agreed SLA.",
       "bullets": [
@@ -597,6 +673,7 @@
       "anchorId": "b2b",
       "number": "06",
       "tag": "B2B",
+      "detailTo": "/usluge/magento/b2b-resenja",
       "title": "B2B selling — companies, quotes, complex pricing",
       "desc": "Magento Open Source doesn't ship every B2B feature Adobe Commerce does — so we either build what you need or move you to Adobe Commerce when justified.",
       "bullets": [
@@ -640,6 +717,911 @@
   "mg_hub_final_cta_title": "Your Magento store deserves an audit",
   "mg_hub_final_cta_desc": "Send us the URL and a short brief — we come back in 2–3 working days with a written audit report (risks, performance, code health, integration debt).",
   "mg_hub_final_cta_btn": "Send a brief",
+
+  "mg_mig_breadcrumb_home": "Weboro",
+  "mg_mig_breadcrumb_hub": "Magento 2",
+  "mg_mig_breadcrumb_self": "Migrations & upgrades",
+  "mg_mig_badge": "Migrations · M1 → M2 · major upgrades",
+  "mg_mig_eyebrow": "No panic on go-live night",
+  "mg_mig_title": "Magento 2 migrations and upgrades — with a clear plan and measurable outcomes",
+  "mg_mig_lead": "We take over existing Magento 2 installs, run major upgrades, and complete migrations from M1 or other platforms. Every project starts with an audit, ends with load testing, and includes a post-launch hyper-care window.",
+  "mg_mig_kpis": [
+    "Data Migration Tool + custom scripts",
+    "Rollback plan always ready",
+    "SEO & 301 mapping",
+    "48–72h post-launch support"
+  ],
+  "mg_mig_cta_audit": "Request a migration audit",
+  "mg_mig_cta_back_hub": "Back to Magento overview",
+  "mg_mig_flow_aria": "Five migration phases: audit, plan, build, QA, go-live",
+  "mg_mig_flow_audit": "Audit",
+  "mg_mig_flow_plan": "Plan",
+  "mg_mig_flow_build": "Build",
+  "mg_mig_flow_qa": "QA",
+  "mg_mig_flow_launch": "Go-live",
+  "mg_mig_stats_title": "Numbers that signal seriousness",
+  "mg_mig_stats": [
+    { "value": "8–20", "label": "weeks typical M1 → M2 range" },
+    { "value": "100%", "label": "extension audit before upgrade" },
+    { "value": "0", "label": "production surprises — staging first" },
+    { "value": "72h", "label": "hyper-care after go-live" }
+  ],
+  "mg_mig_scope_title": "What we cover",
+  "mg_mig_scope_subtitle": "From a clean version bump to a full platform change — same process, different scope.",
+  "mg_mig_scope": [
+    { "tag": "M1 → M2", "title": "Magento 1 → Magento 2", "desc": "Data Migration Tool, legacy module cleanup, theme rebuild or Hyvä greenfield, SEO and URL mapping." },
+    { "tag": "2.4.x", "title": "Major / minor upgrade", "desc": "Composer dependency audit, module breaking changes, PHP version jumps, Elasticsearch upgrades." },
+    { "tag": "Platform", "title": "Shopify / Woo / custom → Magento", "desc": "Product, customer, and order mapping, URL structure, and redirect strategy." },
+    { "tag": "Theme", "title": "Theme port or Hyvä", "desc": "Luma port where it makes sense, or Hyvä greenfield for maximum performance after migration." }
+  ],
+  "mg_mig_phases_title": "Phases every migration goes through",
+  "mg_mig_phases_subtitle": "Transparent — you always know where we are, what is next, and what the risks are at each step.",
+  "mg_mig_phases": [
+    { "step": "Phase 0", "title": "Discovery & audit (1–2 weeks)", "desc": "Code review, extension matrix, catalog, integrations, hosting, and SEO. Output: a written risk document, rough timeline, and rough budget range." },
+    { "step": "Phase 1", "title": "Architecture & migration plan", "desc": "Decisions on what ships to M2, what gets rewritten, what gets retired. Branch strategy, CI/CD, dev/staging/prod parity." },
+    { "step": "Phase 2", "title": "Data migration dry-run", "desc": "At least one full dry-run before go-live. Delta sync plan for the final cut-over." },
+    { "step": "Phase 3", "title": "Development & integrations", "desc": "Modules, API layers, payments, carriers — everything that must work before customers see the new store." },
+    { "step": "Phase 4", "title": "QA, regression, load test", "desc": "Automated and manual tests, Lighthouse, k6/JMeter on staging with realistic data volume." },
+    { "step": "Phase 5", "title": "Go-live & hyper-care", "desc": "DNS cut-over, monitoring, fast rollback if needed, and a shared channel with you for 48–72h after launch." }
+  ],
+  "mg_mig_deliverables_title": "What you get at the end of the audit",
+  "mg_mig_deliverables_subtitle": "Before anything is signed — you know exactly what you walk away with.",
+  "mg_mig_deliverables": [
+    { "title": "Extension compatibility matrix", "desc": "Every module: keep / replace / rewrite / drop, with hour estimates." },
+    { "title": "Data migration map", "desc": "Which entities migrate, in what order, and where manual steps exist." },
+    { "title": "SEO & URL plan", "desc": "301 map, canonical strategy, category structure after migration." },
+    { "title": "Rollback checklist", "desc": "Concrete steps to restore the previous state if something goes wrong." },
+    { "title": "Go-live runbook", "desc": "Who does what, minute by minute, with contacts and escalation paths." }
+  ],
+  "mg_mig_risks_title": "Risks we explicitly surface",
+  "mg_mig_risks_subtitle": "These are the things that kill migrations — we address them up front, not when production is on fire.",
+  "mg_mig_risks": [
+    { "title": "\"Invisible\" custom modules", "desc": "Overrides in `app/code`, patches in `vendor`, cron jobs nobody remembers." },
+    { "title": "Elasticsearch index limits", "desc": "ES version jumps + Magento indexer configuration — a classic midnight nightmare." },
+    { "title": "Payments & PSP webhooks", "desc": "Callback URL changes, test vs live keys, 3DS2 edge cases." },
+    { "title": "Media volume & disk I/O", "desc": "Terabytes of images on NFS without a CDN — go-live night becomes a 12h file copy." },
+    { "title": "Catalog rules & segments", "desc": "Catalog price rules, cart rules, customer segments — often 2× more work than clients expect." }
+  ],
+  "mg_mig_faq_title": "FAQ — migrations",
+  "mg_mig_faq_subtitle": "Short and direct.",
+  "mg_mig_faq": [
+    { "q": "Can you migrate while the M1 store is still live?", "a": "Yes — we build M2 in parallel, run dry-runs, and M1 stays live until the cut-over window. Cut-over is usually a weekend night or an agreed maintenance window." },
+    { "q": "What if we have 80+ extensions?", "a": "The audit takes longer and most extensions land in the drop or replace column. The goal is not to copy technical debt 1:1 into M2 — it is to reduce it." },
+    { "q": "Do you guarantee zero downtime?", "a": "We do not sell magic — we sell a plan: read-only mode on the old site, a fast DNS flip, rollback steps, and a team that is awake for the first 48–72h." },
+    { "q": "Who owns the project on your side?", "a": "One lead developer + a PM contact. You can see the same board we use (Linear / Jira) if you want real-time transparency." }
+  ],
+  "mg_mig_related_title": "Next steps after migration",
+  "mg_mig_related_subtitle": "From the same Magento overview — other workstreams.",
+  "mg_mig_related": [
+    { "label": "Integrations & APIs", "to": "/usluge/magento/integracije" },
+    { "label": "Performance & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "Hyvä & frontend", "to": "/usluge/magento/frontend-hyva" }
+  ],
+  "mg_mig_final_cta_title": "Send the old store URL — we reply with a migration audit",
+  "mg_mig_final_cta_desc": "No obligation. You get a risk list, rough timeline, and rough budget range before any development starts.",
+  "mg_mig_final_cta_btn": "Contact",
+
+  "mg_int_breadcrumb_home": "Weboro",
+  "mg_int_breadcrumb_hub": "Magento 2",
+  "mg_int_breadcrumb_self": "Integrations & APIs",
+  "mg_int_badge": "ERP · CRM · payments · carriers · PIM · API",
+  "mg_int_eyebrow": "Custom modules and integrations with the rest of the world",
+  "mg_int_title": "A Magento that talks to the real business — without spaghetti code",
+  "mg_int_lead": "We ship modules and integrations the next team can pick up: documented contracts, queue + retry, monitoring, and a clear plan for when something breaks. Magento at the core, the rest of the ecosystem around it.",
+  "mg_int_kpis": [
+    "REST · GraphQL · SOAP",
+    "RabbitMQ + retry",
+    "OpenAPI documentation",
+    "Sentry + queue dashboards"
+  ],
+  "mg_int_cta_audit": "Request an integrations audit",
+  "mg_int_cta_back_hub": "Back to Magento overview",
+  "mg_int_flow_aria": "Diagram: Magento at the center, six systems around it — ERP, payments, carriers, CRM, PIM/WMS, and custom APIs.",
+  "mg_int_sat_erp": "ERP",
+  "mg_int_sat_payments": "PSP",
+  "mg_int_sat_carriers": "CARRIER",
+  "mg_int_sat_crm": "CRM",
+  "mg_int_sat_pim": "PIM",
+  "mg_int_sat_api": "API",
+  "mg_int_stats_title": "Numbers behind our integrations",
+  "mg_int_stats": [
+    { "value": "30+", "label": "integrations over the past few years" },
+    { "value": "REST/GQL", "label": "default API styles for new modules" },
+    { "value": "100%", "label": "queue + retry on sync jobs" },
+    { "value": "OpenAPI", "label": "every new endpoint documented" }
+  ],
+  "mg_int_categories_title": "Six categories of integrations",
+  "mg_int_categories_subtitle": "The most common ecosystems we wire into Magento. Hire us for a single integration or the full integration layer.",
+  "mg_int_categories": [
+    {
+      "icon": "🏭",
+      "tag": "ERP",
+      "title": "ERP integrations",
+      "desc": "Two-way sync of products, stock, prices, orders, and customers.",
+      "items": ["SAP", "MS Dynamics 365", "Pantheon", "Calculus", "Odoo", "Custom on-prem ERP"]
+    },
+    {
+      "icon": "💳",
+      "tag": "Payments",
+      "title": "Payments & PSPs",
+      "desc": "PCI-safe integrations, tokenization, 3DS2, recurring, and refunds — properly mapped to Magento order state.",
+      "items": ["Stripe", "Adyen", "AllSecure", "IPS / NestPay", "PayPal", "ChipCard"]
+    },
+    {
+      "icon": "🚚",
+      "tag": "Carriers",
+      "title": "Carriers & shipping",
+      "desc": "Auto-generated labels, tracking statuses inside Magento, and customer notifications.",
+      "items": ["Pošta Srbije", "BEX", "DHL", "In Time", "AKS", "GLS"]
+    },
+    {
+      "icon": "🤝",
+      "tag": "CRM",
+      "title": "CRM & marketing",
+      "desc": "Customer events, abandoned cart, segmentation — without rewriting them in five places.",
+      "items": ["HubSpot", "Klaviyo", "Mailchimp", "Pipedrive", "Salesforce", "OutreachGenie"]
+    },
+    {
+      "icon": "📦",
+      "tag": "PIM/WMS",
+      "title": "PIM & warehouse",
+      "desc": "Centralized catalog, multi-channel publish, and real stock from your WMS.",
+      "items": ["Akeneo PIM", "Pimcore", "Custom WMS", "Bartender label flow", "Barcode integrations"]
+    },
+    {
+      "icon": "🔧",
+      "tag": "Custom API",
+      "title": "Custom REST / GraphQL",
+      "desc": "When the stock Magento API isn't enough — we ship our own endpoints with OpenAPI docs and contracts.",
+      "items": ["REST + JSON Schema", "GraphQL queries/mutations", "Webhook bus", "Auth: OAuth2 / JWT", "Rate limiting"]
+    }
+  ],
+  "mg_int_patterns_title": "Engineering principles we hold",
+  "mg_int_patterns_subtitle": "These aren't buzzwords — they're what stops an integration from breaking on Black Friday peak.",
+  "mg_int_patterns": [
+    { "tag": "Async", "title": "Queue + retry pattern", "desc": "ERP sync always goes through a queue (RabbitMQ or Magento queue). Retry with exponential backoff and a dead-letter queue for messages that can't be processed." },
+    { "tag": "Idempotency", "title": "Idempotent endpoint design", "desc": "Every state-changing POST has an `Idempotency-Key` or equivalent. If a carrier sends a webhook 3 times — the order stays in the same state." },
+    { "tag": "Auth", "title": "OAuth2 / JWT auth layers", "desc": "No shared API keys in messaging apps — every integration partner has its own credential set and rotation path." },
+    { "tag": "Logging", "title": "Structured logs + correlation ID", "desc": "Every message in the integration carries a `correlation_id` visible in Magento, the ERP, and Sentry. Debugging becomes minutes, not days." },
+    { "tag": "Monitoring", "title": "Queue depth + error rate alerts", "desc": "Sentry + custom Magento dashboards track queue depth, retry count, and error rate. Alerts fire before customers report a problem." },
+    { "tag": "Contracts", "title": "OpenAPI / JSON Schema contracts", "desc": "Every API leaving Magento has an OpenAPI definition in the `docs/` repo — used to generate clients and validators." }
+  ],
+  "mg_int_deliverables_title": "What you get with every integration",
+  "mg_int_deliverables_subtitle": "Not just code — the full package the next team can pick up without you.",
+  "mg_int_deliverables": [
+    { "title": "OpenAPI / GraphQL schema", "desc": "A documented contract for every endpoint with request/response examples." },
+    { "title": "Sequence diagrams", "desc": "Mermaid or draw.io diagrams for every critical flow (e.g. order → ERP → invoice)." },
+    { "title": "Incident runbook", "desc": "What to check when orders stop reaching the ERP, how to restart the queue, how to re-process failed messages." },
+    { "title": "Monitoring & alerts", "desc": "Configured dashboards, alert rules, and an escalation policy — with example alerts." },
+    { "title": "Test suite", "desc": "Integration tests (PHPUnit / Pest) plus contract tests against mocked partner servers." }
+  ],
+  "mg_int_pitfalls_title": "Classic mistakes we avoid",
+  "mg_int_pitfalls_subtitle": "Things we've seen on real projects — now we track them up front.",
+  "mg_int_pitfalls": [
+    { "title": "Sync in the request thread", "desc": "Direct ERP sync from a `place_order` observer — if ERP goes down, customers can't checkout. It must go through a queue." },
+    { "title": "Plain-text API keys in code", "desc": "Magento `env.php` / GitHub history full of tokens. We replace this with Vault or Magento Encryption Key + DB config." },
+    { "title": "No API versioning", "desc": "Partner changes the shape, everything breaks. Versioning (`/v1`, `/v2`) and a deprecation window are mandatory." },
+    { "title": "\"Silent\" log errors", "desc": "A catch-all `try/catch` that logs a warning and continues as if nothing happened — the order is silently lost. Errors must be visible." },
+    { "title": "Missing rate limiting", "desc": "Webhook bombing from a partner system takes Magento down. Rate limiting + circuit breakers are the default." }
+  ],
+  "mg_int_stack_title": "Integrations tech stack",
+  "mg_int_stack_subtitle": "Picked to follow Magento defaults and be easy to hand off.",
+  "mg_int_stack_groups": [
+    { "label": "Protocols", "items": ["REST", "GraphQL", "SOAP", "Webhooks", "OAuth2", "JWT"] },
+    { "label": "Queue & event", "items": ["RabbitMQ", "Magento Message Queue", "Redis Streams", "AWS SQS"] },
+    { "label": "Observability", "items": ["Sentry", "New Relic", "OpenTelemetry", "Grafana"] },
+    { "label": "Schema & docs", "items": ["OpenAPI 3.1", "JSON Schema", "GraphQL SDL", "AsyncAPI"] },
+    { "label": "Magento API", "items": ["Magento Web API", "GraphQL Schema", "Service Contracts", "Module Plugins"] },
+    { "label": "Test & QA", "items": ["PHPUnit", "Pest", "Postman / Newman", "k6", "WireMock"] }
+  ],
+  "mg_int_faq_title": "FAQ — integrations",
+  "mg_int_faq_subtitle": "The questions clients ask most often on the first call.",
+  "mg_int_faq": [
+    { "q": "Do you do integrations without rewriting existing modules?", "a": "Whenever possible — yes. We use the Magento plugin system, observers, and custom API layers. Existing modules are touched only when their implementation directly blocks us (e.g. tight coupling in the payment flow)." },
+    { "q": "How long does a typical integration take?", "a": "ERP integration with standard entities: 4–8 weeks. Payments / carriers: 1–3 weeks per provider. Custom API layer: depends on the number of endpoints, but we ship iteratively (endpoint by endpoint, never \"big bang\")." },
+    { "q": "What if the partner has a poor API?", "a": "We build an adapter layer between the partner API and Magento — with retry, shape normalization, and a mock server for QA. If the partner only has CSV / SFTP, we build a file-based integration with the same queue + retry approach." },
+    { "q": "Who owns the integration code?", "a": "You — everything we ship lands in your GitHub/GitLab repo, with a MIT-style internal-use license. No vendor lock-in." },
+    { "q": "Do you support B2B PunchOut / EDI?", "a": "Yes. PunchOut Catalog (cXML / OCI) and EDI (X12, EDIFACT) for B2B buyers coming from their ERP — with proper mapping into Magento order structures." }
+  ],
+  "mg_int_related_title": "Related services",
+  "mg_int_related_subtitle": "Other Magento workstreams that usually go with integrations.",
+  "mg_int_related": [
+    { "label": "Migrations & upgrades", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "label": "Performance & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "B2B commerce", "to": "/usluge/magento/b2b-resenja" }
+  ],
+  "mg_int_final_cta_title": "Got an ERP, payments, or carriers to wire in?",
+  "mg_int_final_cta_desc": "Send us the list of systems and their API docs — we come back with an integration map, sequence, and an estimate.",
+  "mg_int_final_cta_btn": "Send an integration brief",
+
+  "mg_perf_breadcrumb_home": "Weboro",
+  "mg_perf_breadcrumb_hub": "Magento 2",
+  "mg_perf_breadcrumb_self": "Performance & hosting",
+  "mg_perf_badge": "Cache layers · Hosting · Profiling",
+  "mg_perf_eyebrow": "Speed that survives the peak",
+  "mg_perf_title": "A Magento store that doesn't choke — from TTFB to Core Web Vitals",
+  "mg_perf_lead": "Varnish, Redis, Elasticsearch, image CDN, and real profiling. We make sure 90%+ of traffic stops at the cache layers — Magento PHP and the database breathe, customers get the page in half a second.",
+  "mg_perf_kpis": [
+    "Varnish + ESI",
+    "Redis cache + sessions",
+    "Elasticsearch 8 tuned",
+    "Blackfire / New Relic"
+  ],
+  "mg_perf_cta_audit": "Request a performance audit",
+  "mg_perf_cta_back_hub": "Back to Magento overview",
+  "mg_perf_flow_aria": "Cache layers a request flows through: CDN, Varnish FPC, Redis, Magento PHP, and the database. Most requests return at the early layers.",
+  "mg_perf_layer_cdn": "CDN (Cloudflare / Fastly)",
+  "mg_perf_layer_varnish": "Varnish FPC + ESI",
+  "mg_perf_layer_redis": "Redis cache + sessions",
+  "mg_perf_layer_php": "Magento PHP / FPM",
+  "mg_perf_layer_db": "MySQL · Elasticsearch",
+  "mg_perf_stats_title": "Numbers we look at on every shop",
+  "mg_perf_stats": [
+    { "value": "<2s", "label": "PDP LCP target (Hyvä)" },
+    { "value": "<200ms", "label": "TTFB out of Varnish FPC" },
+    { "value": "90%+", "label": "cache hit rate on PLP/PDP" },
+    { "value": "p95", "label": "we don't track average — only p95/p99" }
+  ],
+  "mg_perf_layers_title": "Six cache and performance layers",
+  "mg_perf_layers_subtitle": "Each layer has a specific job. Some shops only need Varnish + Redis tuning, others need every layer including a CDN and an image pipeline.",
+  "mg_perf_layer_cards": [
+    {
+      "icon": "🌐",
+      "tag": "Edge",
+      "title": "CDN & edge cache",
+      "desc": "Static assets and HTML cache before traffic even reaches your server. Geo-fast for international shops.",
+      "items": ["Cloudflare / Fastly / KeyCDN", "Bunny.net for media", "Edge image transforms", "HTTP/2 + HTTP/3", "Smart purge invalidation"]
+    },
+    {
+      "icon": "🛡️",
+      "tag": "FPC",
+      "title": "Varnish + ESI",
+      "desc": "Full Page Cache for PLP and PDP. ESI placeholders for cart, mini-cart, and customer-specific blocks.",
+      "items": ["Custom VCL rules", "ESI for cart / mini-cart", "Tag-based invalidation", "Cache warming after deploy", "Bypass for the checkout flow"]
+    },
+    {
+      "icon": "⚙️",
+      "tag": "App cache",
+      "title": "Redis cache + sessions",
+      "desc": "Magento config, layout, block cache, and session storage — separate databases for isolation.",
+      "items": ["Redis 7 cluster mode", "Separate DBs (default / page_cache / sessions)", "Persist tuning (AOF / RDB)", "Memory pressure monitoring", "Lock-on-snapshot pattern"]
+    },
+    {
+      "icon": "🔍",
+      "tag": "Search",
+      "title": "Elasticsearch 8 tuning",
+      "desc": "Product search, layered navigation, sort filters — all with proper mapping and analyzers.",
+      "items": ["Magento ES8 module + custom analyzers", "Indexer scheduling", "Zero-downtime reindex", "Partial reindex pattern", "Slow query logging"]
+    },
+    {
+      "icon": "🖼️",
+      "tag": "Media",
+      "title": "Image CDN & LCP",
+      "desc": "WebP/AVIF pipeline, responsive srcset, lazy loading. LCP element carefully identified and optimized.",
+      "items": ["WebP + AVIF conversion", "Responsive srcset / sizes", "Lazy loading (native + IntersectionObserver)", "Preload for the LCP image", "Optimized logo / hero asset"]
+    },
+    {
+      "icon": "🗄️",
+      "tag": "DB",
+      "title": "MySQL & query tuning",
+      "desc": "Slow query log, indexes for custom columns, connection pooling — so the DB never becomes the peak bottleneck.",
+      "items": ["Slow query log + pt-query-digest", "Indexes for custom catalog columns", "ProxySQL or MySQL Router", "Read replicas for reporting", "Backup without I/O spikes"]
+    }
+  ],
+  "mg_perf_hosting_title": "Hosting options",
+  "mg_perf_hosting_subtitle": "Three approaches we use. No one-size-fits-all — picked based on traffic, the maintaining team, and budget.",
+  "mg_perf_hosting_best_for": "Best for",
+  "mg_perf_hosting_pros": "Plus",
+  "mg_perf_hosting_caveats": "Caveats",
+  "mg_perf_hosting_options": [
+    {
+      "tag": "Adobe Commerce Cloud",
+      "title": "Adobe Commerce Cloud (ECE-Tools)",
+      "desc": "Managed Magento on AWS underneath. Adobe handles the infra, you handle the app.",
+      "bestFor": "Enterprise clients with B2B/B2C complexity and an Adobe Commerce license.",
+      "pros": [
+        "Managed Varnish + Redis + Elastic",
+        "Auto-scaling for high traffic",
+        "Fastly CDN included",
+        "24/7 Adobe support"
+      ],
+      "caveats": [
+        "Expensive for smaller shops",
+        "Less flexibility on VCL rules",
+        "Adobe Commerce only, not Open Source"
+      ]
+    },
+    {
+      "tag": "Dedicated VPS / Bare metal",
+      "title": "Dedicated VPS (Hetzner / OVH / DO)",
+      "desc": "Classic Linux box with Nginx, PHP-FPM, Varnish, Redis, ES — all under your control.",
+      "bestFor": "Magento Open Source shops, mid-market, flexibility over price.",
+      "pros": [
+        "Lower monthly cost",
+        "Full control over VCL and tuning",
+        "Easy to add custom services (queue, cron)",
+        "Backups on your terms"
+      ],
+      "caveats": [
+        "Someone has to maintain Linux and security patches",
+        "Auto-scaling needs extra work (load balancer)",
+        "Off-site backup is not \"included\""
+      ]
+    },
+    {
+      "tag": "Containerized",
+      "title": "Docker / Kubernetes on AWS / GCP",
+      "desc": "Magento in containers, with managed PaaS databases (RDS, ElastiCache). CI/CD straight to production.",
+      "bestFor": "Technically mature teams, dev-ops oriented, multi-environment setups.",
+      "pros": [
+        "Reproducible environment (dev = prod)",
+        "Easy pod scaling",
+        "GitOps + automated deploys",
+        "Managed RDS, ElastiCache, OpenSearch"
+      ],
+      "caveats": [
+        "Steeper learning curve",
+        "More expensive than VPS for small shops",
+        "K8s complexity if you don't need auto-scaling"
+      ]
+    }
+  ],
+  "mg_perf_profiling_title": "Profiling & measurement",
+  "mg_perf_profiling_subtitle": "Without real measurement, optimization is guesswork. These are the tools and practices we rely on.",
+  "mg_perf_profiling": [
+    { "tag": "PHP", "title": "Blackfire profiler", "desc": "CPU, memory, and I/O profiles for slow request flows. Usually the first tool we reach for to find real-world bottlenecks." },
+    { "tag": "APM", "title": "New Relic / Datadog", "desc": "Real-time tracing through every layer, error grouping, and transaction breakdown by route." },
+    { "tag": "Frontend", "title": "Lighthouse + WebPageTest", "desc": "Lab measurements from different locations and networks. Reports include filmstrip and waterfall." },
+    { "tag": "RUM", "title": "Real User Monitoring", "desc": "Cloudflare RUM or custom — you see the LCP/INP/CLS your customers actually experience, not just lab numbers." },
+    { "tag": "Load test", "title": "k6 / JMeter", "desc": "We simulate Black Friday peak on staging with realistic catalog, cart, and checkout flows." },
+    { "tag": "Magento", "title": "Magento profiler + slow query log", "desc": "Built-in profiler for database and layout rendering. Slow query log filtered through pt-query-digest." }
+  ],
+  "mg_perf_deliverables_title": "What you get on a performance engagement",
+  "mg_perf_deliverables_subtitle": "Before/after measurements, documented fixes, and a playbook for ongoing care.",
+  "mg_perf_deliverables": [
+    { "title": "Performance audit report", "desc": "Current LCP/INP/TTFB, top 10 slow queries, cache hit rate, and a prioritized list of concrete fixes." },
+    { "title": "Before/after metrics", "desc": "Lighthouse + RUM numbers before and after, with percentage delta — not \"feels faster.\"" },
+    { "title": "VCL & cache rules document", "desc": "Varnish configuration, ESI strategy, invalidation rules — all in the repo with comments." },
+    { "title": "Cron & indexer schedule", "desc": "Optimized Magento cron and indexer schedule — no \"index storms\" during peak." },
+    { "title": "Performance playbook", "desc": "What to check when the site slows down, how to warm up cache after a deploy, how to reindex without downtime." }
+  ],
+  "mg_perf_bottlenecks_title": "The bottlenecks we keep solving",
+  "mg_perf_bottlenecks_subtitle": "Things we run into on real-world shops — and how we put them out.",
+  "mg_perf_bottlenecks": [
+    { "title": "FPC bypass on a whole category", "desc": "A custom module sets a `noCache` flag on a PLP — and suddenly every request hits Magento. Audit + targeted invalidation fixes it." },
+    { "title": "Reindex blocking write operations", "desc": "Indexer in \"Update on Save\" mode runs synchronously inside the order placement flow. Switch to \"Update by Schedule\" + cron tuning." },
+    { "title": "N+1 queries in listings", "desc": "A custom module loads custom attributes in a loop for every product. Profiling reveals it, batch loading fixes it." },
+    { "title": "A huge unoptimized logo / hero", "desc": "The LCP element is an 800KB PNG. WebP conversion + preload give a 1.2s LCP win on 4G." },
+    { "title": "Redis without a memory limit", "desc": "Redis exceeds RAM, swap kicks in, latency spikes. Memory eviction policy + monitoring before it breaks." },
+    { "title": "Elasticsearch reindex during business hours", "desc": "A full reindex runs during the day, search drops. Schedule + partial reindex for routine updates." }
+  ],
+  "mg_perf_faq_title": "FAQ — performance",
+  "mg_perf_faq_subtitle": "Short and unembellished.",
+  "mg_perf_faq": [
+    { "q": "How much improvement is realistic on an existing shop?", "a": "Typically 40–70% TTFB improvement and 30–50% LCP improvement in the first 2–4 weeks. Real numbers come after the audit, not before. If a shop has never been tuned, 2× faster first paint is common." },
+    { "q": "Do I have to move to Hyvä to get good performance?", "a": "No — Luma can be fast if it's tuned properly. But if a redesign is on the roadmap in the next two years, Hyvä is the default: 60–80% smaller JS bundle, easier maintenance, better Core Web Vitals out of the box." },
+    { "q": "What if I'm on shared hosting?", "a": "Magento on shared hosting is hard to tune properly (no control over PHP-FPM, Redis, Varnish). We usually recommend moving to a VPS first, then tuning. The exception is Magento-specific shared hosting (e.g. Nexcess)." },
+    { "q": "Do you do that \"instant page load\" thing other shops have?", "a": "Yes — a combination of Hyvä + ESI + Varnish + preload of critical assets + speculation rules for PLP→PDP navigation. Not magic, just serious caching." },
+    { "q": "How much does a performance engagement cost?", "a": "Audit: fixed price (~3–5 days of work). Implementation: T&M or sprint pricing — usually 2–4 weeks for the first pass. After that we recommend a monthly retainer (8–16 hours/month) for upkeep." }
+  ],
+  "mg_perf_related_title": "Related services",
+  "mg_perf_related_subtitle": "Performance usually goes alongside a frontend rebuild and ongoing monitoring.",
+  "mg_perf_related": [
+    { "label": "Hyvä & frontend", "to": "/usluge/magento/frontend-hyva" },
+    { "label": "SLA & care", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Integrations & APIs", "to": "/usluge/magento/integracije" }
+  ],
+  "mg_perf_final_cta_title": "Slow Magento? Send the URL — we send back an audit",
+  "mg_perf_final_cta_desc": "Lighthouse + RUM measurements, top 10 issues with impact estimates, prioritized fix list. No obligation.",
+  "mg_perf_final_cta_btn": "Request a performance audit",
+
+  "mg_fe_breadcrumb_home": "Weboro",
+  "mg_fe_breadcrumb_hub": "Magento 2",
+  "mg_fe_breadcrumb_self": "Frontend & Hyvä",
+  "mg_fe_badge": "Hyvä · Luma · headless · UX",
+  "mg_fe_eyebrow": "A storefront that loads fast and converts",
+  "mg_fe_title": "A frontend that doesn't upset Google — and doesn't make customers wait",
+  "mg_fe_lead": "Hyvä is the default: Tailwind + Alpine, a small JS bundle, fast builds, Core Web Vitals in the green. We also do Luma optimization when a Hyvä migration isn't an option, plus headless / PWA approaches for UX-heavy shops.",
+  "mg_fe_kpis": [
+    "Hyvä Theme",
+    "PWA Studio / Vue Storefront",
+    "Tailwind + Alpine.js",
+    "Core Web Vitals green"
+  ],
+  "mg_fe_cta_audit": "Request a frontend audit",
+  "mg_fe_cta_back_hub": "Back to Magento overview",
+  "mg_fe_flow_aria": "Lighthouse score 96 with Core Web Vitals: LCP 1.8s, INP 120ms, CLS 0.04 — all green.",
+  "mg_fe_stats_title": "Targets we hit on Hyvä projects",
+  "mg_fe_stats": [
+    { "value": "90+", "label": "Lighthouse score on PDP / PLP" },
+    { "value": "120KB", "label": "typical JS bundle (gzipped)" },
+    { "value": "60–80%", "label": "smaller JS bundle vs Luma" },
+    { "value": "<2s", "label": "LCP target on 4G" }
+  ],
+  "mg_fe_compare_title": "Hyvä vs Luma — straight up",
+  "mg_fe_compare_subtitle": "No sugarcoating. Hyvä isn't just \"a better Luma\" — it's a different architecture with its own trade-offs.",
+  "mg_fe_compare_luma_title": "Magento Luma",
+  "mg_fe_compare_luma_tag": "Stock Magento",
+  "mg_fe_compare_luma_desc": "The original Magento theme. RequireJS, KnockoutJS, jQuery — an approach almost a decade old.",
+  "mg_fe_compare_luma_points": [
+    "JS bundle 700–1500KB before tuning",
+    "RequireJS sync boots slowly",
+    "Knockout bindings cause INP issues",
+    "LESS build is slow and complex",
+    "Lighthouse rarely passes 50 without serious work",
+    "Many extensions are still Luma-only"
+  ],
+  "mg_fe_compare_hyva_title": "Hyvä Theme",
+  "mg_fe_compare_hyva_tag": "Recommended",
+  "mg_fe_compare_hyva_desc": "A modern theme on Tailwind + Alpine.js. Replaces the Luma frontend while the backend stays stock Magento.",
+  "mg_fe_compare_hyva_points": [
+    "JS bundle 80–150KB (5–10× smaller)",
+    "Tailwind utility-first — faster dev",
+    "Alpine.js instead of Knockout — better INP",
+    "Build in seconds, not minutes",
+    "Lighthouse 90+ out of the box",
+    "Compatibility module for Luma extensions",
+    "Easier to onboard new developers"
+  ],
+  "mg_fe_approaches_title": "Four frontend approaches we use",
+  "mg_fe_approaches_subtitle": "No one-size-fits-all — picked based on the shop, existing extensions, and UX ambition.",
+  "mg_fe_approaches_when": "When",
+  "mg_fe_approaches": [
+    {
+      "icon": "⚡",
+      "tag": "Default",
+      "title": "Hyvä Theme",
+      "desc": "The fastest path to good performance. Tailwind + Alpine, small bundle, simple build, Hyvä compat for Luma extensions.",
+      "when": "New shop, redesign, or a Luma shop with a reasonable number of extensions that have a Hyvä compat layer."
+    },
+    {
+      "icon": "🛠️",
+      "tag": "Tuning",
+      "title": "Luma optimization",
+      "desc": "When migrating to Hyvä isn't possible (e.g. 50+ tightly coupled extensions). We shrink the JS bundle, optimize LCP, and squeeze Luma to its limit.",
+      "when": "Existing Luma shop with custom modules that aren't worth rewriting."
+    },
+    {
+      "icon": "🚀",
+      "tag": "Headless",
+      "title": "Headless / PWA Studio",
+      "desc": "Magento as the backend, Vue / React storefront. Max UX control, app-like feel — but significantly more work and complexity.",
+      "when": "UX requirements exceed a classic theme (custom flows, PWA, multi-device shared session)."
+    },
+    {
+      "icon": "🎨",
+      "tag": "Custom",
+      "title": "Custom Hyvä theme",
+      "desc": "A Hyvä child theme with fully custom UI — keeping the performance, adding brand identity and a unique UX.",
+      "when": "The brand needs a different look from stock Hyvä but doesn't want headless complexity."
+    }
+  ],
+  "mg_fe_cwv_title": "Core Web Vitals — where the real work happens",
+  "mg_fe_cwv_subtitle": "Three metrics Google uses for ranking. We track them continuously and know exactly where the problem is.",
+  "mg_fe_cwv_we_optimize": "What we optimize",
+  "mg_fe_cwv_cards": [
+    {
+      "metric": "LCP",
+      "target": "<2.5s",
+      "title": "Largest Contentful Paint",
+      "desc": "Time to the largest visible element. The LCP element is usually the hero image or main heading on the PDP.",
+      "items": ["WebP/AVIF conversion of LCP image", "Preload hint for the LCP asset", "Server-side render of critical HTML", "ESI placeholders for customer blocks", "Eliminate blocking CSS/JS"]
+    },
+    {
+      "metric": "INP",
+      "target": "<200ms",
+      "title": "Interaction to Next Paint",
+      "desc": "Time from a user interaction to the next paint. Replaced FID — the real signal of how responsive a shop feels.",
+      "items": ["Hyvä Alpine instead of Knockout", "Code splitting per route", "Defer / async non-critical JS", "Web Workers for heavy tasks", "Throttle / debounce input handlers"]
+    },
+    {
+      "metric": "CLS",
+      "target": "<0.1",
+      "title": "Cumulative Layout Shift",
+      "desc": "Layout shifts during load. The customer hits \"buy\" and lands on an ad because the layout shifted — that kills conversion.",
+      "items": ["Explicit image and video dimensions", "Reserved space for ad / banner blocks", "Font display swap + size-adjust", "Skeleton loaders for async content", "CSS containment for stable blocks"]
+    }
+  ],
+  "mg_fe_deliverables_title": "What you get on a frontend engagement",
+  "mg_fe_deliverables_subtitle": "Not just \"a pretty theme\" — a documented storefront system the next team can maintain.",
+  "mg_fe_deliverables": [
+    { "title": "Component library (Hyvä child theme)", "desc": "Every UI component with usage examples — buttons, forms, modals, product cards, navigation." },
+    { "title": "Design system tokens", "desc": "Tailwind config with brand colors, typography, spacing scale — the design system in one place." },
+    { "title": "Page templates", "desc": "PDP, PLP, checkout, search, customer account — all responsive with explicit breakpoints." },
+    { "title": "Performance budget", "desc": "Max JS bundle, image weight, third-party scripts — with a CI/CD check that fails on budget breach." },
+    { "title": "Lighthouse + RUM dashboards", "desc": "Lab + real-user measurements with history and alerts when metrics fall below target." }
+  ],
+  "mg_fe_pages_title": "Pages where we focus on conversion",
+  "mg_fe_pages_subtitle": "Conversion doesn't come from \"a beautiful design\" — it comes from the right decisions on the right pages.",
+  "mg_fe_pages": [
+    { "title": "PDP — Product Detail Page", "desc": "Gallery with zoom, variants, sticky add-to-cart, reviews, related products, micro-CTAs for incentives." },
+    { "title": "PLP — Product Listing Page", "desc": "Layered navigation without full reloads, image lazy loading, infinite scroll vs paginate by metric." },
+    { "title": "Checkout", "desc": "Single-page or multi-step, guest checkout, ESI for address blocks, an optimized PSP integration flow." },
+    { "title": "Search & autocomplete", "desc": "Elasticsearch-driven autocomplete, \"did you mean,\" results with filters and product preview." },
+    { "title": "Customer account", "desc": "Order tracking, repeat purchase, address book, wishlist — focused on bringing the customer back." }
+  ],
+  "mg_fe_faq_title": "FAQ — frontend",
+  "mg_fe_faq_subtitle": "The questions clients ask most often before a Hyvä migration.",
+  "mg_fe_faq": [
+    { "q": "How long does a Hyvä migration from Luma take?", "a": "Realistic: 6–12 weeks for a standard shop, up to 4 months for a shop with many custom modules and custom UX. Before we quote, we audit the theme, extensions, and custom logic — and only then commit to a timeline." },
+    { "q": "What if my extensions don't have Hyvä compat?", "a": "Three options: 1) the Hyvä Compatibility Module solves 70%+ of cases automatically, 2) we rewrite the extension for Hyvä natively, 3) if it isn't critical, we replace it with another. The audit decides which path per extension." },
+    { "q": "Does Hyvä work with Adobe Commerce B2B features?", "a": "Yes, Hyvä supports Adobe Commerce B2B (company accounts, quotes, shared catalogs). Hyvä Checkout is a commercial add-on, but it usually pays off for B2B." },
+    { "q": "Why not PWA / headless straight away if it's \"the most modern\"?", "a": "Headless is 3–5× more work than Hyvä, with the same or smaller performance gain in 80% of cases. We go headless only when there are concrete UX requirements a classic theme can't meet (multi-device session, custom checkout flow, multi-brand storefront)." },
+    { "q": "How much does the Hyvä license cost?", "a": "Hyvä Theme is per-domain, one-time, ~€1000 (check the current price). Hyvä Checkout is separate. We bill it directly, with no markup." }
+  ],
+  "mg_fe_related_title": "Related services",
+  "mg_fe_related_subtitle": "A frontend rebuild usually goes alongside performance tuning and an SLA package.",
+  "mg_fe_related": [
+    { "label": "Performance & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "SLA & care", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Migrations & upgrades", "to": "/usluge/magento/migracije-i-upgrade" }
+  ],
+  "mg_fe_final_cta_title": "Slow Luma? Send the URL — we send back a Hyvä migration plan",
+  "mg_fe_final_cta_desc": "A written plan: extension audit, timeline, rough budget, Lighthouse before/after estimate. No obligation.",
+  "mg_fe_final_cta_btn": "Request a Hyvä audit",
+
+  "mg_sla_breadcrumb_home": "Weboro",
+  "mg_sla_breadcrumb_hub": "Magento 2",
+  "mg_sla_breadcrumb_self": "Care & SLA",
+  "mg_sla_badge": "24/7 monitoring · security patches · backups",
+  "mg_sla_eyebrow": "A shop that doesn't fall — and if it does, gets back up fast",
+  "mg_sla_title": "Care with a clear SLA — no \"I'll call my cousin to fix it\"",
+  "mg_sla_lead": "Monthly packages with guaranteed response times, a security-patch SLA, monitoring, and backups. Everything in writing — you know exactly what you pay for and what you get.",
+  "mg_sla_kpis": [
+    "24/7 monitoring",
+    "Security patch 24-72h",
+    "RPO ≤ 1h · RTO ≤ 4h",
+    "Monthly report"
+  ],
+  "mg_sla_cta_quote": "Request an SLA quote",
+  "mg_sla_cta_back_hub": "Back to Magento overview",
+  "mg_sla_flow_aria": "Monitoring dashboard with 99.97% uptime, 142ms response, a 30-day status grid, and live alert blocks.",
+  "mg_sla_stats_title": "SLA numbers we track and report",
+  "mg_sla_stats": [
+    { "value": "99.95%", "label": "uptime target on Gold/Platinum SLA" },
+    { "value": "≤30 min", "label": "P1 incident first response" },
+    { "value": "24-72h", "label": "security patch rollout" },
+    { "value": "≤1h / ≤4h", "label": "RPO / RTO on disaster recovery" }
+  ],
+  "mg_sla_tiers_title": "SLA tiers — pick a level, we standardize the process",
+  "mg_sla_tiers_subtitle": "Three tiers for different business stages. Pricing and scope are in the contract — no \"surprise\" line items.",
+  "mg_sla_tiers_popular": "Most popular",
+  "mg_sla_tiers_response": "Response to a P1 incident",
+  "mg_sla_tiers_for": "For:",
+  "mg_sla_tiers": [
+    {
+      "tag": "Bronze",
+      "title": "Essential",
+      "desc": "Baseline maintenance — security patches, monthly backup audit, basic monitoring. A solid entry for smaller shops.",
+      "response": "Next business day",
+      "features": [
+        "Magento + extension security patches",
+        "Monthly backup verification",
+        "Basic uptime monitoring (5 min interval)",
+        "Email support — weekdays 9 a.m. – 5 p.m.",
+        "Monthly health report"
+      ],
+      "for": "Smaller shops with <500 orders / month"
+    },
+    {
+      "tag": "Silver",
+      "title": "Business",
+      "desc": "The standard package for most B2C shops. Faster response, proactive monitoring, and a bug-fix budget included.",
+      "response": "≤4h during business hours",
+      "highlight": true,
+      "features": [
+        "Everything in Essential",
+        "1-min uptime + transaction monitoring",
+        "Performance & error tracking (Sentry/NewRelic)",
+        "8 hours of bug-fix budget per month",
+        "Staging deploy + smoke tests",
+        "Quarterly business review"
+      ],
+      "for": "B2C shops with 500–10k orders / month"
+    },
+    {
+      "tag": "Gold / Platinum",
+      "title": "Enterprise",
+      "desc": "24/7 on-call, contractual uptime guarantee, a dedicated technical contact, and a monthly dev budget.",
+      "response": "≤30min · 24/7",
+      "features": [
+        "Everything in Business",
+        "24/7 on-call (P1 → phone, not email)",
+        "99.95% uptime SLA in the contract",
+        "Dedicated technical contact",
+        "16–40 hours of dev budget / month",
+        "Disaster recovery test 2× a year",
+        "Penalty clauses if we miss SLA"
+      ],
+      "for": "Enterprise shops, B2B, critical peak periods"
+    }
+  ],
+  "mg_sla_covered_title": "What's covered in an SLA package",
+  "mg_sla_covered_subtitle": "Six areas that every SLA package covers — at different intensities by tier.",
+  "mg_sla_covered": [
+    {
+      "icon": "🛡️",
+      "title": "Security patch management",
+      "desc": "Magento, PHP, OS, third-party packages — we track CVE feeds and patch within the agreed window.",
+      "items": ["Magento Security Patch SLA", "PHP / Apache / Nginx CVE", "Composer dependency audit", "WAF rule updates"]
+    },
+    {
+      "icon": "📊",
+      "title": "Uptime & synthetic monitoring",
+      "desc": "We track HTTP, the checkout flow, search, every critical endpoint. The alert fires before the customer notices.",
+      "items": ["UptimeRobot / Pingdom monitoring", "Checkout step-by-step probe", "Database lag monitoring", "Cron job execution alerts"]
+    },
+    {
+      "icon": "💾",
+      "title": "Backup & disaster recovery",
+      "desc": "Daily database, weekly full, off-site replication. We rehearse restores — they don't only say \"works\" on paper.",
+      "items": ["Daily DB + media backup", "Off-site cold storage (S3 / Backblaze)", "Documented restore runbook", "Recovery drills 2× a year"]
+    },
+    {
+      "icon": "🐛",
+      "title": "Bug-fix & support",
+      "desc": "Bugs reported by users or caught by monitors — fixed within SLA, with documentation in the ticket system.",
+      "items": ["Issue tracking in Jira / Linear", "Reproduction in staging", "Hotfix → staging → production", "Postmortem for P1/P2 incidents"]
+    },
+    {
+      "icon": "🔧",
+      "title": "Performance health",
+      "desc": "We track TTFB, LCP, cache hit rate, indexer status. We react before performance falls below target.",
+      "items": ["Weekly Lighthouse CI", "Cache hit-rate alerting", "Slow query log monitoring", "Cron / queue lag tracking"]
+    },
+    {
+      "icon": "📅",
+      "title": "Monthly report & QBR",
+      "desc": "A written report every month — uptime, incidents, patches, performance. A Quarterly Business Review every three months.",
+      "items": ["SLA compliance report", "List of patches and incidents", "Performance trend & roadmap", "Quarterly Business Review (1h)"]
+    }
+  ],
+  "mg_sla_severity_title": "Severity matrix — what's a P1, what's a P4",
+  "mg_sla_severity_subtitle": "How we rank incidents. The definition is in the contract — no \"I think this is urgent\" debate at 3 a.m.",
+  "mg_sla_severity_h_level": "Level",
+  "mg_sla_severity_h_def": "Definition",
+  "mg_sla_severity_h_example": "Example",
+  "mg_sla_severity_h_response": "Response",
+  "mg_sla_severity_h_target": "Resolution target",
+  "mg_sla_severity_rows": [
+    {
+      "level": "P1",
+      "color": "#ef4444",
+      "def": "Critical — the shop is down or checkout is unavailable for everyone.",
+      "example": "Shop down, checkout 500 error, payment provider rejecting all.",
+      "response": "≤30 min",
+      "target": "≤4h"
+    },
+    {
+      "level": "P2",
+      "color": "#f97316",
+      "def": "High — functionality is severely degraded for most customers.",
+      "example": "Search broken, one PSP down, page loads >10s.",
+      "response": "≤2h",
+      "target": "Same business day"
+    },
+    {
+      "level": "P3",
+      "color": "#fbbf24",
+      "def": "Medium — minor bug, workaround exists, doesn't block sales.",
+      "example": "Wrong email template, one PLP filter, an admin tool bug.",
+      "response": "Next business day",
+      "target": "≤5 business days"
+    },
+    {
+      "level": "P4",
+      "color": "#22c55e",
+      "def": "Low — cosmetic, request, documentation, \"nice to have.\"",
+      "example": "Footer typo, new admin report, adding an attribute.",
+      "response": "By agreement",
+      "target": "Next sprint"
+    }
+  ],
+  "mg_sla_process_title": "How we handle an incident — from alert to postmortem",
+  "mg_sla_process_subtitle": "Five steps. The same every time. That's how a team builds muscle memory.",
+  "mg_sla_process": [
+    { "tag": "Detect", "title": "Detection & alert", "desc": "A monitor or user reports it. The alert routes by severity (P1 → phone)." },
+    { "tag": "Triage", "title": "Triaging & severity", "desc": "The on-call engineer confirms severity, opens a ticket, and notifies the client on the agreed channel." },
+    { "tag": "Fix", "title": "Stabilization & resolution", "desc": "Hotfix in staging, then production. Workaround first if a full fix is longer than the SLA target." },
+    { "tag": "Verify", "title": "Verification & monitoring", "desc": "A smoke test post-deploy, then a 24h monitor watch to make sure the issue doesn't recur." },
+    { "tag": "Learn", "title": "Postmortem", "desc": "For P1/P2 — a written postmortem within 5 business days. What happened, what changes in the system." }
+  ],
+  "mg_sla_deliverables_title": "What you get on an SLA package",
+  "mg_sla_deliverables_subtitle": "Concrete artifacts — not just \"we maintain it.\" Everything documented and in writing.",
+  "mg_sla_deliverables": [
+    { "title": "A written SLA contract", "desc": "Severity definitions, response/resolution targets, penalty clauses, scope extension rules." },
+    { "title": "Runbook library", "desc": "Written runbooks for the top 20 most common problems — restarting Varnish, reindex, restarting queues..." },
+    { "title": "Status page", "desc": "A public or private status page with uptime history and incident log — real-time transparency." },
+    { "title": "Monthly SLA report", "desc": "Compliance percentage, incident list, MTTR, patches, performance trend — all in one PDF." },
+    { "title": "Repo & CI/CD access", "desc": "The client has full access to the code and CI/CD pipeline. No vendor lock-in — you can hand off to another team." }
+  ],
+  "mg_sla_excluded_title": "What's not in the SLA package (and when it is)",
+  "mg_sla_excluded_subtitle": "Honest conversation — some things don't fit a flat-fee SLA and run separately.",
+  "mg_sla_excluded": [
+    { "title": "Major Magento upgrades", "desc": "2.4.x → 2.5.x or similar major jumps run as a separate project (see Migrations & upgrades)." },
+    { "title": "New feature development", "desc": "Big new features (B2B portal, new PSP, headless storefront) we run as separate sprints." },
+    { "title": "Third-party out of scope", "desc": "A bug in an extension whose vendor doesn't maintain it — we deliver a workaround, but the fix goes back to the vendor." },
+    { "title": "Marketing & content work", "desc": "Banners, blog posts, CMS content — can be added to the retainer, but isn't part of the SLA package." },
+    { "title": "Hosting infrastructure outside ours", "desc": "If the shop runs on infrastructure we can't monitor — the SLA is limited to the application layer." }
+  ],
+  "mg_sla_faq_title": "FAQ — care & SLA",
+  "mg_sla_faq_subtitle": "What clients ask before signing an SLA contract.",
+  "mg_sla_faq": [
+    { "q": "Can you take over a shop my team didn't build?", "a": "Yes — that's roughly 50% of our SLA clients. We start with an onboarding audit (1–2 weeks): code, infrastructure, extensions, security state, backup status. After the audit we propose an SLA tier and a list of hotfixes before the package starts." },
+    { "q": "What if you miss the SLA target?", "a": "On Gold/Platinum we have penalty clauses in the contract — pro-rata credit on the next month or a written root-cause analysis + action plan. Bronze/Silver tiers get an RCA without credit. Everything is in the contract — no \"we'll consider it an exception\" talk." },
+    { "q": "How much does a monthly SLA cost?", "a": "Bronze: from €350/mo, Silver: from €900/mo, Gold: from €2,200/mo (indicative — depends on the shop, extension count, order volume). Final pricing comes after the onboarding audit." },
+    { "q": "Can I cancel the package?", "a": "Yes, with 30 days notice. Handover is documented — repo access, runbooks, monitor accounts, all of it goes to the client. No \"cancellation penalty\" or similar." },
+    { "q": "What happens in a disaster (e.g. the server loses everything)?", "a": "Disaster recovery procedure: restore from off-site backup (RPO ≤1h for Gold/Platinum, ≤24h for Bronze). RTO target is ≤4h for Gold. The procedure is documented and tested 2× a year on staging." }
+  ],
+  "mg_sla_related_title": "Related services",
+  "mg_sla_related_subtitle": "SLA often goes hand-in-hand with a performance audit and a security upgrade at the start.",
+  "mg_sla_related": [
+    { "label": "Performance & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "Migrations & upgrades", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "label": "Frontend & Hyvä", "to": "/usluge/magento/frontend-hyva" }
+  ],
+  "mg_sla_final_cta_title": "Currently unsupported? Send the info — we send back an onboarding plan",
+  "mg_sla_final_cta_desc": "A written onboarding plan: scope audit, hotfix list, proposed SLA tier, and indicative pricing. No obligation.",
+  "mg_sla_final_cta_btn": "Request an SLA quote",
+
+  "mg_b2b_breadcrumb_home": "Weboro",
+  "mg_b2b_breadcrumb_hub": "Magento 2",
+  "mg_b2b_breadcrumb_self": "B2B commerce",
+  "mg_b2b_badge": "Company accounts · quotes · shared catalogs",
+  "mg_b2b_eyebrow": "A B2B shop that runs like your sales team",
+  "mg_b2b_title": "B2B on Magento 2 — company accounts, quotes, and shared catalogs that actually work",
+  "mg_b2b_lead": "Adobe Commerce ships a serious B2B layer — company accounts with user hierarchy, quote-to-order workflows, shared catalogs by tier, and punchout / EDI integrations. We help you configure it the way your sales team already works outside the shop.",
+  "mg_b2b_kpis": [
+    "Adobe Commerce B2B",
+    "Company accounts + roles",
+    "Quote-to-order workflow",
+    "Shared catalogs & tier pricing"
+  ],
+  "mg_b2b_cta_audit": "Request a B2B audit",
+  "mg_b2b_cta_back_hub": "Back to Magento overview",
+  "mg_b2b_flow_aria": "B2B Company Account panel — ACME Corp with Admin/Approver/Buyer users and a quote-to-order workflow in progress.",
+  "mg_b2b_stats_title": "B2B numbers we see on client projects",
+  "mg_b2b_stats": [
+    { "value": "3-5×", "label": "higher AOV vs B2C orders" },
+    { "value": "60%+", "label": "repeat customers within 12 months" },
+    { "value": "30-50%", "label": "cut in manual sales-team work" },
+    { "value": "Net 30/60", "label": "credit terms with credit limit" }
+  ],
+  "mg_b2b_pain_title": "Why B2B isn't \"a slightly tweaked B2C\"",
+  "mg_b2b_pain_subtitle": "The customer isn't a person — it's a company with processes. Things B2C platforms simply don't support.",
+  "mg_b2b_pain": [
+    { "title": "Multiple users in one company", "desc": "The buyer orders, the manager approves over a threshold, finance gets the invoices. All of that has to work from the same company order." },
+    { "title": "Negotiating price before the order", "desc": "B2B rarely buys at list price. The customer requests a quote, negotiates a discount, pays in 30/60 days — a workflow B2C doesn't know." },
+    { "title": "Different prices for different customers", "desc": "Distributor A pays 60% of list, retailer B pays 80%, a new customer pays 100%. All from the same catalog, without \"separate shops\" per tier." },
+    { "title": "ERP is the source of truth", "desc": "Prices, stock, credit limit, and order history live in the ERP. The shop is just a window — sync has to be two-way and reliable." },
+    { "title": "Punchout and EDI processes", "desc": "Big customers buy from their own procurement system (Coupa, Ariba, SAP). Your shop has to behave like a \"PunchOut catalog\" too." },
+    { "title": "Net terms instead of cards", "desc": "B2B rarely pays with a card. They pay on invoice, with a credit limit, against an average DSO your finance team tracks." }
+  ],
+  "mg_b2b_features_title": "Six areas we implement on Magento B2B",
+  "mg_b2b_features_subtitle": "Everything the Adobe Commerce B2B layer offers, plus integrations with your ERP, PIM, and procurement systems.",
+  "mg_b2b_features": [
+    {
+      "icon": "🏢",
+      "tag": "Company accounts",
+      "title": "Hierarchical company accounts",
+      "desc": "One company, many users with different roles — Admin, Approver, Buyer. Each sees and does exactly what they should.",
+      "items": ["Multi-user company accounts", "Role-based access and permissions", "Self-service registration + admin approval", "Multiple shipping & billing addresses"]
+    },
+    {
+      "icon": "📝",
+      "tag": "Quotes",
+      "title": "Quote-to-order workflow",
+      "desc": "The buyer adds to cart, requests a quote, the sales team negotiates the price, the buyer converts to an order — all in the shop.",
+      "items": ["Request for Quote (RFQ) flow", "Price and discount negotiation", "Approval workflow with limits", "Quote → Order conversion in one click"]
+    },
+    {
+      "icon": "🏷️",
+      "tag": "Pricing",
+      "title": "Shared catalogs & tier pricing",
+      "desc": "Different prices for different companies — without cloning catalogs. Tier pricing, customer-specific pricing, contract pricing.",
+      "items": ["Shared catalogs per tier", "Customer group pricing", "Volume tier pricing", "Negotiated contract pricing"]
+    },
+    {
+      "icon": "📊",
+      "tag": "Procurement",
+      "title": "Quick order & re-order",
+      "desc": "B2B buyers know SKUs. They need CSV upload, fast \"add to cart\" by SKU list, and one-click reorder of a previous order.",
+      "items": ["CSV / Excel quick upload", "SKU-based bulk add-to-cart", "Re-order from previous orders", "Requisition lists (template ordering)"]
+    },
+    {
+      "icon": "🔌",
+      "tag": "Integration",
+      "title": "Punchout & EDI integrations",
+      "desc": "Big clients buy through their procurement system. We implement OCI / cXML PunchOut and EDI 850/810/856 transactions.",
+      "items": ["OCI / cXML PunchOut catalog", "EDI 850/810/856 (purchase order / invoice / shipping)", "Coupa / Ariba / SAP procurement integrations", "B2B GraphQL API for partner portals"]
+    },
+    {
+      "icon": "💰",
+      "tag": "Payment",
+      "title": "Net terms & credit",
+      "desc": "Pay on invoice with a credit limit. The ERP controls the limit, the shop checks it in real-time before the buyer can place an order.",
+      "items": ["Net 30 / 60 / 90 payment", "Credit limit from ERP", "Purchase order number at checkout", "Customer portal for open invoices"]
+    }
+  ],
+  "mg_b2b_compare_title": "Magento B2B vs SaaS vs custom build",
+  "mg_b2b_compare_subtitle": "There is no \"best solution\" — there's the one that fits your scale, ERP, and sales process.",
+  "mg_b2b_compare_pros": "Plus",
+  "mg_b2b_compare_cons": "Minus",
+  "mg_b2b_compare_for": "For:",
+  "mg_b2b_compare": [
+    {
+      "title": "Adobe Commerce B2B",
+      "tag": "Recommended",
+      "highlight": true,
+      "desc": "Magento with the official B2B module. Covers 80% of B2B scenarios out of the box, with custom layers via the module system.",
+      "pros": ["All B2B features in core", "Ownership of data and logic", "Extensible via the extension ecosystem", "Hyvä B2B support"],
+      "cons": ["Adobe Commerce license (~$22k+/yr)", "Needs an experienced Magento team", "More complex infrastructure"],
+      "for": "Mid-sized to large shops with €1M+ B2B GMV and a complex procurement process."
+    },
+    {
+      "title": "SaaS B2B platforms",
+      "tag": "Fast",
+      "desc": "BigCommerce B2B Edition, Shopify Plus B2B, OroCommerce SaaS. Faster start, with trade-offs around ownership and custom logic.",
+      "pros": ["Shorter go-live timeline", "Less devops overhead", "Monthly subscription instead of license"],
+      "cons": ["Limited custom logic", "Vendor lock-in", "Scalability has a ceiling", "Often no EDI/Punchout support"],
+      "for": "New B2B shops that want to test the model fast."
+    },
+    {
+      "title": "Custom / headless build",
+      "tag": "Specific",
+      "desc": "Magento backend + custom Vue/React storefront, or a fully custom platform. Maximum control, maximum work.",
+      "pros": ["Full freedom over UX and workflow", "Optimized for the specific business", "Maximum performance"],
+      "cons": ["Longest timeline (12+ months)", "Highest maintenance cost", "All work falls on the dev team"],
+      "for": "Specific industries where standard B2B processes don't fit (e.g. manufacturers with configure-to-order)."
+    }
+  ],
+  "mg_b2b_phases_title": "B2B implementation phases",
+  "mg_b2b_phases_subtitle": "A B2B project isn't \"installing a B2B module\" — it's redesigning the sales process through the shop. Five phases, a clear output for each.",
+  "mg_b2b_phases": [
+    { "title": "Sales-process audit", "duration": "1-2 wks", "desc": "Conversations with the sales team, finance, the ERP team. How sales currently work, where the bottlenecks are, who approves what." },
+    { "title": "Catalog & pricing model", "duration": "2-3 wks", "desc": "Mapping company tiers, tier pricing, shared catalog structure. Concrete numbers, not abstract groups." },
+    { "title": "Workflow configuration", "duration": "3-5 wks", "desc": "Company accounts, role-based permissions, quote workflow, approval rules — set up against real sales scenarios." },
+    { "title": "ERP & procurement integrations", "duration": "4-8 wks", "desc": "Sync prices, stock, credit limit from ERP. PunchOut catalog for enterprise clients. EDI if needed." },
+    { "title": "Sales-team onboarding", "duration": "2-3 wks", "desc": "Sales-team training, documentation, what-if scenarios, gradually shifting the portfolio from email to the shop." }
+  ],
+  "mg_b2b_deliverables_title": "What you get on a B2B project",
+  "mg_b2b_deliverables_subtitle": "Not just a technical handoff — a documented B2B system that the sales team actually uses.",
+  "mg_b2b_deliverables": [
+    { "title": "A configured B2B Magento", "desc": "Company accounts, roles, quote workflow, shared catalogs, tier pricing — all with tests and documentation." },
+    { "title": "ERP integration with real-time sync", "desc": "Prices, stock, and credit limit synced in real-time. Documented contracts, retry logic, monitoring." },
+    { "title": "PunchOut & EDI where needed", "desc": "OCI / cXML PunchOut catalog for enterprise clients, EDI 850/810/856 if the client requires it." },
+    { "title": "Sales-team runbook", "desc": "A step-by-step guide: how to create a quote, how to approve it, how to track DSO, how to handle edge cases." },
+    { "title": "Customer portal & analytics", "desc": "B2B buyers see open invoices, order history, requisition lists. The sales manager sees the pipeline in a dashboard." }
+  ],
+  "mg_b2b_usecases_title": "B2B scenarios we've delivered",
+  "mg_b2b_usecases_subtitle": "Different industries, the same pattern — company accounts, price negotiation, integrations with the back office.",
+  "mg_b2b_usecases": [
+    { "title": "Industrial-equipment distributor", "desc": "10k SKUs, 200+ company accounts, EDI to the top 5 customers, PunchOut to 2 enterprise clients." },
+    { "title": "Food wholesale", "desc": "Regional tier pricing, requisition lists for weekly orders, Net 30 with a credit limit from the ERP." },
+    { "title": "Components manufacturer", "desc": "Configure-to-order configurator, RFQ workflow with engineering review, quote-to-order conversion." },
+    { "title": "B2B cosmetics / HoReCa", "desc": "Company accounts for salons and hotels, tier pricing, 30-day invoices, approval workflow for buyers above limit." },
+    { "title": "Auto parts for service shops", "desc": "VIN-based search, real-time stock from the warehouse system, company accounts with order history per workshop." }
+  ],
+  "mg_b2b_faq_title": "FAQ — B2B on Magento",
+  "mg_b2b_faq_subtitle": "What clients ask most often before a B2B implementation.",
+  "mg_b2b_faq": [
+    { "q": "Do I need an Adobe Commerce license for B2B features?", "a": "Yes — the B2B layer (company accounts, quote workflow, shared catalogs, requisition lists) is part of Adobe Commerce, not Magento Open Source. Licensing starts around $22k/yr (revenue-based). Some extensions emulate part of B2B on Open Source, but for serious B2B we recommend the Commerce license." },
+    { "q": "How long does a B2B implementation take?", "a": "Realistic range: 12–24 weeks for a standard B2B implementation, 6+ months if it includes EDI, PunchOut, and complex ERP integrations. Before we quote, we audit the sales process — and only then commit to a timeline." },
+    { "q": "Can B2B and B2C run on the same shop?", "a": "Yes — the most common setup is a \"mixed\" shop: B2C customers register the classic way, B2B customers via company-account registration. Magento can segment by customer group what each one sees (prices, catalog, payment methods)." },
+    { "q": "How does the price from the ERP sync to the shop in real-time?", "a": "Three approaches: 1) cache + scheduled sync every 5–15 min, 2) ERP push on every update via webhook, 3) on-demand call to the ERP API at add-to-cart. We pick based on the number of SKUs, request volume, and the guarantees the ERP offers." },
+    { "q": "Do you support Hyvä on B2B?", "a": "Yes. Hyvä B2B supports all standard Adobe Commerce B2B features (company accounts, quotes, shared catalogs). Hyvä Checkout is especially valuable here because it seriously speeds up a B2B checkout with many line items." },
+    { "q": "What happens to the existing B2B email/Excel process?", "a": "We don't kill it overnight — that triggers sales-team pushback. We go gradually: first top 20 clients on the shop, then expand. The sales team uses the shop as a tool (they can create a quote on behalf of the customer), not as a replacement." }
+  ],
+  "mg_b2b_related_title": "Related services",
+  "mg_b2b_related_subtitle": "A B2B implementation usually requires complex integrations and an SLA package.",
+  "mg_b2b_related": [
+    { "label": "Integrations & APIs", "to": "/usluge/magento/integracije" },
+    { "label": "SLA & care", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Performance & hosting", "to": "/usluge/magento/performance-hosting" }
+  ],
+  "mg_b2b_final_cta_title": "Send the info about your sales process — we send back a B2B audit and timeline",
+  "mg_b2b_final_cta_desc": "A written audit: company tier mapping, proposed quote workflow, ERP integration plan, and indicative timeline. No obligation.",
+  "mg_b2b_final_cta_btn": "Request a B2B audit",
 
   "platforms_title": "Magento, WordPress & custom web",
   "platforms_intro": "We choose technology based on scope, budget, and the team that will maintain the system — from enterprise stores to fast marketing sites and fully bespoke products.",

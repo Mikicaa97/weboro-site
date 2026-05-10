@@ -419,49 +419,49 @@
   "mg_home_flow_order": "Porudžbina",
   "mg_home_flow_erp": "ERP",
   "mg_home_modules_title": "Šest linija rada oko Magento shopa",
-  "mg_home_modules_subtitle": "Svaka linija je posebna usluga — uskoro detaljne stranice za migracije, integracije, performanse, frontend, održavanje i B2B. Za sada sve vodi na pregled Magento usluga.",
+  "mg_home_modules_subtitle": "Svaka linija je posebna usluga — migracije sada imaju zasebnu stranicu; ostale detaljne stranice stižu uskoro.",
   "mg_home_modules": [
     {
       "icon": "🔄",
       "tag": "Migracije",
       "title": "Migracije & upgrade",
       "desc": "M1 → M2, platformski skokovi, migracija podataka i bezbedan go-live.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/migracije-i-upgrade"
     },
     {
       "icon": "🔌",
       "tag": "Integracije",
       "title": "Moduli & API",
       "desc": "ERP, plaćanja, kuriri, PIM — čist kod i dokumentovani ugovori.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/integracije"
     },
     {
       "icon": "⚡",
       "tag": "Performanse",
       "title": "Brzina & hosting",
       "desc": "Varnish, Redis, Elasticsearch, indeksi — prodavnica koja ne „guši“.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/performance-hosting"
     },
     {
       "icon": "🎨",
       "tag": "Frontend",
       "title": "Hyvä & UX",
       "desc": "Hyvä tema, Core Web Vitals i storefront koji prodaje.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/frontend-hyva"
     },
     {
       "icon": "🛡️",
       "tag": "Održavanje",
       "title": "SLA & patch-evi",
       "desc": "Security patch-evi, monitoring, backup — znaš šta dobijaš.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/odrzavanje-sla"
     },
     {
       "icon": "🏢",
       "tag": "B2B",
       "title": "B2B rešenja",
       "desc": "Company accounts, ponude, deljeni katalozi i složeni cenovnici.",
-      "link": "/usluge/magento"
+      "link": "/usluge/magento/b2b-resenja"
     }
   ],
   "mg_home_trust_title": "Tehnologije koje često spajamo sa Magento-om",
@@ -476,6 +476,76 @@
     "GraphQL",
     "Stripe / Adyen",
     "Docker"
+  ],
+
+  "gm_home_badge": "Performance marketing · Google",
+  "gm_home_eyebrow": "Growth & Google · Ads, SEO, GA4, Merchant Center",
+  "gm_home_title": "Rast koji možeš da meriš — Google Ads, SEO i GA4 koji rade zajedno",
+  "gm_home_lead": "Performance marketing kroz Google ekosistem — Search, Performance Max, Shopping i YouTube, sa GA4 i GTM merenjem koje stvarno pokazuje šta donosi prihod. Bez „magije“ — samo kampanje, podaci i izveštaj koji možeš da pročitaš.",
+  "gm_home_kpis": [
+    "Search · PMax · Shopping",
+    "GA4 + GTM",
+    "Merchant Center feed",
+    "Looker Studio dashboards"
+  ],
+  "gm_home_cta_audit": "Zatraži marketing audit",
+  "gm_home_cta_modules": "Vidi šta pokrivamo",
+  "gm_home_serp_query": "magento ecommerce srbija",
+  "gm_home_flow_aria": "Mini SERP rezultat sa „Ad“ i organic listingom, ispod toga campaign flow Oglas → Stranica → Konverzija → Uvid, i KPI strip CTR / CPA / ROAS.",
+  "gm_home_flow_ad": "Oglas",
+  "gm_home_flow_landing": "Stranica",
+  "gm_home_flow_convert": "Konverzija",
+  "gm_home_flow_insight": "Uvid",
+  "gm_home_modules_title": "Šest linija rada oko Google ekosistema",
+  "gm_home_modules_subtitle": "Možeš nas angažovati za jednu liniju ili ceo growth paket. Detaljne stranice uskoro — recite mi čime krećemo prvo.",
+  "gm_home_modules": [
+    {
+      "icon": "🎯",
+      "tag": "Ads",
+      "title": "Google Ads",
+      "desc": "Search, Performance Max, Shopping i remarketing — struktura naloga koja ne curi budžet, sa jasnim ciljem po kampanji."
+    },
+    {
+      "icon": "🔍",
+      "tag": "SEO",
+      "title": "SEO & Search Console",
+      "desc": "Tehnički SEO, indeksiranje, Core Web Vitals i sadržajna struktura koja zaista rangira — bez „SEO magije“."
+    },
+    {
+      "icon": "📊",
+      "tag": "Analytics",
+      "title": "GA4 & GTM",
+      "desc": "Merenje konverzija, server-side tagging i čista event taksonomija. Brojevi kojima možeš da veruješ."
+    },
+    {
+      "icon": "🛒",
+      "tag": "Shopping",
+      "title": "Merchant Center",
+      "desc": "Product feed-ovi, Shopping kampanje, PMax product asseti i feed health — jer neispravan feed troši budžet u tišini."
+    },
+    {
+      "icon": "📺",
+      "tag": "Video",
+      "title": "YouTube & Display",
+      "desc": "Awareness, frequency capping, kreativi za video i display mreže — sa pravim attribution-om, ne „brand lift“ pričom."
+    },
+    {
+      "icon": "📈",
+      "tag": "Reporting",
+      "title": "Looker Studio",
+      "desc": "Dashboards, attribution model i KPI praćenje koje finansijski tim razume. Jedan link, ne 4 PDF-a mesečno."
+    }
+  ],
+  "gm_home_trust_title": "Alati i platforme koje koristimo svakog dana",
+  "gm_home_trust": [
+    "Google Ads",
+    "GA4",
+    "GTM",
+    "Search Console",
+    "Merchant Center",
+    "Looker Studio",
+    "YouTube Studio",
+    "Tag Assistant"
   ],
 
   "mg_hub_breadcrumb_home": "Weboro",
@@ -494,6 +564,7 @@
   "mg_hub_cta_brief": "Pošalji brief",
   "mg_hub_cta_explore": "Istraži usluge",
   "mg_hub_coming_soon": "Detaljna stranica uskoro",
+  "mg_hub_detail_page": "Detaljna stranica",
   "mg_hub_flow_aria": "Tok od kataloga do ERP-a sa povezanim sistemima",
   "mg_hub_flow_catalog": "Katalog",
   "mg_hub_flow_cart": "Korpa",
@@ -511,18 +582,19 @@
     { "value": "10+ god", "label": "Iskustvo sa Magento ekosistemom" }
   ],
   "mg_hub_services_title": "Šest linija rada oko Magento shopa",
-  "mg_hub_services_subtitle": "Možeš nas angažovati za jednu liniju ili kompletan paket. Svaka linija ima jasan ulaz, deliverable i nastavak — detaljne stranice za svaku stižu uskoro.",
+  "mg_hub_services_subtitle": "Možeš nas angažovati za jednu liniju ili kompletan paket. Migracije sada imaju zasebnu stranicu — ostale linije detaljno uskoro.",
   "mg_hub_services": [
-    { "icon": "🔄", "tag": "Migracije", "title": "Migracije & upgrade", "desc": "M1 → M2, platformski skokovi i bezbedan go-live.", "anchor": "#migracije" },
-    { "icon": "🔌", "tag": "Integracije", "title": "Moduli & API", "desc": "ERP, plaćanja, kuriri, PIM — čist kod i ugovori.", "anchor": "#integracije" },
-    { "icon": "⚡", "tag": "Performanse", "title": "Brzina & hosting", "desc": "Varnish, Redis, Elasticsearch, indeksi.", "anchor": "#performanse" },
-    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, storefront koji prodaje.", "anchor": "#frontend" },
-    { "icon": "🛡️", "tag": "Održavanje", "title": "SLA & patch-evi", "desc": "Security patch-evi, monitoring, backup.", "anchor": "#odrzavanje" },
-    { "icon": "🏢", "tag": "B2B", "title": "B2B rešenja", "desc": "Company accounts, ponude, deljeni katalozi.", "anchor": "#b2b" }
+    { "icon": "🔄", "tag": "Migracije", "title": "Migracije & upgrade", "desc": "M1 → M2, platformski skokovi i bezbedan go-live.", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "icon": "🔌", "tag": "Integracije", "title": "Moduli & API", "desc": "ERP, plaćanja, kuriri, PIM — čist kod i ugovori.", "to": "/usluge/magento/integracije" },
+    { "icon": "⚡", "tag": "Performanse", "title": "Brzina & hosting", "desc": "Varnish, Redis, Elasticsearch, indeksi.", "to": "/usluge/magento/performance-hosting" },
+    { "icon": "🎨", "tag": "Frontend", "title": "Hyvä & UX", "desc": "Hyvä, Core Web Vitals, storefront koji prodaje.", "to": "/usluge/magento/frontend-hyva" },
+    { "icon": "🛡️", "tag": "Održavanje", "title": "SLA & patch-evi", "desc": "Security patch-evi, monitoring, backup.", "to": "/usluge/magento/odrzavanje-sla" },
+    { "icon": "🏢", "tag": "B2B", "title": "B2B rešenja", "desc": "Company accounts, ponude, deljeni katalozi.", "to": "/usluge/magento/b2b-resenja" }
   ],
   "mg_hub_lines": [
     {
       "anchorId": "migracije",
+      "detailTo": "/usluge/magento/migracije-i-upgrade",
       "number": "01",
       "tag": "Migracije",
       "title": "Migracije & upgrade — bez panike na go-live noći",
@@ -552,6 +624,7 @@
     },
     {
       "anchorId": "performanse",
+      "detailTo": "/usluge/magento/performance-hosting",
       "number": "03",
       "tag": "Performanse",
       "title": "Brzina i hosting — prodavnica koja se ne „guši“ u špicu",
@@ -569,6 +642,7 @@
       "anchorId": "frontend",
       "number": "04",
       "tag": "Frontend",
+      "detailTo": "/usluge/magento/frontend-hyva",
       "title": "Hyvä, Core Web Vitals i UX koji prodaje",
       "desc": "Frontend koji se brzo učita i ne ljuti Google. Default biramo Hyvä, ali umemo i Luma optimizaciju kao i headless / PWA pristupe.",
       "bullets": [
@@ -583,6 +657,7 @@
       "anchorId": "odrzavanje",
       "number": "05",
       "tag": "Održavanje",
+      "detailTo": "/usluge/magento/odrzavanje-sla",
       "title": "SLA i patch-evi — bez „iznenađenja u petak uveče“",
       "desc": "Magento ekosistem se brzo menja — security patch-evi, deprecation-i, ASRTOOLS-evi. Mi to pratimo umesto tebe i odgovaramo u dogovorenom SLA.",
       "bullets": [
@@ -597,6 +672,7 @@
       "anchorId": "b2b",
       "number": "06",
       "tag": "B2B",
+      "detailTo": "/usluge/magento/b2b-resenja",
       "title": "B2B prodaja — kompanije, ponude, složeni cenovnici",
       "desc": "Magento Open Source nema sve B2B feature-e koje Adobe Commerce ima — pa pišemo ono što ti treba ili koristimo Adobe Commerce kada je opravdano.",
       "bullets": [
@@ -640,6 +716,911 @@
   "mg_hub_final_cta_title": "Tvoja Magento prodavnica zaslužuje audit",
   "mg_hub_final_cta_desc": "Pošalji nam URL i kratak opis — vraćamo se za 2–3 radna dana sa pisanim audit izveštajem (rizici, performanse, code health, integracioni dug).",
   "mg_hub_final_cta_btn": "Pošalji brief",
+
+  "mg_mig_breadcrumb_home": "Weboro",
+  "mg_mig_breadcrumb_hub": "Magento 2",
+  "mg_mig_breadcrumb_self": "Migracije & upgrade",
+  "mg_mig_badge": "Migracije · M1 → M2 · major upgrade",
+  "mg_mig_eyebrow": "Bez panike na go-live noći",
+  "mg_mig_title": "Migracije i upgrade Magento 2 shopova — sa jasnim planom i merljivim rezultatom",
+  "mg_mig_lead": "Preuzimamo postojeće Magento 2 instalacije, radimo major upgrade-e i kompletne migracije sa M1 ili drugih platformi. Svaki projekat počinje auditom, završava load testom i hyper-care periodom posle launch-a.",
+  "mg_mig_kpis": [
+    "Data Migration Tool + custom skripte",
+    "Rollback plan uvek spreman",
+    "SEO & 301 mapiranje",
+    "48–72h post-launch podrška"
+  ],
+  "mg_mig_cta_audit": "Zatraži migracioni audit",
+  "mg_mig_cta_back_hub": "Nazad na Magento pregled",
+  "mg_mig_flow_aria": "Pet faza migracije: audit, plan, razvoj, QA, go-live",
+  "mg_mig_flow_audit": "Audit",
+  "mg_mig_flow_plan": "Plan",
+  "mg_mig_flow_build": "Build",
+  "mg_mig_flow_qa": "QA",
+  "mg_mig_flow_launch": "Go-live",
+  "mg_mig_stats_title": "Brojke koje definišu ozbiljnost",
+  "mg_mig_stats": [
+    { "value": "8–20", "label": "nedelja tipičan M1 → M2 opseg" },
+    { "value": "100%", "label": "extension audit pre upgrade-a" },
+    { "value": "0", "label": "iznenađenja na produkciji — staging prvo" },
+    { "value": "72h", "label": "hyper-care posle go-live-a" }
+  ],
+  "mg_mig_scope_title": "Šta sve pokrivamo",
+  "mg_mig_scope_subtitle": "Od čistog upgrade-a verzije do kompletne promene platforme — isti proces, različit obim.",
+  "mg_mig_scope": [
+    { "tag": "M1 → M2", "title": "Magento 1 → Magento 2", "desc": "Data Migration Tool, čišćenje legacy modula, ponovna tema ili Hyvä rebuild, SEO i URL mapiranje." },
+    { "tag": "2.4.x", "title": "Major / minor upgrade", "desc": "Composer dependency audit, breaking changes u modulima, PHP verzija, Elasticsearch skokovi." },
+    { "tag": "Platforma", "title": "Shopify / Woo / custom → Magento", "desc": "Mapiranje proizvoda, kupaca, porudžbina, URL struktura i redirect strategija." },
+    { "tag": "Tema", "title": "Theme port ili Hyvä", "desc": "Luma port gde ima smisla, ili Hyvä greenfield za maksimalne performanse posle migracije." }
+  ],
+  "mg_mig_phases_title": "Faze kroz koje prolazi svaka migracija",
+  "mg_mig_phases_subtitle": "Transparentno — znaš gde smo, šta sledi i koji su rizici u svakom koraku.",
+  "mg_mig_phases": [
+    { "step": "Faza 0", "title": "Discovery & audit (1–2 nedelje)", "desc": "Pregled koda, extension matrice, kataloga, integracija, hostinga i SEO-a. Izlaz: pisani dokument sa rizicima, rough timeline i rough budget range." },
+    { "step": "Faza 1", "title": "Arhitektura & plan migracije", "desc": "Odluka šta ide u M2, šta se prepisuje, šta se gasi. Branch strategija, CI/CD, dev/staging/prod paritet." },
+    { "step": "Faza 2", "title": "Data migration dry-run", "desc": "Bar jedan pun dry-run pre go-live-a. Delta sync plan za finalni cut-over." },
+    { "step": "Faza 3", "title": "Razvoj & integracije", "desc": "Moduli, API slojevi, plaćanja, kuriri — sve što mora da radi pre nego što kupac vidi novi shop." },
+    { "step": "Faza 4", "title": "QA, regression, load test", "desc": "Automatski i manuelni testovi, Lighthouse, k6/JMeter na staging-u sa realnim volumenom podataka." },
+    { "step": "Faza 5", "title": "Go-live & hyper-care", "desc": "DNS cut-over, monitoring, brzi rollback ako zatreba, kanal sa tobom 48–72h posle launch-a." }
+  ],
+  "mg_mig_deliverables_title": "Šta dobijaš na kraju audita",
+  "mg_mig_deliverables_subtitle": "Pre nego što potpišemo bilo šta — znaš tačno šta nosiš kući.",
+  "mg_mig_deliverables": [
+    { "title": "Extension compatibility matrix", "desc": "Tabela svih modula: keep / replace / rewrite / drop, sa procenom sati." },
+    { "title": "Data migration map", "desc": "Koje entitete migriramo, kojim redosledom, gde su ručni koraci." },
+    { "title": "SEO & URL plan", "desc": "301 mapa, canonical strategija, struktura kategorija posle migracije." },
+    { "title": "Rollback checklist", "desc": "Konkretni koraci da vratiš staro stanje ako nešto pođe po zlu." },
+    { "title": "Go-live runbook", "desc": "Ko radi šta, u kom minutu, sa kontakt listom i escalation putanjom." }
+  ],
+  "mg_mig_risks_title": "Rizici koje eksplicitno gledamo",
+  "mg_mig_risks_subtitle": "Ovo su stvari koje ubijaju migracije — mi ih adresiramo unapred, ne kad pukne produkcija.",
+  "mg_mig_risks": [
+    { "title": "„Nevidljivi\" custom moduli", "desc": "Override-i u `app/code`, patch-evi u `vendor`, cron jobovi koji niko ne pamti." },
+    { "title": "Elasticsearch indeks granice", "desc": "Skokovi verzije ES + Magento indexer konfiguracija — čest izvor noćnih mora." },
+    { "title": "Plaćanja i PSP webhook-i", "desc": "URL callback promene, test vs live ključevi, 3DS2 edge case-ovi." },
+    { "title": "Media volume & disk I/O", "desc": "Terabajti slika na NFS-u bez CDN-a — go-live noć se pretvara u kopiranje fajlova 12h." },
+    { "title": "Katalog pravila i segmenti", "desc": "Catalog price rules, cart rules, customer segments — često duplo više posla nego što klijent očekuje." }
+  ],
+  "mg_mig_faq_title": "FAQ — migracije",
+  "mg_mig_faq_subtitle": "Kratko i direktno.",
+  "mg_mig_faq": [
+    { "q": "Da li radite migracije dok shop radi u M1?", "a": "Da — paralelno gradimo M2, radimo dry-run-ove, a M1 ostaje live do cut-over prozora. Cut-over obično vikend noću ili u dogovorenom maintenance prozoru." },
+    { "q": "Šta ako imam 80+ extension-a?", "a": "Tada audit traje duže i većina extension-a ide u „drop ili replace\" kolonu. Cilj je da na M2 ne kopiramo tehnički dug 1:1 — već da ga smanjimo." },
+    { "q": "Da li garantujete zero downtime?", "a": "Ne garantujemo magiju — garantujemo plan: read-only mod na staroj strani, brz DNS flip, rollback korake i tim koji je budan prve 48–72h." },
+    { "q": "Ko drži projekat sa vaše strane?", "a": "Jedan lead developer + PM tačka kontakta. Ti vidiš isti board kao mi (Linear / Jira) ako hoćeš transparentnost u realnom vremenu." }
+  ],
+  "mg_mig_related_title": "Sledeći koraci posle migracije",
+  "mg_mig_related_subtitle": "Iz istog Magento pregleda — ostale linije rada.",
+  "mg_mig_related": [
+    { "label": "Integracije & API", "to": "/usluge/magento/integracije" },
+    { "label": "Performanse & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "Hyvä & frontend", "to": "/usluge/magento/frontend-hyva" }
+  ],
+  "mg_mig_final_cta_title": "Pošalji URL starog shopa — vraćamo migracioni audit",
+  "mg_mig_final_cta_desc": "Bez obaveze. Dobijaš listu rizika, rough timeline i rough budžet range pre nego što krene bilo koji development.",
+  "mg_mig_final_cta_btn": "Kontakt",
+
+  "mg_int_breadcrumb_home": "Weboro",
+  "mg_int_breadcrumb_hub": "Magento 2",
+  "mg_int_breadcrumb_self": "Integracije & API",
+  "mg_int_badge": "ERP · CRM · plaćanja · kuriri · PIM · API",
+  "mg_int_eyebrow": "Custom moduli i integracije sa svetom",
+  "mg_int_title": "Magento koji razgovara sa stvarnim biznisom — bez „spaghetti“ koda",
+  "mg_int_lead": "Pišemo module i integracije koje drugi tim može da nastavi: dokumentovani ugovori, queue + retry, monitoring i jasan plan kada nešto pukne. Magento u sredini, ostatak ekosistema oko njega.",
+  "mg_int_kpis": [
+    "REST · GraphQL · SOAP",
+    "RabbitMQ + retry",
+    "OpenAPI dokumentacija",
+    "Sentry + queue dashboards"
+  ],
+  "mg_int_cta_audit": "Zatraži integracioni audit",
+  "mg_int_cta_back_hub": "Nazad na Magento pregled",
+  "mg_int_flow_aria": "Dijagram: Magento u sredini, šest sistema oko njega — ERP, plaćanja, kuriri, CRM, PIM/WMS i custom API.",
+  "mg_int_sat_erp": "ERP",
+  "mg_int_sat_payments": "PSP",
+  "mg_int_sat_carriers": "KURIR",
+  "mg_int_sat_crm": "CRM",
+  "mg_int_sat_pim": "PIM",
+  "mg_int_sat_api": "API",
+  "mg_int_stats_title": "Brojke koje stoje iza integracija",
+  "mg_int_stats": [
+    { "value": "30+", "label": "integracija u poslednjih nekoliko godina" },
+    { "value": "REST/GQL", "label": "default API stilovi za nove module" },
+    { "value": "100%", "label": "queue + retry na sync poslovima" },
+    { "value": "OpenAPI", "label": "svaki novi endpoint dokumentovan" }
+  ],
+  "mg_int_categories_title": "Šest kategorija integracija",
+  "mg_int_categories_subtitle": "Najčešći ekosistemi koje vežemo na Magento. Možeš nas zvati za jednu integraciju ili kompletan integracioni sloj.",
+  "mg_int_categories": [
+    {
+      "icon": "🏭",
+      "tag": "ERP",
+      "title": "ERP integracije",
+      "desc": "Sinhronizacija proizvoda, zaliha, cenovnika, porudžbina i kupaca u oba smera.",
+      "items": ["SAP", "MS Dynamics 365", "Pantheon", "Calculus", "Odoo", "Custom on-prem ERP"]
+    },
+    {
+      "icon": "💳",
+      "tag": "Plaćanja",
+      "title": "Payments & PSP",
+      "desc": "PCI-bezbedne integracije, tokenizacija, 3DS2, recurring i refunds — pravilno mapirano na Magento order state.",
+      "items": ["Stripe", "Adyen", "AllSecure", "IPS / NestPay", "PayPal", "ChipCard"]
+    },
+    {
+      "icon": "🚚",
+      "tag": "Kuriri",
+      "title": "Kuriri & shipping",
+      "desc": "Auto-generisanje labela, tracking statusi u Magento panelu i email notifikacije kupcu.",
+      "items": ["Pošta Srbije", "BEX", "DHL", "In Time", "AKS", "GLS"]
+    },
+    {
+      "icon": "🤝",
+      "tag": "CRM",
+      "title": "CRM & marketing",
+      "desc": "Customer events, abandoned cart, segmentacija — bez prepisivanja po pet mesta.",
+      "items": ["HubSpot", "Klaviyo", "Mailchimp", "Pipedrive", "Salesforce", "OutreachGenie"]
+    },
+    {
+      "icon": "📦",
+      "tag": "PIM/WMS",
+      "title": "PIM & skladište",
+      "desc": "Centralizovani katalog, multi-channel publish i stvarno stanje zaliha iz WMS-a.",
+      "items": ["Akeneo PIM", "Pimcore", "Custom WMS", "Bartender label flow", "Barcode integracije"]
+    },
+    {
+      "icon": "🔧",
+      "tag": "Custom API",
+      "title": "Custom REST / GraphQL",
+      "desc": "Kada postojeći Magento API nije dovoljan — pišemo svoje endpoints sa OpenAPI dokumentacijom i ugovorima.",
+      "items": ["REST + JSON Schema", "GraphQL queries/mutations", "Webhook bus", "Auth: OAuth2 / JWT", "Rate limiting"]
+    }
+  ],
+  "mg_int_patterns_title": "Inženjerski principi koje držimo",
+  "mg_int_patterns_subtitle": "Ovo nisu „buzzwords“ — to su stvari koje sprečavaju da integracija pukne u špicu Black Friday-a.",
+  "mg_int_patterns": [
+    { "tag": "Async", "title": "Queue + retry pattern", "desc": "Sync ka ERP-u uvek ide preko queue-a (RabbitMQ ili Magento queue). Retry sa exponential backoff i dead-letter queue za poruke koje ne mogu da se procesiraju." },
+    { "tag": "Idempotency", "title": "Idempotent endpoint dizajn", "desc": "Svaki POST koji menja state ima `Idempotency-Key` ili equivalent. Ako kurir pošalje webhook 3 puta — porudžbina ostaje u istom stanju." },
+    { "tag": "Auth", "title": "OAuth2 / JWT auth slojevi", "desc": "Bez deljenja API ključeva u messaging aplikacijama — svaki integracioni partner ima svoj credential set i mogućnost rotacije." },
+    { "tag": "Logging", "title": "Strukturni log + correlation ID", "desc": "Sve poruke kroz integraciju nose `correlation_id` koji se vidi u Magento, ERP-u i Sentry-ju. Debug postaje pitanje minuta, ne dana." },
+    { "tag": "Monitoring", "title": "Queue depth + error rate alerting", "desc": "Sentry + custom Magento dashboard prati queue depth, retry count i error rate. Alert pre nego što kupac prijavi problem." },
+    { "tag": "Contracts", "title": "OpenAPI / JSON Schema ugovori", "desc": "Svaki API koji izlazi iz Magento-a ima OpenAPI definiciju u `docs/` repou — na osnovu nje se generišu klijenti i validatori." }
+  ],
+  "mg_int_deliverables_title": "Šta dobijaš na svakoj integraciji",
+  "mg_int_deliverables_subtitle": "Ne samo kod — već ceo paket koji drugi tim može da preuzme bez tebe.",
+  "mg_int_deliverables": [
+    { "title": "OpenAPI / GraphQL schema", "desc": "Dokumentovan ugovor za sve endpoints, sa primerima request/response." },
+    { "title": "Sequence dijagrami", "desc": "Mermaid ili draw.io dijagram za svaki kritičan flow (npr. order → ERP → invoice)." },
+    { "title": "Runbook za incidente", "desc": "Šta proveriti kad porudžbine prestanu da idu u ERP, kako restartovati queue, kako re-process failed messages." },
+    { "title": "Monitoring & alerts", "desc": "Konfigurisani dashboard-i, alert pravila i eskalaciona politika — sa primerima alert-a." },
+    { "title": "Test suite", "desc": "Integration testovi (PHPUnit / Pest) plus contract testovi protiv mock servera partnera." }
+  ],
+  "mg_int_pitfalls_title": "Klasične greške koje izbegavamo",
+  "mg_int_pitfalls_subtitle": "Ovo su stvari na koje smo nailazili u realnim projektima — sad ih pratimo proaktivno.",
+  "mg_int_pitfalls": [
+    { "title": "Sync u onMomentUstavi", "desc": "Direktan sync ERP-a iz `place_order` observer-a — ako ERP padne, kupac ne može da naruči. Mora ići kroz queue." },
+    { "title": "Plain text API ključevi u kodu", "desc": "Magento `env.php` / GitHub history pun token-a. Zamenjujemo Vault-om ili Magento Encryption Key + DB konfiguracijom." },
+    { "title": "Bez verzionisanja API-ja", "desc": "Partner promeni shape, sve puca. Verzionisanje (`/v1`, `/v2`) i deprecation period su obavezni." },
+    { "title": "„Tihe“ greške u log-u", "desc": "Catch-all `try/catch` koji loguje warning i nastavlja kao da je sve OK — porudžbina ostaje izgubljena. Greške moraju biti vidljive." },
+    { "title": "Nedostatak rate limiting-a", "desc": "Webhook bombing iz partnerskog sistema obara Magento. Rate limit + circuit breaker su default." }
+  ],
+  "mg_int_stack_title": "Tech stack za integracije",
+  "mg_int_stack_subtitle": "Birano da prati Magento default-e i da bude lako za nastavak.",
+  "mg_int_stack_groups": [
+    { "label": "Protokoli", "items": ["REST", "GraphQL", "SOAP", "Webhooks", "OAuth2", "JWT"] },
+    { "label": "Queue & event", "items": ["RabbitMQ", "Magento Message Queue", "Redis Streams", "AWS SQS"] },
+    { "label": "Observability", "items": ["Sentry", "New Relic", "OpenTelemetry", "Grafana"] },
+    { "label": "Schema & docs", "items": ["OpenAPI 3.1", "JSON Schema", "GraphQL SDL", "AsyncAPI"] },
+    { "label": "Magento API", "items": ["Magento Web API", "GraphQL Schema", "Service Contracts", "Module Plugins"] },
+    { "label": "Test & QA", "items": ["PHPUnit", "Pest", "Postman / Newman", "k6", "WireMock"] }
+  ],
+  "mg_int_faq_title": "FAQ — integracije",
+  "mg_int_faq_subtitle": "Pitanja koja klijenti najčešće postave na prvom pozivu.",
+  "mg_int_faq": [
+    { "q": "Da li radite integracije bez prepisivanja postojećih modula?", "a": "Kad god je moguće — da. Koristimo Magento plugin sistem, observers i custom API slojeve. Postojeće module diramo samo ako je njihova implementacija direktno blokirajući problem (npr. tight coupling na payment flow)." },
+    { "q": "Koliko traje tipična integracija?", "a": "ERP integracija sa standardnim entitetima: 4–8 nedelja. Plaćanja / kuriri: 1–3 nedelje po provideru. Custom API sloj: zavisi od broja endpoints, ali idemo iterativno (po endpoint-u, ne „big bang“)." },
+    { "q": "Šta ako naš partner nema dobar API?", "a": "Pravimo adapter sloj između partnerskog API-ja i Magento-a — sa retry, normalizacijom shape-a i mock serverom za QA. Ako partner ima samo CSV / SFTP, gradimo file-based integraciju sa istim queue + retry pristupom." },
+    { "q": "Ko vlasništvo nad kodom integracije?", "a": "Ti — sve što napišemo ide u tvoj GitHub/GitLab repo, sa MIT-style licencom za interno korišćenje. Bez vendor lock-in." },
+    { "q": "Da li podržavate B2B PunchOut / EDI?", "a": "Da. PunchOut Catalog (cXML / OCI) i EDI (X12, EDIFACT) za B2B kupce koji dolaze iz svog ERP-a — sa adekvatnim mapiranjem na Magento order strukture." }
+  ],
+  "mg_int_related_title": "Povezane usluge",
+  "mg_int_related_subtitle": "Ostale linije rada na Magento-u koje često idu uz integracije.",
+  "mg_int_related": [
+    { "label": "Migracije & upgrade", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "label": "Performanse & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "B2B rešenja", "to": "/usluge/magento/b2b-resenja" }
+  ],
+  "mg_int_final_cta_title": "Imaš ERP, plaćanja ili kurir-e koje treba povezati?",
+  "mg_int_final_cta_desc": "Pošalji nam listu sistema i njihove API dokumente — vraćamo se sa integracionom mapom, redosledom i procenjenim trajanjem.",
+  "mg_int_final_cta_btn": "Pošalji integracioni brief",
+
+  "mg_perf_breadcrumb_home": "Weboro",
+  "mg_perf_breadcrumb_hub": "Magento 2",
+  "mg_perf_breadcrumb_self": "Performanse & hosting",
+  "mg_perf_badge": "Cache slojevi · Hosting · Profiling",
+  "mg_perf_eyebrow": "Brzina koja izdrži špic",
+  "mg_perf_title": "Magento prodavnica koja se ne „guši“ — od TTFB-a do Core Web Vitals-a",
+  "mg_perf_lead": "Varnish, Redis, Elasticsearch, image CDN i pravo profilisanje. Pravimo da ti se 90%+ saobraćaja zaustavi na cache slojevima — Magento PHP i baza dišu, kupac dobija stranicu za pola sekunde.",
+  "mg_perf_kpis": [
+    "Varnish + ESI",
+    "Redis cache + sessions",
+    "Elasticsearch 8 tuned",
+    "Blackfire / New Relic"
+  ],
+  "mg_perf_cta_audit": "Zatraži performance audit",
+  "mg_perf_cta_back_hub": "Nazad na Magento pregled",
+  "mg_perf_flow_aria": "Slojevi cache-a kroz koje prolazi zahtev: CDN, Varnish FPC, Redis, Magento PHP i baza. Većina zahteva se vraća na ranim slojevima.",
+  "mg_perf_layer_cdn": "CDN (Cloudflare / Fastly)",
+  "mg_perf_layer_varnish": "Varnish FPC + ESI",
+  "mg_perf_layer_redis": "Redis cache + sessions",
+  "mg_perf_layer_php": "Magento PHP / FPM",
+  "mg_perf_layer_db": "MySQL · Elasticsearch",
+  "mg_perf_stats_title": "Brojke koje gledamo na svakom shopu",
+  "mg_perf_stats": [
+    { "value": "<2s", "label": "ciljani LCP na PDP-u (Hyvä)" },
+    { "value": "<200ms", "label": "TTFB iz Varnish FPC-a" },
+    { "value": "90%+", "label": "cache hit rate na PLP/PDP" },
+    { "value": "p95", "label": "ne tracking-ujemo prosek — već p95/p99" }
+  ],
+  "mg_perf_layers_title": "Šest cache i performance slojeva",
+  "mg_perf_layers_subtitle": "Svaki sloj ima specifičan posao. Neki shop-ovi nam treba samo Varnish + Redis tuning, drugima trebaju svi slojevi sa CDN-om i image pipeline-om.",
+  "mg_perf_layer_cards": [
+    {
+      "icon": "🌐",
+      "tag": "Edge",
+      "title": "CDN & edge cache",
+      "desc": "Statični asseti i HTML cache pre nego što stigne do tvog servera. Geo-fast za međunarodne shop-ove.",
+      "items": ["Cloudflare / Fastly / KeyCDN", "Bunny.net za media", "Edge image transformacije", "HTTP/2 + HTTP/3", "Smart purge invalidation"]
+    },
+    {
+      "icon": "🛡️",
+      "tag": "FPC",
+      "title": "Varnish + ESI",
+      "desc": "Full Page Cache za PLP i PDP. ESI placeholder-i za korpu, mini-cart i customer-specific blokove.",
+      "items": ["Custom VCL pravila", "ESI za korpu / mini-cart", "Tag-based invalidation", "Cache warming nakon deploy-a", "Bypass za checkout flow"]
+    },
+    {
+      "icon": "⚙️",
+      "tag": "App cache",
+      "title": "Redis cache + sessions",
+      "desc": "Magento config, layout, block cache i session storage — odvojene baze za izolaciju.",
+      "items": ["Redis 7 cluster mode", "Razdvojene baze (default / page_cache / sessions)", "Persist tuning (AOF / RDB)", "Memory pressure monitoring", "Lock-on-snapshot pattern"]
+    },
+    {
+      "icon": "🔍",
+      "tag": "Search",
+      "title": "Elasticsearch 8 tuning",
+      "desc": "Pretraga proizvoda, layered navigation, sort filteri — sve sa pravilno konfigurisanim mapping-om i analyzer-ima.",
+      "items": ["Magento ES8 modul + custom analyzers", "Indexer scheduling", "Reindex bez downtime-a", "Partial reindex pattern", "Slow query logging"]
+    },
+    {
+      "icon": "🖼️",
+      "tag": "Media",
+      "title": "Image CDN & LCP",
+      "desc": "WebP/AVIF pipeline, responsive srcset, lazy loading. LCP element pažljivo identifikovan i optimizovan.",
+      "items": ["WebP + AVIF konverzija", "Responsive srcset / sizes", "Lazy loading (native + IntersectionObserver)", "Preload za LCP image", "Optimizovan logo / hero asset"]
+    },
+    {
+      "icon": "🗄️",
+      "tag": "DB",
+      "title": "MySQL & query tuning",
+      "desc": "Slow query log, indeksi za custom kolone, connection pooling — sve da DB ne bude bottleneck u špicu.",
+      "items": ["Slow query log + pt-query-digest", "Indeksi za custom katalog kolone", "ProxySQL ili MySQL Router", "Read replicas za reporting", "Backup bez I/O spike-a"]
+    }
+  ],
+  "mg_perf_hosting_title": "Hosting opcije",
+  "mg_perf_hosting_subtitle": "Tri pristupa koja primenjujemo. Bez „one size fits all“ — biramo na osnovu prometa, tima koji održava i budžeta.",
+  "mg_perf_hosting_best_for": "Najbolje za",
+  "mg_perf_hosting_pros": "Plus",
+  "mg_perf_hosting_caveats": "Pažnja",
+  "mg_perf_hosting_options": [
+    {
+      "tag": "Adobe Commerce Cloud",
+      "title": "Adobe Commerce Cloud (ECE-Tools)",
+      "desc": "Managed Magento sa AWS-om ispod. Adobe brine o infrastrukturi, ti o aplikaciji.",
+      "bestFor": "Enterprise klijenti sa B2B/B2C kompleksnošću i Adobe Commerce licencom.",
+      "pros": [
+        "Managed Varnish + Redis + Elastic",
+        "Auto-scaling za high-traffic",
+        "Fastly CDN uključen",
+        "24/7 Adobe support"
+      ],
+      "caveats": [
+        "Skupo za manje shop-ove",
+        "Manje fleksibilnosti u VCL pravilima",
+        "Samo na Adobe Commerce, ne i Open Source"
+      ]
+    },
+    {
+      "tag": "Dedicated VPS / Bare metal",
+      "title": "Dedicated VPS (Hetzner / OVH / DO)",
+      "desc": "Klasičan Linux server sa Nginx, PHP-FPM, Varnish, Redis, ES — sve pod tvojom kontrolom.",
+      "bestFor": "Magento Open Source shop-ovi, mid-market, fleksibilnost preko cene.",
+      "pros": [
+        "Niža mesečna cena",
+        "Potpuna kontrola nad VCL i tuning-om",
+        "Lako dodavanje custom servisa (queue, cron)",
+        "Backup po tvojim pravilima"
+      ],
+      "caveats": [
+        "Treba neko da održava Linux i security patch-eve",
+        "Auto-scaling traži dodatni rad (load balancer)",
+        "Off-site backup nije „uključen“"
+      ]
+    },
+    {
+      "tag": "Containerized",
+      "title": "Docker / Kubernetes na AWS / GCP",
+      "desc": "Magento u kontejnerima, sa managed PaaS bazama (RDS, ElastiCache). CI/CD do produkcije.",
+      "bestFor": "Tehnički zreliji timovi, dev-ops orijentisani, multi-environment setup.",
+      "pros": [
+        "Reproducibilan environment (dev = prod)",
+        "Lako skaliranje pod-ova",
+        "GitOps + automated deploy",
+        "Managed RDS, ElastiCache, OpenSearch"
+      ],
+      "caveats": [
+        "Steeper learning curve",
+        "Skuplje od VPS-a za male shop-ove",
+        "K8s kompleksnost ako ne treba auto-scaling"
+      ]
+    }
+  ],
+  "mg_perf_profiling_title": "Profiling & merenje",
+  "mg_perf_profiling_subtitle": "Bez pravog merenja optimizacija je nagađanje. Ovo su alati i prakse koje koristimo.",
+  "mg_perf_profiling": [
+    { "tag": "PHP", "title": "Blackfire profiler", "desc": "CPU, memory i I/O profili za sporiji request flow. Najčešće prvi alat na produkciji za real-world bottleneck-e." },
+    { "tag": "APM", "title": "New Relic / Datadog", "desc": "Real-time tracing requestova kroz sve slojeve, error grouping, transaction breakdown po routes." },
+    { "tag": "Frontend", "title": "Lighthouse + WebPageTest", "desc": "Lab merenja sa različitih lokacija i mreža. Sa filmstrip-om i waterfall-om u izveštaju." },
+    { "tag": "RUM", "title": "Real User Monitoring", "desc": "Cloudflare RUM ili custom — vidiš pravi LCP/INP/CLS koji kupci doživljavaju, ne samo lab merenje." },
+    { "tag": "Load test", "title": "k6 / JMeter", "desc": "Simuliramo Black Friday špic na staging-u sa realnim volumenom kataloga, cart i checkout flow." },
+    { "tag": "Magento", "title": "Magento profiler + slow query log", "desc": "Builtin profiler za database i layout rendering. Slow query log filtriran kroz pt-query-digest." }
+  ],
+  "mg_perf_deliverables_title": "Šta dobijaš na performance angažmanu",
+  "mg_perf_deliverables_subtitle": "Pre/posle merenja, dokumentovani fix-evi i playbook za stalno održavanje.",
+  "mg_perf_deliverables": [
+    { "title": "Performance audit izveštaj", "desc": "Trenutni LCP/INP/TTFB, top 10 sporih query-ja, cache hit rate, lista konkretnih fix-eva po prioritetu." },
+    { "title": "Pre/posle metrike", "desc": "Lighthouse + RUM brojke pre i posle, sa procentualnom razlikom — ne „osetilo se brže“." },
+    { "title": "VCL & cache rules dokument", "desc": "Konfiguracija Varnish-a, ESI strategija, invalidation pravila — sve u repo-u sa komentarima." },
+    { "title": "Cron & indexer schedule", "desc": "Optimizovan raspored Magento cron jobova i indexer pokretanja — bez „index storm-a“ u špicu." },
+    { "title": "Performance playbook", "desc": "Šta proveriti kad sajt postane spor, kako warm-up-ovati cache posle deploy-a, kako re-index bez downtime-a." }
+  ],
+  "mg_perf_bottlenecks_title": "Najčešći bottleneck-ovi koje rešavamo",
+  "mg_perf_bottlenecks_subtitle": "Stvari na koje stalno nailazimo u real-world shop-ovima — i kako ih gasimo.",
+  "mg_perf_bottlenecks": [
+    { "title": "FPC bypass na celoj kategoriji", "desc": "Custom modul stavlja `noCache` flag na PLP-u — i odjednom svaki request ide u Magento. Audit + ciljana invalidation rešavaju problem." },
+    { "title": "Reindex blokira write operacije", "desc": "Indexer u „Update on Save\" modu radi sync u order place flow-u. Prebacivanje na „Update by Schedule\" + cron tuning." },
+    { "title": "N+1 query u listing-u", "desc": "Custom modul učitava custom atribute u petlji za svaki proizvod. Profiling otkriva, batch loading rešava." },
+    { "title": "Veliki neoptimizovani logo / hero", "desc": "LCP element je 800KB PNG. WebP konverzija + preload daje 1.2s LCP poboljšanje na 4G." },
+    { "title": "Redis bez memory limit-a", "desc": "Redis prelazi RAM, počinje swap, latency skače. Memory eviction policy + monitoring pre nego što pukne." },
+    { "title": "Elasticsearch reindex tokom radnih sati", "desc": "Pun reindex ide tokom dana, search padne. Schedule + partial reindex za uobičajene update-e." }
+  ],
+  "mg_perf_faq_title": "FAQ — performanse",
+  "mg_perf_faq_subtitle": "Kratko i bez ulepšavanja.",
+  "mg_perf_faq": [
+    { "q": "Koliko poboljšanja je realno na postojećem shop-u?", "a": "Tipično 40–70% TTFB poboljšanja i 30–50% LCP poboljšanja u prvih 2–4 nedelje. Realne brojke dajemo posle audita — ne pre. Ako shop nikad nije bio tunovan, lako se vidi 2× brži first paint." },
+    { "q": "Da li moram da pređem na Hyvä da bih imao dobre performanse?", "a": "Ne moraš — Luma može biti brza ako je pravilno tunovana. Ali ako planiraš redesign u sledeće 2 godine, Hyvä je default izbor: 60–80% manji JS bundle, lakše održavanje, bolji Core Web Vitals out-of-the-box." },
+    { "q": "Šta ako koristim shared hosting?", "a": "Magento na shared hosting-u je teško optimizovati pravilno (nemaš kontrolu nad PHP-FPM, Redis-om, Varnish-om). Najčešće prvo preporučujemo prelazak na VPS — pa onda tuning. Iznimak je ako je shared hosting Magento-specific (npr. Nexcess)." },
+    { "q": "Da li radite ono „instant page load“ što vidim na drugim shop-ovima?", "a": "Da — kombinacija Hyvä + ESI + Varnish + preload kritičnih asseta + speculation rules za PLP→PDP navigaciju. Nije magija, samo ozbiljan caching." },
+    { "q": "Koliko košta performance angažman?", "a": "Audit: fixed price (~3–5 dana rada). Implementacija: T&M ili sprint pricing — najčešće 2–4 nedelje za prvi pass. Posle toga preporučujemo monthly retainer (8–16 sati mesečno) za održavanje." }
+  ],
+  "mg_perf_related_title": "Povezane usluge",
+  "mg_perf_related_subtitle": "Performanse najčešće idu uz frontend rebuild i monitoring.",
+  "mg_perf_related": [
+    { "label": "Hyvä & frontend", "to": "/usluge/magento/frontend-hyva" },
+    { "label": "SLA & održavanje", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Integracije & API", "to": "/usluge/magento/integracije" }
+  ],
+  "mg_perf_final_cta_title": "Tvoj Magento je spor? Pošalji URL — vraćamo audit",
+  "mg_perf_final_cta_desc": "Lighthouse + RUM merenja, top 10 problema sa procenom uticaja, lista fix-eva po prioritetu. Bez obaveze.",
+  "mg_perf_final_cta_btn": "Zatraži performance audit",
+
+  "mg_fe_breadcrumb_home": "Weboro",
+  "mg_fe_breadcrumb_hub": "Magento 2",
+  "mg_fe_breadcrumb_self": "Frontend & Hyvä",
+  "mg_fe_badge": "Hyvä · Luma · headless · UX",
+  "mg_fe_eyebrow": "Storefront koji se učita brzo i prodaje",
+  "mg_fe_title": "Frontend koji ne ljuti Google — i ne tera kupca da čeka",
+  "mg_fe_lead": "Default je Hyvä: Tailwind + Alpine, mali JS bundle, brz build, Core Web Vitals u zelenom. Ali umemo i Luma optimizaciju kad migracija na Hyvä nije opcija, kao i headless / PWA pristupe za UX-zahtevne shopove.",
+  "mg_fe_kpis": [
+    "Hyvä Theme",
+    "PWA Studio / Vue Storefront",
+    "Tailwind + Alpine.js",
+    "Core Web Vitals zeleno"
+  ],
+  "mg_fe_cta_audit": "Zatraži frontend audit",
+  "mg_fe_cta_back_hub": "Nazad na Magento pregled",
+  "mg_fe_flow_aria": "Lighthouse score 96 sa Core Web Vitals: LCP 1.8s, INP 120ms, CLS 0.04 — sve zeleno.",
+  "mg_fe_stats_title": "Brojke na koje ciljamo na Hyvä projektima",
+  "mg_fe_stats": [
+    { "value": "90+", "label": "Lighthouse score na PDP / PLP" },
+    { "value": "120KB", "label": "tipičan JS bundle (gzip)" },
+    { "value": "60–80%", "label": "manji JS bundle vs Luma" },
+    { "value": "<2s", "label": "LCP cilj na 4G mreži" }
+  ],
+  "mg_fe_compare_title": "Hyvä vs Luma — direktno",
+  "mg_fe_compare_subtitle": "Bez ulepšavanja. Hyvä nije „malo bolja Luma“ — to je drugačija arhitektura, sa svojim trade-off-ima.",
+  "mg_fe_compare_luma_title": "Magento Luma",
+  "mg_fe_compare_luma_tag": "Default Magento",
+  "mg_fe_compare_luma_desc": "Originalna tema iz Magento-a. RequireJS, KnockoutJS, jQuery — pristup star skoro deceniju.",
+  "mg_fe_compare_luma_points": [
+    "JS bundle 700–1500KB pre tuning-a",
+    "RequireJS sinhronizacija sporo bootuje",
+    "Knockout binding-i daju INP probleme",
+    "LESS build je spor i kompleksan",
+    "Lighthouse retko prelazi 50 bez ozbiljnog rada",
+    "Većina extension-a još uvek samo Luma"
+  ],
+  "mg_fe_compare_hyva_title": "Hyvä Theme",
+  "mg_fe_compare_hyva_tag": "Preporučeno",
+  "mg_fe_compare_hyva_desc": "Moderna tema na Tailwind + Alpine.js stack-u. Zamenjuje Luma frontend, dok backend ostaje stoк Magento.",
+  "mg_fe_compare_hyva_points": [
+    "JS bundle 80–150KB (5–10× manje)",
+    "Tailwind utility-first — brži dev",
+    "Alpine.js umesto Knockout — manji INP",
+    "Build u sekundama, ne minutima",
+    "Lighthouse 90+ out-of-the-box",
+    "Compatibility module za Luma extension-e",
+    "Lakše uvođenje novih developera"
+  ],
+  "mg_fe_approaches_title": "Četiri frontend pristupa koja koristimo",
+  "mg_fe_approaches_subtitle": "Bez „one size fits all“ — biramo na osnovu shop-a, postojećih extension-a i UX ambicija.",
+  "mg_fe_approaches_when": "Kada",
+  "mg_fe_approaches": [
+    {
+      "icon": "⚡",
+      "tag": "Default",
+      "title": "Hyvä Theme",
+      "desc": "Najbrži put do dobrih performansi. Tailwind + Alpine, mali bundle, jednostavan build, Hyvä compat za Luma extension-e.",
+      "when": "Novi shop, redesign, ili Luma sa razumnim brojem extension-a koji imaju Hyvä compat sloj."
+    },
+    {
+      "icon": "🛠️",
+      "tag": "Tuning",
+      "title": "Luma optimizacija",
+      "desc": "Kada migracija na Hyvä nije moguća (npr. 50+ tight-coupled extension-a). Smanjujemo JS bundle, optimizujemo LCP, pravimo Luma „štono se može“.",
+      "when": "Postojeći Luma shop sa custom modulima koje nije isplativo prepisivati."
+    },
+    {
+      "icon": "🚀",
+      "tag": "Headless",
+      "title": "Headless / PWA Studio",
+      "desc": "Magento kao backend, Vue / React storefront. Maksimalna UX kontrola, app-like osećaj, ali znatno više rada i kompleksnosti.",
+      "when": "UX zahtevi prelaze klasičnu temu (custom flow-ovi, PWA, multi-device shared session)."
+    },
+    {
+      "icon": "🎨",
+      "tag": "Custom",
+      "title": "Custom Hyvä tema",
+      "desc": "Hyvä child theme sa potpuno custom UI-em — zadržavamo performance, dodajemo brand identitet i jedinstven UX.",
+      "when": "Brand traži drugačiji izgled od stock Hyvä, ali ne želi headless kompleksnost."
+    }
+  ],
+  "mg_fe_cwv_title": "Core Web Vitals — gde stvarno radimo",
+  "mg_fe_cwv_subtitle": "Tri metrike koje Google koristi za ranking. Pratimo ih kontinuirano i odmah znamo gde je problem.",
+  "mg_fe_cwv_we_optimize": "Šta optimizujemo",
+  "mg_fe_cwv_cards": [
+    {
+      "metric": "LCP",
+      "target": "<2.5s",
+      "title": "Largest Contentful Paint",
+      "desc": "Vreme do najvećeg vidljivog elementa. Najčešće LCP element je hero slika ili glavni naslov na PDP-u.",
+      "items": ["WebP/AVIF konverzija LCP slike", "Preload hint za LCP asset", "Server-side render kritičnog HTML-a", "ESI placeholder za customer blokove", "Eliminacija blokirajućih CSS/JS"]
+    },
+    {
+      "metric": "INP",
+      "target": "<200ms",
+      "title": "Interaction to Next Paint",
+      "desc": "Vreme od korisničke interakcije do paint-a. Zameno FID — pravi pokazatelj koliko shop „reaguje“.",
+      "items": ["Hyvä Alpine umesto Knockout", "Code splitting za rute", "Defer / async non-critical JS", "Web Workers za heavy tasks", "Throttle / debounce input handlere"]
+    },
+    {
+      "metric": "CLS",
+      "target": "<0.1",
+      "title": "Cumulative Layout Shift",
+      "desc": "Pomeranja layout-a tokom učitavanja. Kupac klikne „kupi“ i klikne reklamu jer se layout pomerio — to ubija konverziju.",
+      "items": ["Eksplicitne dimenzije slika i video-a", "Reservisan prostor za ad / banner blokove", "Font display swap + size-adjust", "Skeleton loaderi za async sadržaj", "CSS containment za stable blokove"]
+    }
+  ],
+  "mg_fe_deliverables_title": "Šta dobijaš na frontend angažmanu",
+  "mg_fe_deliverables_subtitle": "Ne samo „lepa tema“ — već dokumentovan storefront sistem koji drugi tim može da održava.",
+  "mg_fe_deliverables": [
+    { "title": "Component library (Hyvä child theme)", "desc": "Sve UI komponente sa primerima korišćenja — buttons, forms, modals, product cards, navigation." },
+    { "title": "Design system tokens", "desc": "Tailwind config sa brand bojama, tipografijom, spacing scale-om — design system na jednom mestu." },
+    { "title": "Page templates", "desc": "PDP, PLP, checkout, search, customer account — sve responsive sa eksplicitnim breakpoint-ima." },
+    { "title": "Performance budget", "desc": "Maksimalan JS bundle, image weight, third-party script-ovi — sa CI/CD checkom da budget ne pukne." },
+    { "title": "Lighthouse + RUM dashboards", "desc": "Lab + real-user merenja, sa istorijatom i alert-ima kad metrike padnu ispod targeta." }
+  ],
+  "mg_fe_pages_title": "Stranice na koje fokusiramo konverziju",
+  "mg_fe_pages_subtitle": "Konverzija ne dolazi iz „lepog dizajna“ — već iz pravih odluka na pravim stranicama.",
+  "mg_fe_pages": [
+    { "title": "PDP — Product Detail Page", "desc": "Galerija sa zoom-om, varianti, sticky add-to-cart, recenzije, related proizvodi, micro-CTA za incentive." },
+    { "title": "PLP — Product Listing Page", "desc": "Layered navigation bez full reload-a, image lazy loading, infinite scroll vs paginacija po metricima." },
+    { "title": "Checkout", "desc": "Single-page ili multi-step, guest checkout, ESI za adresne blokove, optimizovan PSP integracioni flow." },
+    { "title": "Search & autocomplete", "desc": "Elasticsearch-driven autocomplete, „did you mean“, search results sa filterima i product preview-om." },
+    { "title": "Customer account", "desc": "Order tracking, repeat purchase, address book, wishlist — sa fokusom na vraćanje kupca." }
+  ],
+  "mg_fe_faq_title": "FAQ — frontend",
+  "mg_fe_faq_subtitle": "Pitanja koja klijenti najčešće postave pre Hyvä migracije.",
+  "mg_fe_faq": [
+    { "q": "Koliko traje Hyvä migracija sa Luma teme?", "a": "Realno: 6–12 nedelja za standardni shop, do 4 meseca za shop sa puno custom modula i custom UX-a. Pre nego što damo broj radimo audit teme, extension-a i custom logike — i tek onda timeline." },
+    { "q": "Šta ako moji extension-i nemaju Hyvä compat?", "a": "Tri opcije: 1) Hyvä Compatibility Module rešava 70%+ slučajeva automatski, 2) extension prepisujemo na Hyvä native, 3) ako extension nije kritičan, zamenjujemo ga drugim. Audit otkriva koju opciju biramo za svaki." },
+    { "q": "Da li Hyvä radi sa B2B Adobe Commerce feature-ima?", "a": "Da, Hyvä ima podršku za Adobe Commerce B2B (company accounts, quotes, shared catalogs). Hyvä Checkout je commercial dodatak ali se najčešće isplati za B2B." },
+    { "q": "Zašto ne PWA / headless odmah, ako je „najmodernije“?", "a": "Headless je 3–5× više rada od Hyvä, sa istim ili manjim performance dobitkom u 80% slučajeva. Idemo headless samo kad postoje konkretni UX zahtevi koje klasična tema ne može (multi-device session, custom checkout flow, multi-brand storefront)." },
+    { "q": "Koliko košta Hyvä licenca?", "a": "Hyvä Theme licenca je per-domain, jednokratna, ~€1000 (proveri trenutnu cenu). Hyvä Checkout odvojeno. Mi to fakturišemo direktno, bez markup-a." }
+  ],
+  "mg_fe_related_title": "Povezane usluge",
+  "mg_fe_related_subtitle": "Frontend rebuild najčešće ide uz performance tuning i SLA podršku.",
+  "mg_fe_related": [
+    { "label": "Performanse & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "SLA & održavanje", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Migracije & upgrade", "to": "/usluge/magento/migracije-i-upgrade" }
+  ],
+  "mg_fe_final_cta_title": "Tvoja Luma je spora? Pošalji URL — vraćamo Hyvä migracioni plan",
+  "mg_fe_final_cta_desc": "Pisani plan: extension audit, timeline, rough budget, Lighthouse pre/posle estimacija. Bez obaveze.",
+  "mg_fe_final_cta_btn": "Zatraži Hyvä audit",
+
+  "mg_sla_breadcrumb_home": "Weboro",
+  "mg_sla_breadcrumb_hub": "Magento 2",
+  "mg_sla_breadcrumb_self": "Održavanje & SLA",
+  "mg_sla_badge": "24/7 monitoring · security patches · backups",
+  "mg_sla_eyebrow": "Shop koji ne pada — i kad padne, brzo ustaje",
+  "mg_sla_title": "Održavanje sa jasnim SLA — bez „pozvaću svog rođaka da to popravi“",
+  "mg_sla_lead": "Mesečni paketi sa garantovanim response vremenom, security patch SLA-om, monitoring-om i backup-ima. Sve dokumentovano u ugovoru — znaš šta plaćaš i šta dobijaš.",
+  "mg_sla_kpis": [
+    "24/7 monitoring",
+    "Security patch 24-72h",
+    "RPO ≤ 1h · RTO ≤ 4h",
+    "Mesečni izveštaj"
+  ],
+  "mg_sla_cta_quote": "Zatraži SLA ponudu",
+  "mg_sla_cta_back_hub": "Nazad na Magento pregled",
+  "mg_sla_flow_aria": "Monitoring dashboard sa 99.97% uptime, response 142ms, 30-dnevnim status grid-om i live alert blokovima.",
+  "mg_sla_stats_title": "SLA brojke koje pratimo i izveštavamo",
+  "mg_sla_stats": [
+    { "value": "99.95%", "label": "ciljani uptime na Gold/Platinum SLA" },
+    { "value": "≤30 min", "label": "P1 incident first response" },
+    { "value": "24-72h", "label": "rollout security patch-a" },
+    { "value": "≤1h / ≤4h", "label": "RPO / RTO na disaster recovery" }
+  ],
+  "mg_sla_tiers_title": "SLA paketi — biraš nivo, mi standardizujemo proces",
+  "mg_sla_tiers_subtitle": "Tri nivoa za različite stage-ove biznisa. Sve cene i obim su u ugovoru — bez „uskrnjih iznenađenja“.",
+  "mg_sla_tiers_popular": "Najčešće biraju",
+  "mg_sla_tiers_response": "Response na P1 incident",
+  "mg_sla_tiers_for": "Za:",
+  "mg_sla_tiers": [
+    {
+      "tag": "Bronze",
+      "title": "Essential",
+      "desc": "Osnovno održavanje — security patch-evi, mesečni backup audit, basic monitoring. Dobar ulaz za male shopove.",
+      "response": "Sledeći radni dan",
+      "features": [
+        "Magento + extension security patch-evi",
+        "Mesečni backup verifikacija",
+        "Basic uptime monitoring (5 min interval)",
+        "Email support — radnim danima 9–17h",
+        "Mesečni health report"
+      ],
+      "for": "Mali shopovi sa <500 porudžbina mesečno"
+    },
+    {
+      "tag": "Silver",
+      "title": "Business",
+      "desc": "Standardni paket za većinu B2C shopova. Brži response, proaktivni monitoring i bug-fix budžet uključen.",
+      "response": "≤4h tokom radnog vremena",
+      "highlight": true,
+      "features": [
+        "Sve iz Essential paketa",
+        "1-min uptime + transaction monitoring",
+        "Performance & error tracking (Sentry/NewRelic)",
+        "8 sati bug-fix budžet mesečno",
+        "Staging deploy + smoke testovi",
+        "Quarterly business review"
+      ],
+      "for": "B2C shopovi 500–10k porudžbina mesečno"
+    },
+    {
+      "tag": "Gold / Platinum",
+      "title": "Enterprise",
+      "desc": "24/7 on-call, garantovani uptime u ugovoru, dedicated tehnički kontakt i mesečni development budget.",
+      "response": "≤30min · 24/7",
+      "features": [
+        "Sve iz Business paketa",
+        "24/7 on-call (P1 → telefon, ne email)",
+        "99.95% uptime SLA u ugovoru",
+        "Dedicated tehnički kontakt",
+        "16–40 sati dev budget mesečno",
+        "Disaster recovery test 2× godišnje",
+        "Penal klauzule ako probijemo SLA"
+      ],
+      "for": "Enterprise shopovi, B2B, kritične peak periode"
+    }
+  ],
+  "mg_sla_covered_title": "Šta tačno pokriva SLA paket",
+  "mg_sla_covered_subtitle": "Šest oblasti koje su deo svakog SLA paketa — različitog intenziteta po nivou.",
+  "mg_sla_covered": [
+    {
+      "icon": "🛡️",
+      "title": "Security patch management",
+      "desc": "Magento, PHP, OS, third-party paketi — pratimo CVE feed-ove i radimo patch-eve u dogovorenom prozoru.",
+      "items": ["Magento Security Patch SLA", "PHP / Apache / Nginx CVE", "Composer dependency audit", "WAF rule updates"]
+    },
+    {
+      "icon": "📊",
+      "title": "Uptime & sintetički monitoring",
+      "desc": "Pratimo HTTP, checkout flow, search, sve kritične endpoint-e. Alert kreće pre nego što kupac primeti.",
+      "items": ["UptimeRobot / Pingdom monitoring", "Checkout step-by-step probe", "Database lag monitoring", "Cron job execution alerts"]
+    },
+    {
+      "icon": "💾",
+      "title": "Backup & disaster recovery",
+      "desc": "Daily database, weekly full, off-site replikacija. Restore vežbamo — ne pišemo „radi“ samo na papiru.",
+      "items": ["Daily DB + media backup", "Off-site cold storage (S3 / Backblaze)", "Documented restore runbook", "Testovi recoverija 2× godišnje"]
+    },
+    {
+      "icon": "🐛",
+      "title": "Bug-fix & support",
+      "desc": "Bug-ovi koje korisnici prijave ili koje monitor uhvati — fix u SLA okviru, sa dokumentacijom u tiket sistemu.",
+      "items": ["Issue tracking u Jira / Linear", "Reproduktivnost u staging-u", "Hotfix → staging → produkcija", "Postmortem za P1/P2 incidente"]
+    },
+    {
+      "icon": "🔧",
+      "title": "Performance health",
+      "desc": "Pratimo TTFB, LCP, cache hit-rate, indexer status. Reagujemo pre nego što performanse padnu pod target.",
+      "items": ["Lighthouse CI weekly", "Cache hit-rate alerting", "Slow query log monitoring", "Cron / queue lag tracking"]
+    },
+    {
+      "icon": "📅",
+      "title": "Mesečni izveštaj & QBR",
+      "desc": "Pisani izveštaj svakog meseca — uptime, incidenti, patch-evi, performance. Jednom u kvartalu Business Review.",
+      "items": ["SLA compliance report", "Lista patch-eva i incidenata", "Performance trend & roadmap", "Quarterly Business Review (1h)"]
+    }
+  ],
+  "mg_sla_severity_title": "Severity matrica — šta je P1, šta je P4",
+  "mg_sla_severity_subtitle": "Kako rangiramo incidente. Definicija je u ugovoru — bez „mislim da je ovo hitno“ debate u 3 ujutru.",
+  "mg_sla_severity_h_level": "Level",
+  "mg_sla_severity_h_def": "Definicija",
+  "mg_sla_severity_h_example": "Primer",
+  "mg_sla_severity_h_response": "Response",
+  "mg_sla_severity_h_target": "Resolution target",
+  "mg_sla_severity_rows": [
+    {
+      "level": "P1",
+      "color": "#ef4444",
+      "def": "Kritično — shop ne radi ili je checkout nedostupan za sve kupce.",
+      "example": "Shop down, checkout 500 error, payment provider odbacuje sve.",
+      "response": "≤30 min",
+      "target": "≤4h"
+    },
+    {
+      "level": "P2",
+      "color": "#f97316",
+      "def": "Visoko — funkcionalnost znatno narušena za većinu kupaca.",
+      "example": "Search ne radi, jedan PSP ne radi, slow page load >10s.",
+      "response": "≤2h",
+      "target": "Isti radni dan"
+    },
+    {
+      "level": "P3",
+      "color": "#fbbf24",
+      "def": "Srednje — manji bug, workaround postoji, ne blokira prodaju.",
+      "example": "Email template pogrešan, jedan filter na PLP-u, admin alat bug.",
+      "response": "Sledeći radni dan",
+      "target": "≤5 radnih dana"
+    },
+    {
+      "level": "P4",
+      "color": "#22c55e",
+      "def": "Nisko — kozmetičko, request, dokumentacija, „nice to have“.",
+      "example": "Tipfeler u footeru, novi report za admina, dodavanje atributa.",
+      "response": "Po dogovoru",
+      "target": "Sledeći sprint"
+    }
+  ],
+  "mg_sla_process_title": "Kako tretiramo incident — od alert-a do postmortem-a",
+  "mg_sla_process_subtitle": "Pet koraka. Iste svaki put. Tako se gradi muscle memory u timu.",
+  "mg_sla_process": [
+    { "tag": "Detect", "title": "Detekcija & alert", "desc": "Monitor ili korisnik prijavi. Alert ide u kanal po severity-ju (P1 → telefon)." },
+    { "tag": "Triage", "title": "Triaging & severity", "desc": "On-call inženjer potvrđuje severity, kreira tiket i obaveštava klijenta u dogovorenom kanalu." },
+    { "tag": "Fix", "title": "Stabilizacija & rešenje", "desc": "Hotfix u staging-u, pa produkcija. Workaround prvo ako je full fix duži od SLA target-a." },
+    { "tag": "Verify", "title": "Verifikacija & monitoring", "desc": "Smoke test posle deploy-a, monitor 24h da se incident ne ponovi." },
+    { "tag": "Learn", "title": "Postmortem", "desc": "Za P1/P2 — pisani postmortem u 5 radnih dana. Šta se desilo, šta se menja u sistemu." }
+  ],
+  "mg_sla_deliverables_title": "Šta dobijaš na SLA paketu",
+  "mg_sla_deliverables_subtitle": "Konkretni artefakti — ne samo „održavamo“. Sve dokumentovano i pisano.",
+  "mg_sla_deliverables": [
+    { "title": "Pisani SLA ugovor", "desc": "Definicija severity-ja, response/resolution target-i, penal klauzule, scope ekstendziona." },
+    { "title": "Runbook biblioteka", "desc": "Pisani runbook-ovi za top 20 najčešćih problema — restart Varnish-a, indexer reindex, queue restart..." },
+    { "title": "Status page", "desc": "Public ili private status page sa uptime istorijom i incident log-om — transparentnost u realnom vremenu." },
+    { "title": "Mesečni SLA report", "desc": "Compliance procenat, lista incidenata, MTTR, patch-evi, performance trend — sve u jednom PDF-u." },
+    { "title": "Pristup repo & CI/CD", "desc": "Klijent ima full pristup kodu i CI/CD pipeline-u. Bez vendor lock-in-a — možeš da pređeš drugom timu." }
+  ],
+  "mg_sla_excluded_title": "Šta nije u SLA paketu (i kad jeste)",
+  "mg_sla_excluded_subtitle": "Pošteni razgovor — neke stvari ne ulaze u flat-fee SLA, već idu po dogovoru.",
+  "mg_sla_excluded": [
+    { "title": "Major Magento upgrade-i", "desc": "2.4.x → 2.5.x ili sličan major skok ide kao zaseban projekat (pogledaj Migracije & upgrade)." },
+    { "title": "Novi feature development", "desc": "Velike nove feature-e (B2B portal, novi PSP, headless storefront) radimo kao zasebne sprintove." },
+    { "title": "Treća strana van scope-a", "desc": "Bug u extension-u koji vendor ne održava — radimo workaround, ali fix ide vendor-u." },
+    { "title": "Marketing & content rad", "desc": "Banner-i, blog post-ovi, CMS sadržaj — može u retainer dodatno, ali nije u SLA paketu." },
+    { "title": "Hosting infrastruktura van naše", "desc": "Ako je shop na infrastrukturi koju ne možemo da nadgledamo — SLA je ograničen na app sloj." }
+  ],
+  "mg_sla_faq_title": "FAQ — održavanje & SLA",
+  "mg_sla_faq_subtitle": "Stvari koje klijenti pitaju pre potpisivanja SLA ugovora.",
+  "mg_sla_faq": [
+    { "q": "Da li mogu da preuzmem shop koji nije razvijao moj tim?", "a": "Da — to je oko 50% naših SLA klijenata. Prvo radimo onboarding audit (1–2 nedelje): kod, infrastruktura, extension-i, security stanje, backup status. Posle audita predlažemo SLA tier i listu hotfix-eva pre nego što paket počne da teče." },
+    { "q": "Šta ako probijete SLA target?", "a": "Na Gold/Platinum paketu imamo penal klauzule u ugovoru — pro-rata kredit za sledeći mesec ili pisana root cause analiza + akcioni plan. Bronze/Silver paketi imaju RCA bez kredita. Sve je u ugovoru, bez „smatraćemo to izuzetkom“ priče." },
+    { "q": "Koliko košta mesečni SLA?", "a": "Bronze: od 350€/mes, Silver: od 900€/mes, Gold: od 2200€/mes (orijentaciono — zavisi od shop-a, broja extension-a, broja porudžbina). Tačnu ponudu dajemo posle onboarding audita." },
+    { "q": "Da li je dozvoljeno otkazivanje paketa?", "a": "Da, sa 30-dnevnim otkaznim rokom. Predaja je dokumentovana — repo pristup, runbook-ovi, monitor account-i, sve ide klijentu. Bez „kazne za odustajanje“ ili sličnog." },
+    { "q": "Šta ako se desi disaster (npr. server izgubi sve)?", "a": "Disaster recovery procedura: restore iz off-site backup-a (RPO ≤1h za Gold/Platinum, ≤24h za Bronze). RTO target je ≤4h za Gold. Procedura je dokumentovana i testirana 2× godišnje na staging-u." }
+  ],
+  "mg_sla_related_title": "Povezane usluge",
+  "mg_sla_related_subtitle": "SLA često ide uz performance audit i security upgrade na početku angažmana.",
+  "mg_sla_related": [
+    { "label": "Performanse & hosting", "to": "/usluge/magento/performance-hosting" },
+    { "label": "Migracije & upgrade", "to": "/usluge/magento/migracije-i-upgrade" },
+    { "label": "Frontend & Hyvä", "to": "/usluge/magento/frontend-hyva" }
+  ],
+  "mg_sla_final_cta_title": "Trenutno bez podrške? Pošalji info — vraćamo onboarding plan",
+  "mg_sla_final_cta_desc": "Pisani onboarding plan: audit obima, lista hotfix-eva, predloženi SLA tier i orijentaciona cena. Bez obaveze.",
+  "mg_sla_final_cta_btn": "Zatraži SLA ponudu",
+
+  "mg_b2b_breadcrumb_home": "Weboro",
+  "mg_b2b_breadcrumb_hub": "Magento 2",
+  "mg_b2b_breadcrumb_self": "B2B rešenja",
+  "mg_b2b_badge": "Company accounts · quotes · shared catalogs",
+  "mg_b2b_eyebrow": "B2B prodavnica koja radi kao tvoj sales tim",
+  "mg_b2b_title": "B2B na Magento 2 — kompanijski računi, ponude i deljeni katalozi koji rade",
+  "mg_b2b_lead": "Adobe Commerce ima ozbiljan B2B sloj — company accounts sa hijerarhijom korisnika, quote-to-order workflow, deljene cenovnike po tier-ima i punchout / EDI integracije. Pomažemo da ga konfigurišeš tačno onako kako tvoj sales tim već radi van shopa.",
+  "mg_b2b_kpis": [
+    "Adobe Commerce B2B",
+    "Company accounts + role-i",
+    "Quote-to-order workflow",
+    "Shared catalogs & tier pricing"
+  ],
+  "mg_b2b_cta_audit": "Zatraži B2B audit",
+  "mg_b2b_cta_back_hub": "Nazad na Magento pregled",
+  "mg_b2b_flow_aria": "B2B Company Account panel — ACME Corp sa Admin/Approver/Buyer korisnicima i quote-to-order workflow-om u toku.",
+  "mg_b2b_stats_title": "B2B brojke koje gledamo na klijent projektima",
+  "mg_b2b_stats": [
+    { "value": "3-5×", "label": "viša AOV vrednost porudžbine vs B2C" },
+    { "value": "60%+", "label": "ponavljajućih kupaca u 12 meseci" },
+    { "value": "30-50%", "label": "smanjenje sales-tim manuelnog rada" },
+    { "value": "Net 30/60", "label": "credit term-ovi sa kreditnim limit-om" }
+  ],
+  "mg_b2b_pain_title": "Zašto B2B nije „malo izmenjen B2C“",
+  "mg_b2b_pain_subtitle": "Kupac nije osoba — to je kompanija sa procesima. Stvari koje B2C platforme jednostavno ne podržavaju.",
+  "mg_b2b_pain": [
+    { "title": "Više korisnika u jednoj kompaniji", "desc": "Buyer naručuje, manager odobrava preko određenog limita, finance dobija fakture. Sve to mora da radi iz iste kompanijske porudžbine." },
+    { "title": "Pregovaranje cene pre porudžbine", "desc": "B2B retko kupuje po listi. Kupac traži ponudu, pregovara popust, plaća na 30/60 dana — workflow koji B2C ne poznaje." },
+    { "title": "Različite cene za različite kupce", "desc": "Distributer A plaća 60% liste, retailer B plaća 80%, novi kupac plaća 100%. Sve iz istog kataloga, bez „posebnih shop-ova“ za svaki tier." },
+    { "title": "ERP je glavni izvor istine", "desc": "Cene, zalihe, kreditni limit i istorija porudžbina žive u ERP-u. Shop je samo prozor — sinhronizacija mora biti two-way i pouzdana." },
+    { "title": "Punchout i EDI procesi", "desc": "Veliki kupci kupuju iz svog procurement sistema (Coupa, Ariba, SAP). Tvoj shop mora da ume da se ponaša i kao „PunchOut katalog“." },
+    { "title": "Net terms umesto kartice", "desc": "B2B retko plaća karticom. Plaća se na fakturu, sa kreditnim limitom, sa prosečnim DSO koji prati tvoj finansijski tim." }
+  ],
+  "mg_b2b_features_title": "Šest oblasti koje implementiramo na Magento B2B",
+  "mg_b2b_features_subtitle": "Sve što Adobe Commerce B2B sloj nudi, plus integracije ka ERP-u, PIM-u i procurement sistemima.",
+  "mg_b2b_features": [
+    {
+      "icon": "🏢",
+      "tag": "Company accounts",
+      "title": "Hijerarhijski kompanijski računi",
+      "desc": "Jedna kompanija, više korisnika sa različitim role-ovima — Admin, Approver, Buyer. Svaki vidi i radi tačno ono što treba.",
+      "items": ["Multi-user company accounts", "Role-based pristupi i permissions", "Self-service registracija + admin approval", "Multiple shipping & billing adrese"]
+    },
+    {
+      "icon": "📝",
+      "tag": "Quotes",
+      "title": "Quote-to-order workflow",
+      "desc": "Kupac dodaje u korpu, traži „Request a Quote“, sales tim dogovara cenu, kupac konvertuje u porudžbinu — sve u shop-u.",
+      "items": ["Request for Quote (RFQ) flow", "Pregovaranje cene i diskonta", "Approval workflow sa limit-ima", "Quote → Order konverzija u jednom kliku"]
+    },
+    {
+      "icon": "🏷️",
+      "tag": "Pricing",
+      "title": "Shared catalogs & tier pricing",
+      "desc": "Različite cene za različite kompanije — bez kloniranja kataloga. Tier pricing, customer-specific pricing, contract pricing.",
+      "items": ["Shared catalogs po tier-u", "Customer group pricing", "Volume tier pricing", "Negotiated contract pricing"]
+    },
+    {
+      "icon": "📊",
+      "tag": "Procurement",
+      "title": "Quick order & re-order",
+      "desc": "B2B kupac zna SKU-eve. Treba mu CSV upload, brzi „add to cart“ po SKU listi, i jedan klik za reorder prošle porudžbine.",
+      "items": ["CSV / Excel quick upload", "SKU based bulk add-to-cart", "Re-order iz prethodnih porudžbina", "Requisition lists (template ordering)"]
+    },
+    {
+      "icon": "🔌",
+      "tag": "Integration",
+      "title": "Punchout & EDI integracije",
+      "desc": "Veliki klijenti kupuju kroz svoj procurement sistem. Implementiramo OCI / cXML PunchOut i EDI 850/810/856 transakcije.",
+      "items": ["OCI / cXML PunchOut katalog", "EDI 850/810/856 (purchase order / invoice / shipping)", "Coupa / Ariba / SAP procurement integracije", "B2B GraphQL API za partner portale"]
+    },
+    {
+      "icon": "💰",
+      "tag": "Payment",
+      "title": "Net terms & credit",
+      "desc": "Plaćanje na fakturu sa kreditnim limitom. Limit kontroliše ERP, shop ga proverava u real-time pre nego što kupac može da poručujе.",
+      "items": ["Net 30 / 60 / 90 plaćanje", "Kreditni limit iz ERP-a", "Purchase order broj na checkout-u", "Klijentski portal za otvorene fakture"]
+    }
+  ],
+  "mg_b2b_compare_title": "Magento B2B vs SaaS vs custom build",
+  "mg_b2b_compare_subtitle": "Ne postoji „najbolje rešenje“ — postoji ono koje odgovara tvom obimu, ERP-u i sales procesu.",
+  "mg_b2b_compare_pros": "Plus",
+  "mg_b2b_compare_cons": "Minus",
+  "mg_b2b_compare_for": "Za:",
+  "mg_b2b_compare": [
+    {
+      "title": "Adobe Commerce B2B",
+      "tag": "Preporuka",
+      "highlight": true,
+      "desc": "Magento sa zvaničnim B2B modulom. Pokriva 80% B2B scenarija out-of-the-box, sa custom slojevima preko module sistema.",
+      "pros": ["Sve B2B feature-e u core-u", "Vlasništvo nad podacima i logikom", "Ekstenzibilan kroz extension ekosistem", "Hyvä B2B podrška"],
+      "cons": ["Adobe Commerce licenca (~$22k+/god)", "Potreban iskusan Magento tim", "Kompleksnija infrastruktura"],
+      "for": "Srednje i veće shopove sa €1M+ B2B GMV i kompleksnim procurement procesom."
+    },
+    {
+      "title": "SaaS B2B platforme",
+      "tag": "Brzo",
+      "desc": "BigCommerce B2B Edition, Shopify Plus B2B, OroCommerce SaaS. Brži start, ali kompromisi oko vlasništva i custom logike.",
+      "pros": ["Kraći go-live timeline", "Manje devops overhead-a", "Mesečna pretplata umesto licence"],
+      "cons": ["Ograničena custom logika", "Vendor lock-in", "Skalabilnost ima plafonu", "Često ne podržava EDI/Punchout"],
+      "for": "Nove B2B shopove koji žele da brzo testiraju model."
+    },
+    {
+      "title": "Custom / headless build",
+      "tag": "Specifično",
+      "desc": "Magento backend + custom Vue/React storefront, ili potpuno custom platform. Maximum kontrole, maksimalan rad.",
+      "pros": ["Potpuna sloboda UX-a i workflow-a", "Optimizovano za specifičan biznis", "Maksimalne performanse"],
+      "cons": ["Najduži timeline (12+ meseci)", "Najskuplje za održavanje", "Sav rad pada na razvojni tim"],
+      "for": "Specifične industrije gde standardni B2B procesi ne odgovaraju (npr. proizvodne firme sa configure-to-order)."
+    }
+  ],
+  "mg_b2b_phases_title": "Faze B2B implementacije",
+  "mg_b2b_phases_subtitle": "B2B projekat nije „instalacija B2B modula“ — to je redizajn sales procesa kroz shop. Pet faza, jasan output svake.",
+  "mg_b2b_phases": [
+    { "title": "Audit sales procesa", "duration": "1-2 ned", "desc": "Razgovor sa sales timom, finansijama, ERP timom. Kako se trenutno prodaje, šta su bottleneck-i, ko šta odobrava." },
+    { "title": "Catalog & pricing model", "duration": "2-3 ned", "desc": "Mapiranje company tier-a, tier pricing-a, shared catalog strukture. Konkretne brojke, ne apstraktne grupe." },
+    { "title": "Workflow konfiguracija", "duration": "3-5 ned", "desc": "Company accounts, role-based permissions, quote workflow, approval rules — sve podešeno prema realnim sales scenarijima." },
+    { "title": "ERP & procurement integracije", "duration": "4-8 ned", "desc": "Sync cena, zaliha, kreditnog limita iz ERP-a. PunchOut katalog za enterprise klijente. EDI ako je potrebno." },
+    { "title": "Sales tim onboarding", "duration": "2-3 ned", "desc": "Trening sales tima, dokumentacija, „what-if“ scenariji, postepeno preusmeravanje portfolija sa email-a na shop." }
+  ],
+  "mg_b2b_deliverables_title": "Šta dobijaš na B2B projektu",
+  "mg_b2b_deliverables_subtitle": "Ne samo tehnička isporuka — već dokumentovan B2B sistem koji sales tim koristi.",
+  "mg_b2b_deliverables": [
+    { "title": "Konfigurisan B2B Magento", "desc": "Company accounts, role-i, quote workflow, shared catalogs, tier pricing — sve sa testovima i dokumentacijom." },
+    { "title": "ERP integracija sa real-time sync-om", "desc": "Cene, zalihe, kreditni limit sinhronizovani u real-time. Documented contracts, retry logika, monitoring." },
+    { "title": "PunchOut & EDI gde je potrebno", "desc": "OCI / cXML PunchOut katalog za enterprise klijente, EDI 850/810/856 ako klijent zahteva." },
+    { "title": "Sales tim runbook", "desc": "Step-by-step uputstvo: kako kreirati quote, kako odobriti, kako pratiti DSO, kako rešavati edge case-ove." },
+    { "title": "Klijent portal i analitika", "desc": "B2B kupci vide otvorene fakture, istoriju porudžbina, requisition liste. Sales menadžer vidi pipeline u dashboard-u." }
+  ],
+  "mg_b2b_usecases_title": "B2B scenariji koje smo radili",
+  "mg_b2b_usecases_subtitle": "Različite industrije, ali isti pattern — kompanijski računi, pregovaranje cene, integracije sa back office-om.",
+  "mg_b2b_usecases": [
+    { "title": "Distributer industrijske opreme", "desc": "10k SKU, 200+ kompanijskih računa, EDI ka 5 najvećih kupaca, PunchOut ka 2 enterprise klijenta." },
+    { "title": "Veleprodaja prehrambenih proizvoda", "desc": "Tier pricing po regionima, requisition liste za sedmične porudžbine, Net 30 sa kreditnim limitom iz ERP-a." },
+    { "title": "Proizvođač komponenti", "desc": "Configure-to-order konfigurator, RFQ workflow sa engineering review-om, quote-to-order konverzija." },
+    { "title": "B2B kozmetika / HoReCa", "desc": "Company accounts za salone i hotele, tier pricing, fakture na 30 dana, approval workflow za buyer-e iznad limita." },
+    { "title": "Auto-delovi za servise", "desc": "VIN-based search, real-time stanje zaliha iz lager sistema, kompanijski računi sa istorijom porudžbina po servisu." }
+  ],
+  "mg_b2b_faq_title": "FAQ — B2B na Magento-u",
+  "mg_b2b_faq_subtitle": "Pitanja koja klijenti najčešće postave pre B2B implementacije.",
+  "mg_b2b_faq": [
+    { "q": "Da li mi treba Adobe Commerce licenca za B2B feature-e?", "a": "Da — B2B sloj (company accounts, quote workflow, shared catalogs, requisition lists) je deo Adobe Commerce, ne Magento Open Source. Licenca starta od ~$22k/god (revenue-based). Postoje extension-i koji simulирaju deo B2B funkcionalnosti na Open Source-u, ali za ozbiljniji B2B preporučujemo Commerce licencu." },
+    { "q": "Koliko traje B2B implementacija?", "a": "Realan opseg: 12–24 nedelje za standardnu B2B implementaciju, 6+ meseci ako uključuje EDI, PunchOut i kompleksne ERP integracije. Pre nego što damo broj radimo audit sales procesa — i tek onda timeline." },
+    { "q": "Da li B2B i B2C mogu da rade na istom shop-u?", "a": "Da — najčešći setup je „mixed“ shop: B2C kupci se registruju na klasičan način, B2B kupci kroz company account registraciju. Magento ume da segmentira po customer group-i šta ko vidi (cene, katalog, payment metode)." },
+    { "q": "Kako se cena iz ERP-a sinhronizuje sa shop-om u real-time?", "a": "Tri pristupa: 1) cache + scheduled sync svakih 5–15 min, 2) ERP push na svaki update kroz webhook, 3) on-demand poziv ka ERP API-ju u trenutku dodavanja u korpu. Biramo na osnovu broja SKU-eva, broja request-a i kakve garancije nudi ERP." },
+    { "q": "Da li podržavate Hyvä temu na B2B-u?", "a": "Da. Hyvä B2B podržava sve standardne Adobe Commerce B2B feature-e (company accounts, quotes, shared catalogs). Hyvä Checkout je ovde naročito vredan jer ozbiljno ubrzava B2B checkout sa dosta linija." },
+    { "q": "Šta se dešava sa postojećim B2B email/Excel procesom?", "a": "Ne brišemo ga preko noći — to bi izazvalo otpor sales tima. Idemo postepeno: prvo top 20 klijenata na shop, pa proširujemo. Sales tim koristi shop kao alat (oni mogu da kreiraju quote u ime kupca), ne kao zamenu." }
+  ],
+  "mg_b2b_related_title": "Povezane usluge",
+  "mg_b2b_related_subtitle": "B2B implementacija često zahteva kompleksne integracije i SLA paket.",
+  "mg_b2b_related": [
+    { "label": "Integracije & API", "to": "/usluge/magento/integracije" },
+    { "label": "SLA & održavanje", "to": "/usluge/magento/odrzavanje-sla" },
+    { "label": "Performanse & hosting", "to": "/usluge/magento/performance-hosting" }
+  ],
+  "mg_b2b_final_cta_title": "Pošalji info o sales procesu — vraćamo B2B audit i timeline",
+  "mg_b2b_final_cta_desc": "Pisani audit: mapiranje company tier-a, predlog quote workflow-a, ERP integracioni plan i orijentaciona timeline. Bez obaveze.",
+  "mg_b2b_final_cta_btn": "Zatraži B2B audit",
 
   "platforms_title": "Magento, WordPress i custom web",
   "platforms_intro": "Biramo tehnologiju prema obimu, budžetu i timu koji će održavati sistem — od enterprise prodavnica do brzih marketing sajtova i potpuno prilagođenih proizvoda.",
