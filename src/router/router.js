@@ -13,6 +13,11 @@ import Ecommerce from '@/pages/usluge/Ecommerce.vue'
 import SocialMedia from '@/pages/usluge/SocialMedia.vue'
 import GoogleAds from '@/pages/usluge/GoogleAds.vue'
 import Seo from '@/pages/usluge/Seo.vue'
+import GoogleMarketing from '@/pages/usluge/GoogleMarketing.vue'
+import Ga4Gtm from '@/pages/usluge/google/Ga4Gtm.vue'
+import MerchantCenter from '@/pages/usluge/google/MerchantCenter.vue'
+import YoutubeDisplay from '@/pages/usluge/google/YoutubeDisplay.vue'
+import LookerStudio from '@/pages/usluge/google/LookerStudio.vue'
 import Branding from '@/pages/usluge/Branding.vue'
 import Video from '@/pages/usluge/Video.vue'
 import Magento from '@/pages/usluge/Magento.vue'
@@ -24,16 +29,15 @@ import MgOdrzavanje from '@/pages/usluge/magento/Odrzavanje.vue'
 import MgB2B from '@/pages/usluge/magento/B2B.vue'
 import Wordpress from '@/pages/usluge/Wordpress.vue'
 import CustomWeb from '@/pages/usluge/CustomWeb.vue'
-import Growth from '@/pages/usluge/Growth.vue'
 
-// OutreachGenie
-import OgHub from '@/pages/outreachgenie/Hub.vue'
-import OgAi from '@/pages/outreachgenie/AiAlati.vue'
-import OgBuilder from '@/pages/outreachgenie/CampaignBuilder.vue'
-import OgSending from '@/pages/outreachgenie/Sending.vue'
-import OgSubs from '@/pages/outreachgenie/Subscribers.vue'
-import OgAnalytics from '@/pages/outreachgenie/Analytics.vue'
-import OgTeams from '@/pages/outreachgenie/Teams.vue'
+// OutreachGenie (privremeno isključeno dok ne završimo portfolio fokus)
+// import OgHub from '@/pages/outreachgenie/Hub.vue'
+// import OgAi from '@/pages/outreachgenie/AiAlati.vue'
+// import OgBuilder from '@/pages/outreachgenie/CampaignBuilder.vue'
+// import OgSending from '@/pages/outreachgenie/Sending.vue'
+// import OgSubs from '@/pages/outreachgenie/Subscribers.vue'
+// import OgAnalytics from '@/pages/outreachgenie/Analytics.vue'
+// import OgTeams from '@/pages/outreachgenie/Teams.vue'
 
 const routes = [
     { path: '/', component: Weboro },
@@ -53,21 +57,25 @@ const routes = [
     { path: '/usluge/magento/b2b-resenja', component: MgB2B, meta: {title: 'Magento B2B rešenja — Weboro'} },
     { path: '/usluge/wordpress', component: Wordpress, meta: {title: 'WordPress — Weboro'} },
     { path: '/usluge/custom-web', component: CustomWeb, meta: {title: 'Custom web — Weboro'} },
-    { path: '/usluge/growth', component: Growth, meta: {title: 'Growth & outreach — Weboro'} },
-    { path: '/usluge/social-media', component: SocialMedia, meta: {title: 'Social Media - Weboro'} },
-    { path: '/usluge/google-ads', component: GoogleAds, meta: {title: 'Google Ads & Analitycs- Weboro'} },
-    { path: '/usluge/seo', component: Seo, meta: {title: 'Seo - Weboro'} },
+    { path: '/usluge/social-media', component: SocialMedia, meta: {title: 'Meta Ads & Social — Weboro'} },
+    { path: '/usluge/google-marketing', component: GoogleMarketing, meta: {title: 'Google marketing — Weboro'} },
+    { path: '/usluge/google-ads', component: GoogleAds, meta: {title: 'Google Ads — Weboro'} },
+    { path: '/usluge/seo', component: Seo, meta: {title: 'SEO & Search Console — Weboro'} },
+    { path: '/usluge/google/ga4-gtm', component: Ga4Gtm, meta: {title: 'GA4 & GTM — Weboro'} },
+    { path: '/usluge/google/merchant-center', component: MerchantCenter, meta: {title: 'Merchant Center — Weboro'} },
+    { path: '/usluge/google/youtube-display', component: YoutubeDisplay, meta: {title: 'YouTube & Display — Weboro'} },
+    { path: '/usluge/google/looker-studio', component: LookerStudio, meta: {title: 'Looker Studio — Weboro'} },
     { path: '/usluge/branding', component: Branding, meta: {title: 'Branding - Weboro'} },
     { path: '/usluge/video', component: Video, meta: {title: 'Video - Weboro'} },
 
-    // OutreachGenie case study
-    { path: '/outreachgenie', component: OgHub, meta: {title: 'OutreachGenie — Weboro'} },
-    { path: '/outreachgenie/ai-alati', component: OgAi, meta: {title: 'AI alati — OutreachGenie'} },
-    { path: '/outreachgenie/campaign-builder', component: OgBuilder, meta: {title: 'Campaign Builder — OutreachGenie'} },
-    { path: '/outreachgenie/sending', component: OgSending, meta: {title: 'Sending Engine — OutreachGenie'} },
-    { path: '/outreachgenie/subscribers', component: OgSubs, meta: {title: 'Subscribers & Engagement — OutreachGenie'} },
-    { path: '/outreachgenie/analytics', component: OgAnalytics, meta: {title: 'Analytics & A/B — OutreachGenie'} },
-    { path: '/outreachgenie/teams', component: OgTeams, meta: {title: 'Teams & sigurnost — OutreachGenie'} },
+    // OutreachGenie case study (privremeno isključeno)
+    // { path: '/outreachgenie', component: OgHub, meta: {title: 'OutreachGenie — Weboro'} },
+    // { path: '/outreachgenie/ai-alati', component: OgAi, meta: {title: 'AI alati — OutreachGenie'} },
+    // { path: '/outreachgenie/campaign-builder', component: OgBuilder, meta: {title: 'Campaign Builder — OutreachGenie'} },
+    // { path: '/outreachgenie/sending', component: OgSending, meta: {title: 'Sending Engine — OutreachGenie'} },
+    // { path: '/outreachgenie/subscribers', component: OgSubs, meta: {title: 'Subscribers & Engagement — OutreachGenie'} },
+    // { path: '/outreachgenie/analytics', component: OgAnalytics, meta: {title: 'Analytics & A/B — OutreachGenie'} },
+    // { path: '/outreachgenie/teams', component: OgTeams, meta: {title: 'Teams & sigurnost — OutreachGenie'} },
 ]
 
 const router = createRouter({

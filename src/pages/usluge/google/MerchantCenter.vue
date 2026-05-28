@@ -1,5 +1,5 @@
 <template>
-  <GoogleServicePage page-key="seo" />
+  <GoogleServicePage page-key="merchant" />
 </template>
 
 <script setup>

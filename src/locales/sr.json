@@ -6,6 +6,15 @@
   "nav_blog": "Blog",
   "nav_career": "Karijera",
   "nav_contact": "Kontakt",
+  "mega_core": "eCommerce core",
+  "mega_performance": "Performance marketing",
+  "mega_creative": "Kreativa",
+  "mega_company": "Kompanija",
+  "mega_featured": "Featured",
+  "mega_featured_magento_title": "Magento 2 Hub",
+  "mega_featured_magento_desc": "Core usluge i podstranice",
+  "mega_featured_google_title": "Google Marketing",
+  "mega_featured_google_desc": "Ads, SEO i analytics fokus",
 
   "cta_start": "Započni projekat",
   "cta_portfolio": "Pogledaj portfolio",
@@ -61,6 +70,52 @@
   "service_wordpress_cta_title": "WordPress sajt?",
   "service_wordpress_cta_subtitle": "Javi nam se sa linkom ka referencama i rokovima.",
   "service_wordpress_cta_button": "Pošalji upit",
+  "wp_full_badge": "WordPress web rešenja",
+  "wp_full_title": "WordPress u fullu — od lead sajta do ozbiljnog WooCommerce shop-a",
+  "wp_full_lead": "Projektujemo i razvijamo WordPress sajtove koji su brzi, uredni za održavanje i spremni za rast. Fokus nije samo dizajn već i performanse, SEO struktura i jasan funnel.",
+  "wp_full_kpis": ["Core Web Vitals fokus", "WooCommerce spremno", "SEO-friendly arhitektura", "Lako održavanje za tim"],
+  "wp_full_cta_primary": "Zatraži WordPress plan",
+  "wp_full_cta_secondary": "Nazad na Web & prodaja",
+  "wp_full_ideal_title": "Idealno za",
+  "wp_full_ideal": [
+    "Brend sajtove koji moraju brzo da se lansiraju",
+    "Landing page sisteme za lead generation",
+    "Blog/content platforme sa SEO fokusom",
+    "Male i srednje webshopove na WooCommerce-u"
+  ],
+  "wp_full_offer_title": "Šta sve pokrivamo na WordPress projektu",
+  "wp_full_offer_subtitle": "Od tehničke osnove do growth sloja, u jednom timu.",
+  "wp_full_offer_cards": [
+    { "tag": "Development", "title": "Custom WordPress tema", "desc": "Clean code tema po dizajnu, bez bloata i bez no-code lock-in problema." },
+    { "tag": "eCommerce", "title": "WooCommerce prodavnica", "desc": "Kategorije, checkout, dostava, naplata i promo mehanike za svakodnevnu prodaju." },
+    { "tag": "SEO", "title": "Tehnički SEO setup", "desc": "Struktura URL-ova, schema, indeksacija, interne veze i SEO osnovna automatizacija." },
+    { "tag": "Content", "title": "Blog i landing engine", "desc": "Template sistem za kampanje, case study stranice i brže objave sadržaja." },
+    { "tag": "Integracije", "title": "CRM, email, analytics", "desc": "Povezivanje sa GA4, Meta Pixel, newsletter i prodajnim alatima." },
+    { "tag": "Support", "title": "Održavanje i iteracije", "desc": "Security, update ciklusi, backup i mesečni sprint za poboljšanja." }
+  ],
+  "wp_full_woo_title": "WooCommerce koji zaista prodaje",
+  "wp_full_woo_subtitle": "Ne samo shop koji izgleda lepo, već prodajni kanal sa jasnim KPI-jevima i procesom optimizacije.",
+  "wp_full_woo_items": [
+    "Katalog i filteri prilagođeni realnom ponašanju kupaca",
+    "Checkout bez viškova koraka i sa manjim drop-off-om",
+    "Cross-sell / upsell logika kroz karticu proizvoda i korpu",
+    "Integracija dostave, ERP-a i naplate prema potrebama biznisa",
+    "Setup za Meta i Google evente radi preciznog remarketinga"
+  ],
+  "wp_full_stack_title": "Tehnički stack i standard",
+  "wp_full_stack_subtitle": "Radimo sa proverenim plugin i hosting setup-om, bez random dodataka koji ruše brzinu.",
+  "wp_full_stack_chips": ["WordPress", "WooCommerce", "ACF", "Gutenberg", "Cloudflare", "LiteSpeed/NGINX", "GA4", "GTM", "Meta Pixel", "Mailchimp/Klaviyo"],
+  "wp_full_process_title": "Kako vodimo WordPress projekat",
+  "wp_full_process_steps": [
+    "1) Audit i scope: poslovni cilj, sadržaj i funnel",
+    "2) UX i arhitektura: struktura stranica i ključne user putanje",
+    "3) Development: tema, funkcionalnosti i integracije",
+    "4) QA i performance: testiranje, Core Web Vitals i SEO check",
+    "5) Launch i support: monitoring, iteracije i growth roadmap"
+  ],
+  "wp_full_cta_title": "Treba ti WordPress koji ne izgleda šablonski?",
+  "wp_full_cta_subtitle": "Pošalji trenutni sajt ili brief. Vraćamo jasan plan, obim i prioritete.",
+  "wp_full_cta_button": "Pošalji WordPress upit",
 
   "service_custom_web_title": "Custom web",
   "service_custom_web_desc": "Vue, API-ji, dashboardi i headless pristup.",
@@ -98,11 +153,11 @@
   "service_ecommerce_title": "Web & prodaja",
   "service_ecommerce_desc": "Magento, WordPress i custom rešenja.",
 
-  "service_social_title": "Social Media Marketing",
-  "service_social_desc": "Strategije i vođenje profila.",
+  "service_social_title": "Meta Ads & Social",
+  "service_social_desc": "Plaćene kampanje i sadržaj za društvene mreže.",
 
-  "service_google_title": "Google Ads & Analytics",
-  "service_google_desc": "PPC kampanje i praćenje.",
+  "service_google_title": "Google marketing",
+  "service_google_desc": "Ads, SEO i analytics sistem.",
 
   "service_seo_title": "SEO & Content",
   "service_seo_desc": "Optimizacija za Google.",
@@ -118,19 +173,33 @@
 
   "hero_brand": "Weboro",
   "hero_subbrand": "Smart Digital Solutions",
-  "hero_eyebrow": "Digitalni studio · Beograd",
-  "hero_title": "Gradimo <span class=\"text-yellow-400\">digitalne proizvode</span> koji rade za tvoj biznis",
-  "hero_desc": "SaaS platforme, Magento i WordPress sajtovi, custom web, branding i growth — sve što ti treba da digital proradi.",
-  "hero_cta_start": "Započni projekat",
-  "hero_cta_portfolio": "Pogledaj portfolio",
-  "hero_metric1_value": "10+",
-  "hero_metric1_label": "AI alata u našem SaaS-u",
+  "hero_eyebrow": "Magento 2 · eCommerce · growth",
+  "hero_title": "Gradimo <span class=\"text-[#ff8a3d]\">Magento prodavnice</span> i promet koji možeš da meriš",
+  "hero_desc": "Od shop arhitekture i integracija do Google Ads, SEO i Meta kampanja — jedan tim, jasni KPI-jevi i plan koji skalira.",
+  "hero_cta_primary": "Magento usluge",
+  "hero_cta_secondary": "Zatraži audit",
+  "hero_metric1_value": "2.4.x",
+  "hero_metric1_label": "Magento fokus",
   "hero_metric2_value": "20+",
   "hero_metric2_label": "isporučenih projekata",
-  "hero_metric3_value": "4+",
-  "hero_metric3_label": "godine u digitalu",
-  "hero_visual_caption": "Live: outreachgenie.com",
-  "hero_clients_label": "Naši projekti i klijenti",
+  "hero_metric3_value": "5",
+  "hero_metric3_label": "growth kanala",
+  "hero_visual_caption": "Commerce + growth stack",
+  "hero_visual_aria": "Jednostavan 3-korak tok: Saobraćaj, Prodavnica, Prodaja, uz KPI pločice ROAS, CAC i SEO rast.",
+  "hero_clients_label": "Stack i kanali u fokusu",
+  "hero_pill_magento": "Magento 2",
+  "hero_pill_ecommerce": "eCommerce",
+  "hero_pill_meta": "Društvene mreže",
+  "hero_pill_google_ads": "Google Ads",
+  "hero_pill_seo": "SEO",
+  "hero_flow_store": "Store",
+  "hero_flow_ads": "Ads",
+  "hero_flow_seo": "SEO",
+  "hero_flow_meta": "Meta",
+  "hero_flow_growth": "Growth",
+  "hero_flow_traffic": "Saobraćaj",
+  "hero_flow_storefront": "Prodavnica",
+  "hero_flow_sales": "Prodaja",
   "hero_scroll": "Scroll",
 
   "outreach_title": "Naš interni SaaS alat",
@@ -497,43 +566,49 @@
   "gm_home_flow_convert": "Konverzija",
   "gm_home_flow_insight": "Uvid",
   "gm_home_modules_title": "Šest linija rada oko Google ekosistema",
-  "gm_home_modules_subtitle": "Možeš nas angažovati za jednu liniju ili ceo growth paket. Detaljne stranice uskoro — recite mi čime krećemo prvo.",
+  "gm_home_modules_subtitle": "Možeš nas angažovati za jednu liniju ili ceo growth paket. Sve ključne detaljne stranice su spremne ispod.",
   "gm_home_modules": [
     {
       "icon": "🎯",
       "tag": "Ads",
       "title": "Google Ads",
-      "desc": "Search, Performance Max, Shopping i remarketing — struktura naloga koja ne curi budžet, sa jasnim ciljem po kampanji."
+      "desc": "Search, Performance Max, Shopping i remarketing — struktura naloga koja ne curi budžet, sa jasnim ciljem po kampanji.",
+      "link": "/usluge/google-ads"
     },
     {
       "icon": "🔍",
       "tag": "SEO",
       "title": "SEO & Search Console",
-      "desc": "Tehnički SEO, indeksiranje, Core Web Vitals i sadržajna struktura koja zaista rangira — bez „SEO magije“."
+      "desc": "Tehnički SEO, indeksiranje, Core Web Vitals i sadržajna struktura koja zaista rangira — bez „SEO magije“.",
+      "link": "/usluge/seo"
     },
     {
       "icon": "📊",
       "tag": "Analytics",
       "title": "GA4 & GTM",
-      "desc": "Merenje konverzija, server-side tagging i čista event taksonomija. Brojevi kojima možeš da veruješ."
+      "desc": "Merenje konverzija, server-side tagging i čista event taksonomija. Brojevi kojima možeš da veruješ.",
+      "link": "/usluge/google/ga4-gtm"
     },
     {
       "icon": "🛒",
       "tag": "Shopping",
       "title": "Merchant Center",
-      "desc": "Product feed-ovi, Shopping kampanje, PMax product asseti i feed health — jer neispravan feed troši budžet u tišini."
+      "desc": "Product feed-ovi, Shopping kampanje, PMax product asseti i feed health — jer neispravan feed troši budžet u tišini.",
+      "link": "/usluge/google/merchant-center"
     },
     {
       "icon": "📺",
       "tag": "Video",
       "title": "YouTube & Display",
-      "desc": "Awareness, frequency capping, kreativi za video i display mreže — sa pravim attribution-om, ne „brand lift“ pričom."
+      "desc": "Awareness, frequency capping, kreativi za video i display mreže — sa pravim attribution-om, ne „brand lift“ pričom.",
+      "link": "/usluge/google/youtube-display"
     },
     {
       "icon": "📈",
       "tag": "Reporting",
       "title": "Looker Studio",
-      "desc": "Dashboards, attribution model i KPI praćenje koje finansijski tim razume. Jedan link, ne 4 PDF-a mesečno."
+      "desc": "Dashboards, attribution model i KPI praćenje koje finansijski tim razume. Jedan link, ne 4 PDF-a mesečno.",
+      "link": "/usluge/google/looker-studio"
     }
   ],
   "gm_home_trust_title": "Alati i platforme koje koristimo svakog dana",
@@ -547,6 +622,178 @@
     "YouTube Studio",
     "Tag Assistant"
   ],
+
+  "gm_hub_breadcrumb_home": "Weboro",
+  "gm_hub_breadcrumb_self": "Google marketing",
+  "gm_hub_badge": "Google ekosistem",
+  "gm_hub_eyebrow": "Performance marketing · merenje · rast",
+  "gm_hub_title": "Google marketing sistem koji spaja promet, konverzije i profit",
+  "gm_hub_lead": "Gradimo i vodimo Google stack end-to-end: Ads, SEO, GA4/GTM, Merchant Center, YouTube i reporting. Fokus je na stabilnom funnel-u i brojevima kojima možeš da veruješ.",
+  "gm_hub_kpis": [
+    "Google Ads + PMax + Shopping",
+    "SEO + Search Console",
+    "GA4 + GTM + server-side",
+    "Looker Studio dashboardi"
+  ],
+  "gm_hub_cta_brief": "Pošalji brief",
+  "gm_hub_cta_explore": "Istraži usluge",
+  "gm_hub_flow_traffic": "Saobraćaj: Search, PMax, YouTube",
+  "gm_hub_flow_landing": "Landing i UX optimizacija",
+  "gm_hub_flow_conversion": "Konverzije: lead / sale / call",
+  "gm_hub_flow_reporting": "GA4 + Looker Studio izveštaji",
+  "gm_hub_services_title": "Šest linija rada oko Google ekosistema",
+  "gm_hub_services_subtitle": "Možeš nas angažovati po jednoj liniji ili kao full-stack growth tim.",
+  "gm_hub_services": [
+    { "icon": "🎯", "tag": "Ads", "title": "Google Ads", "desc": "Search, PMax, Shopping i remarketing", "to": "/usluge/google-ads" },
+    { "icon": "🔍", "tag": "SEO", "title": "SEO & Search Console", "desc": "Tehnički SEO, indeksiranje i sadržaj", "to": "/usluge/seo" },
+    { "icon": "📊", "tag": "Analytics", "title": "GA4 & GTM", "desc": "Pouzdano merenje i event arhitektura", "to": "/usluge/google/ga4-gtm" },
+    { "icon": "🛒", "tag": "Shopping", "title": "Merchant Center", "desc": "Feed health i Shopping/PMax asseti", "to": "/usluge/google/merchant-center" },
+    { "icon": "📺", "tag": "Video", "title": "YouTube & Display", "desc": "Awareness i demand generation", "to": "/usluge/google/youtube-display" },
+    { "icon": "📈", "tag": "Reporting", "title": "Looker Studio", "desc": "Jasan poslovni dashboard i KPI", "to": "/usluge/google/looker-studio" }
+  ],
+  "gm_page_cta_primary": "Zatraži audit",
+  "gm_page_cta_secondary": "Nazad na Google pregled",
+  "gm_page_focus_title": "Fokus",
+  "gm_page_deliver_title": "Šta isporučujemo",
+  "gm_page_deliver_subtitle": "Konkretni koraci, merenje i iteracije po KPI-jevima.",
+  "gm_page_faq_title": "FAQ",
+  "gm_page_faq_subtitle": "Najčešća pitanja pre početka angažmana.",
+  "gm_page_related_title": "Povezane usluge",
+  "gm_page_related_subtitle": "Sve stranice su deo jednog growth sistema.",
+  "gm_pages": {
+    "ads": {
+      "breadcrumb": "Google Ads",
+      "badge": "Search · PMax · Shopping",
+      "title": "Google Ads koji donose stabilan pipeline, ne samo klikove",
+      "lead": "Struktura naloga, bidding strategija i kreativa fokusirani na profitabilne konverzije i kontrolu CAC-a.",
+      "kpis": ["Search + PMax", "Shopping feed sync", "ROAS/CAC fokus"],
+      "focus": ["Account struktura po intent-u", "Negative keywords i search terms disciplina", "Budget allocation po profitabilnosti", "Kontinuirani test oglasa i landing varijanti"],
+      "deliver": [
+        { "title": "Audit naloga", "desc": "Identifikujemo gde budžet curi i šta odmah da se optimizuje." },
+        { "title": "Kampanjna arhitektura", "desc": "Jasna podela po ciljevima: akvizicija, remarketing, shopping." },
+        { "title": "Nedeljni optimization sprint", "desc": "Bidding, copy, asseti i query mining po KPI ritmu." }
+      ],
+      "faq": [
+        { "q": "Koliko brzo se vide rezultati?", "a": "Prvi signal vidiš u 2–4 nedelje; stabilizacija obično 6–8 nedelja." },
+        { "q": "Da li radite samo jedan kanal?", "a": "Možemo, ali najbolje rezultate daje povezivanje sa SEO i analytics slojem." }
+      ],
+      "related": [
+        { "label": "SEO & Search Console", "to": "/usluge/seo" },
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "seo": {
+      "breadcrumb": "SEO & Search Console",
+      "badge": "Technical SEO · content · indexing",
+      "title": "SEO koji gradi organski kanal kao poslovni asset",
+      "lead": "Tehnički SEO, sadržajna struktura i Search Console operativa koja povećava relevantan organski promet.",
+      "kpis": ["Impressions + clicks", "Core Web Vitals", "Index coverage"],
+      "focus": ["Tehnička SEO baza i crawl higijena", "Topic cluster i content roadmap", "Search Console monitoring i brzo rešavanje problema", "SERP CTR poboljšanja kroz snippet optimizaciju"],
+      "deliver": [
+        { "title": "SEO audit", "desc": "Jasan plan prioritetnih tehničkih i sadržajnih koraka." },
+        { "title": "Roadmap", "desc": "12-nedeljni plan sadržaja i optimizacija sa KPI praćenjem." },
+        { "title": "Mesečni report", "desc": "Rast po ključnim stranicama i query segmentima." }
+      ],
+      "faq": [
+        { "q": "Da li SEO može bez content-a?", "a": "Može delimično, ali najveći rast dolazi kad tehnički SEO prati sadržajni plan." },
+        { "q": "Koliko traje SEO ciklus?", "a": "Za ozbiljan signal 8–12 nedelja; za stabilan kanal 6+ meseci." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "ga4": {
+      "breadcrumb": "GA4 & GTM",
+      "badge": "Measurement architecture",
+      "title": "GA4 i GTM setup koji daje tačne odluke, ne „noise“",
+      "lead": "Postavljamo event model, konverzije i dashboarde koji su usklađeni sa realnim poslovnim ciljevima.",
+      "kpis": ["Conversion events", "Data quality", "Attribution clarity"],
+      "focus": ["Event taksonomija i naming standard", "GTM governance i verzionisanje", "Server-side tagging gde ima smisla", "QA i validacija podataka"],
+      "deliver": [
+        { "title": "Measurement plan", "desc": "Mapa događaja i konverzija po funnel koracima." },
+        { "title": "GTM implementacija", "desc": "Tagovi, triggeri i varijable sa QA checklistom." },
+        { "title": "GA4 property setup", "desc": "Konverzije, audience-i i custom izveštaji." }
+      ],
+      "faq": [
+        { "q": "Da li prelazite sa Universal Analytics setup-a?", "a": "Da, radimo mapping i migraciju event logike na GA4 model." },
+        { "q": "Da li merite i call/lead forme?", "a": "Da, i online i offline konverzije gde postoji CRM integracija." }
+      ],
+      "related": [
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "merchant": {
+      "breadcrumb": "Merchant Center",
+      "badge": "Feed · Shopping · PMax",
+      "title": "Merchant Center bez feed grešaka i bez tihog trošenja budžeta",
+      "lead": "Optimizujemo product feed, rešavamo disapprovals i mapiramo Shopping/PMax assete za bolji ROAS.",
+      "kpis": ["Feed health", "Approved items", "Shopping ROAS"],
+      "focus": ["Feed dijagnostika i rule setovi", "Naslovi i atributi koji povećavaju relevantnost", "Disapproval resolution workflow", "Povezivanje sa PMax i Shopping kampanjama"],
+      "deliver": [
+        { "title": "Feed audit", "desc": "Brzo lociranje svih kritičnih feed problema." },
+        { "title": "Feed optimization", "desc": "Atributi, title/description i kategorije po best practice-u." },
+        { "title": "Monitoring", "desc": "Alerting za feed padove i statusne promene." }
+      ],
+      "faq": [
+        { "q": "Koliko brzo može da se stabilizuje feed?", "a": "Za većinu shopova 1–2 nedelje za kritične probleme." },
+        { "q": "Da li radite i multilingual feed?", "a": "Da, uključujući lokalizaciju title-a i valutnih/price pravila." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "youtube": {
+      "breadcrumb": "YouTube & Display",
+      "badge": "Awareness · demand gen",
+      "title": "YouTube i Display kampanje koje grade demand, ali ostaju merljive",
+      "lead": "Planiramo i vodimo video/display kampanje sa jasnim frequency i audience modelom, bez rasipanja budžeta.",
+      "kpis": ["Reach quality", "Frequency control", "View-through impact"],
+      "focus": ["Audience segmentacija po funnel fazi", "Creative test matrica", "Frequency capping i placement kontrola", "Attribution uvezan sa glavnim KPI dashboardom"],
+      "deliver": [
+        { "title": "Media plan", "desc": "Jasan raspored budžeta i ciljeva po kampanjama." },
+        { "title": "Creative framework", "desc": "Struktura video/display asseta i testiranja." },
+        { "title": "Iteracije", "desc": "Nedeljno prilagođavanje prema performansama." }
+      ],
+      "faq": [
+        { "q": "Da li ovo ima smisla za manji budžet?", "a": "Da, uz pametnu segmentaciju i fokus na nekoliko ključnih audience grupa." },
+        { "q": "Kako dokazujete efekat awareness-a?", "a": "Kroz kombinaciju assisted konverzija, branded search uplifta i cohort poređenja." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "looker": {
+      "breadcrumb": "Looker Studio",
+      "badge": "Reporting · KPI · attribution",
+      "title": "Looker Studio dashboard koji menadžment stvarno koristi",
+      "lead": "Gradimo jasne dashboarde za marketing i prodaju: jedan izvor istine, bez ručnih PDF izveštaja.",
+      "kpis": ["KPI clarity", "Decision speed", "Cross-channel view"],
+      "focus": ["Model metrika po biznis ciljevima", "Konsolidacija izvora podataka", "Executive i operativni dashboard sloj", "Alerting i redovni review ritam"],
+      "deliver": [
+        { "title": "Dashboard dizajn", "desc": "Struktura koja je razumljiva i timu i menadžmentu." },
+        { "title": "Data source povezivanje", "desc": "GA4, Ads, Search Console i drugi izvori u jednom pogledu." },
+        { "title": "Governance", "desc": "Definicije metrika i ownership da dashboard ostane tačan." }
+      ],
+      "faq": [
+        { "q": "Da li dashboard može da zameni mesečne PDF izveštaje?", "a": "Da, to je i cilj — live prikaz KPI-jeva sa jasnim trendovima." },
+        { "q": "Da li radite i custom kalkulisane metrike?", "a": "Da, uključujući blended CAC, ROAS po segmentima i custom cohort prikaze." }
+      ],
+      "related": [
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "SEO & Search Console", "to": "/usluge/seo" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    }
+  },
 
   "mg_hub_breadcrumb_home": "Weboro",
   "mg_hub_breadcrumb_self": "Magento 2",
@@ -1857,19 +2104,71 @@
   "blog_post3_title": "Video sadržaj koji prodaje",
   "blog_post3_excerpt": "Kako kreirati sadržaj koji povećava konverzije na mrežama.",
 
-  "service_social_subtitle": "Gradimo prisustvo brendova na Instagramu, TikToku i Facebooku kroz sadržaj, strategije i oglašavanje.",
-  "service_social_intro": "Kreiramo i upravljamo kampanjama na društvenim mrežama uz fokus na strategiju, sadržaj i rast zajednice.",
-  "service_social_benefit1_title": "⚡ Brz izlazak na tržište",
-  "service_social_benefit1_desc": "Od ideje do prodaje za samo nekoliko nedelja.",
-  "service_social_benefit2_title": "🔁 Automatizacija",
-  "service_social_benefit2_desc": "Povezivanje sa CRM-om, mail servisima i AI alatima.",
-  "service_social_benefit3_title": "📈 Skalabilnost",
-  "service_social_benefit3_desc": "Sistemi koji rastu zajedno sa tvojim brendom.",
-  "service_social_cta_title": "Spremni za tvoj eCommerce projekat?",
-  "service_social_cta_subtitle": "Pošalji nam upit i napravi svoj online brend.",
+  "service_social_subtitle": "Meta kampanje i social sadržaj koji rade zajedno — od awareness-a do konkretnih leadova i prodaje.",
+  "service_social_intro": "Vodimo Instagram i Facebook ekosistem kroz kombinaciju performance kampanja, kreativnih testova i jasnog mesečnog plana optimizacije.",
+  "service_social_benefit1_title": "🎯 Jasna kampanjna struktura",
+  "service_social_benefit1_desc": "Campaign setup po funnel fazama: awareness, consideration i conversion.",
+  "service_social_benefit2_title": "🧪 Kreativni testovi",
+  "service_social_benefit2_desc": "Redovni A/B testovi vizuala, hook-ova i CTA poruka na osnovu podataka.",
+  "service_social_benefit3_title": "📊 Kontrola CPA i ROAS",
+  "service_social_benefit3_desc": "Budžet i bidding optimizacija uz KPI reporting koji je razumljiv i marketingu i menadžmentu.",
+  "service_social_cta_title": "Treba ti Meta kanal koji donosi rezultat?",
+  "service_social_cta_subtitle": "Pošalji brief i vraćamo plan kampanja i sadržaja po prioritetima.",
   "service_social_cta_button": "Pošalji upit",
+  "meta_full_badge": "Meta Ads & Social",
+  "meta_full_title": "Paid campaigns + social content execution u jednom sistemu",
+  "meta_full_lead": "Vodimo Meta kanal od strategije i media buying-a do produkcije sadržaja i izveštavanja. Fokus je na rezultatu: kvalifikovan lead, stabilan CPA i rast prihoda.",
+  "meta_full_kpis": ["Funnel po kampanjama", "Kreativa + media buying", "Tjedna optimizacija", "Jasan reporting"],
+  "meta_full_cta_primary": "Zatraži Meta plan",
+  "meta_full_cta_secondary": "Nazad na Google marketing",
+  "meta_full_scope_title": "Šta uključuje saradnja",
+  "meta_full_scope": [
+    "Meta Ads strategija po funnel fazama (TOF/MOF/BOF)",
+    "Full-funnel setup kampanja (prospecting + remarketing)",
+    "Kreativni sistem za statične i video oglase",
+    "Organic social plan koji podržava paid rezultat"
+  ],
+  "meta_full_offer_title": "Kompletna usluga za Meta Ads & Social",
+  "meta_full_offer_subtitle": "Spajamo performance i content tim da kanal raste iz meseca u mesec.",
+  "meta_full_offer_cards": [
+    { "tag": "Strategy", "title": "Account i funnel arhitektura", "desc": "Ciljevi, segmentacija publika i kampanjna struktura koja ne rasipa budžet." },
+    { "tag": "Media Buying", "title": "Dnevna optimizacija kampanja", "desc": "Budžeti, bidding, placement odluke i skaliranje na osnovu performansi." },
+    { "tag": "Creative", "title": "Ad creative sistem", "desc": "Hook, offer i angle matrica sa redovnim testovima formata i poruka." },
+    { "tag": "Social", "title": "Plan sadržaja i izvršenje", "desc": "Kalendar objava, copy i vizualni standard da profil radi u funkciji prodaje." },
+    { "tag": "Tracking", "title": "Pixel + CAPI + događaji", "desc": "Precizno merenje konverzija i signal za stabilniji algoritam." },
+    { "tag": "Reporting", "title": "Biznis KPI dashboard", "desc": "Lead quality, CPA, ROAS i trendovi koji su razumljivi i timu i vlasniku." }
+  ],
+  "meta_full_campaigns_title": "Paid campaigns (media buying)",
+  "meta_full_campaigns_subtitle": "Kampanje dizajniramo tako da svaki nivo funnel-a ima jasnu ulogu i KPI.",
+  "meta_full_campaigns_items": [
+    "Struktura naloga po ciljanim segmentima i ponudama",
+    "Prospecting, retargeting i repeat-purchase tokovi",
+    "Budget rebalancing na osnovu stvarnog učinka",
+    "Testiranje publika, placement-a, bid strategija i ponuda",
+    "Scale framework kada kampanja pogodi CPA/ROAS target"
+  ],
+  "meta_full_content_title": "Social content execution",
+  "meta_full_content_subtitle": "Sadržaj ne pravimo samo za reach, već da podrži konverziju i poverenje.",
+  "meta_full_content_items": [
+    "Mesečni content plan usklađen sa prodajnim ciljevima",
+    "Kratke video forme, statike i carousel koncepti za oglase",
+    "Copy pravila: hook, benefit, objection handling, CTA",
+    "Repurposing: jedan snimak u više oglasa i social formata",
+    "Operativa objava i osnovni community management dogovor"
+  ],
+  "meta_full_process_title": "Kako vodimo Meta Ads & Social",
+  "meta_full_process_steps": [
+    "1) Audit kanala i brief: cilj, marže, publika, dosadašnji učinak",
+    "2) Strategija i setup: funnel plan, tracking i kreativa backlog",
+    "3) Launch i testiranje: prvi ciklus eksperimenata i baseline",
+    "4) Skaliranje: povećanje budžeta i winner creative rotacija",
+    "5) Reporting i plan dalje: mesečni zaključci + sledeći sprint"
+  ],
+  "meta_full_cta_title": "Treba ti tim koji vodi i ads i content?",
+  "meta_full_cta_subtitle": "Pošalji trenutni nalog ili ciljeve. Dobijaš jasan plan šta se radi odmah, a šta kroz sledeće sprintove.",
+  "meta_full_cta_button": "Pošalji Meta upit",
 
-  "service_google_title": "Google Ads & Analytics",
+  "service_google_title": "Google marketing",
   "service_google_subtitle": "Postavljamo i optimizujemo Google Ads kampanje i pratimo rezultate kroz Analytics i tagove.",
   "service_google_intro": "Kreiramo i upravljamo Google kampanjama uz detaljno praćenje performansi kroz Analytics i konverzijske tagove.",
   "service_google_benefit1_title": "⚡ Brz izlazak na tržište",
@@ -1920,6 +2219,262 @@
   "service_video_cta_title": "Želiš video koji prodaje?",
   "service_video_cta_subtitle": "Pošalji nam upit i pretvori svoju priču u snažan vizuelni sadržaj.",
   "service_video_cta_button": "Pošalji upit",
+  "branding_full_badge": "Branding & UI/UX Dizajn",
+  "branding_full_title": "Vizuelni identitet i UX koji podižu percepciju brenda i konverziju",
+  "branding_full_lead": "Gradimo identitet i digitalni dizajn sistem koji izgleda premium, radi konzistentno kroz kanale i olakšava prodaju.",
+  "branding_full_kpis": ["Brand sistem", "UI/UX fokus", "Konverziona logika", "Dosledna primena"],
+  "branding_full_cta_primary": "Zatraži branding plan",
+  "branding_full_cta_secondary": "Pogledaj portfolio",
+  "branding_full_scope_title": "Šta pokrivamo",
+  "branding_full_scope": [
+    "Brand strategija, pozicioniranje i ton komunikacije",
+    "Logo, tipografija, boje i brand guideline",
+    "UI kit i komponente za web i kampanje",
+    "Landing i sales stranice sa jasnim user flow-om"
+  ],
+  "branding_full_offer_title": "Kompletna branding & UI/UX usluga",
+  "branding_full_offer_subtitle": "Od strateške osnove do dizajna spremnog za development.",
+  "branding_full_offer_cards": [
+    { "tag": "Brand", "title": "Identitet i sistem", "desc": "Logo, boje, tipografija, grid i pravila upotrebe za dosledan nastup." },
+    { "tag": "UX", "title": "Informaciona arhitektura", "desc": "Struktura sadržaja i korisničke putanje koje vode ka upitu ili prodaji." },
+    { "tag": "UI", "title": "Interfejs i dizajn komponente", "desc": "UI kit za bržu izradu stranica i jasnu vizuelnu hijerarhiju." },
+    { "tag": "Creative", "title": "Kampanjski vizuali", "desc": "Ad kreativa i statike usklađene sa identitetom i ciljem kampanje." },
+    { "tag": "Conversion", "title": "Landing optimizacija", "desc": "Sekcije, copy i CTA raspored koji podiže stopu konverzije." },
+    { "tag": "Handover", "title": "Dokumentacija i predaja", "desc": "Asset biblioteka i jasna pravila za tim koji dalje vodi brend." }
+  ],
+  "branding_full_identity_title": "Vizuelni identitet",
+  "branding_full_identity_subtitle": "Jasan, prepoznatljiv i primenjiv kroz sve tačke kontakta sa publikom.",
+  "branding_full_identity_items": [
+    "Logo sistem (primarni, sekundarni, icon)",
+    "Paleta boja i tipografska hijerarhija",
+    "Brand guide za social, web i prodajne materijale",
+    "Template pristup za doslednu produkciju sadržaja"
+  ],
+  "branding_full_ux_title": "UI/UX dizajn",
+  "branding_full_ux_subtitle": "Dizajn koji pored lepog izgleda vodi korisnika ka sledećoj akciji.",
+  "branding_full_ux_items": [
+    "Wireframe i prototip ključnih stranica",
+    "UX copy struktura za bolju čitljivost i jasniji CTA",
+    "Mobile-first raspored elemenata i sekcija",
+    "Dizajn sistem spreman za frontend implementaciju"
+  ],
+  "branding_full_process_title": "Kako radimo branding & UI/UX",
+  "branding_full_process_steps": [
+    "1) Discovery: cilj brenda, publika i konkurentski kontekst",
+    "2) Strategija: pozicioniranje, poruke i creative smer",
+    "3) Dizajn: identitet, UI kit i ključne stranice",
+    "4) Test i iteracije: dorade na osnovu feedback-a i performansi",
+    "5) Final handover: asseti, pravila i roadmap za sledeći sprint"
+  ],
+  "branding_full_cta_title": "Treba ti ozbiljan vizuelni identitet za sledeću fazu rasta?",
+  "branding_full_cta_subtitle": "Pošalji brief i dobićeš jasan plan: šta radimo prvo, a šta ulazi u sledeće iteracije.",
+  "branding_full_cta_button": "Pošalji branding upit",
+  "video_full_badge": "Video produkcija",
+  "video_full_title": "Snimanje i montaža sadržaja koji privlači pažnju i podstiče akciju",
+  "video_full_lead": "Vodimo kompletan video proces: od ideje i scenarija, preko snimanja, do montaže i formata spremnih za kampanje i mreže.",
+  "video_full_kpis": ["Script + produkcija", "Ad-first format", "Brza isporuka verzija", "Cross-platform output"],
+  "video_full_cta_primary": "Zatraži video plan",
+  "video_full_cta_secondary": "Pogledaj portfolio",
+  "video_full_scope_title": "Šta uključuje produkcija",
+  "video_full_scope": [
+    "Koncept i scenario prema ciljnoj publici",
+    "Snimanje (studio ili on-site) sa produkcionim planom",
+    "Montaža, color i sound processing",
+    "Adaptacije za Reels, TikTok, YouTube i ads formate"
+  ],
+  "video_full_offer_title": "End-to-end video produkcija",
+  "video_full_offer_subtitle": "Kreativa i operativa na jednom mestu, bez uskih grla između timova.",
+  "video_full_offer_cards": [
+    { "tag": "Pre-production", "title": "Koncept i scenario", "desc": "Poruka, struktura kadrova i plan snimanja usklađen sa kampanjskim ciljem." },
+    { "tag": "Production", "title": "Snimanje", "desc": "Video produkcija u prostoru klijenta ili na lokaciji, uz vođenje seta i kadrova." },
+    { "tag": "Post", "title": "Montaža i obrada", "desc": "Dinamična montaža, titlovi, grafike, color korekcija i audio balans." },
+    { "tag": "Ads", "title": "Performance cut-ovi", "desc": "Kratke verzije sa jakim hook-om za Meta i Google kampanje." },
+    { "tag": "Social", "title": "Platform adaptacije", "desc": "Formatiranje i varijante za feed, story, reels i shorts." },
+    { "tag": "Delivery", "title": "Asset paket", "desc": "Organizovana predaja fajlova i biblioteka za internu dalju upotrebu." }
+  ],
+  "video_full_production_title": "Snimanje (production)",
+  "video_full_production_subtitle": "Jasna priprema i efikasno snimanje štede vreme i budžet.",
+  "video_full_production_items": [
+    "Shot-list i run-of-show pre dana snimanja",
+    "Vođenje kadra, scene i govornika na setu",
+    "B-roll materijali za više formata i kampanja",
+    "Plan kadrova za future re-use i repurposing"
+  ],
+  "video_full_post_title": "Montaža (post-production)",
+  "video_full_post_subtitle": "Montaža prilagođena pažnji publike i ritmu platforme.",
+  "video_full_post_items": [
+    "Brz i jasan narativ sa jakim početnim hook-om",
+    "Titlovi, grafike i brand elementi po guide-u",
+    "Više dužina videa za ads i organic objave",
+    "A/B varijante intro i CTA delova za testiranje"
+  ],
+  "video_full_process_title": "Kako vodimo video projekat",
+  "video_full_process_steps": [
+    "1) Brief i cilj: poruka, publika i kanal distribucije",
+    "2) Pre-produkcija: scenario, raspored i produkcioni plan",
+    "3) Snimanje: realizacija ključnih i dodatnih kadrova",
+    "4) Post-produkcija: montaža, grafika, zvuk i final verzije",
+    "5) Distribucija: izvozi po platformi + predlog test plana"
+  ],
+  "video_full_cta_title": "Treba ti video sadržaj koji radi i u kampanji i organski?",
+  "video_full_cta_subtitle": "Pošalji cilj kampanje i dobićeš predlog formata, obima i produkcionog plana.",
+  "video_full_cta_button": "Pošalji video upit",
+  "about_full_title": "O nama",
+  "about_full_lead": "Weboro je digitalni tim koji povezuje eCommerce, marketing i kreativu u jedan sistem koji klijentima olakšava rast.",
+  "about_full_stat_1_label": "Fokus",
+  "about_full_stat_1_value": "eCommerce i growth",
+  "about_full_stat_2_label": "Način rada",
+  "about_full_stat_2_value": "Strategija + izvedba",
+  "about_full_stat_3_label": "Saradnja",
+  "about_full_stat_3_value": "Dugoročno partnerstvo",
+  "about_full_mission_label": "Misija",
+  "about_full_mission_title": "Gradimo sisteme koji donose merljiv rezultat",
+  "about_full_mission_desc": "Naš fokus je da svaki projekat ima jasnu poslovnu svrhu, stabilnu tehničku osnovu i konkretne KPI-jeve koje zajedno pratimo.",
+  "about_full_vision_label": "Vizija",
+  "about_full_vision_title": "Premium digital partner za rast biznisa",
+  "about_full_vision_desc": "Želimo da budemo tim koji klijentima pokriva celu putanju: od identiteta i sajta, do kampanja, sadržaja i optimizacije prodaje.",
+  "about_full_values_title": "Vrednosti koje vodimo svaki dan",
+  "about_full_values": [
+    { "title": "Jasna komunikacija", "desc": "Transparentno govorimo šta radi, šta ne radi i šta je sledeći korak." },
+    { "title": "Kvalitet isporuke", "desc": "Detaljno planiranje i čista realizacija bez improvizacije u kritičnim fazama." },
+    { "title": "Merljivost", "desc": "Ne radimo 'lep dizajn' bez cilja, već sisteme koji podižu performanse." },
+    { "title": "Partnerstvo", "desc": "Ne posmatramo projekat kao task listu, već kao zajednički rast." },
+    { "title": "Brzina sa smislom", "desc": "Isporučujemo brzo, ali bez žrtvovanja stabilnosti i standarda." },
+    { "title": "Kontinuirano unapređenje", "desc": "Svaki sprint koristi naučene uvide iz prethodnog ciklusa." }
+  ],
+  "about_full_capabilities_title": "Šta najbolje radimo",
+  "about_full_capabilities": [
+    { "title": "Enterprise web sistemi", "desc": "Magento i WordPress arhitekture koje su spremne za rast i kompleksne tokove prodaje." },
+    { "title": "Performance marketing", "desc": "Google i Meta kanali sa jasnim KPI modelom i procesom optimizacije po sprintu." },
+    { "title": "Kreativa i produkcija", "desc": "Branding, UI/UX i video sadržaj koji podržava prodaju i dugoročnu prepoznatljivost." }
+  ],
+  "about_full_timeline_title": "Kako smo rasli",
+  "about_full_timeline": [
+    { "year": "2022", "text": "Početak rada kroz web i marketing projekte za male biznise." },
+    { "year": "2023", "text": "Razvoj kompleksnijih eCommerce sistema i performance procesa." },
+    { "year": "2024", "text": "Širenje na enterprise tokove: Magento, tracking, automation i reporting." },
+    { "year": "2025+", "text": "Konsolidacija ponude u jedan premium model: web + marketing + kreativni produkcioni tim." }
+  ],
+  "about_full_leadership_title": "Core tim",
+  "about_full_leadership": [
+    { "name": "Mihailo Vlajković", "role": "Osnivač i digitalni strateg", "bio": "Vodi povezivanje web platformi, marketing sistema i poslovnih ciljeva klijenata." },
+    { "name": "Weboro delivery tim", "role": "Development, marketing i kreativna produkcija", "bio": "Multidisciplinarni tim koji pokriva kompletan tok: od ideje do stabilne isporuke i optimizacije." }
+  ],
+  "about_full_cta_title": "Treba ti tim koji razume i biznis i izvedbu?",
+  "about_full_cta_desc": "Pošalji kratki brief i dobijaš predlog kako da složimo sistem po prioritetima.",
+  "about_full_cta_btn": "Kontaktiraj nas",
+  "portfolio_full_title": "Portfolio",
+  "portfolio_full_lead": "Primeri projekata gde su dizajn, development i marketing radili kao jedan tim.",
+  "portfolio_full_mockup": "Prikaz projekta",
+  "portfolio_enterprise_stat_1_label": "Primarni fokus",
+  "portfolio_enterprise_stat_1_value": "eCommerce + Growth",
+  "portfolio_enterprise_stat_2_label": "Model isporuke",
+  "portfolio_enterprise_stat_2_value": "Strategija + izvedba",
+  "portfolio_enterprise_stat_3_label": "Tip saradnje",
+  "portfolio_enterprise_stat_3_value": "Dugoročno partnerstvo",
+  "portfolio_enterprise_categories": ["Sve", "Magento", "WordPress", "Performance marketing", "Kreativa"],
+  "portfolio_enterprise_projects": [
+    {
+      "title": "Magento Commerce Hub",
+      "desc": "Enterprise struktura Magento ponude sa jasnim servisnim modulima i konverzionim CTA tokovima.",
+      "category": "Magento",
+      "tags": ["Information Architecture", "Enterprise UX", "Conversion copy"]
+    },
+    {
+      "title": "Google Marketing ekosistem",
+      "desc": "Hub + podstranice za Ads, SEO, GA4/GTM i reporting sa ujednačenom prezentacijom usluga.",
+      "category": "Performance marketing",
+      "tags": ["Service design", "Growth funnel", "Analytics structure"]
+    },
+    {
+      "title": "Meta Ads & Social service page",
+      "desc": "Full-funnel prezentacija kampanja i content execution modela za jasnije donošenje odluke kod klijenta.",
+      "category": "Performance marketing",
+      "tags": ["Offer clarity", "Paid social", "Lead intent"]
+    },
+    {
+      "title": "WordPress enterprise ponuda",
+      "desc": "Pozicioniranje WordPress usluge od lead sajtova do WooCommerce shopova uz tehničke i poslovne KPI-jeve.",
+      "category": "WordPress",
+      "tags": ["WooCommerce", "Core Web Vitals", "SEO-ready"]
+    },
+    {
+      "title": "Branding & UI/UX Creative",
+      "desc": "Kreativni okvir za brend identitet, UI sistem i campaign asset tok koji podržava prodaju.",
+      "category": "Kreativa",
+      "tags": ["Brand system", "UI/UX", "Creative ops"]
+    },
+    {
+      "title": "Video produkcija za kampanje",
+      "desc": "End-to-end video proizvodnja: koncept, snimanje, montaža i adaptacije po platformama.",
+      "category": "Kreativa",
+      "tags": ["Production", "Post-production", "Ad formats"]
+    }
+  ],
+  "portfolio_enterprise_process_title": "Kako pristupamo projektima",
+  "portfolio_enterprise_process": [
+    { "phase": "01", "title": "Discovery & scope", "desc": "Razumevanje poslovnog cilja, prioriteta i ograničenja pre početka dizajna i razvoja." },
+    { "phase": "02", "title": "Sistem i izvedba", "desc": "Postavljamo strukturu, sadržaj i operativni model koji tim može da održava i skalira." },
+    { "phase": "03", "title": "Optimization loop", "desc": "Merenje rezultata, iteracije i unapređenja kroz kontinuirane sprintove." }
+  ],
+  "portfolio_full_cta_title": "Imaš projekat koji treba da izgleda premium i radi stabilno?",
+  "portfolio_full_cta_desc": "Pošalji kontekst i cilj, a mi vraćamo predlog strukture i faza realizacije.",
+  "portfolio_full_cta_btn": "Pošalji upit",
+  "blog_full_title": "Blog",
+  "blog_full_lead": "Praktični tekstovi o eCommerce-u, marketingu i produkciji sadržaja, bez prazne teorije.",
+  "blog_full_mock": "Cover članka",
+  "blog_full_posts": [
+    { "tag": "Case Study", "title": "Kako smo razvili OutreachGenie SaaS", "excerpt": "Od ideje do produkta — proces, greške koje smo izbegli i šta je napravilo razliku.", "slug": "outreachgenie-studija" },
+    { "tag": "eCommerce", "title": "Magento vs WordPress za prodaju", "excerpt": "Kada je pravi momenat za Magento, a kada je WordPress/WooCommerce sasvim dovoljno rešenje.", "slug": "shopify-prednosti" },
+    { "tag": "Creative", "title": "Video sadržaj koji prodaje", "excerpt": "Kako strukturisati video tako da radi i za ads i za organic kanal.", "slug": "video-konverzije" }
+  ],
+  "blog_full_cta_title": "Želiš da pišemo o temi koja te zanima?",
+  "blog_full_cta_desc": "Pošalji predlog teme i kontekst tvog biznisa, pa pripremamo konkretan sadržaj.",
+  "blog_full_cta_button": "Pošalji predlog",
+  "career_full_title": "Karijera",
+  "career_full_lead": "Tražimo ljude koji vole kvalitetnu izvedbu, timski rad i projekte koji imaju realan poslovni efekat.",
+  "career_full_why_title": "Zašto Weboro",
+  "career_full_why_desc": "Kombinujemo brzinu rada male ekipe i standarde ozbiljnog delivery tima.",
+  "career_full_why_cards": [
+    { "title": "Fleksibilan model rada", "desc": "Remote/hybrid saradnja i jasno definisan ownership po projektu." },
+    { "title": "Rad na realnim projektima", "desc": "Ne radiš na demo zadacima već na sistemima koji donose prihod klijentima." },
+    { "title": "Napredak kroz praksu", "desc": "Mentorstvo, feedback i učenje kroz konkretne sprintove i isporuku." }
+  ],
+  "career_full_open_title": "Otvorene pozicije",
+  "career_full_frontend_title": "Frontend developer (Vue)",
+  "career_full_frontend_type": "Full-time / projektno",
+  "career_full_frontend_desc": "Razvoj i unapređenje web projekata sa fokusom na performanse, UX i clean code standard.",
+  "career_full_marketing_title": "Performance marketing specialist",
+  "career_full_marketing_type": "Full-time / projektno",
+  "career_full_marketing_desc": "Vođenje kampanja kroz Meta i Google ekosistem, sa fokusom na KPI i optimizaciju budžeta.",
+  "career_full_video_title": "Video editor / content producer",
+  "career_full_video_type": "Projektno",
+  "career_full_video_desc": "Montaža i prilagođavanje video materijala za kampanje i društvene mreže.",
+  "career_full_apply_button": "Prijavi se",
+  "career_full_no_open_title": "Trenutno nemamo otvorene pozicije",
+  "career_full_no_open_desc": "Ne zapošljavamo aktivno u ovom trenutku. Pošaljite nam kontakt i portfolio, pa vas imamo u vidu za naredni ciklus.",
+  "career_full_no_open_button": "Pošalji kontakt",
+  "career_full_cta_title": "Ne vidiš poziciju koja ti odgovara?",
+  "career_full_cta_desc": "Pošalji nam svoj portfolio i kratku poruku. Javljamo se kada se otvori odgovarajuća uloga.",
+  "career_full_cta_button": "Pošalji prijavu",
+  "contact_full_title": "Kontakt",
+  "contact_full_lead": "Recite nam cilj i kontekst projekta. Vraćamo konkretan predlog narednih koraka.",
+  "contact_full_email_label": "Email",
+  "contact_full_phone_label": "Telefon",
+  "contact_full_hours_label": "Radno vreme",
+  "contact_full_hours_value": "Ponedeljak–petak, 09:00–17:00",
+  "contact_form_heading": "Kako možemo da Vam pomognemo?",
+  "contact_form_full_name": "Ime i Prezime*",
+  "contact_form_company": "Kompanija",
+  "contact_form_email_address": "Email Adresa*",
+  "contact_form_phone": "Telefon",
+  "contact_form_interest": "Interesuje me*:",
+  "contact_form_interest_placeholder": "Odaberite uslugu",
+  "contact_form_interest_options": ["eCommerce", "Web dizajn", "Marketing", "SEO", "Savetovanje"],
+  "contact_form_subject": "Naslov*",
+  "contact_form_consent": "Slažem se da me Smart Web kontaktira kao odgovor na moju poruku. Za više informacija, molimo pogledajte našu Politiku privatnosti.",
+  "contact_form_send": "Pošalji poruku",
+  "contact_form_success_full": "Hvala na poruci! Javićemo vam se u najkraćem roku.",
 
   "footer_rights": "© 2026 Weboro. Sva prava zadržana.",
   "footer_outreach": "OutreachGenie",

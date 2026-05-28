@@ -6,6 +6,15 @@
   "nav_blog": "Blog",
   "nav_career": "Careers",
   "nav_contact": "Contact",
+  "mega_core": "eCommerce core",
+  "mega_performance": "Performance marketing",
+  "mega_creative": "Creative",
+  "mega_company": "Company",
+  "mega_featured": "Featured",
+  "mega_featured_magento_title": "Magento 2 Hub",
+  "mega_featured_magento_desc": "Core services and detail pages",
+  "mega_featured_google_title": "Google Marketing",
+  "mega_featured_google_desc": "Ads, SEO, and analytics focus",
 
   "cta_start": "Start a Project",
   "cta_portfolio": "View Portfolio",
@@ -61,6 +70,52 @@
   "service_wordpress_cta_title": "WordPress site?",
   "service_wordpress_cta_subtitle": "Reach out with references and deadlines.",
   "service_wordpress_cta_button": "Send inquiry",
+  "wp_full_badge": "WordPress web solutions",
+  "wp_full_title": "WordPress in full scope — from lead-gen websites to serious WooCommerce stores",
+  "wp_full_lead": "We design and build WordPress websites that are fast, easy to maintain, and ready to scale. The focus is not only on visuals, but on performance, SEO structure, and a clear conversion funnel.",
+  "wp_full_kpis": ["Core Web Vitals focused", "WooCommerce-ready", "SEO-friendly architecture", "Easy team handover"],
+  "wp_full_cta_primary": "Request WordPress plan",
+  "wp_full_cta_secondary": "Back to Web & Sales",
+  "wp_full_ideal_title": "Ideal for",
+  "wp_full_ideal": [
+    "Brand websites that need a fast launch",
+    "Landing page systems for lead generation",
+    "Blog/content platforms with SEO focus",
+    "Small and mid-sized shops on WooCommerce"
+  ],
+  "wp_full_offer_title": "What we cover on a WordPress project",
+  "wp_full_offer_subtitle": "From technical foundation to growth layer, in one team.",
+  "wp_full_offer_cards": [
+    { "tag": "Development", "title": "Custom WordPress theme", "desc": "Clean code theme built from your design, without bloat and no-code lock-in." },
+    { "tag": "eCommerce", "title": "WooCommerce storefront", "desc": "Categories, checkout, shipping, payments, and promo mechanics for daily sales." },
+    { "tag": "SEO", "title": "Technical SEO setup", "desc": "URL structure, schema, indexing, internal linking, and baseline SEO automation." },
+    { "tag": "Content", "title": "Blog and landing engine", "desc": "Template system for campaigns, case-study pages, and faster content publishing." },
+    { "tag": "Integrations", "title": "CRM, email, analytics", "desc": "Connections with GA4, Meta Pixel, newsletter tools, and sales platforms." },
+    { "tag": "Support", "title": "Maintenance and iterations", "desc": "Security, update cycles, backups, and monthly improvement sprints." }
+  ],
+  "wp_full_woo_title": "WooCommerce that actually drives sales",
+  "wp_full_woo_subtitle": "Not just a nice-looking shop, but a sales channel with clear KPIs and optimization process.",
+  "wp_full_woo_items": [
+    "Catalog and filters aligned with real buyer behavior",
+    "Checkout with fewer steps and lower drop-off",
+    "Cross-sell / upsell logic on product and cart flows",
+    "Shipping, ERP, and payment integrations based on business needs",
+    "Meta and Google event setup for accurate remarketing"
+  ],
+  "wp_full_stack_title": "Technical stack and delivery standard",
+  "wp_full_stack_subtitle": "We use a proven plugin and hosting stack, without random add-ons that hurt performance.",
+  "wp_full_stack_chips": ["WordPress", "WooCommerce", "ACF", "Gutenberg", "Cloudflare", "LiteSpeed/NGINX", "GA4", "GTM", "Meta Pixel", "Mailchimp/Klaviyo"],
+  "wp_full_process_title": "How we run WordPress projects",
+  "wp_full_process_steps": [
+    "1) Audit and scope: business objective, content, and funnel",
+    "2) UX and architecture: page structure and key user paths",
+    "3) Development: theme, features, and integrations",
+    "4) QA and performance: testing, Core Web Vitals, and SEO checks",
+    "5) Launch and support: monitoring, iterations, and growth roadmap"
+  ],
+  "wp_full_cta_title": "Need WordPress that does not feel templated?",
+  "wp_full_cta_subtitle": "Send your current website or brief. We return a clear plan, scope, and priorities.",
+  "wp_full_cta_button": "Send WordPress inquiry",
 
   "service_custom_web_title": "Custom web",
   "service_custom_web_desc": "Vue, APIs, dashboards, and headless setups.",
@@ -98,11 +153,11 @@
   "service_ecommerce_title": "Web & commerce",
   "service_ecommerce_desc": "Magento, WordPress, and custom solutions.",
 
-  "service_social_title": "Social Media Marketing",
-  "service_social_desc": "Strategies and profile management.",
+  "service_social_title": "Meta Ads & Social",
+  "service_social_desc": "Paid campaigns and social content execution.",
 
-  "service_google_title": "Google Ads & Analytics",
-  "service_google_desc": "PPC campaigns and analytics.",
+  "service_google_title": "Google marketing",
+  "service_google_desc": "Ads, SEO, and analytics system.",
 
   "service_seo_title": "SEO & Content",
   "service_seo_desc": "Search engine optimization.",
@@ -118,19 +173,33 @@
 
   "hero_brand": "Weboro",
   "hero_subbrand": "Smart Digital Solutions",
-  "hero_eyebrow": "Digital studio · Belgrade",
-  "hero_title": "We build <span class=\"text-yellow-400\">digital products</span> that work for your business",
-  "hero_desc": "SaaS platforms, Magento and WordPress sites, custom web, branding and growth — everything you need to make digital work.",
-  "hero_cta_start": "Start a project",
-  "hero_cta_portfolio": "View portfolio",
-  "hero_metric1_value": "10+",
-  "hero_metric1_label": "AI tools in our SaaS",
+  "hero_eyebrow": "Magento 2 · eCommerce · growth",
+  "hero_title": "We build <span class=\"text-[#ff8a3d]\">Magento stores</span> and measurable revenue growth",
+  "hero_desc": "From store architecture and integrations to Google Ads, SEO, and Meta campaigns — one team, clear KPIs, and a plan that scales.",
+  "hero_cta_primary": "Magento services",
+  "hero_cta_secondary": "Request an audit",
+  "hero_metric1_value": "2.4.x",
+  "hero_metric1_label": "Magento focus",
   "hero_metric2_value": "20+",
   "hero_metric2_label": "shipped projects",
-  "hero_metric3_value": "4+",
-  "hero_metric3_label": "years in digital",
-  "hero_visual_caption": "Live: outreachgenie.com",
-  "hero_clients_label": "Selected projects & clients",
+  "hero_metric3_value": "5",
+  "hero_metric3_label": "growth channels",
+  "hero_visual_caption": "Commerce + growth stack",
+  "hero_visual_aria": "A simple 3-step flow: Traffic, Storefront, Sales, with KPI cards for ROAS, CAC, and SEO growth.",
+  "hero_clients_label": "Core stack and channels",
+  "hero_pill_magento": "Magento 2",
+  "hero_pill_ecommerce": "eCommerce",
+  "hero_pill_meta": "Social Media",
+  "hero_pill_google_ads": "Google Ads",
+  "hero_pill_seo": "SEO",
+  "hero_flow_store": "Store",
+  "hero_flow_ads": "Ads",
+  "hero_flow_seo": "SEO",
+  "hero_flow_meta": "Meta",
+  "hero_flow_growth": "Growth",
+  "hero_flow_traffic": "Traffic",
+  "hero_flow_storefront": "Storefront",
+  "hero_flow_sales": "Sales",
   "hero_scroll": "Scroll",
 
   "outreach_title": "Our internal SaaS tool",
@@ -497,43 +566,49 @@
   "gm_home_flow_convert": "Convert",
   "gm_home_flow_insight": "Insight",
   "gm_home_modules_title": "Six lines of work around the Google ecosystem",
-  "gm_home_modules_subtitle": "Engage us for one line or for the full growth package. Detailed pages coming soon — tell us where to start.",
+  "gm_home_modules_subtitle": "Engage us for one line or for the full growth package. All key detailed pages are available below.",
   "gm_home_modules": [
     {
       "icon": "🎯",
       "tag": "Ads",
       "title": "Google Ads",
-      "desc": "Search, Performance Max, Shopping, and remarketing — an account structure that doesn't leak budget, with a clear goal per campaign."
+      "desc": "Search, Performance Max, Shopping, and remarketing — an account structure that doesn't leak budget, with a clear goal per campaign.",
+      "link": "/usluge/google-ads"
     },
     {
       "icon": "🔍",
       "tag": "SEO",
       "title": "SEO & Search Console",
-      "desc": "Technical SEO, indexing, Core Web Vitals, and a content structure that actually ranks — no \"SEO magic.\""
+      "desc": "Technical SEO, indexing, Core Web Vitals, and a content structure that actually ranks — no \"SEO magic.\"",
+      "link": "/usluge/seo"
     },
     {
       "icon": "📊",
       "tag": "Analytics",
       "title": "GA4 & GTM",
-      "desc": "Conversion measurement, server-side tagging, and a clean event taxonomy. Numbers you can trust."
+      "desc": "Conversion measurement, server-side tagging, and a clean event taxonomy. Numbers you can trust.",
+      "link": "/usluge/google/ga4-gtm"
     },
     {
       "icon": "🛒",
       "tag": "Shopping",
       "title": "Merchant Center",
-      "desc": "Product feeds, Shopping campaigns, PMax product assets, and feed health — because a broken feed burns budget silently."
+      "desc": "Product feeds, Shopping campaigns, PMax product assets, and feed health — because a broken feed burns budget silently.",
+      "link": "/usluge/google/merchant-center"
     },
     {
       "icon": "📺",
       "tag": "Video",
       "title": "YouTube & Display",
-      "desc": "Awareness, frequency capping, video and display creative — with attribution that holds up, not just \"brand lift\" stories."
+      "desc": "Awareness, frequency capping, video and display creative — with attribution that holds up, not just \"brand lift\" stories.",
+      "link": "/usluge/google/youtube-display"
     },
     {
       "icon": "📈",
       "tag": "Reporting",
       "title": "Looker Studio",
-      "desc": "Dashboards, an attribution model, and KPI tracking your finance team can read. One link, not four PDFs a month."
+      "desc": "Dashboards, an attribution model, and KPI tracking your finance team can read. One link, not four PDFs a month.",
+      "link": "/usluge/google/looker-studio"
     }
   ],
   "gm_home_trust_title": "Tools and platforms we use every day",
@@ -547,6 +622,178 @@
     "YouTube Studio",
     "Tag Assistant"
   ],
+
+  "gm_hub_breadcrumb_home": "Weboro",
+  "gm_hub_breadcrumb_self": "Google marketing",
+  "gm_hub_badge": "Google ecosystem",
+  "gm_hub_eyebrow": "Performance marketing · measurement · growth",
+  "gm_hub_title": "A Google marketing system that connects traffic, conversions, and profit",
+  "gm_hub_lead": "We build and run the Google stack end-to-end: Ads, SEO, GA4/GTM, Merchant Center, YouTube, and reporting. The goal is a stable funnel with numbers you can trust.",
+  "gm_hub_kpis": [
+    "Google Ads + PMax + Shopping",
+    "SEO + Search Console",
+    "GA4 + GTM + server-side",
+    "Looker Studio dashboards"
+  ],
+  "gm_hub_cta_brief": "Send a brief",
+  "gm_hub_cta_explore": "Explore services",
+  "gm_hub_flow_traffic": "Traffic: Search, PMax, YouTube",
+  "gm_hub_flow_landing": "Landing and UX optimization",
+  "gm_hub_flow_conversion": "Conversions: lead / sale / call",
+  "gm_hub_flow_reporting": "GA4 + Looker Studio reporting",
+  "gm_hub_services_title": "Six workstreams around the Google ecosystem",
+  "gm_hub_services_subtitle": "Work with us on a single line or as a full-stack growth team.",
+  "gm_hub_services": [
+    { "icon": "🎯", "tag": "Ads", "title": "Google Ads", "desc": "Search, PMax, Shopping, and remarketing", "to": "/usluge/google-ads" },
+    { "icon": "🔍", "tag": "SEO", "title": "SEO & Search Console", "desc": "Technical SEO, indexing, and content", "to": "/usluge/seo" },
+    { "icon": "📊", "tag": "Analytics", "title": "GA4 & GTM", "desc": "Reliable measurement and event architecture", "to": "/usluge/google/ga4-gtm" },
+    { "icon": "🛒", "tag": "Shopping", "title": "Merchant Center", "desc": "Feed health and Shopping/PMax assets", "to": "/usluge/google/merchant-center" },
+    { "icon": "📺", "tag": "Video", "title": "YouTube & Display", "desc": "Awareness and demand generation", "to": "/usluge/google/youtube-display" },
+    { "icon": "📈", "tag": "Reporting", "title": "Looker Studio", "desc": "Clear business dashboards and KPIs", "to": "/usluge/google/looker-studio" }
+  ],
+  "gm_page_cta_primary": "Request an audit",
+  "gm_page_cta_secondary": "Back to Google overview",
+  "gm_page_focus_title": "Focus",
+  "gm_page_deliver_title": "What we deliver",
+  "gm_page_deliver_subtitle": "Concrete steps, measurable output, and KPI-based iterations.",
+  "gm_page_faq_title": "FAQ",
+  "gm_page_faq_subtitle": "Most common questions before kickoff.",
+  "gm_page_related_title": "Related services",
+  "gm_page_related_subtitle": "All pages are part of one growth system.",
+  "gm_pages": {
+    "ads": {
+      "breadcrumb": "Google Ads",
+      "badge": "Search · PMax · Shopping",
+      "title": "Google Ads that deliver a stable pipeline, not just clicks",
+      "lead": "Account structure, bidding strategy, and creative focused on profitable conversions and CAC control.",
+      "kpis": ["Search + PMax", "Shopping feed sync", "ROAS/CAC focus"],
+      "focus": ["Intent-based account structure", "Negative keyword and search terms discipline", "Budget allocation by profitability", "Continuous ad and landing variant testing"],
+      "deliver": [
+        { "title": "Account audit", "desc": "We identify where budget leaks and what to optimize first." },
+        { "title": "Campaign architecture", "desc": "A clear split by objectives: acquisition, remarketing, shopping." },
+        { "title": "Weekly optimization sprint", "desc": "Bidding, copy, assets, and query mining in KPI cadence." }
+      ],
+      "faq": [
+        { "q": "How quickly can we see results?", "a": "The first signal usually appears in 2–4 weeks; stabilization often takes 6–8 weeks." },
+        { "q": "Do you run only one channel?", "a": "We can, but best results come when it's connected with SEO and analytics." }
+      ],
+      "related": [
+        { "label": "SEO & Search Console", "to": "/usluge/seo" },
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "seo": {
+      "breadcrumb": "SEO & Search Console",
+      "badge": "Technical SEO · content · indexing",
+      "title": "SEO that builds your organic channel as a business asset",
+      "lead": "Technical SEO, content structure, and Search Console operations that increase relevant organic traffic.",
+      "kpis": ["Impressions + clicks", "Core Web Vitals", "Index coverage"],
+      "focus": ["Technical SEO baseline and crawl hygiene", "Topic cluster and content roadmap", "Search Console monitoring and fast issue resolution", "SERP CTR improvements through snippet optimization"],
+      "deliver": [
+        { "title": "SEO audit", "desc": "A clear plan of prioritized technical and content actions." },
+        { "title": "Roadmap", "desc": "A 12-week content and optimization plan with KPI tracking." },
+        { "title": "Monthly report", "desc": "Growth by key pages and query segments." }
+      ],
+      "faq": [
+        { "q": "Can SEO work without content?", "a": "Partially, but the biggest growth comes when technical SEO is paired with a content plan." },
+        { "q": "How long is an SEO cycle?", "a": "8–12 weeks for a solid signal; 6+ months for a stable channel." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "ga4": {
+      "breadcrumb": "GA4 & GTM",
+      "badge": "Measurement architecture",
+      "title": "GA4 and GTM setup that supports real decisions, not noise",
+      "lead": "We define event models, conversions, and dashboards aligned with real business goals.",
+      "kpis": ["Conversion events", "Data quality", "Attribution clarity"],
+      "focus": ["Event taxonomy and naming standards", "GTM governance and versioning", "Server-side tagging where it adds value", "QA and data validation"],
+      "deliver": [
+        { "title": "Measurement plan", "desc": "A map of events and conversions by funnel stages." },
+        { "title": "GTM implementation", "desc": "Tags, triggers, and variables with QA checklists." },
+        { "title": "GA4 property setup", "desc": "Conversions, audiences, and custom reporting." }
+      ],
+      "faq": [
+        { "q": "Can you migrate from older analytics setups?", "a": "Yes, including event logic mapping and migration to a GA4-first model." },
+        { "q": "Do you track form and call conversions?", "a": "Yes, both online and offline where CRM integration exists." }
+      ],
+      "related": [
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "merchant": {
+      "breadcrumb": "Merchant Center",
+      "badge": "Feed · Shopping · PMax",
+      "title": "Merchant Center without feed errors and silent budget waste",
+      "lead": "We optimize product feeds, resolve disapprovals, and map Shopping/PMax assets for stronger ROAS.",
+      "kpis": ["Feed health", "Approved items", "Shopping ROAS"],
+      "focus": ["Feed diagnostics and rule sets", "Titles and attributes for stronger relevance", "Disapproval resolution workflow", "Tight pairing with Shopping/PMax campaigns"],
+      "deliver": [
+        { "title": "Feed audit", "desc": "Fast identification of critical feed issues." },
+        { "title": "Feed optimization", "desc": "Attributes, title/description, and category improvements." },
+        { "title": "Monitoring", "desc": "Alerts for feed drops and status changes." }
+      ],
+      "faq": [
+        { "q": "How fast can the feed be stabilized?", "a": "For most stores, critical issues can be stabilized within 1–2 weeks." },
+        { "q": "Do you support multilingual feeds?", "a": "Yes, including localized titles and price/currency logic." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "youtube": {
+      "breadcrumb": "YouTube & Display",
+      "badge": "Awareness · demand gen",
+      "title": "YouTube and Display campaigns that build demand and stay measurable",
+      "lead": "We plan and run video/display campaigns with clear frequency and audience strategy without wasting budget.",
+      "kpis": ["Reach quality", "Frequency control", "View-through impact"],
+      "focus": ["Audience segmentation by funnel stage", "Creative test matrix", "Frequency capping and placement control", "Attribution connected to the core KPI dashboard"],
+      "deliver": [
+        { "title": "Media plan", "desc": "Clear budget and objective allocation by campaign." },
+        { "title": "Creative framework", "desc": "A structured approach to video/display assets and testing." },
+        { "title": "Iterations", "desc": "Weekly tuning based on performance signals." }
+      ],
+      "faq": [
+        { "q": "Does this make sense with smaller budgets?", "a": "Yes, with smart segmentation and focused audience groups." },
+        { "q": "How do you prove awareness impact?", "a": "Through assisted conversions, branded search uplift, and cohort comparisons." }
+      ],
+      "related": [
+        { "label": "Google Ads", "to": "/usluge/google-ads" },
+        { "label": "Looker Studio", "to": "/usluge/google/looker-studio" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    },
+    "looker": {
+      "breadcrumb": "Looker Studio",
+      "badge": "Reporting · KPI · attribution",
+      "title": "Looker Studio dashboards your management team actually uses",
+      "lead": "We build clear dashboards for marketing and sales: one source of truth without manual PDF reporting.",
+      "kpis": ["KPI clarity", "Decision speed", "Cross-channel view"],
+      "focus": ["Metric modeling by business objective", "Consolidation of data sources", "Executive and operational dashboard layers", "Alerting and regular review cadence"],
+      "deliver": [
+        { "title": "Dashboard design", "desc": "A structure both teams and leadership can read quickly." },
+        { "title": "Data source integration", "desc": "GA4, Ads, Search Console, and other sources in one view." },
+        { "title": "Governance", "desc": "Metric definitions and ownership so dashboards stay reliable." }
+      ],
+      "faq": [
+        { "q": "Can this replace monthly PDF reports?", "a": "Yes — that's exactly the goal: live KPI visibility with trend context." },
+        { "q": "Do you support custom calculated metrics?", "a": "Yes, including blended CAC, segmented ROAS, and cohort-style views." }
+      ],
+      "related": [
+        { "label": "GA4 & GTM", "to": "/usluge/google/ga4-gtm" },
+        { "label": "SEO & Search Console", "to": "/usluge/seo" },
+        { "label": "Google marketing hub", "to": "/usluge/google-marketing" }
+      ]
+    }
+  },
 
   "mg_hub_breadcrumb_home": "Weboro",
   "mg_hub_breadcrumb_self": "Magento 2",
@@ -1857,19 +2104,71 @@
   "blog_post3_title": "Video Content That Sells",
   "blog_post3_excerpt": "How to create content that boosts conversions on social media.",
 
-  "service_social_subtitle": "We build brand presence on Instagram, TikTok and Facebook through content, strategies and advertising.",
-  "service_social_intro": "We create and manage social media campaigns with focus on strategy, content and community growth.",
-  "service_social_benefit1_title": "⚡ Fast go-to-market",
-  "service_social_benefit1_desc": "From idea to launch in just a few weeks.",
-  "service_social_benefit2_title": "🔁 Automation",
-  "service_social_benefit2_desc": "Integration with CRMs, email tools and AI platforms.",
-  "service_social_benefit3_title": "📈 Scalability",
-  "service_social_benefit3_desc": "Systems that grow together with your brand.",
-  "service_social_cta_title": "Ready for your eCommerce project?",
-  "service_social_cta_subtitle": "Send us an inquiry and build your online brand.",
+  "service_social_subtitle": "Meta campaigns and social content working as one system — from awareness to qualified leads and sales.",
+  "service_social_intro": "We run your Instagram and Facebook ecosystem through performance campaigns, creative testing, and a clear monthly optimization cycle.",
+  "service_social_benefit1_title": "🎯 Clear campaign architecture",
+  "service_social_benefit1_desc": "Funnel-based setup: awareness, consideration, and conversion layers.",
+  "service_social_benefit2_title": "🧪 Creative testing loop",
+  "service_social_benefit2_desc": "Continuous A/B testing of visuals, hooks, and CTAs based on data.",
+  "service_social_benefit3_title": "📊 CPA and ROAS control",
+  "service_social_benefit3_desc": "Budget and bidding optimization with KPI reporting both marketing and leadership can use.",
+  "service_social_cta_title": "Need a Meta channel that delivers measurable outcomes?",
+  "service_social_cta_subtitle": "Send a brief and we return a campaign and content plan by priority.",
   "service_social_cta_button": "Send inquiry",
+  "meta_full_badge": "Meta Ads & Social",
+  "meta_full_title": "Paid campaigns and social content execution in one system",
+  "meta_full_lead": "We run your Meta channel from strategy and media buying to content production and reporting. The goal is clear: qualified leads, stable CPA, and revenue growth.",
+  "meta_full_kpis": ["Funnel-based campaigns", "Creative + media buying", "Weekly optimization", "Clear reporting"],
+  "meta_full_cta_primary": "Request Meta plan",
+  "meta_full_cta_secondary": "Back to Google marketing",
+  "meta_full_scope_title": "What collaboration includes",
+  "meta_full_scope": [
+    "Meta Ads strategy by funnel phase (TOF/MOF/BOF)",
+    "Full-funnel campaign setup (prospecting + remarketing)",
+    "Creative system for static and video ads",
+    "Organic social plan that supports paid performance"
+  ],
+  "meta_full_offer_title": "End-to-end Meta Ads & Social service",
+  "meta_full_offer_subtitle": "We combine performance and content teams so the channel compounds month over month.",
+  "meta_full_offer_cards": [
+    { "tag": "Strategy", "title": "Account and funnel architecture", "desc": "Goals, audience segmentation, and campaign structure that avoids budget leakage." },
+    { "tag": "Media Buying", "title": "Daily campaign optimization", "desc": "Budgets, bidding, placement decisions, and scale based on real performance." },
+    { "tag": "Creative", "title": "Ad creative system", "desc": "Hook, offer, and angle matrix with ongoing tests across formats and messages." },
+    { "tag": "Social", "title": "Content planning and execution", "desc": "Publishing calendar, copy, and visual standards aligned with sales objectives." },
+    { "tag": "Tracking", "title": "Pixel + CAPI + events", "desc": "Accurate conversion measurement and stronger signal for the algorithm." },
+    { "tag": "Reporting", "title": "Business KPI dashboard", "desc": "Lead quality, CPA, ROAS, and trends your team and leadership can understand." }
+  ],
+  "meta_full_campaigns_title": "Paid campaigns (media buying)",
+  "meta_full_campaigns_subtitle": "We design campaigns so each funnel layer has a clear role and KPI.",
+  "meta_full_campaigns_items": [
+    "Account structure based on target segments and offers",
+    "Prospecting, retargeting, and repeat-purchase flows",
+    "Budget rebalancing based on actual results",
+    "Testing audiences, placements, bid strategies, and offers",
+    "Scale framework once campaigns hit CPA/ROAS targets"
+  ],
+  "meta_full_content_title": "Social content execution",
+  "meta_full_content_subtitle": "We do not create content only for reach, but to support conversion and trust.",
+  "meta_full_content_items": [
+    "Monthly content plan aligned with sales priorities",
+    "Short video, static, and carousel concepts for ads",
+    "Copy framework: hook, benefit, objection handling, CTA",
+    "Repurposing: one shoot transformed into multiple ad/social assets",
+    "Publishing operations and baseline community management agreement"
+  ],
+  "meta_full_process_title": "How we run Meta Ads & Social",
+  "meta_full_process_steps": [
+    "1) Channel audit and brief: goals, margins, audience, historical data",
+    "2) Strategy and setup: funnel plan, tracking, and creative backlog",
+    "3) Launch and testing: first experiment cycle and baseline",
+    "4) Scaling: budget increases and winner creative rotation",
+    "5) Reporting and next plan: monthly insights + next sprint actions"
+  ],
+  "meta_full_cta_title": "Need a team that handles both ads and content?",
+  "meta_full_cta_subtitle": "Share your current account or targets. You get a clear plan for immediate actions and the next growth sprints.",
+  "meta_full_cta_button": "Send Meta inquiry",
 
-  "service_google_title": "Google Ads & Analytics",
+  "service_google_title": "Google marketing",
   "service_google_subtitle": "We set up and optimize Google Ads campaigns and track results via Analytics and tags.",
   "service_google_intro": "We create and manage Google campaigns with in-depth performance tracking through Analytics and conversion tags.",
   "service_google_benefit1_title": "⚡ Fast go-to-market",
@@ -1920,6 +2219,262 @@
   "service_video_cta_title": "Want a video that sells?",
   "service_video_cta_subtitle": "Send us an inquiry and turn your story into powerful visual content.",
   "service_video_cta_button": "Send inquiry",
+  "branding_full_badge": "Branding & UI/UX Design",
+  "branding_full_title": "Visual identity and UX that elevate brand perception and conversion",
+  "branding_full_lead": "We build brand identity and digital design systems that feel premium, stay consistent across channels, and support sales.",
+  "branding_full_kpis": ["Brand system", "UI/UX focus", "Conversion logic", "Consistent execution"],
+  "branding_full_cta_primary": "Request branding plan",
+  "branding_full_cta_secondary": "View portfolio",
+  "branding_full_scope_title": "What we cover",
+  "branding_full_scope": [
+    "Brand strategy, positioning, and communication tone",
+    "Logo, typography, colors, and brand guidelines",
+    "UI kit and components for web and campaigns",
+    "Landing and sales pages with clear user flow"
+  ],
+  "branding_full_offer_title": "Complete branding & UI/UX service",
+  "branding_full_offer_subtitle": "From strategic foundation to designs ready for development.",
+  "branding_full_offer_cards": [
+    { "tag": "Brand", "title": "Identity and system", "desc": "Logo, colors, typography, grid, and usage rules for a consistent presence." },
+    { "tag": "UX", "title": "Information architecture", "desc": "Content structure and user paths that lead to inquiry or sale." },
+    { "tag": "UI", "title": "Interface and components", "desc": "UI kit for faster page production and clear visual hierarchy." },
+    { "tag": "Creative", "title": "Campaign visuals", "desc": "Ad creatives and static assets aligned with brand and campaign goals." },
+    { "tag": "Conversion", "title": "Landing optimization", "desc": "Section flow, copy, and CTA layout that improves conversion rate." },
+    { "tag": "Handover", "title": "Documentation and handoff", "desc": "Asset library and clear usage rules for your internal team." }
+  ],
+  "branding_full_identity_title": "Visual identity",
+  "branding_full_identity_subtitle": "Clear, recognizable, and usable across all audience touchpoints.",
+  "branding_full_identity_items": [
+    "Logo system (primary, secondary, icon)",
+    "Color palette and typography hierarchy",
+    "Brand guide for social, web, and sales assets",
+    "Template-based workflow for consistent content production"
+  ],
+  "branding_full_ux_title": "UI/UX design",
+  "branding_full_ux_subtitle": "Design that not only looks good, but guides users to action.",
+  "branding_full_ux_items": [
+    "Wireframes and prototypes for key pages",
+    "UX copy structure for clarity and stronger CTA flow",
+    "Mobile-first layout and section hierarchy",
+    "Design system ready for frontend implementation"
+  ],
+  "branding_full_process_title": "How we run branding & UI/UX",
+  "branding_full_process_steps": [
+    "1) Discovery: brand goals, audience, and competitive context",
+    "2) Strategy: positioning, messaging, and creative direction",
+    "3) Design: identity, UI kit, and key pages",
+    "4) Test and iterations: refinements based on feedback and performance",
+    "5) Final handover: assets, usage rules, and next-sprint roadmap"
+  ],
+  "branding_full_cta_title": "Need a serious visual identity for your next growth phase?",
+  "branding_full_cta_subtitle": "Send a brief and get a clear plan: what we execute first and what follows in next iterations.",
+  "branding_full_cta_button": "Send branding inquiry",
+  "video_full_badge": "Video production",
+  "video_full_title": "Video shooting and editing that captures attention and drives action",
+  "video_full_lead": "We run the full video workflow: from concept and script to shooting, editing, and final versions ready for campaigns and social channels.",
+  "video_full_kpis": ["Script + production", "Ad-first format", "Fast version delivery", "Cross-platform output"],
+  "video_full_cta_primary": "Request video plan",
+  "video_full_cta_secondary": "View portfolio",
+  "video_full_scope_title": "What production includes",
+  "video_full_scope": [
+    "Concept and script aligned with target audience",
+    "Shooting (studio or on-site) with production planning",
+    "Editing, color work, and sound processing",
+    "Adaptations for Reels, TikTok, YouTube, and ad formats"
+  ],
+  "video_full_offer_title": "End-to-end video production",
+  "video_full_offer_subtitle": "Creative and operations in one flow, with no handoff bottlenecks.",
+  "video_full_offer_cards": [
+    { "tag": "Pre-production", "title": "Concept and scripting", "desc": "Message, scene structure, and shooting plan aligned with campaign goals." },
+    { "tag": "Production", "title": "Shooting", "desc": "Video production at client site or location, with full set and scene direction." },
+    { "tag": "Post", "title": "Editing and finishing", "desc": "Dynamic edit, captions, graphics, color correction, and balanced audio." },
+    { "tag": "Ads", "title": "Performance cuts", "desc": "Short-form versions with strong hooks for Meta and Google campaigns." },
+    { "tag": "Social", "title": "Platform adaptations", "desc": "Formatting and variants for feed, stories, reels, and shorts." },
+    { "tag": "Delivery", "title": "Asset package", "desc": "Organized file handoff and library for internal future use." }
+  ],
+  "video_full_production_title": "Production (shooting)",
+  "video_full_production_subtitle": "Clear pre-production and efficient shooting save both time and budget.",
+  "video_full_production_items": [
+    "Shot list and run-of-show before shoot day",
+    "On-set direction for scenes, framing, and speakers",
+    "B-roll capture for multiple formats and campaigns",
+    "Frame plan for future reuse and repurposing"
+  ],
+  "video_full_post_title": "Post-production (editing)",
+  "video_full_post_subtitle": "Edits optimized for audience attention and platform pace.",
+  "video_full_post_items": [
+    "Fast, clear narrative with a strong opening hook",
+    "Captions, graphics, and brand elements per guidelines",
+    "Multiple video lengths for ads and organic publishing",
+    "A/B variations of intros and CTA segments for testing"
+  ],
+  "video_full_process_title": "How we run video projects",
+  "video_full_process_steps": [
+    "1) Brief and goal: message, audience, and distribution channel",
+    "2) Pre-production: script, schedule, and production plan",
+    "3) Shooting: execution of core and supporting footage",
+    "4) Post-production: edit, graphics, sound, and final versions",
+    "5) Distribution: platform-ready exports + suggested test plan"
+  ],
+  "video_full_cta_title": "Need video content that works for both ads and organic?",
+  "video_full_cta_subtitle": "Share campaign goals and get a clear proposal for format mix, scope, and production plan.",
+  "video_full_cta_button": "Send video inquiry",
+  "about_full_title": "About Us",
+  "about_full_lead": "Weboro is a digital team that combines eCommerce, marketing, and creative production into one growth system.",
+  "about_full_stat_1_label": "Focus",
+  "about_full_stat_1_value": "eCommerce and growth",
+  "about_full_stat_2_label": "Delivery model",
+  "about_full_stat_2_value": "Strategy + execution",
+  "about_full_stat_3_label": "Engagement",
+  "about_full_stat_3_value": "Long-term partnership",
+  "about_full_mission_label": "Mission",
+  "about_full_mission_title": "We build systems that deliver measurable outcomes",
+  "about_full_mission_desc": "Every project is aligned with a business goal, technical stability, and clear KPIs we track together.",
+  "about_full_vision_label": "Vision",
+  "about_full_vision_title": "A premium digital partner for growth",
+  "about_full_vision_desc": "Our goal is to cover the full path: identity, website, campaigns, content, and sales optimization.",
+  "about_full_values_title": "Values we operate by",
+  "about_full_values": [
+    { "title": "Clear communication", "desc": "We are transparent about what works, what does not, and what comes next." },
+    { "title": "Delivery quality", "desc": "Careful planning and clean execution without improvisation in critical phases." },
+    { "title": "Measurability", "desc": "We do not do visuals without purpose; we build systems that improve performance." },
+    { "title": "Partnership", "desc": "We treat each project as long-term growth, not just a checklist." },
+    { "title": "Speed with intent", "desc": "We move fast without compromising reliability and standards." },
+    { "title": "Continuous improvement", "desc": "Each sprint applies insights from the previous cycle." }
+  ],
+  "about_full_capabilities_title": "What we do best",
+  "about_full_capabilities": [
+    { "title": "Enterprise web systems", "desc": "Magento and WordPress architectures built for growth and complex sales operations." },
+    { "title": "Performance marketing", "desc": "Google and Meta channels with a clear KPI model and sprint-based optimization process." },
+    { "title": "Creative and production", "desc": "Branding, UI/UX, and video content that supports both sales and long-term brand recall." }
+  ],
+  "about_full_timeline_title": "How we grew",
+  "about_full_timeline": [
+    { "year": "2022", "text": "Started with web and marketing projects for small businesses." },
+    { "year": "2023", "text": "Expanded into more advanced eCommerce and performance workflows." },
+    { "year": "2024", "text": "Scaled into enterprise tracks: Magento, tracking, automation, and reporting." },
+    { "year": "2025+", "text": "Unified offer into one premium model: web + marketing + creative delivery." }
+  ],
+  "about_full_leadership_title": "Core team",
+  "about_full_leadership": [
+    { "name": "Mihailo Vlajković", "role": "Founder and digital strategist", "bio": "Leads the alignment between web platforms, marketing systems, and business goals." },
+    { "name": "Weboro delivery team", "role": "Development, marketing, and creative production", "bio": "A multidisciplinary team covering the full path: from concept to stable delivery and optimization." }
+  ],
+  "about_full_cta_title": "Need a team that understands both business and execution?",
+  "about_full_cta_desc": "Share a short brief and we will propose the right structure by priority.",
+  "about_full_cta_btn": "Contact us",
+  "portfolio_full_title": "Portfolio",
+  "portfolio_full_lead": "Selected projects where design, development, and marketing worked as one team.",
+  "portfolio_full_mockup": "Project preview",
+  "portfolio_enterprise_stat_1_label": "Primary focus",
+  "portfolio_enterprise_stat_1_value": "eCommerce + Growth",
+  "portfolio_enterprise_stat_2_label": "Delivery model",
+  "portfolio_enterprise_stat_2_value": "Strategy + execution",
+  "portfolio_enterprise_stat_3_label": "Engagement type",
+  "portfolio_enterprise_stat_3_value": "Long-term partnership",
+  "portfolio_enterprise_categories": ["All", "Magento", "WordPress", "Performance marketing", "Creative"],
+  "portfolio_enterprise_projects": [
+    {
+      "title": "Magento Commerce Hub",
+      "desc": "Enterprise Magento service structure with clear modules and conversion-first CTA flows.",
+      "category": "Magento",
+      "tags": ["Information Architecture", "Enterprise UX", "Conversion copy"]
+    },
+    {
+      "title": "Google Marketing ecosystem",
+      "desc": "Hub and detailed pages for Ads, SEO, GA4/GTM, and reporting with consistent service storytelling.",
+      "category": "Performance marketing",
+      "tags": ["Service design", "Growth funnel", "Analytics structure"]
+    },
+    {
+      "title": "Meta Ads & Social service page",
+      "desc": "Full-funnel presentation of paid campaigns and content execution to support better client decisions.",
+      "category": "Performance marketing",
+      "tags": ["Offer clarity", "Paid social", "Lead intent"]
+    },
+    {
+      "title": "WordPress enterprise offer",
+      "desc": "Positioning WordPress delivery from lead websites to WooCommerce stores with technical and business KPIs.",
+      "category": "WordPress",
+      "tags": ["WooCommerce", "Core Web Vitals", "SEO-ready"]
+    },
+    {
+      "title": "Branding & UI/UX Creative",
+      "desc": "Creative framework for brand identity, UI system, and campaign asset operations that support sales.",
+      "category": "Creative",
+      "tags": ["Brand system", "UI/UX", "Creative ops"]
+    },
+    {
+      "title": "Video production for campaigns",
+      "desc": "End-to-end video production: concept, shooting, editing, and platform-ready adaptations.",
+      "category": "Creative",
+      "tags": ["Production", "Post-production", "Ad formats"]
+    }
+  ],
+  "portfolio_enterprise_process_title": "How we approach projects",
+  "portfolio_enterprise_process": [
+    { "phase": "01", "title": "Discovery & scope", "desc": "Aligning business goals, priorities, and constraints before design and development." },
+    { "phase": "02", "title": "System & execution", "desc": "Building structure, content, and an operating model your team can maintain and scale." },
+    { "phase": "03", "title": "Optimization loop", "desc": "Measuring outcomes and iterating through continuous improvement sprints." }
+  ],
+  "portfolio_full_cta_title": "Have a project that should look premium and perform reliably?",
+  "portfolio_full_cta_desc": "Send context and goals, and we will return a suggested delivery structure.",
+  "portfolio_full_cta_btn": "Send inquiry",
+  "blog_full_title": "Blog",
+  "blog_full_lead": "Practical insights on eCommerce, marketing, and content production, without fluff.",
+  "blog_full_mock": "Article cover",
+  "blog_full_posts": [
+    { "tag": "Case Study", "title": "How we built OutreachGenie SaaS", "excerpt": "From idea to product: process, mistakes we avoided, and what moved the needle.", "slug": "outreachgenie-studija" },
+    { "tag": "eCommerce", "title": "Magento vs WordPress for sales", "excerpt": "When Magento is the right next step and when WordPress/WooCommerce is enough.", "slug": "shopify-prednosti" },
+    { "tag": "Creative", "title": "Video content that converts", "excerpt": "How to structure video content for both paid campaigns and organic channels.", "slug": "video-konverzije" }
+  ],
+  "blog_full_cta_title": "Want us to write about your topic?",
+  "blog_full_cta_desc": "Send your topic and business context, and we will prepare a concrete article.",
+  "blog_full_cta_button": "Send topic",
+  "career_full_title": "Careers",
+  "career_full_lead": "We are looking for people who care about quality execution, team collaboration, and real business impact.",
+  "career_full_why_title": "Why Weboro",
+  "career_full_why_desc": "We combine startup speed with strong delivery standards.",
+  "career_full_why_cards": [
+    { "title": "Flexible work model", "desc": "Remote/hybrid setup with clear ownership by project." },
+    { "title": "Real client work", "desc": "You work on live systems that drive actual revenue for clients." },
+    { "title": "Growth through practice", "desc": "Mentoring and feedback through real sprint delivery." }
+  ],
+  "career_full_open_title": "Open positions",
+  "career_full_frontend_title": "Frontend developer (Vue)",
+  "career_full_frontend_type": "Full-time / contract",
+  "career_full_frontend_desc": "Build and improve web projects with focus on performance, UX, and clean code standards.",
+  "career_full_marketing_title": "Performance marketing specialist",
+  "career_full_marketing_type": "Full-time / contract",
+  "career_full_marketing_desc": "Manage Meta and Google campaigns with KPI-oriented budget optimization.",
+  "career_full_video_title": "Video editor / content producer",
+  "career_full_video_type": "Contract",
+  "career_full_video_desc": "Edit and adapt video assets for campaigns and social platforms.",
+  "career_full_apply_button": "Apply",
+  "career_full_no_open_title": "We currently do not have open positions",
+  "career_full_no_open_desc": "We are not actively hiring right now. Share your contact and portfolio, and we will keep you in mind for the next hiring cycle.",
+  "career_full_no_open_button": "Send contact",
+  "career_full_cta_title": "Do not see the right role yet?",
+  "career_full_cta_desc": "Send your portfolio and a short intro. We will reach out when a matching role opens.",
+  "career_full_cta_button": "Send application",
+  "contact_full_title": "Contact",
+  "contact_full_lead": "Share your project goal and context. We return clear next steps.",
+  "contact_full_email_label": "Email",
+  "contact_full_phone_label": "Phone",
+  "contact_full_hours_label": "Working hours",
+  "contact_full_hours_value": "Monday–Friday, 09:00–17:00",
+  "contact_form_heading": "How can we help you?",
+  "contact_form_full_name": "Full Name*",
+  "contact_form_company": "Company",
+  "contact_form_email_address": "Email Address*",
+  "contact_form_phone": "Phone",
+  "contact_form_interest": "I am interested in*:",
+  "contact_form_interest_placeholder": "Select a service",
+  "contact_form_interest_options": ["eCommerce", "Web design", "Marketing", "SEO", "Consulting"],
+  "contact_form_subject": "Subject*",
+  "contact_form_consent": "I agree that Smart Web may contact me in response to my message. For more information, please review our Privacy Policy.",
+  "contact_form_send": "Send message",
+  "contact_form_success_full": "Thanks for your message! We will reply shortly.",
 
   "footer_rights": "© 2026 Weboro. All rights reserved.",
   "footer_outreach": "OutreachGenie",

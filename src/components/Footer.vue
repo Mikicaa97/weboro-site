@@ -19,7 +19,7 @@
             <router-link to="/usluge/custom-web" class="hover:text-yellow-400 transition-colors">{{ $t('service_custom_web_title') }}</router-link>
           </li>
           <li>
-            <router-link to="/usluge/growth" class="hover:text-yellow-400 transition-colors">{{ $t('service_growth_title') }}</router-link>
+            <router-link to="/usluge/google-marketing" class="hover:text-yellow-400 transition-colors">{{ $t('service_google_title') }}</router-link>
           </li>
         </ul>
       </div>
@@ -45,11 +45,13 @@
       <div class="md:col-span-2 md:border-l md:border-zinc-800 md:pl-8">
         <p class="text-white font-semibold text-xs uppercase tracking-wider mb-4">{{ $t('footer_col_projects') }}</p>
         <ul class="space-y-2.5">
+          <!--
           <li>
             <router-link :to="{ path: '/', hash: '#outreachgenie' }" class="hover:text-yellow-400 transition-colors">
               {{ $t('footer_outreach') }}
             </router-link>
           </li>
+          -->
           <li>
             <router-link to="/portfolio" class="hover:text-yellow-400 transition-colors">{{ $t('footer_lumawear') }}</router-link>
           </li>

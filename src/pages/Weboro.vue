@@ -5,25 +5,25 @@
     <hero-line />
 
     <!-- OutreachGenie — flagship case study -->
-    <section
+    <!-- <section
         id="outreachgenie"
         ref="outreachSectionRef"
         class="relative py-24 lg:py-32 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden"
     >
-      <!-- Background gradients (behind stars) -->
+      
       <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(60%_60%_at_80%_20%,rgba(250,204,21,0.07),transparent_70%)]"></div>
       <div class="pointer-events-none absolute inset-0 z-0 bg-[radial-gradient(50%_50%_at_15%_85%,rgba(255,140,0,0.05),transparent_70%)]"></div>
 
-      <!-- Distant star field — above gradients so it is actually visible -->
+      
       <canvas
           ref="starsCanvas"
           class="absolute inset-0 w-full h-full pointer-events-none z-[1]"
           aria-hidden="true"
       ></canvas>
 
-      <!-- Content: scroll-reveal only here so stars are never opacity:0 -->
+      
       <div v-scroll-animate class="relative z-10 max-w-7xl mx-auto">
-        <!-- INTRO -->
+        
         <div class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
           <div class="lg:col-span-7 space-y-6">
             <div class="flex flex-wrap items-center gap-3">
@@ -65,7 +65,7 @@
             </div>
           </div>
 
-          <!-- Visual: video coming soon placeholder -->
+          
           <div class="lg:col-span-5 relative">
             <div class="absolute -inset-6 bg-gradient-to-tr from-yellow-400/20 via-amber-500/10 to-transparent blur-3xl rounded-[3rem] pointer-events-none"></div>
 
@@ -96,7 +96,7 @@
           </div>
         </div>
 
-        <!-- STATS STRIP -->
+      
         <div v-scroll-animate class="mt-16 lg:mt-24">
           <p class="text-[11px] uppercase tracking-[0.22em] text-zinc-500 text-center mb-6">{{ $t('og_stats_title') }}</p>
           <dl class="grid grid-cols-2 md:grid-cols-4 gap-px bg-zinc-800/70 border border-zinc-800/70 rounded-2xl overflow-hidden">
@@ -111,7 +111,7 @@
           </dl>
         </div>
 
-        <!-- 6 MODULE CARDS -->
+        
         <div v-scroll-animate class="mt-20 lg:mt-28">
           <div class="max-w-2xl mb-10">
             <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-3">{{ $t('og_modules_title') }}</h3>
@@ -145,7 +145,7 @@
           </div>
         </div>
 
-        <!-- BOTTOM CTA -->
+        
         <div v-scroll-animate class="mt-20 lg:mt-28 relative rounded-3xl overflow-hidden border border-yellow-400/20 bg-gradient-to-br from-zinc-900 via-zinc-900 to-zinc-950 px-6 sm:px-10 lg:px-16 py-12 lg:py-16">
           <div class="absolute -top-20 -right-20 w-96 h-96 bg-yellow-400/10 blur-3xl rounded-full pointer-events-none"></div>
           <div class="relative grid lg:grid-cols-12 gap-8 items-center">
@@ -171,7 +171,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- Magento 2 — commerce flow + catalog grid (homepage flagship) -->
     <section
@@ -583,7 +583,7 @@
 
 
     <!-- Usluge -->
-    <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
+    <!-- <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
       <h2 class="text-3xl font-bold text-center mb-12">{{$t('services_title')}}</h2>
       <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
         <div
@@ -597,11 +597,11 @@
           <p class="text-gray-400">{{ usluga.desc }}</p>
         </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- Tehnologije -->
-    <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
+    <!-- <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
       <h2 class="text-3xl font-bold text-center mb-12">{{$t('tech_title')}}</h2>
       <div class="flex flex-wrap justify-center gap-4 max-w-4xl mx-auto">
     <span
@@ -614,17 +614,17 @@
       {{ tech }}
     </span>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- Tim -->
-    <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
+    <!-- <section v-scroll-animate class="py-24 px-6 md:px-20 scroll-mt-20">
       <h2 class="text-3xl font-bold text-center mb-8">{{$t('team_title')}}</h2>
       <div class="max-w-3xl mx-auto text-center text-gray-300 space-y-4">
         <p>{{$t('team_desc1')}}</p>
         <p>{{$t('team_desc2')}}</p>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- Kontakt -->
