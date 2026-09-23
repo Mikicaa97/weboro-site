@@ -6,6 +6,11 @@ html {
     scroll-behavior: smooth;
 }
 
+:focus-visible {
+    outline: 2px solid #ffb088;
+    outline-offset: 2px;
+}
+
 .hero-fade-up {
     opacity: 0;
     transform: translateY(28px);

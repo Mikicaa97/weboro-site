@@ -29,12 +29,7 @@
             <p class="text-[11px] uppercase tracking-[0.16em] text-zinc-500 mb-2">{{ post.tag }}</p>
             <h3 class="text-xl font-semibold text-yellow-300 mb-2">{{ post.title }}</h3>
             <p class="text-zinc-300 text-sm mb-4">{{ post.excerpt }}</p>
-            <router-link
-                :to="`/blog/${post.slug}`"
-                class="text-sm text-yellow-300 hover:underline"
-            >
-              {{ $t('blog_read_more') }}
-            </router-link>
+            <p class="text-xs text-zinc-500">{{ $t('blog_coming_soon') }}</p>
           </div>
         </div>
       </div>

@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /blog
+Disallow: /karijera
+
+Sitemap: https://weboro.io/sitemap.xml

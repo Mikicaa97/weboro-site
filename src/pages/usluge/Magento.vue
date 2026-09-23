@@ -149,27 +149,30 @@
       </div>
     </section>
 
-    <!-- STATS STRIP -->
+    <!-- WHEN MAGENTO MAKES SENSE (replaces old metric strip) -->
     <section class="py-16 lg:py-20 px-6 md:px-12 lg:px-20 bg-zinc-950 border-b border-zinc-800/60">
       <div class="max-w-7xl mx-auto" v-scroll-animate>
-        <p class="text-[11px] uppercase tracking-[0.22em] text-zinc-500 text-center mb-8">{{ $t('mg_hub_stats_title') }}</p>
-        <dl class="grid grid-cols-2 md:grid-cols-4 gap-px bg-zinc-800/70 border border-zinc-800/70 rounded-2xl overflow-hidden">
-          <div
-              v-for="(stat, i) in tm('mg_hub_stats')"
+        <div class="max-w-2xl mb-10">
+          <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight mb-3">{{ $t('mg_hub_when_title') }}</h2>
+          <p class="text-zinc-400 text-base sm:text-lg leading-relaxed">{{ $t('mg_hub_when_lead') }}</p>
+        </div>
+        <div class="grid sm:grid-cols-2 gap-5">
+          <article
+              v-for="(item, i) in tm('mg_hub_when')"
               :key="i"
-              class="bg-zinc-950 px-6 py-8 text-center"
+              class="bg-zinc-900/80 border border-zinc-800 rounded-2xl p-6"
           >
-            <dt class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#ff8a3d] leading-none">{{ stat.value }}</dt>
-            <dd class="mt-3 text-xs sm:text-sm text-zinc-400">{{ stat.label }}</dd>
-          </div>
-        </dl>
+            <h3 class="text-lg font-semibold text-white mb-2">{{ item.title }}</h3>
+            <p class="text-sm text-zinc-400 leading-relaxed">{{ item.desc }}</p>
+          </article>
+        </div>
       </div>
     </section>
 
-    <!-- 6 SERVICES OVERVIEW -->
-    <section id="mg-services" class="py-24 lg:py-28 px-6 md:px-12 lg:px-20 scroll-mt-20">
+    <!-- SERVICES OVERVIEW (outcome-first; detail lives on subpages) -->
+    <section id="mg-services" class="py-20 lg:py-24 px-6 md:px-12 lg:px-20 scroll-mt-20">
       <div class="max-w-7xl mx-auto">
-        <div v-scroll-animate class="max-w-2xl mb-12 lg:mb-14">
+        <div v-scroll-animate class="max-w-2xl mb-10 lg:mb-12">
           <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3">{{ $t('mg_hub_services_title') }}</h2>
           <p class="text-zinc-400 text-base sm:text-lg leading-relaxed">{{ $t('mg_hub_services_subtitle') }}</p>
         </div>
@@ -185,7 +188,6 @@
               class="group relative bg-zinc-900/80 border border-zinc-800 hover:border-[#ff8a3d]/40 rounded-2xl p-6 lg:p-7 transition-all hover:bg-zinc-900 hover:shadow-[0_0_28px_-10px_rgba(255,138,61,0.28)] block"
           >
             <div class="flex items-start justify-between gap-4 mb-4">
-              <div class="text-3xl">{{ svc.icon }}</div>
               <span class="text-[10px] uppercase tracking-wider px-2 py-1 rounded-full border border-zinc-700 text-zinc-500 group-hover:text-[#ffb088] group-hover:border-[#ff8a3d]/35 transition-colors whitespace-nowrap">
                 {{ svc.tag }}
               </span>
@@ -193,61 +195,12 @@
             <h3 class="text-xl font-bold text-white mb-2 group-hover:text-[#ffb088] transition-colors">{{ svc.title }}</h3>
             <p class="text-sm text-zinc-400 leading-relaxed mb-5">{{ svc.desc }}</p>
             <div class="flex items-center gap-2 text-sm font-medium text-[#ff8a3d]/80 group-hover:text-[#ff9d5c] transition-colors">
-              <span>{{ $t('mg_hub_cta_explore') }}</span>
+              <span>{{ $t('mg_hub_detail_page') }}</span>
               <svg class="w-4 h-4 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"/>
               </svg>
             </div>
           </component>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6 DEEP BLOCKS, alternating bg -->
-    <section
-        v-for="(line, idx) in tm('mg_hub_lines')"
-        :key="line.anchorId"
-        :id="line.anchorId"
-        class="relative py-20 lg:py-24 px-6 md:px-12 lg:px-20 border-t border-zinc-800/40 scroll-mt-20"
-        :class="idx % 2 === 0 ? 'bg-zinc-950' : 'bg-black'"
-    >
-      <div class="max-w-7xl mx-auto" v-scroll-animate>
-        <div class="grid lg:grid-cols-12 gap-10 lg:gap-14">
-          <div class="lg:col-span-5 space-y-4">
-            <p class="text-7xl sm:text-8xl font-extrabold text-[#ff8a3d]/10 leading-none select-none">{{ line.number }}</p>
-            <p class="text-xs uppercase tracking-[0.22em] text-[#ff8a3d]/90 font-semibold">{{ line.tag }}</p>
-            <h3 class="text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight text-white">{{ line.title }}</h3>
-            <p class="text-zinc-400 text-base leading-relaxed max-w-xl">{{ line.desc }}</p>
-            <router-link
-                v-if="line.detailTo"
-                :to="line.detailTo"
-                class="inline-flex items-center gap-2 mt-2 px-3 py-1.5 rounded-full bg-[#ff8a3d]/10 border border-[#ff8a3d]/35 text-[11px] uppercase tracking-wider text-[#ffb088] font-semibold hover:bg-[#ff8a3d]/15 transition-colors w-fit"
-            >
-              {{ $t('mg_hub_detail_page') }}
-              <span aria-hidden="true">→</span>
-            </router-link>
-            <span
-                v-else
-                class="inline-flex items-center gap-1.5 mt-2 px-3 py-1.5 rounded-full bg-zinc-900/70 border border-zinc-700/80 text-[11px] uppercase tracking-wider text-zinc-400"
-            >
-              <span class="w-1.5 h-1.5 rounded-full bg-[#ff8a3d]"></span>
-              {{ $t('mg_hub_coming_soon') }}
-            </span>
-          </div>
-          <div class="lg:col-span-7">
-            <ul class="grid sm:grid-cols-2 gap-4">
-              <li
-                  v-for="(b, j) in line.bullets"
-                  :key="j"
-                  v-scroll-animate
-                  :style="{ transitionDelay: (j * 50) + 'ms' }"
-                  class="bg-zinc-900/60 border border-zinc-800 rounded-xl p-5 hover:border-[#ff8a3d]/30 hover:bg-zinc-900/90 transition-colors"
-              >
-                <p class="font-semibold text-white mb-1.5 leading-snug">{{ b.title }}</p>
-                <p class="text-sm text-zinc-400 leading-relaxed">{{ b.desc }}</p>
-              </li>
-            </ul>
-          </div>
         </div>
       </div>
     </section>
@@ -275,36 +228,16 @@
       </div>
     </section>
 
-    <!-- TECH STACK -->
-    <section class="py-24 lg:py-28 px-6 md:px-12 lg:px-20">
-      <div class="max-w-7xl mx-auto">
-        <div v-scroll-animate class="max-w-2xl mb-12 lg:mb-14">
-          <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3">{{ $t('mg_hub_tech_title') }}</h2>
-          <p class="text-zinc-400 text-base sm:text-lg leading-relaxed">{{ $t('mg_hub_tech_subtitle') }}</p>
-        </div>
-        <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 lg:gap-6">
-          <div
-              v-for="(group, i) in tm('mg_hub_tech_groups')"
-              :key="i"
-              v-scroll-animate
-              :style="{ transitionDelay: (i * 60) + 'ms' }"
-              class="bg-zinc-900/60 border border-zinc-800 rounded-2xl p-6 hover:border-[#ff8a3d]/25 transition-colors"
-          >
-            <p class="text-xs uppercase tracking-[0.22em] text-[#ff8a3d]/85 mb-4 font-semibold">{{ group.label }}</p>
-            <div class="flex flex-wrap gap-2">
-              <span
-                  v-for="(t, j) in group.items"
-                  :key="j"
-                  class="px-3 py-1.5 rounded-full bg-zinc-950 border border-zinc-800 text-xs text-zinc-300"
-              >{{ t }}</span>
-            </div>
-          </div>
-        </div>
+    <!-- SUSTAINABLE MAGENTO -->
+    <section class="py-16 lg:py-20 px-6 md:px-12 lg:px-20 border-t border-zinc-800/40">
+      <div class="max-w-3xl mx-auto" v-scroll-animate>
+        <h2 class="text-2xl sm:text-3xl font-bold tracking-tight mb-4">{{ $t('mg_hub_sustain_title') }}</h2>
+        <p class="text-zinc-300 text-base sm:text-lg leading-relaxed">{{ $t('mg_hub_sustain_text') }}</p>
       </div>
     </section>
 
     <!-- FAQ -->
-    <section class="py-24 lg:py-28 px-6 md:px-12 lg:px-20 bg-zinc-950 border-t border-zinc-800/40">
+    <section class="py-20 lg:py-24 px-6 md:px-12 lg:px-20 bg-zinc-950 border-t border-zinc-800/40">
       <div class="max-w-4xl mx-auto">
         <div v-scroll-animate class="mb-10 text-center">
           <h2 class="text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight mb-3">{{ $t('mg_hub_faq_title') }}</h2>
@@ -324,6 +257,26 @@
             </summary>
             <p class="mt-4 text-zinc-400 leading-relaxed">{{ q.a }}</p>
           </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECH STACK (secondary — after FAQ) -->
+    <section class="py-14 lg:py-16 px-6 md:px-12 lg:px-20 border-t border-zinc-800/40">
+      <div class="max-w-7xl mx-auto">
+        <div v-scroll-animate class="max-w-2xl mb-8">
+          <h2 class="text-xl sm:text-2xl font-bold tracking-tight mb-2">{{ $t('mg_hub_tech_title') }}</h2>
+          <p class="text-zinc-500 text-sm leading-relaxed">{{ $t('mg_hub_tech_subtitle') }}</p>
+        </div>
+        <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
+          <div
+              v-for="(group, i) in tm('mg_hub_tech_groups')"
+              :key="i"
+              class="bg-zinc-950/60 border border-zinc-800/80 rounded-xl p-4"
+          >
+            <p class="text-[10px] uppercase tracking-[0.16em] text-zinc-500 mb-2 font-semibold">{{ group.label }}</p>
+            <p class="text-sm text-zinc-400 leading-relaxed">{{ Array.isArray(group.items) ? group.items.join(' · ') : group.items }}</p>
+          </div>
         </div>
       </div>
     </section>

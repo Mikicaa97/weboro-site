@@ -1,0 +1,49 @@
+{
+  "redirects": [
+    {
+      "source": "/usluge/google-marketing",
+      "destination": "/usluge/growth",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/bleki",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/portfolio/prodaj-automobil",
+      "destination": "/portfolio",
+      "permanent": true
+    },
+    {
+      "source": "/outreachgenie",
+      "destination": "/portfolio/outreachgenie",
+      "permanent": true
+    },
+    {
+      "source": "/outreachgenie/:path*",
+      "destination": "/portfolio/outreachgenie",
+      "permanent": true
+    },
+    {
+      "source": "/blog/:slug",
+      "destination": "/blog",
+      "permanent": true
+    }
+  ],
+  "rewrites": [
+    { "source": "/api/(.*)", "destination": "/api/$1" },
+    { "source": "/(.*)", "destination": "/index.html" }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        { "key": "X-Content-Type-Options", "value": "nosniff" },
+        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
+        { "key": "X-Frame-Options", "value": "SAMEORIGIN" },
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+      ]
+    }
+  ]
+}
