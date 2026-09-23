@@ -13,7 +13,7 @@
     <section
       id="kontakt"
       v-scroll-animate
-      class="relative py-20 lg:py-28 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden"
+      class="relative py-14 sm:py-20 lg:py-28 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden"
     >
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_55%_50%_at_50%_40%,rgba(255,138,61,0.07),transparent_65%)]" aria-hidden="true"></div>
       <div class="relative z-10 max-w-3xl mx-auto">

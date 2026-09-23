@@ -35,7 +35,7 @@
             :aria-selected="activeTab === tab.id"
             :aria-controls="`pf-panel-${tab.id}`"
             :tabindex="activeTab === tab.id ? 0 : -1"
-            class="shrink-0 px-4 sm:px-5 py-2 rounded-xl text-sm font-medium border transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ff8a3d]"
+            class="shrink-0 min-h-[44px] px-4 sm:px-5 py-2.5 rounded-xl text-sm font-medium border transition focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#ff8a3d]"
             :class="
               activeTab === tab.id
                 ? 'bg-[#ff8a3d] text-zinc-950 border-[#ff8a3d]'

@@ -65,7 +65,7 @@
 
       <button
         type="button"
-        class="md:hidden p-2 rounded-lg hover:bg-white/10 -mr-2 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ffb088]"
+        class="md:hidden p-3 rounded-lg hover:bg-white/10 -mr-1 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#ffb088] min-h-[44px] min-w-[44px] flex items-center justify-center"
         :aria-label="isMobileOpen ? 'Zatvori meni' : 'Otvori meni'"
         :aria-expanded="isMobileOpen"
         @click="toggleMobile"

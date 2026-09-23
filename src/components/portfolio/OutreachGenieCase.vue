@@ -4,13 +4,13 @@
 
     <article>
       <!-- 1. HERO -->
-      <section class="relative pt-28 lg:pt-32 pb-16 lg:pb-24 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
+      <section class="relative pt-24 sm:pt-28 lg:pt-32 pb-10 sm:pb-16 lg:pb-24 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
         <div class="pointer-events-none absolute inset-0 ogc-hero-grid" aria-hidden="true"></div>
         <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_55%_50%_at_82%_18%,rgba(255,138,61,0.1),transparent_58%)]" aria-hidden="true"></div>
         <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_40%_40%_at_15%_80%,rgba(139,92,246,0.06),transparent_55%)]" aria-hidden="true"></div>
 
         <div class="relative z-10 max-w-7xl mx-auto">
-          <nav class="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-8 flex flex-wrap items-center gap-2">
+          <nav class="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-5 sm:mb-8 flex flex-wrap items-center gap-2">
             <router-link to="/" class="hover:text-zinc-300 transition-colors">{{ $t('nav_home') }}</router-link>
             <span class="opacity-40">/</span>
             <router-link to="/portfolio" class="hover:text-zinc-300 transition-colors">{{ $t('nav_portfolio') }}</router-link>
@@ -18,33 +18,33 @@
             <span class="text-zinc-400">OutreachGenie</span>
           </nav>
 
-          <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+          <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
             <div class="lg:col-span-5 xl:col-span-5">
               <p class="text-[11px] uppercase tracking-[0.2em] text-[#ffb088]/90 mb-3">{{ $t('ogc_hero_marker') }}</p>
-              <h1 class="text-[2.4rem] sm:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight leading-[1.05] mb-3">
+              <h1 class="text-[2.15rem] sm:text-5xl lg:text-[3.25rem] font-extrabold tracking-tight leading-[1.05] mb-3">
                 OutreachGenie
               </h1>
-              <p class="text-sm sm:text-base text-zinc-400 mb-5">{{ $t('ogc_hero_positioning') }}</p>
-              <p class="text-base sm:text-lg text-zinc-300 leading-relaxed mb-4 max-w-xl">
+              <p class="text-sm sm:text-base text-zinc-400 mb-4 sm:mb-5">{{ $t('ogc_hero_positioning') }}</p>
+              <p class="text-[15px] sm:text-lg text-zinc-300 leading-relaxed mb-3 sm:mb-4 max-w-xl">
                 {{ $t('ogc_hero_lead') }}
               </p>
-              <p class="text-sm text-zinc-500 leading-relaxed mb-6 max-w-xl">
+              <p class="hidden sm:block text-sm text-zinc-500 leading-relaxed mb-6 max-w-xl">
                 {{ $t('ogc_hero_support') }}
               </p>
 
-              <div class="flex flex-wrap items-center gap-2.5 mb-7">
+              <div class="flex flex-wrap items-center gap-2.5 mb-5 sm:mb-7">
                 <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-lg border border-zinc-700/80 bg-zinc-900/50 text-xs text-zinc-300">
                   <span class="text-zinc-500 uppercase tracking-wider">{{ $t('ogc_status_label') }}</span>
                   <span class="text-[#ffb088]">{{ $t('ogc_status_value') }}</span>
                 </span>
                 <span class="text-[11px] text-zinc-600 px-2">{{ $t('ogc_type_line') }}</span>
               </div>
-              <p class="text-xs text-zinc-500 mb-7 max-w-md leading-relaxed">{{ $t('ogc_commercial_note') }}</p>
+              <p class="hidden sm:block text-xs text-zinc-500 mb-7 max-w-md leading-relaxed">{{ $t('ogc_commercial_note') }}</p>
 
               <div class="flex flex-col sm:flex-row gap-3 items-stretch sm:items-center">
                 <router-link
                   to="/kontakt"
-                  class="inline-flex items-center justify-center px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_28px_-6px_rgba(255,138,61,0.4)] transition-all"
+                  class="inline-flex items-center justify-center min-h-[48px] px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_28px_-6px_rgba(255,138,61,0.4)] transition-all"
                 >
                   {{ $t('ogc_hero_cta_talk') }}
                 </router-link>
@@ -567,7 +567,7 @@ const proofSignals = computed(() => tm('ogc_proof_signals') || [])
 @media (max-width: 639px) {
   /* Hide denser side rails on small screens — SVG still scales cleanly */
   .ogc-hero-media {
-    max-height: 200px;
+    max-height: 160px;
   }
 }
 

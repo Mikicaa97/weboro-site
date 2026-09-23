@@ -1,31 +1,31 @@
 <template>
-  <section class="relative min-h-[80vh] lg:min-h-[88vh] bg-[#0a0908] overflow-hidden">
+  <section class="relative lg:min-h-[88vh] bg-[#0a0908] overflow-hidden">
     <div class="pointer-events-none absolute inset-0 hero-grid-bg" aria-hidden="true"></div>
     <div class="pointer-events-none absolute inset-0 hero-grid-shimmer" aria-hidden="true"></div>
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_75%_55%_at_72%_18%,rgba(255,138,61,0.09),transparent_58%)]" aria-hidden="true"></div>
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(50%_45%_at_12%_78%,rgba(250,204,21,0.04),transparent_62%)]" aria-hidden="true"></div>
 
-    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-28 pb-12 lg:pt-32 lg:pb-16">
-      <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+    <div class="relative z-10 max-w-7xl mx-auto px-6 lg:px-8 pt-24 pb-10 lg:pt-32 lg:pb-16">
+      <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
         <!-- LEFT: copy -->
         <div class="lg:col-span-6 xl:col-span-6 text-left">
-          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#ff8a3d]/35 bg-[#ff8a3d]/10 text-[11px] sm:text-xs uppercase tracking-[0.18em] text-[#ffb088] mb-6">
+          <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-[#ff8a3d]/35 bg-[#ff8a3d]/10 text-[11px] sm:text-xs uppercase tracking-[0.18em] text-[#ffb088] mb-4 sm:mb-6">
             <span class="w-1.5 h-1.5 rounded-full bg-[#ff8a3d]" aria-hidden="true"></span>
             {{ $t('hero_eyebrow') }}
           </div>
 
-          <h1 class="text-[2.35rem] sm:text-5xl lg:text-[3.35rem] xl:text-[3.75rem] font-extrabold leading-[1.06] tracking-tight mb-5 text-white">
+          <h1 class="text-[2.15rem] sm:text-5xl lg:text-[3.35rem] xl:text-[3.75rem] font-extrabold leading-[1.08] tracking-tight mb-4 sm:mb-5 text-white">
             {{ $t('hero_title') }}
           </h1>
 
-          <p class="text-base sm:text-lg lg:text-xl max-w-xl text-zinc-300 mb-8 leading-relaxed">
+          <p class="text-[15px] sm:text-lg lg:text-xl max-w-xl text-zinc-300 mb-6 sm:mb-8 leading-relaxed">
             {{ $t('hero_desc') }}
           </p>
 
-          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-7">
+          <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 mb-5 sm:mb-7">
             <router-link
               to="/kontakt"
-              class="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_28px_-6px_rgba(255,138,61,0.45)] transition-all"
+              class="inline-flex items-center justify-center gap-2 min-h-[48px] px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_28px_-6px_rgba(255,138,61,0.45)] transition-all"
             >
               {{ $t('cta_send_project') }}
               <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
@@ -34,7 +34,7 @@
             </router-link>
             <router-link
               to="/portfolio"
-              class="inline-flex items-center justify-center px-7 py-3.5 border border-zinc-700 bg-zinc-900/40 backdrop-blur-sm text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] hover:bg-zinc-900/70 transition-all"
+              class="inline-flex items-center justify-center min-h-[48px] px-7 py-3.5 border border-zinc-700 bg-zinc-900/40 backdrop-blur-sm text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] hover:bg-zinc-900/70 transition-all"
             >
               {{ $t('cta_view_work') }}
             </router-link>
@@ -174,10 +174,10 @@
               </g>
             </svg>
 
-            <!-- Mobile simplified diagram -->
+            <!-- Mobile simplified diagram — shorter vertical budget -->
             <svg
-              class="sm:hidden w-full h-auto"
-              viewBox="0 0 360 220"
+              class="sm:hidden w-full h-auto max-h-[168px]"
+              viewBox="0 0 360 168"
               role="img"
               :aria-label="$t('hero_system_aria')"
             >
@@ -188,37 +188,34 @@
                   <stop offset="100%" stop-color="#fbbf24" stop-opacity="0.3"/>
                 </linearGradient>
               </defs>
-              <rect x="8" y="8" width="344" height="204" rx="12" fill="#0f0f10" stroke="rgba(63,63,70,0.8)" stroke-width="1"/>
-              <text x="180" y="32" text-anchor="middle" fill="#71717a" font-size="9" letter-spacing="1.4" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_system_caption') }}</text>
+              <rect x="8" y="8" width="344" height="152" rx="12" fill="#0f0f10" stroke="rgba(63,63,70,0.8)" stroke-width="1"/>
+              <text x="180" y="28" text-anchor="middle" fill="#71717a" font-size="9" letter-spacing="1.4" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_system_caption') }}</text>
 
-              <path d="M 50 80 L 310 80" fill="none" stroke="url(#hero-sys-line-m)" stroke-width="2" stroke-linecap="round"/>
+              <path d="M 50 58 L 310 58" fill="none" stroke="url(#hero-sys-line-m)" stroke-width="2" stroke-linecap="round"/>
 
-              <rect x="28" y="62" width="88" height="36" rx="8" fill="#18181b" stroke="rgba(255,138,61,0.35)" stroke-width="1"/>
-              <text x="72" y="84" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n1_short') }}</text>
+              <rect x="28" y="42" width="88" height="32" rx="8" fill="#18181b" stroke="rgba(255,138,61,0.35)" stroke-width="1"/>
+              <text x="72" y="62" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n1_short') }}</text>
 
-              <rect x="136" y="62" width="88" height="36" rx="8" fill="#18181b" stroke="rgba(255,138,61,0.3)" stroke-width="1"/>
-              <text x="180" y="84" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n2') }}</text>
+              <rect x="136" y="42" width="88" height="32" rx="8" fill="#18181b" stroke="rgba(255,138,61,0.3)" stroke-width="1"/>
+              <text x="180" y="62" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n2') }}</text>
 
-              <rect x="244" y="62" width="88" height="36" rx="8" fill="#18181b" stroke="rgba(250,204,21,0.3)" stroke-width="1"/>
-              <text x="288" y="84" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n3_short') }}</text>
+              <rect x="244" y="42" width="88" height="32" rx="8" fill="#18181b" stroke="rgba(250,204,21,0.3)" stroke-width="1"/>
+              <text x="288" y="62" text-anchor="middle" fill="#f4f4f5" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_n3_short') }}</text>
 
               <g class="hero-flow-dots">
                 <circle r="2.6" fill="#ff8a3d">
-                  <animateMotion dur="6s" repeatCount="indefinite" path="M 50 80 L 310 80"/>
+                  <animateMotion dur="6s" repeatCount="indefinite" path="M 50 58 L 310 58"/>
                 </circle>
               </g>
 
-              <rect x="28" y="128" width="96" height="48" rx="9" fill="#18181b" stroke="rgba(255,138,61,0.28)" stroke-width="1"/>
-              <text x="76" y="148" text-anchor="middle" fill="#ffb088" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_web') }}</text>
-              <text x="76" y="164" text-anchor="middle" fill="#71717a" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_web_sub') }}</text>
+              <rect x="28" y="96" width="96" height="40" rx="9" fill="#18181b" stroke="rgba(255,138,61,0.28)" stroke-width="1"/>
+              <text x="76" y="120" text-anchor="middle" fill="#ffb088" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_web') }}</text>
 
-              <rect x="132" y="128" width="96" height="48" rx="9" fill="#18181b" stroke="rgba(250,204,21,0.3)" stroke-width="1"/>
-              <text x="180" y="148" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_custom') }}</text>
-              <text x="180" y="164" text-anchor="middle" fill="#71717a" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_custom_sub') }}</text>
+              <rect x="132" y="96" width="96" height="40" rx="9" fill="#18181b" stroke="rgba(250,204,21,0.3)" stroke-width="1"/>
+              <text x="180" y="120" text-anchor="middle" fill="#fde68a" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_custom') }}</text>
 
-              <rect x="236" y="128" width="96" height="48" rx="9" fill="#18181b" stroke="rgba(255,138,61,0.28)" stroke-width="1"/>
-              <text x="284" y="148" text-anchor="middle" fill="#ffb088" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_growth') }}</text>
-              <text x="284" y="164" text-anchor="middle" fill="#71717a" font-size="8" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_growth_sub') }}</text>
+              <rect x="236" y="96" width="96" height="40" rx="9" fill="#18181b" stroke="rgba(255,138,61,0.28)" stroke-width="1"/>
+              <text x="284" y="120" text-anchor="middle" fill="#ffb088" font-size="10" font-weight="700" font-family="ui-sans-serif, system-ui, sans-serif">{{ $t('hero_sys_out_growth') }}</text>
             </svg>
           </div>
 

@@ -1,15 +1,15 @@
 <template>
-  <section id="rad" class="relative py-20 lg:py-32 px-6 md:px-12 lg:px-20 bg-zinc-950 border-t border-zinc-800/60 overflow-hidden">
+  <section id="rad" class="relative py-14 sm:py-20 lg:py-32 px-6 md:px-12 lg:px-20 bg-zinc-950 border-t border-zinc-800/60 overflow-hidden">
     <div class="pointer-events-none absolute inset-0 work-grid-bg" aria-hidden="true"></div>
     <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_50%_45%_at_78%_18%,rgba(255,138,61,0.08),transparent_58%)]" aria-hidden="true"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto">
-      <div v-scroll-animate class="mb-10 lg:mb-14 max-w-2xl">
+      <div v-scroll-animate class="mb-8 lg:mb-14 max-w-2xl">
         <p class="text-[11px] uppercase tracking-[0.2em] text-[#ffb088]/85 mb-3">{{ $t('home_work_eyebrow') }}</p>
-        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-4">
+        <h2 class="text-2xl sm:text-4xl lg:text-5xl font-extrabold tracking-tight mb-3 sm:mb-4">
           {{ $t('home_work_title') }}
         </h2>
-        <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-xl">
+        <p class="text-zinc-400 text-[15px] sm:text-lg leading-relaxed max-w-xl">
           {{ $t('home_work_lead') }}
         </p>
       </div>
@@ -63,7 +63,7 @@
             </div>
           </div>
 
-          <div class="lg:col-span-7 xl:col-span-7 relative min-h-[200px] sm:min-h-[280px] lg:min-h-[340px] bg-[#09090b] overflow-hidden">
+          <div class="lg:col-span-7 xl:col-span-7 relative min-h-[160px] sm:min-h-[280px] lg:min-h-[340px] bg-[#09090b] overflow-hidden">
             <OgProductVisual
               class="absolute inset-0 w-full h-full work-og-shot"
               :aria-label="$t('home_work_og_img_alt')"

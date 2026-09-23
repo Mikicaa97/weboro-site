@@ -1,13 +1,13 @@
 <template>
-  <section id="usluge" class="relative py-16 lg:py-24 px-6 md:px-12 lg:px-20 border-t border-zinc-800/50 overflow-hidden bg-black">
+  <section id="usluge" class="relative py-12 sm:py-16 lg:py-24 px-6 md:px-12 lg:px-20 border-t border-zinc-800/50 overflow-hidden bg-black">
     <div class="pointer-events-none absolute inset-0 areas-grid-bg" aria-hidden="true"></div>
 
     <div class="relative z-10 max-w-7xl mx-auto">
-      <div v-scroll-animate class="max-w-2xl mb-8 lg:mb-12">
-        <h2 class="text-3xl sm:text-4xl lg:text-[2.75rem] font-extrabold tracking-tight mb-3">
+      <div v-scroll-animate class="max-w-2xl mb-6 lg:mb-12">
+        <h2 class="text-2xl sm:text-4xl lg:text-[2.75rem] font-extrabold tracking-tight mb-3">
           {{ $t('home_areas_title') }}
         </h2>
-        <p class="text-zinc-400 text-base sm:text-lg leading-relaxed max-w-xl">
+        <p class="text-zinc-400 text-[15px] sm:text-lg leading-relaxed max-w-xl">
           {{ $t('home_areas_lead') }}
         </p>
       </div>
@@ -32,7 +32,7 @@
             </p>
 
             <!-- App / SaaS architecture visual -->
-            <div class="mt-auto rounded-xl border border-zinc-700/70 bg-[#0f0f10] overflow-hidden shadow-[0_20px_50px_-24px_rgba(0,0,0,0.9)]">
+            <div class="mt-auto rounded-xl border border-zinc-700/70 bg-[#0f0f10] overflow-hidden shadow-[0_20px_50px_-24px_rgba(0,0,0,0.9)] max-h-[140px] sm:max-h-none">
               <svg class="w-full h-auto areas-motion" viewBox="0 0 520 220" role="img" :aria-label="$t('home_area_custom_visual_aria')">
                 <defs>
                   <linearGradient id="areas-custom-line" x1="0%" y1="0%" x2="100%" y2="0%">

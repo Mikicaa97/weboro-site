@@ -1,7 +1,7 @@
 <template>
   <section
     id="pristup"
-    class="relative py-16 lg:py-20 px-6 md:px-12 lg:px-20 border-t border-zinc-800/40 overflow-hidden approach-section"
+    class="relative py-12 sm:py-16 lg:py-20 px-6 md:px-12 lg:px-20 border-t border-zinc-800/40 overflow-hidden approach-section"
   >
     <!-- Soft fade into Final CTA — no grid/glow (effect budget: minimal) -->
     <div class="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-b from-transparent to-black" aria-hidden="true"></div>

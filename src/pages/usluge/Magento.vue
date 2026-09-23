@@ -6,7 +6,7 @@
     <section
         ref="mgHeroRef"
         id="mg-hero"
-        class="relative pt-32 lg:pt-40 pb-24 lg:pb-32 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden border-b border-zinc-800/80"
+        class="relative pt-28 lg:pt-40 pb-12 lg:pb-32 px-6 md:px-12 lg:px-20 scroll-mt-20 overflow-hidden border-b border-zinc-800/80"
     >
       <div class="pointer-events-none absolute inset-0 mg-home-grid-bg" aria-hidden="true"></div>
       <div class="pointer-events-none absolute inset-0 mg-home-grid-shimmer" aria-hidden="true"></div>
@@ -14,14 +14,14 @@
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(48%_42%_at_15%_82%,rgba(250,204,21,0.045),transparent_62%)]" aria-hidden="true"></div>
 
       <div class="relative z-10 max-w-7xl mx-auto">
-        <nav class="text-xs uppercase tracking-[0.22em] text-zinc-500 mb-8 flex items-center gap-2">
+        <nav class="text-xs uppercase tracking-[0.22em] text-zinc-500 mb-5 sm:mb-8 flex items-center gap-2">
           <router-link to="/" class="hover:text-zinc-300 transition-colors">{{ $t('mg_hub_breadcrumb_home') }}</router-link>
           <span class="opacity-40">/</span>
           <span class="text-zinc-300">{{ $t('mg_hub_breadcrumb_self') }}</span>
         </nav>
 
-        <div v-scroll-animate class="grid lg:grid-cols-12 gap-10 lg:gap-14 items-center">
-          <div class="lg:col-span-7 space-y-6">
+        <div v-scroll-animate class="grid lg:grid-cols-12 gap-8 lg:gap-14 items-center">
+          <div class="lg:col-span-7 space-y-4 sm:space-y-6">
             <div class="flex flex-wrap items-center gap-3">
               <span class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-[#ff8a3d]/10 border border-[#ff8a3d]/35 text-[#ffb088] text-xs font-semibold uppercase tracking-wider">
                 <span class="w-1.5 h-1.5 rounded-full bg-[#ff8a3d]"></span>
@@ -30,15 +30,15 @@
               <span class="text-xs uppercase tracking-[0.2em] text-zinc-500">{{ $t('mg_hub_eyebrow') }}</span>
             </div>
 
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.05] tracking-tight">
+            <h1 class="text-[2rem] sm:text-5xl lg:text-6xl xl:text-7xl font-extrabold leading-[1.08] tracking-tight">
               {{ $t('mg_hub_title') }}
             </h1>
 
-            <p class="text-base sm:text-lg lg:text-xl text-zinc-300 leading-relaxed max-w-2xl">
+            <p class="text-[15px] sm:text-lg lg:text-xl text-zinc-300 leading-relaxed max-w-2xl">
               {{ $t('mg_hub_lead') }}
             </p>
 
-            <div class="flex flex-wrap gap-2 pt-1">
+            <div class="hidden sm:flex flex-wrap gap-2 pt-1">
               <span
                   v-for="(kpi, i) in tm('mg_hub_kpis')"
                   :key="i"
@@ -46,10 +46,10 @@
               >{{ kpi }}</span>
             </div>
 
-            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-3">
+            <div class="flex flex-col sm:flex-row gap-3 sm:gap-4 pt-1 sm:pt-3">
               <router-link
                   to="/kontakt"
-                  class="inline-flex items-center justify-center gap-2 px-6 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_30px_-5px_rgba(255,138,61,0.55)] transition-all"
+                  class="inline-flex items-center justify-center gap-2 min-h-[48px] px-6 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] hover:shadow-[0_0_30px_-5px_rgba(255,138,61,0.55)] transition-all"
               >
                 {{ $t('mg_hub_cta_brief') }}
                 <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -58,14 +58,14 @@
               </router-link>
               <a
                   href="#mg-services"
-                  class="inline-flex items-center justify-center gap-2 px-6 py-3.5 border border-zinc-700 bg-zinc-900/50 text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] transition-all"
+                  class="inline-flex items-center justify-center gap-2 min-h-[48px] px-6 py-3.5 border border-zinc-700 bg-zinc-900/50 text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] transition-all"
               >
                 {{ $t('mg_hub_cta_explore') }}
               </a>
             </div>
           </div>
 
-          <div class="lg:col-span-5 flex justify-center lg:justify-end">
+          <div class="hidden sm:flex lg:col-span-5 justify-center lg:justify-end">
             <div class="relative w-full max-w-[440px]">
               <div class="absolute -inset-6 bg-gradient-to-br from-[#ff8a3d]/18 via-yellow-500/8 to-transparent blur-3xl rounded-[3rem] pointer-events-none"></div>
               <svg

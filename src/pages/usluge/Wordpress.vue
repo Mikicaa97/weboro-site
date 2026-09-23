@@ -3,7 +3,7 @@
     <HeaderWeboro />
 
     <!-- HERO -->
-    <section class="relative pt-28 lg:pt-32 pb-16 lg:pb-20 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
+    <section class="relative pt-24 sm:pt-28 lg:pt-32 pb-10 sm:pb-16 lg:pb-20 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
       <div class="pointer-events-none absolute inset-0 wp-hero-grid" aria-hidden="true"></div>
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_50%_45%_at_78%_20%,rgba(255,138,61,0.08),transparent_58%)]" aria-hidden="true"></div>
 

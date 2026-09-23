@@ -3,43 +3,43 @@
     <HeaderWeboro />
 
     <!-- HERO -->
-    <section class="relative pt-28 lg:pt-32 pb-16 lg:pb-20 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
+    <section class="relative pt-24 sm:pt-28 lg:pt-32 pb-10 sm:pb-16 lg:pb-20 px-6 md:px-12 lg:px-20 overflow-hidden border-b border-zinc-800/50">
       <div class="pointer-events-none absolute inset-0 gr-hero-grid" aria-hidden="true"></div>
       <div class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_50%_45%_at_78%_18%,rgba(255,138,61,0.09),transparent_58%)]" aria-hidden="true"></div>
 
       <div class="relative z-10 max-w-7xl mx-auto">
-        <nav class="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-8 flex items-center gap-2">
+        <nav class="text-xs uppercase tracking-[0.2em] text-zinc-500 mb-5 sm:mb-8 flex items-center gap-2">
           <router-link to="/" class="hover:text-zinc-300 transition-colors">{{ $t('nav_home') }}</router-link>
           <span class="opacity-40">/</span>
           <span class="text-zinc-400">{{ $t('service_growth_page_title') }}</span>
         </nav>
 
-        <div class="grid lg:grid-cols-12 gap-10 lg:gap-12 items-center">
+        <div class="grid lg:grid-cols-12 gap-8 lg:gap-12 items-center">
           <div class="lg:col-span-6">
-            <p class="text-[11px] uppercase tracking-[0.2em] text-[#ffb088]/85 mb-4">{{ $t('gr_v2_eyebrow') }}</p>
-            <h1 class="text-[2.1rem] sm:text-4xl lg:text-[2.65rem] font-extrabold tracking-tight leading-[1.08] mb-5">
+            <p class="text-[11px] uppercase tracking-[0.2em] text-[#ffb088]/85 mb-3 sm:mb-4">{{ $t('gr_v2_eyebrow') }}</p>
+            <h1 class="text-[2rem] sm:text-4xl lg:text-[2.65rem] font-extrabold tracking-tight leading-[1.08] mb-4 sm:mb-5">
               {{ $t('gr_v2_title') }}
             </h1>
-            <p class="text-base sm:text-lg text-zinc-300 leading-relaxed max-w-xl mb-8">
+            <p class="text-[15px] sm:text-lg text-zinc-300 leading-relaxed max-w-xl mb-6 sm:mb-8">
               {{ $t('gr_v2_lead') }}
             </p>
             <div class="flex flex-col sm:flex-row gap-3">
               <router-link
                 to="/kontakt"
-                class="inline-flex items-center justify-center gap-2 px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] transition-all"
+                class="inline-flex items-center justify-center gap-2 min-h-[48px] px-7 py-3.5 bg-[#ff8a3d] text-zinc-950 font-semibold rounded-xl hover:bg-[#ff9d5c] transition-all"
               >
                 {{ $t('cta_send_project') }}
               </router-link>
               <router-link
                 to="/portfolio"
-                class="inline-flex items-center justify-center px-7 py-3.5 border border-zinc-700 bg-zinc-900/40 text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] transition-all"
+                class="inline-flex items-center justify-center min-h-[48px] px-7 py-3.5 border border-zinc-700 bg-zinc-900/40 text-zinc-200 rounded-xl hover:border-[#ff8a3d]/45 hover:text-[#ffb088] transition-all"
               >
                 {{ $t('web_cta_work') }}
               </router-link>
             </div>
           </div>
 
-          <div class="lg:col-span-6 relative">
+          <div class="hidden sm:block lg:col-span-6 relative">
             <div class="absolute -inset-3 bg-gradient-to-tr from-[#ff8a3d]/14 via-transparent to-transparent blur-3xl rounded-[2rem] pointer-events-none" aria-hidden="true"></div>
             <div class="relative rounded-2xl border border-zinc-700/70 bg-[#0f0f10] overflow-hidden p-4 sm:p-5 shadow-[0_24px_60px_-22px_rgba(0,0,0,0.9)]">
               <svg class="w-full h-auto" viewBox="0 0 480 220" role="img" :aria-label="$t('gr_v2_visual_aria')">
