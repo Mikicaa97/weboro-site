@@ -1,6 +1,6 @@
 /**
  * Contact form API client.
- * Posts to Vercel serverless /api/contact (or VITE_CONTACT_API_URL).
+ * Posts to /api/contact (Vercel or Netlify rewrite → function; or VITE_CONTACT_API_URL).
  * Success is returned only when the server responds with { ok: true }.
  */
 

@@ -5566,12 +5566,12 @@
   "about_v2_product_cta": "Pogledajte OutreachGenie",
   "about_v2_product_visual_aria": "OutreachGenie kao sopstveni SaaS proizvod",
   "about_v2_product_viz_label": "SaaS u produkciji",
-  "about_v2_who_title": "Ko stoji iza Weboro-a",
-  "about_v2_who_lead": "Jasno ko vodi rad - bez agency glume oko velikog tima.",
-  "about_v2_founder_name": "Mihailo Vlajković",
-  "about_v2_founder_role": "Osnivač",
-  "about_v2_founder_bio": "Radi na spoju razvoja proizvoda, web i eCommerce sistema i poslovne primene tehnologije. Uključen je od analize i planiranja do razvoja i daljeg vođenja projekta.",
-  "about_v2_team_note": "Weboro radi kroz fokusiran development rad i saradnju na projektu - bez pretvaranja da smo veliki multidisciplinary team.",
+  "about_v2_how_title": "Kako vodimo projekte",
+  "about_v2_how_paragraphs": [
+    "Weboro radi kroz direktan, fokusiran pristup svakom projektu — od početne analize i planiranja do razvoja, integracija i daljeg unapređenja.",
+    "Ne gradimo proces oko nepotrebnih slojeva komunikacije. Ključne odluke o proizvodu, tehnologiji i poslovnim prioritetima ostaju blizu samog razvoja, što omogućava brže razumevanje problema i praktičnija rešenja.",
+    "Kod većih ili specifičnih zahteva, način rada se prilagođava projektu i uključuje dodatnu stručnu saradnju tamo gde je potrebna."
+  ],
   "about_v2_entry_title": "Kako možemo da uđemo u projekat",
   "about_v2_entry_lead": "Ne morate da dolazite samo sa novim projektom od nule.",
   "about_v2_entry_points": [

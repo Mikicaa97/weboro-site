@@ -5567,12 +5567,12 @@
   "about_v2_product_cta": "See OutreachGenie",
   "about_v2_product_visual_aria": "OutreachGenie as our own SaaS product",
   "about_v2_product_viz_label": "SaaS in production",
-  "about_v2_who_title": "Who is behind Weboro",
-  "about_v2_who_lead": "Clear who leads the work - without agency theatre about a large team.",
-  "about_v2_founder_name": "Mihailo Vlajković",
-  "about_v2_founder_role": "Founder",
-  "about_v2_founder_bio": "Works at the intersection of product development, web and eCommerce systems, and applying technology to business. Involved from analysis and planning through development and ongoing project leadership.",
-  "about_v2_team_note": "Weboro works through focused development work and project collaboration - without pretending to be a large multidisciplinary team.",
+  "about_v2_how_title": "How we run projects",
+  "about_v2_how_paragraphs": [
+    "Weboro works through a direct, focused approach to every project — from initial analysis and planning through development, integrations, and ongoing improvement.",
+    "We do not build the process around unnecessary layers of communication. Key decisions about product, technology, and business priorities stay close to the development work itself, which enables faster understanding of the problem and more practical solutions.",
+    "For larger or highly specific requirements, the way of working adapts to the project and brings in additional specialist collaboration where it is needed."
+  ],
   "about_v2_entry_title": "How we can enter a project",
   "about_v2_entry_lead": "You do not have to arrive only with a brand-new build from scratch.",
   "about_v2_entry_points": [

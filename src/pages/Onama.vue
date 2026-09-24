@@ -169,17 +169,19 @@
       </div>
     </section>
 
-    <!-- LEADERSHIP -->
+    <!-- HOW WE WORK -->
     <section class="py-14 lg:py-16 px-6 md:px-12 lg:px-20 border-b border-zinc-800/40">
       <div class="max-w-3xl mx-auto">
-        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight mb-3">{{ $t('about_v2_who_title') }}</h2>
-        <p class="text-zinc-400 leading-relaxed mb-8">{{ $t('about_v2_who_lead') }}</p>
-
-        <div class="border-t border-zinc-800/80 pt-6">
-          <p class="text-xl sm:text-2xl font-semibold text-white">{{ $t('about_v2_founder_name') }}</p>
-          <p class="text-[#ffb088] text-sm mt-1 mb-4">{{ $t('about_v2_founder_role') }}</p>
-          <p class="text-zinc-300 leading-relaxed mb-4">{{ $t('about_v2_founder_bio') }}</p>
-          <p class="text-sm text-zinc-500 leading-relaxed">{{ $t('about_v2_team_note') }}</p>
+        <h2 class="text-2xl sm:text-3xl font-extrabold tracking-tight mb-8">{{ $t('about_v2_how_title') }}</h2>
+        <div class="border-t border-zinc-800/80">
+          <div
+            v-for="(paragraph, i) in howWeWork"
+            :key="i"
+            class="grid sm:grid-cols-12 gap-3 sm:gap-8 py-6 border-b border-zinc-800/80"
+          >
+            <span class="sm:col-span-1 text-[11px] tabular-nums text-[#ffb088]/70 pt-0.5">{{ String(i + 1).padStart(2, '0') }}</span>
+            <p class="sm:col-span-11 text-zinc-300 leading-relaxed text-base sm:text-[17px]">{{ paragraph }}</p>
+          </div>
         </div>
       </div>
     </section>
@@ -234,6 +236,7 @@ import Footer from '@/components/Footer.vue'
 const { tm } = useI18n()
 const principles = computed(() => tm('about_v2_principles') || [])
 const services = computed(() => tm('about_v2_services') || [])
+const howWeWork = computed(() => tm('about_v2_how_paragraphs') || [])
 const entryPoints = computed(() => tm('about_v2_entry_points') || [])
 </script>
 
